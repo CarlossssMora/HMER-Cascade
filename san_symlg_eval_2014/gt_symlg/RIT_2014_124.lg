@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_124
+# Objects(4):
+O, 17:18:19:, \pi, 1.0, O
+O, 21:22:, \sqrt, 1.0, ORR
+O, 20:, e, 1.0, OR
+O, 23:, x, 1.0, ORRInside
+
+# Relations from SRT:
+EO, 17:18:19:, 20:, Right, 1.0
+EO, 20:, 21:22:, Right, 1.0
+EO, 21:22:, 23:, Inside, 1.0

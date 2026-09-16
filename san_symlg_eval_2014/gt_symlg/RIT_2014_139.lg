@@ -1,0 +1,7 @@
+# IUD, 2014_RIT_CROHME_139
+# Objects(2):
+O, 13:, 1, 1.0, OSub
+O, 12:, M, 1.0, O
+
+# Relations from SRT:
+EO, 12:, 13:, Sub, 1.0

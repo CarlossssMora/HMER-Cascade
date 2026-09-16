@@ -1,0 +1,29 @@
+# IUD, ISICAL_2014_F23_E60
+# Objects(13):
+O, =_1, =, 1.0, ORRR
+O, )_1, ), 1.0, ORRRRRR
+O, 1_1, 1, 1.0, ORRAbove
+O, +_1, +, 1.0, OR
+O, 9_2, 9, 1.0, ORRRRRBelow
+O, _1, -, 1.0, O
+O, _2, -, 1.0, ORR
+O, 3_1, 3, 1.0, OBelow
+O, 9_1, 9, 1.0, ORRBelow
+O, 2_1, 2, 1.0, OAbove
+O, 7_1, 7, 1.0, ORRRRRAbove
+O, _3, -, 1.0, ORRRRR
+O, (_1, (, 1.0, ORRRR
+
+# Relations from SRT:
+EO, (_1, _3, Right, 1.0
+EO, +_1, _2, Right, 1.0
+EO, =_1, (_1, Right, 1.0
+EO, _1, +_1, Right, 1.0
+EO, _1, 2_1, Above, 1.0
+EO, _1, 3_1, Below, 1.0
+EO, _2, 1_1, Above, 1.0
+EO, _2, 9_1, Below, 1.0
+EO, _2, =_1, Right, 1.0
+EO, _3, )_1, Right, 1.0
+EO, _3, 7_1, Above, 1.0
+EO, _3, 9_2, Below, 1.0

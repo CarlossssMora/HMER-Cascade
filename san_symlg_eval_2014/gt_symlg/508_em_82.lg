@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F508_E82
+# Objects(18):
+O, a_3, a, 1.0, ORRRRRRRRRRR
+O, =_1, =, 1.0, ORRRRRRRRRRRRRR
+O, 2_2, 2, 1.0, ORRRRRRRRSup
+O, a_1, a, 1.0, OR
+O, z_1, z, 1.0, ORRRRRRRRRRRRR
+O, y_1, y, 1.0, ORRRRRR
+O, a_2, a, 1.0, ORRRRRRRR
+O, 0_1, 0, 1.0, ORRRRRRRRRRRRRRR
+O, +_1, +, 1.0, ORRRRRRR
+O, b_1, b, 1.0, ORR
+O, -_2, -, 1.0, ORRRR
+O, -_1, -, 1.0, O
+O, b_3, b, 1.0, ORRRRRRRRRRRR
+O, +_2, +, 1.0, ORRRRRRRRRR
+O, y_2, y, 1.0, ORRRRRRRRR
+O, 2_1, 2, 1.0, ORRRRRSup
+O, b_2, b, 1.0, ORRRRR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, +_1, a_2, Right, 1.0
+EO, +_2, a_3, Right, 1.0
+EO, -_1, a_1, Right, 1.0
+EO, -_2, b_2, Right, 1.0
+EO, =_1, 0_1, Right, 1.0
+EO, a_1, b_1, Right, 1.0
+EO, a_2, 2_2, Sup, 1.0
+EO, a_2, y_2, Right, 1.0
+EO, a_3, b_3, Right, 1.0
+EO, b_1, x_1, Right, 1.0
+EO, b_2, 2_1, Sup, 1.0
+EO, b_2, y_1, Right, 1.0
+EO, b_3, z_1, Right, 1.0
+EO, x_1, -_2, Right, 1.0
+EO, y_1, +_1, Right, 1.0
+EO, y_2, +_2, Right, 1.0
+EO, z_1, =_1, Right, 1.0

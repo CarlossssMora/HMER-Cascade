@@ -1,0 +1,49 @@
+# IUD, 2014_RIT_CROHME_66
+# Objects(23):
+O, 15:16:17:, k, 1.0, OBelow
+O, 41:42:, j, 1.0, ORRRRRRBelow
+O, 34:35:, =, 1.0, ORRRBelowR
+O, 30:37:, i, 1.0, ORRRRSub
+O, 26:27:, =, 1.0, ORR
+O, 20:, 1, 1.0, OBelowRR
+O, 47:, a, 1.0, ORRRRRRR
+O, 48:49:, j, 1.0, ORRRRRRRSub
+O, 18:19:, =, 1.0, OBelowR
+O, 46:, n, 1.0, ORRRRRRAbove
+O, 40:, \sum, 1.0, ORRRRRR
+O, 32:33:, i, 1.0, ORRRBelow
+O, 36:, 1, 1.0, ORRRBelowRR
+O, 38:39:, =, 1.0, ORRRRR
+O, 45:, 1, 1.0, ORRRRRRBelowRR
+O, 21:, n, 1.0, OAbove
+O, 31:, n, 1.0, ORRRAbove
+O, 14:, \sum, 1.0, O
+O, 43:44:, =, 1.0, ORRRRRRBelowR
+O, 23:24:25:, k, 1.0, ORSub
+O, 22:, a, 1.0, OR
+O, 29:, a, 1.0, ORRRR
+O, 28:, \sum, 1.0, ORRR
+
+# Relations from SRT:
+EO, 14:, 15:16:17:, Below, 1.0
+EO, 14:, 21:, Above, 1.0
+EO, 14:, 22:, Right, 1.0
+EO, 15:16:17:, 18:19:, Right, 1.0
+EO, 18:19:, 20:, Right, 1.0
+EO, 22:, 23:24:25:, Sub, 1.0
+EO, 22:, 26:27:, Right, 1.0
+EO, 26:27:, 28:, Right, 1.0
+EO, 28:, 29:, Right, 1.0
+EO, 28:, 31:, Above, 1.0
+EO, 28:, 32:33:, Below, 1.0
+EO, 29:, 30:37:, Sub, 1.0
+EO, 29:, 38:39:, Right, 1.0
+EO, 32:33:, 34:35:, Right, 1.0
+EO, 34:35:, 36:, Right, 1.0
+EO, 38:39:, 40:, Right, 1.0
+EO, 40:, 41:42:, Below, 1.0
+EO, 40:, 46:, Above, 1.0
+EO, 40:, 47:, Right, 1.0
+EO, 41:42:, 43:44:, Right, 1.0
+EO, 43:44:, 45:, Right, 1.0
+EO, 47:, 48:49:, Sub, 1.0

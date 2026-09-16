@@ -1,0 +1,39 @@
+# IUD, ISICAL_2014_F34_E240
+# Objects(18):
+O, )_1, ), 1.0, ORRRR
+O, =_1, =, 1.0, ORRRRR
+O, 3_3, 3, 1.0, ORRRRRRRRRRRR
+O, x_3, x, 1.0, ORRRRRRRRRRRRRRR
+O, cos_1, \cos, 1.0, O
+O, 3_2, 3, 1.0, ORRRRRRRSup
+O, cos_2, \cos, 1.0, ORRRRRRR
+O, 3_1, 3, 1.0, ORR
+O, (_1, (, 1.0, OR
+O, x_2, x, 1.0, ORRRRRRRRR
+O, (_3, (, 1.0, ORRRRRRRRRRRRRR
+O, -_1, -, 1.0, ORRRRRRRRRRR
+O, 4_1, 4, 1.0, ORRRRRR
+O, (_2, (, 1.0, ORRRRRRRR
+O, )_3, ), 1.0, ORRRRRRRRRRRRRRRR
+O, cos_3, \cos, 1.0, ORRRRRRRRRRRRR
+O, )_2, ), 1.0, ORRRRRRRRRR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, 3_1, Right, 1.0
+EO, (_2, x_2, Right, 1.0
+EO, (_3, x_3, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, )_2, -_1, Right, 1.0
+EO, -_1, 3_3, Right, 1.0
+EO, 3_1, x_1, Right, 1.0
+EO, 3_3, cos_3, Right, 1.0
+EO, 4_1, cos_2, Right, 1.0
+EO, =_1, 4_1, Right, 1.0
+EO, cos_1, (_1, Right, 1.0
+EO, cos_2, (_2, Right, 1.0
+EO, cos_2, 3_2, Sup, 1.0
+EO, cos_3, (_3, Right, 1.0
+EO, x_1, )_1, Right, 1.0
+EO, x_2, )_2, Right, 1.0
+EO, x_3, )_3, Right, 1.0

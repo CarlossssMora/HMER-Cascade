@@ -1,0 +1,17 @@
+# IUD, ISICAL_2014_F27_E123
+# Objects(7):
+O, d_1, d, 1.0, ORRR
+O, x_2, x, 1.0, ORRRR
+O, 2_1, 2, 1.0, OR
+O, -_1, -, 1.0, ORRSup
+O, 2_2, 2, 1.0, ORRSupR
+O, int_1, \int, 1.0, O
+O, x_1, x, 1.0, ORR
+
+# Relations from SRT:
+EO, -_1, 2_2, Right, 1.0
+EO, 2_1, x_1, Right, 1.0
+EO, d_1, x_2, Right, 1.0
+EO, int_1, 2_1, Right, 1.0
+EO, x_1, -_1, Sup, 1.0
+EO, x_1, d_1, Right, 1.0

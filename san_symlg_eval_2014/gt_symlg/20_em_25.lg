@@ -1,0 +1,35 @@
+# IUD, ISICAL_2014_F20_E25
+# Objects(16):
+O, =_1, =, 1.0, ORRRRRR
+O, )_1, ), 1.0, ORRRRR
+O, cos_1, \cos, 1.0, ORRRRRRRRR
+O, x_3, x, 1.0, ORRRRRRRRRRRRR
+O, sin_2, \sin, 1.0, ORRRRRRR
+O, sin_1, \sin, 1.0, O
+O, cos_2, \cos, 1.0, ORRRRRRRRRRRR
+O, y_1, y, 1.0, ORRRR
+O, (_1, (, 1.0, OR
+O, sin_3, \sin, 1.0, ORRRRRRRRRRRRRR
+O, x_2, x, 1.0, ORRRRRRRR
+O, +_1, +, 1.0, ORRR
+O, +_2, +, 1.0, ORRRRRRRRRRR
+O, y_2, y, 1.0, ORRRRRRRRRR
+O, y_3, y, 1.0, ORRRRRRRRRRRRRRR
+O, x_1, x, 1.0, ORR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, +_1, y_1, Right, 1.0
+EO, +_2, cos_2, Right, 1.0
+EO, =_1, sin_2, Right, 1.0
+EO, cos_1, y_2, Right, 1.0
+EO, cos_2, x_3, Right, 1.0
+EO, sin_1, (_1, Right, 1.0
+EO, sin_2, x_2, Right, 1.0
+EO, sin_3, y_3, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, x_2, cos_1, Right, 1.0
+EO, x_3, sin_3, Right, 1.0
+EO, y_1, )_1, Right, 1.0
+EO, y_2, +_2, Right, 1.0

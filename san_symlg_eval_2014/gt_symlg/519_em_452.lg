@@ -1,0 +1,19 @@
+# IUD, IVC_2014_F519_E452
+# Objects(8):
+O, 1_1, 1, 1.0, ORAbove
+O, +_1, +, 1.0, ORR
+O, -_1, -, 1.0, O
+O, c_1, c, 1.0, ORRR
+O, _1, -, 1.0, OR
+O, 6_1, 6, 1.0, ORBelow
+O, 6_2, 6, 1.0, ORBelowRSup
+O, x_1, x, 1.0, ORBelowR
+
+# Relations from SRT:
+EO, +_1, c_1, Right, 1.0
+EO, -_1, _1, Right, 1.0
+EO, 6_1, x_1, Right, 1.0
+EO, _1, +_1, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 6_1, Below, 1.0
+EO, x_1, 6_2, Sup, 1.0

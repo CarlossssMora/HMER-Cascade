@@ -1,0 +1,47 @@
+# IUD, 2014_RIT_CROHME_30
+# Objects(22):
+O, 47:, (, 1.0, OAboveRR
+O, 62:63:, z, 1.0, OBelowRRRR
+O, 67:, 3, 1.0, OBelowRRRRRSup
+O, 46:, 1, 1.0, OAboveRSupR
+O, 52:53:, z, 1.0, OAboveRRRRRR
+O, 42:, a, 1.0, OAbove
+O, 66:, ), 1.0, OBelowRRRRR
+O, 60:, -, 1.0, OBelowRR
+O, 55:, 1, 1.0, OAboveRRRRRRSupR
+O, 61:, a, 1.0, OBelowRRR
+O, 45:, -, 1.0, OAboveRSup
+O, 49:50:, +, 1.0, OAboveRRRR
+O, 59:, 1, 1.0, OBelowR
+O, 65:, 1, 1.0, OBelowRRRRSupR
+O, 64:, -, 1.0, OBelowRRRRSup
+O, 43:44:, z, 1.0, OAboveR
+O, 48:, 1, 1.0, OAboveRRR
+O, 56:, ), 1.0, OAboveRRRRRRR
+O, 54:, -, 1.0, OAboveRRRRRRSup
+O, 58:, (, 1.0, OBelow
+O, 51:, a, 1.0, OAboveRRRRR
+O, 57:, -, 1.0, O
+
+# Relations from SRT:
+EO, 42:, 43:44:, Right, 1.0
+EO, 43:44:, 45:, Sup, 1.0
+EO, 43:44:, 47:, Right, 1.0
+EO, 45:, 46:, Right, 1.0
+EO, 47:, 48:, Right, 1.0
+EO, 48:, 49:50:, Right, 1.0
+EO, 49:50:, 51:, Right, 1.0
+EO, 51:, 52:53:, Right, 1.0
+EO, 52:53:, 54:, Sup, 1.0
+EO, 52:53:, 56:, Right, 1.0
+EO, 54:, 55:, Right, 1.0
+EO, 57:, 42:, Above, 1.0
+EO, 57:, 58:, Below, 1.0
+EO, 58:, 59:, Right, 1.0
+EO, 59:, 60:, Right, 1.0
+EO, 60:, 61:, Right, 1.0
+EO, 61:, 62:63:, Right, 1.0
+EO, 62:63:, 64:, Sup, 1.0
+EO, 62:63:, 66:, Right, 1.0
+EO, 64:, 65:, Right, 1.0
+EO, 66:, 67:, Sup, 1.0

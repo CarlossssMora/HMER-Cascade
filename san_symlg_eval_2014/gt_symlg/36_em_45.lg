@@ -1,0 +1,29 @@
+# IUD, ISICAL_2014_F36_E45
+# Objects(13):
+O, )_1, ), 1.0, ORRRRR
+O, x_2, x, 1.0, ORRRR
+O, ge_1, \geq, 1.0, ORRRRRR
+O, +_1, +, 1.0, OR
+O, x_3, x, 1.0, ORRRRRRRRRRR
+O, -_2, -, 1.0, ORRRRRRRRRR
+O, -_1, -, 1.0, ORRR
+O, +_2, +, 1.0, ORRRRRRRR
+O, (_2, (, 1.0, ORRRRRRRRR
+O, 0_1, 0, 1.0, ORRRRRRR
+O, )_2, ), 1.0, ORRRRRRRRRRRR
+O, x_1, x, 1.0, O
+O, (_1, (, 1.0, ORR
+
+# Relations from SRT:
+EO, (_1, -_1, Right, 1.0
+EO, (_2, -_2, Right, 1.0
+EO, )_1, ge_1, Right, 1.0
+EO, +_1, (_1, Right, 1.0
+EO, +_2, (_2, Right, 1.0
+EO, -_1, x_2, Right, 1.0
+EO, -_2, x_3, Right, 1.0
+EO, 0_1, +_2, Right, 1.0
+EO, ge_1, 0_1, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, x_2, )_1, Right, 1.0
+EO, x_3, )_2, Right, 1.0

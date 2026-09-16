@@ -1,0 +1,33 @@
+# IUD, IVC_2014_F518_E414
+# Objects(15):
+O, =_1, =, 1.0, ORRRRR
+O, )_1, ), 1.0, ORRRR
+O, z_4, z, 1.0, ORRRRRRRR
+O, f_2, f, 1.0, ORRRRRR
+O, \rightarrow_1, \rightarrow, 1.0, OSubR
+O, z_3, z, 1.0, ORRR
+O, f_1, f, 1.0, OR
+O, z_1, z, 1.0, OSub
+O, (_2, (, 1.0, ORRRRRRR
+O, z_2, z, 1.0, OSubRR
+O, lim_1, \lim, 1.0, O
+O, 0_1, 0, 1.0, OSubRRSub
+O, )_2, ), 1.0, ORRRRRRRRR
+O, 0_2, 0, 1.0, ORRRRRRRRSub
+O, (_1, (, 1.0, ORR
+
+# Relations from SRT:
+EO, (_1, z_3, Right, 1.0
+EO, (_2, z_4, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, =_1, f_2, Right, 1.0
+EO, \rightarrow_1, z_2, Right, 1.0
+EO, f_1, (_1, Right, 1.0
+EO, f_2, (_2, Right, 1.0
+EO, lim_1, f_1, Right, 1.0
+EO, lim_1, z_1, Sub, 1.0
+EO, z_1, \rightarrow_1, Right, 1.0
+EO, z_2, 0_1, Sub, 1.0
+EO, z_3, )_1, Right, 1.0
+EO, z_4, )_2, Right, 1.0
+EO, z_4, 0_2, Sub, 1.0

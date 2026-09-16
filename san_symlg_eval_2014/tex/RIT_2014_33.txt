@@ -1,0 +1,2 @@
+%RIT_2014_33
+$\tan 2 u = \frac { 2 \tan \mu } { 1 - \tan ^ { 2 } u }$

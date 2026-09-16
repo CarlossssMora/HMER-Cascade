@@ -1,0 +1,2 @@
+%RIT_2014_111
+$p _ { 1 } ^ { \beta _ { 1 } } p _ { 2 } ^ { \beta _ { 2 } } \beta _ { 2 } \ldots p _ { n } ^ { \beta _ { n } }$

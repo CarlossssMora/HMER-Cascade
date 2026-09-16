@@ -1,0 +1,2 @@
+%RIT_2014_62
+$\frac { \sin \phi + \sin \theta } { \cos \phi + \cos \theta } = \tan ( \frac { \phi + \theta ) } { 2 } )$

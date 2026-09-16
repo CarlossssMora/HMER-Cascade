@@ -1,0 +1,19 @@
+# IUD, 2014_RIT_CROHME_228
+# Objects(8):
+O, 6:, 1, 1.0, ORRBelow
+O, 0:, \int, 1.0, O
+O, 3:, d, 1.0, ORRAbove
+O, 1:, u, 1.0, OR
+O, 4:, u, 1.0, ORRAboveR
+O, 7:, 2, 1.0, ORRBelowR
+O, 5:, -, 1.0, ORR
+O, 2:, 8, 1.0, ORSup
+
+# Relations from SRT:
+EO, 0:, 1:, Right, 1.0
+EO, 1:, 2:, Sup, 1.0
+EO, 1:, 5:, Right, 1.0
+EO, 3:, 4:, Right, 1.0
+EO, 5:, 3:, Above, 1.0
+EO, 5:, 6:, Below, 1.0
+EO, 6:, 7:, Right, 1.0

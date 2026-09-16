@@ -1,0 +1,2 @@
+%37_em_17
+$a \sqrt { b } \pm c \sqrt { b } = ( a t c ) \sqrt { b }$

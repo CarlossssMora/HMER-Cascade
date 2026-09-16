@@ -1,0 +1,2 @@
+%502_em_14
+$p ( \alpha ) = \alpha ^ { m } + b _ { m - 2 } \alpha ^ { m - 1 } + \ldots + b _ { 3 } \alpha ^ { 4 } + b _ { 1 } \alpha + b _ { 0 }$

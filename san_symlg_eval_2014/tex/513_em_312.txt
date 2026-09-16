@@ -1,0 +1,2 @@
+%513_em_312
+$( \cos \theta + i \sin \theta ) ^ { n } = \cos \theta + i \sin \theta$

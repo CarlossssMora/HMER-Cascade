@@ -1,0 +1,40 @@
+# IUD, IVC_2014_F503_E27
+# Objects(18):
+O, 2_3, 2, 1.0, OInsideRRRRRRRSub
+O, )_1, ), 1.0, OInsideRRRR
+O, 1_1, 1, 1.0, OInsideRRRSub
+O, 2_2, 2, 1.0, OInsideRRRRSup
+O, _1, \sqrt, 1.0, O
+O, y_1, y, 1.0, OInsideRRRRRRR
+O, (_1, (, 1.0, OInside
+O, x_2, x, 1.0, OInsideRRR
+O, +_1, +, 1.0, OInsideRRRRR
+O, -_2, -, 1.0, OInsideRRRRRRRR
+O, 1_2, 1, 1.0, OInsideRRRRRRRRRSub
+O, -_1, -, 1.0, OInsideRR
+O, 2_4, 2, 1.0, OInsideRRRRRRRRRRSup
+O, (_2, (, 1.0, OInsideRRRRRR
+O, 2_1, 2, 1.0, OInsideRSub
+O, y_2, y, 1.0, OInsideRRRRRRRRR
+O, x_1, x, 1.0, OInsideR
+O, )_2, ), 1.0, OInsideRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, (_2, y_1, Right, 1.0
+EO, )_1, +_1, Right, 1.0
+EO, )_1, 2_2, Sup, 1.0
+EO, )_2, 2_4, Sup, 1.0
+EO, +_1, (_2, Right, 1.0
+EO, -_1, x_2, Right, 1.0
+EO, -_2, y_2, Right, 1.0
+EO, _1, (_1, Inside, 1.0
+EO, _1, x_1, Inside, 1.0
+EO, x_1, -_1, Right, 1.0
+EO, x_1, 2_1, Sub, 1.0
+EO, x_2, )_1, Right, 1.0
+EO, x_2, 1_1, Sub, 1.0
+EO, y_1, -_2, Right, 1.0
+EO, y_1, 2_3, Sub, 1.0
+EO, y_2, )_2, Right, 1.0
+EO, y_2, 1_2, Sub, 1.0

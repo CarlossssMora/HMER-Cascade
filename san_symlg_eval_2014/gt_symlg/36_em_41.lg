@@ -1,0 +1,39 @@
+# IUD, ISICAL_2014_F36_E41
+# Objects(18):
+O, =_1, =, 1.0, OR
+O, 1_1, 1, 1.0, ORRSub
+O, C_1, C, 1.0, ORR
+O, n_2, n, 1.0, ORRRRRRRRRRRSub
+O, y_4, y, 1.0, ORRRRRRRRRRR
+O, C_2, C, 1.0, ORRRRR
+O, 2_2, 2, 1.0, ORRRRRRSub
+O, n_1, n, 1.0, ORRRRRRRRRRSub
+O, y_1, y, 1.0, O
+O, +_1, +, 1.0, ORRRR
+O, C_3, C, 1.0, ORRRRRRRRRR
+O, 1_2, 1, 1.0, ORRRSub
+O, +_2, +, 1.0, ORRRRRRR
+O, hellip_1, \ldots, 1.0, ORRRRRRRR
+O, 2_1, 2, 1.0, ORRRRRSub
+O, y_2, y, 1.0, ORRR
+O, +_3, +, 1.0, ORRRRRRRRR
+O, y_3, y, 1.0, ORRRRRR
+
+# Relations from SRT:
+EO, +_1, C_2, Right, 1.0
+EO, +_2, hellip_1, Right, 1.0
+EO, +_3, C_3, Right, 1.0
+EO, =_1, C_1, Right, 1.0
+EO, C_1, 1_1, Sub, 1.0
+EO, C_1, y_2, Right, 1.0
+EO, C_2, 2_1, Sub, 1.0
+EO, C_2, y_3, Right, 1.0
+EO, C_3, n_1, Sub, 1.0
+EO, C_3, y_4, Right, 1.0
+EO, hellip_1, +_3, Right, 1.0
+EO, y_1, =_1, Right, 1.0
+EO, y_2, +_1, Right, 1.0
+EO, y_2, 1_2, Sub, 1.0
+EO, y_3, +_2, Right, 1.0
+EO, y_3, 2_2, Sub, 1.0
+EO, y_4, n_2, Sub, 1.0

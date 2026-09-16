@@ -1,0 +1,13 @@
+# IUD, ISICAL_2014_F37_E6
+# Objects(5):
+O, y_1, y, 1.0, O
+O, )_1, ), 1.0, ORRR
+O, prime_1, \prime, 1.0, OSup
+O, x_1, x, 1.0, ORR
+O, (_1, (, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, x_1, )_1, Right, 1.0
+EO, y_1, (_1, Right, 1.0
+EO, y_1, prime_1, Sup, 1.0

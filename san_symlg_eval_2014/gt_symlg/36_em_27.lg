@@ -1,0 +1,41 @@
+# IUD, ISICAL_2014_F36_E27
+# Objects(19):
+O, =_1, =, 1.0, OR
+O, m_2, m, 1.0, ORRBelowSub
+O, a_1, a, 1.0, ORRAboveSubR
+O, m_1, m, 1.0, ORRAboveSub
+O, n_1, n, 1.0, ORRBelowRRSubRR
+O, f_1, f, 1.0, O
+O, _1, -, 1.0, ORR
+O, d_1, d, 1.0, OSub
+O, a_2, a, 1.0, ORRBelowSubR
+O, m_3, m, 1.0, ORRBelowRRSub
+O, A_2, A, 1.0, ORRAboveRR
+O, x_2, x, 1.0, ORRBelowSubRR
+O, A_4, A, 1.0, ORRBelowRR
+O, -_2, -, 1.0, ORRBelowR
+O, A_1, A, 1.0, ORRAbove
+O, -_1, -, 1.0, ORRAboveR
+O, i_1, i, 1.0, ORRBelowRRSubR
+O, A_3, A, 1.0, ORRBelow
+O, x_1, x, 1.0, ORRAboveSubRR
+
+# Relations from SRT:
+EO, -_1, A_2, Right, 1.0
+EO, -_2, A_4, Right, 1.0
+EO, =_1, _1, Right, 1.0
+EO, A_1, -_1, Right, 1.0
+EO, A_1, m_1, Sub, 1.0
+EO, A_3, -_2, Right, 1.0
+EO, A_3, m_2, Sub, 1.0
+EO, A_4, m_3, Sub, 1.0
+EO, _1, A_1, Above, 1.0
+EO, _1, A_3, Below, 1.0
+EO, a_1, x_1, Right, 1.0
+EO, a_2, x_2, Right, 1.0
+EO, f_1, =_1, Right, 1.0
+EO, f_1, d_1, Sub, 1.0
+EO, i_1, n_1, Right, 1.0
+EO, m_1, a_1, Right, 1.0
+EO, m_2, a_2, Right, 1.0
+EO, m_3, i_1, Right, 1.0

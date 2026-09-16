@@ -1,0 +1,17 @@
+# IUD, IVC_2014_F518_E419
+# Objects(7):
+O, alpha_1, \alpha, 1.0, OSup
+O, p_1, p, 1.0, O
+O, 1_1, 1, 1.0, ORRSupRR
+O, -_2, -, 1.0, ORRSupR
+O, alpha_2, \alpha, 1.0, ORRSup
+O, p_2, p, 1.0, ORR
+O, -_1, -, 1.0, OR
+
+# Relations from SRT:
+EO, -_1, p_2, Right, 1.0
+EO, -_2, 1_1, Right, 1.0
+EO, alpha_2, -_2, Right, 1.0
+EO, p_1, -_1, Right, 1.0
+EO, p_1, alpha_1, Sup, 1.0
+EO, p_2, alpha_2, Sup, 1.0

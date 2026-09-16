@@ -1,0 +1,29 @@
+# IUD, IVC_2014_F519_E461
+# Objects(13):
+O, =_1, =, 1.0, ORRR
+O, 2_3, 2, 1.0, ORRRRBelow
+O, 1_1, 1, 1.0, ORRAboveRR
+O, +_1, +, 1.0, ORRAboveR
+O, 1_2, 1, 1.0, ORRRRAbove
+O, 2_2, 2, 1.0, ORRBelow
+O, -_1, -, 1.0, OR
+O, alpha_1, \alpha, 1.0, OAbove
+O, _1, -, 1.0, O
+O, _2, -, 1.0, ORR
+O, 2_1, 2, 1.0, OBelow
+O, alpha_2, \alpha, 1.0, ORRAbove
+O, _3, -, 1.0, ORRRR
+
+# Relations from SRT:
+EO, +_1, 1_1, Right, 1.0
+EO, -_1, _2, Right, 1.0
+EO, =_1, _3, Right, 1.0
+EO, _1, -_1, Right, 1.0
+EO, _1, 2_1, Below, 1.0
+EO, _1, alpha_1, Above, 1.0
+EO, _2, 2_2, Below, 1.0
+EO, _2, =_1, Right, 1.0
+EO, _2, alpha_2, Above, 1.0
+EO, _3, 1_2, Above, 1.0
+EO, _3, 2_3, Below, 1.0
+EO, alpha_2, +_1, Right, 1.0

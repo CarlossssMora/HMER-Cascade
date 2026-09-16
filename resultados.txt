@@ -1,0 +1,66 @@
+============================================================
+Allocated :       0.00 MiB
+Reserved  :       0.00 MiB
+Peak      :       0.00 MiB
+GPU free  :    5072.00 MiB
+GPU total :    6140.50 MiB
+try UTF-8 encoding
+115 symbols in total
+No optimizer in the pretrained model
+
+SAN
+  Parámetros : 7,996,103
+  Pesos      : 30.50 MiB
+  Buffers    : 0.05 MiB
+  Total      : 30.55 MiB
+
+============================================================
+2. SAN cargado
+============================================================
+Allocated :      30.70 MiB
+Reserved  :      44.00 MiB
+Peak      :      30.70 MiB
+GPU free  :    5028.00 MiB
+GPU total :    6140.50 MiB
+
+Checkpoint PosFormer:
+C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\PosFormer\lightning_logs\version_0\checkpoints\best.ckpt
+C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\.venv-hmer-gpu\lib\site-packages\pytorch_lightning\utilities\migration\migration.py:203: PossibleUserWarning: You have multiple `ModelCheckpoint` callback states in this checkpoint, but we found state keys that would end up colliding with each other after an upgrade, which means we can't differentiate which of your checkpoint callbacks needs which states. At least one of your `ModelCheckpoint` callbacks will not be able to reload the state.
+  rank_zero_warn(
+Lightning automatically upgraded your loaded checkpoint from v1.4.9 to v2.0.9. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint --file C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\PosFormer\lightning_logs\version_0\checkpoints\best.ckpt`
+
+PosFormer
+  Parámetros : 9,632,236
+  Pesos      : 36.74 MiB
+  Buffers    : 1.03 MiB
+  Total      : 37.77 MiB
+
+============================================================
+3. SAN + PosFormer cargados simultáneamente
+============================================================
+Allocated :      68.64 MiB
+Reserved  :      82.00 MiB
+Peak      :      68.64 MiB
+GPU free  :    4990.00 MiB
+GPU total :    6140.50 MiB
+
+Imagen de prueba SAN:
+C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\SAN\data\14_test_images\18_em_0_0.bmp
+
+============================================================
+4. Pico durante inferencia SAN (PosFormer sigue cargado)
+============================================================
+Allocated :      77.06 MiB
+Reserved  :     214.00 MiB
+Peak      :     203.25 MiB
+GPU free  :    4826.00 MiB
+GPU total :    6140.50 MiB
+
+============================================================
+RESUMEN
+============================================================
+VRAM física total : 6140.50 MiB
+VRAM libre final  : 4826.00 MiB
+Pico registrado   : 203.25 MiB
+
+SAN y PosFormer continúan cargados en GPU.

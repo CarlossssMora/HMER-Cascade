@@ -1,0 +1,13 @@
+# IUD, ISICAL_2014_F29_E160
+# Objects(5):
+O, j_2, j, 1.0, ORRSub
+O, j_1, j, 1.0, ORSub
+O, sum_1, \sum, 1.0, O
+O, a_1, a, 1.0, OR
+O, x_1, x, 1.0, ORR
+
+# Relations from SRT:
+EO, a_1, j_1, Sub, 1.0
+EO, a_1, x_1, Right, 1.0
+EO, sum_1, a_1, Right, 1.0
+EO, x_1, j_2, Sub, 1.0

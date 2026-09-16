@@ -1,0 +1,24 @@
+# IUD, IVC_2014_F517_E413
+# Objects(10):
+O, 5_1, 5, 1.0, OAboveRRRInsideR
+O, +_1, +, 1.0, OAboveR
+O, 5_2, 5, 1.0, OBelowR
+O, -_1, -, 1.0, OBelow
+O, 6_1, 6, 1.0, OAboveRRRInside
+O, _1, -, 1.0, O
+O, 3_1, 3, 1.0, OAboveRR
+O, _2, \sqrt, 1.0, OAboveRRR
+O, 9_1, 9, 1.0, OAbove
+O, 6_2, 6, 1.0, OBelowRR
+
+# Relations from SRT:
+EO, +_1, 3_1, Right, 1.0
+EO, -_1, 5_2, Right, 1.0
+EO, 3_1, _2, Right, 1.0
+EO, 5_2, 6_2, Right, 1.0
+EO, 6_1, 5_1, Right, 1.0
+EO, 9_1, +_1, Right, 1.0
+EO, _1, -_1, Below, 1.0
+EO, _1, 9_1, Above, 1.0
+EO, _2, 5_1, Inside, 1.0
+EO, _2, 6_1, Inside, 1.0

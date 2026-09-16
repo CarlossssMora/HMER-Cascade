@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_78
+# Objects(3):
+O, 55:56:57:, \pm, 1.0, O
+O, 58:59:, \theta, 1.0, OR
+O, 60:, 0, 1.0, ORSub
+
+# Relations from SRT:
+EO, 55:56:57:, 58:59:, Right, 1.0
+EO, 58:59:, 60:, Sub, 1.0

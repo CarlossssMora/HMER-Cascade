@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F36_E42
+# Objects(3):
+O, p_1, p, 1.0, ORR
+O, m_1, m, 1.0, O
+O, times_1, \times, 1.0, OR
+
+# Relations from SRT:
+EO, m_1, times_1, Right, 1.0
+EO, times_1, p_1, Right, 1.0

@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_105
+# Objects(6):
+O, 10:11:12:13:, \sin, 1.0, O
+O, 20:, \theta, 1.0, ORRR
+O, 16:17:18:19:, \sin, 1.0, ORR
+O, 21:, 2, 1.0, ORRRSub
+O, 15:, 1, 1.0, ORSub
+O, 14:, \theta, 1.0, OR
+
+# Relations from SRT:
+EO, 10:11:12:13:, 14:, Right, 1.0
+EO, 14:, 15:, Sub, 1.0
+EO, 14:, 16:17:18:19:, Right, 1.0
+EO, 16:17:18:19:, 20:, Right, 1.0
+EO, 20:, 21:, Sub, 1.0

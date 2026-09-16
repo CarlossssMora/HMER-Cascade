@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_76
+# Objects(3):
+O, 75:76:, t, 1.0, O
+O, 77:78:, \rightarrow, 1.0, OR
+O, 79:, \infty, 1.0, ORR
+
+# Relations from SRT:
+EO, 75:76:, 77:78:, Right, 1.0
+EO, 77:78:, 79:, Right, 1.0

@@ -1,0 +1,53 @@
+# IUD, ISICAL_2014_F35_E16
+# Objects(25):
+O, =_1, =, 1.0, OSubR
+O, )_1, ), 1.0, ORRBelowRRRRRRR
+O, m_2, m, 1.0, ORRAbove
+O, 1_1, 1, 1.0, OSubRR
+O, n_4, n, 1.0, ORRBelowRRRRR
+O, n_2, n, 1.0, ORRAboveR
+O, 3_3, 3, 1.0, ORRBelowRRRRRR
+O, 3_2, 3, 1.0, ORRBelowRRR
+O, m_1, m, 1.0, OSub
+O, n_1, n, 1.0, ORSub
+O, _1, -, 1.0, ORR
+O, 3_1, 3, 1.0, ORRBelow
+O, infin_1, \infty, 1.0, OSup
+O, infin_2, \infty, 1.0, ORSup
+O, m_3, m, 1.0, ORRBelowSup
+O, sum_2, \sum, 1.0, OR
+O, (_1, (, 1.0, ORRBelowR
+O, +_1, +, 1.0, ORRBelowRRRR
+O, =_2, =, 1.0, ORSubR
+O, sum_1, \sum, 1.0, O
+O, 1_2, 1, 1.0, ORSubRR
+O, m_4, m, 1.0, ORRBelowRR
+O, m_5, m, 1.0, ORRBelowRRRRRRSup
+O, 2_1, 2, 1.0, ORRAboveSup
+O, n_3, n, 1.0, ORRBelowRRRSup
+
+# Relations from SRT:
+EO, (_1, m_4, Right, 1.0
+EO, +_1, n_4, Right, 1.0
+EO, 3_1, (_1, Right, 1.0
+EO, 3_1, m_3, Sup, 1.0
+EO, 3_2, +_1, Right, 1.0
+EO, 3_2, n_3, Sup, 1.0
+EO, 3_3, )_1, Right, 1.0
+EO, 3_3, m_5, Sup, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, =_2, 1_2, Right, 1.0
+EO, _1, 3_1, Below, 1.0
+EO, _1, m_2, Above, 1.0
+EO, m_1, =_1, Right, 1.0
+EO, m_2, 2_1, Sup, 1.0
+EO, m_2, n_2, Right, 1.0
+EO, m_4, 3_2, Right, 1.0
+EO, n_1, =_2, Right, 1.0
+EO, n_4, 3_3, Right, 1.0
+EO, sum_1, infin_1, Sup, 1.0
+EO, sum_1, m_1, Sub, 1.0
+EO, sum_1, sum_2, Right, 1.0
+EO, sum_2, _1, Right, 1.0
+EO, sum_2, infin_2, Sup, 1.0
+EO, sum_2, n_1, Sub, 1.0

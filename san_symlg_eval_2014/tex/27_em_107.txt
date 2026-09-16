@@ -1,0 +1,2 @@
+%27_em_107
+$\int k x ^ { n } d x = k \int x ^ { n } d x$

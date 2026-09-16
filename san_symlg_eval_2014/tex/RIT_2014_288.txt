@@ -1,0 +1,2 @@
+%RIT_2014_288
+$\log ( \frac { a } { b } ) = \log ( ( ) - \log ( b )$

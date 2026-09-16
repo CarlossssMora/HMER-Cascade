@@ -1,0 +1,2 @@
+%RIT_2014_304
+$\lim _ { x \rightarrow - \infty } p _ { k + 1 } ( x ) < 0$

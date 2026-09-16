@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_311
+# Objects(4):
+O, 6:, d, 1.0, ORR
+O, 7:, x, 1.0, ORRR
+O, 4:, \int, 1.0, O
+O, 5:, y, 1.0, OR
+
+# Relations from SRT:
+EO, 4:, 5:, Right, 1.0
+EO, 5:, 6:, Right, 1.0
+EO, 6:, 7:, Right, 1.0

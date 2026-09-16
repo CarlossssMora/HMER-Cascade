@@ -1,0 +1,41 @@
+# IUD, IVC_2014_F514_E348
+# Objects(19):
+O, =_1, =, 1.0, OR
+O, 2_3, 2, 1.0, OBelowRRSup
+O, y_4, y, 1.0, ORRBelowRR
+O, 2_2, 2, 1.0, OBelowSup
+O, _1, -, 1.0, O
+O, -_3, -, 1.0, ORRAbove
+O, y_1, y, 1.0, OAboveRR
+O, 2_5, 2, 1.0, ORRBelowSup
+O, 2_6, 2, 1.0, ORRBelowRRSup
+O, x_2, x, 1.0, ORRBelow
+O, -_2, -, 1.0, OBelowR
+O, -_1, -, 1.0, OAbove
+O, 2_4, 2, 1.0, ORRAboveR
+O, _2, -, 1.0, ORR
+O, y_2, y, 1.0, OBelowRR
+O, 2_1, 2, 1.0, OAboveR
+O, y_3, y, 1.0, ORRAboveRR
+O, -_4, -, 1.0, ORRBelowR
+O, x_1, x, 1.0, OBelow
+
+# Relations from SRT:
+EO, -_1, 2_1, Right, 1.0
+EO, -_2, y_2, Right, 1.0
+EO, -_3, 2_4, Right, 1.0
+EO, -_4, y_4, Right, 1.0
+EO, 2_1, y_1, Right, 1.0
+EO, 2_4, y_3, Right, 1.0
+EO, =_1, _2, Right, 1.0
+EO, _1, -_1, Above, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _1, x_1, Below, 1.0
+EO, _2, -_3, Above, 1.0
+EO, _2, x_2, Below, 1.0
+EO, x_1, -_2, Right, 1.0
+EO, x_1, 2_2, Sup, 1.0
+EO, x_2, -_4, Right, 1.0
+EO, x_2, 2_5, Sup, 1.0
+EO, y_2, 2_3, Sup, 1.0
+EO, y_4, 2_6, Sup, 1.0

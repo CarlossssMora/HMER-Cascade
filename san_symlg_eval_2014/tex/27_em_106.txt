@@ -1,0 +1,2 @@
+%27_em_106
+$\alpha ^ { 2 } + \beta ^ { 2 } = ( \alpha + \beta ) ^ { 2 } - 2 \alpha \beta$

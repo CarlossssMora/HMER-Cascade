@@ -1,0 +1,2 @@
+%519_em_451
+$x = 2 \times 3 \times 5 \times \ldots \times n$

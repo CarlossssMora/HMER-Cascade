@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_203
+# Objects(6):
+O, 69:70:71:, \pi, 1.0, OBelowR
+O, 68:, 2, 1.0, OBelow
+O, 63:64:, \pi, 1.0, OAbove
+O, 67:, -, 1.0, O
+O, 66:, 2, 1.0, OAboveRSup
+O, 65:, r, 1.0, OAboveR
+
+# Relations from SRT:
+EO, 63:64:, 65:, Right, 1.0
+EO, 65:, 66:, Sup, 1.0
+EO, 67:, 63:64:, Above, 1.0
+EO, 67:, 68:, Below, 1.0
+EO, 68:, 69:70:71:, Right, 1.0

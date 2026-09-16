@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_106
+# Objects(3):
+O, 48:, 6, 1.0, OR
+O, 49:, \theta, 1.0, ORR
+O, 44:45:46:47:, \sin, 1.0, O
+
+# Relations from SRT:
+EO, 44:45:46:47:, 48:, Right, 1.0
+EO, 48:, 49:, Right, 1.0

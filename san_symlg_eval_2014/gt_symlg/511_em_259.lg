@@ -1,0 +1,49 @@
+# IUD, IVC_2014_F511_E259
+# Objects(23):
+O, =_1, =, 1.0, ORRRRR
+O, 2_3, 2, 1.0, ORRRRRRRRRRRRRBelow
+O, )_1, ), 1.0, ORRRRRRRRRR
+O, cos_1, \cos, 1.0, ORRRRRRRRRRR
+O, x_3, x, 1.0, ORRRRRRRRRRRRRAbove
+O, 2_2, 2, 1.0, ORRRRRRRRRBelow
+O, sin_2, \sin, 1.0, ORRR
+O, sin_1, \sin, 1.0, O
+O, _1, -, 1.0, ORRRRRRRRR
+O, y_1, y, 1.0, ORRRR
+O, sin_3, \sin, 1.0, ORRRRRRR
+O, (_1, (, 1.0, ORRRRRRRR
+O, x_2, x, 1.0, ORRRRRRRRRAbove
+O, +_1, +, 1.0, ORR
+O, -_1, -, 1.0, ORRRRRRRRRRRRRAboveR
+O, +_2, +, 1.0, ORRRRRRRRRAboveR
+O, (_2, (, 1.0, ORRRRRRRRRRRR
+O, _2, -, 1.0, ORRRRRRRRRRRRR
+O, y_2, y, 1.0, ORRRRRRRRRAboveRR
+O, 2_1, 2, 1.0, ORRRRRR
+O, y_3, y, 1.0, ORRRRRRRRRRRRRAboveRR
+O, x_1, x, 1.0, OR
+O, )_2, ), 1.0, ORRRRRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, _1, Right, 1.0
+EO, (_2, _2, Right, 1.0
+EO, )_1, cos_1, Right, 1.0
+EO, +_1, sin_2, Right, 1.0
+EO, +_2, y_2, Right, 1.0
+EO, -_1, y_3, Right, 1.0
+EO, 2_1, sin_3, Right, 1.0
+EO, =_1, 2_1, Right, 1.0
+EO, _1, )_1, Right, 1.0
+EO, _1, 2_2, Below, 1.0
+EO, _1, x_2, Above, 1.0
+EO, _2, )_2, Right, 1.0
+EO, _2, 2_3, Below, 1.0
+EO, _2, x_3, Above, 1.0
+EO, cos_1, (_2, Right, 1.0
+EO, sin_1, x_1, Right, 1.0
+EO, sin_2, y_1, Right, 1.0
+EO, sin_3, (_1, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, x_2, +_2, Right, 1.0
+EO, x_3, -_1, Right, 1.0
+EO, y_1, =_1, Right, 1.0

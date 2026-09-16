@@ -1,0 +1,2 @@
+%35_em_9
+$\sin ( \theta ) = \sin \theta$

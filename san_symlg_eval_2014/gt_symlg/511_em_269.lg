@@ -1,0 +1,35 @@
+# IUD, IVC_2014_F511_E269
+# Objects(16):
+O, =_1, =, 1.0, OSubR
+O, )_1, ), 1.0, ORRRR
+O, 1_1, 1, 1.0, OSup
+O, 2_2, 2, 1.0, ORRRRRBelowSup
+O, _1, -, 1.0, ORRRRR
+O, 0_1, 0, 1.0, OSupR
+O, 0_2, 0, 1.0, OSupRR
+O, (_1, (, 1.0, OR
+O, 1_2, 1, 1.0, ORRR
+O, sum_1, \sum, 1.0, O
+O, -_1, -, 1.0, ORR
+O, k_2, k, 1.0, ORRRRSup
+O, 1_3, 1, 1.0, ORRRRRAbove
+O, 2_1, 2, 1.0, OSubRR
+O, k_3, k, 1.0, ORRRRRBelow
+O, k_1, k, 1.0, OSub
+
+# Relations from SRT:
+EO, (_1, -_1, Right, 1.0
+EO, )_1, _1, Right, 1.0
+EO, )_1, k_2, Sup, 1.0
+EO, -_1, 1_2, Right, 1.0
+EO, 0_1, 0_2, Right, 1.0
+EO, 1_1, 0_1, Right, 1.0
+EO, 1_2, )_1, Right, 1.0
+EO, =_1, 2_1, Right, 1.0
+EO, _1, 1_3, Above, 1.0
+EO, _1, k_3, Below, 1.0
+EO, k_1, =_1, Right, 1.0
+EO, k_3, 2_2, Sup, 1.0
+EO, sum_1, (_1, Right, 1.0
+EO, sum_1, 1_1, Sup, 1.0
+EO, sum_1, k_1, Sub, 1.0

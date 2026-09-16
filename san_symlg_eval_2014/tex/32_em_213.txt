@@ -1,0 +1,2 @@
+%32_em_213
+$\sqrt { a } \times \sqrt { b } = \sqrt { a b }$

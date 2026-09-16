@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_298
+# Objects(3):
+O, 0:, \Delta, 1.0, O
+O, 3:4:, x, 1.0, ORR
+O, 1:2:, k, 1.0, OR
+
+# Relations from SRT:
+EO, 0:, 1:2:, Right, 1.0
+EO, 1:2:, 3:4:, Right, 1.0

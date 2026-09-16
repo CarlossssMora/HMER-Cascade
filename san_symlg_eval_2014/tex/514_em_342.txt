@@ -1,0 +1,2 @@
+%514_em_342
+$\sqrt { x } - \frac { x } { \sqrt { x } }$

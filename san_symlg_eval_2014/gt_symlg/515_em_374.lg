@@ -1,0 +1,23 @@
+# IUD, IVC_2014_F515_E374
+# Objects(10):
+O, theta_1, \theta, 1.0, ORR
+O, )_1, ), 1.0, ORRR
+O, +_1, +, 1.0, ORRRR
+O, cos_1, \cos, 1.0, ORRRRRR
+O, sin_1, \sin, 1.0, O
+O, i_1, i, 1.0, ORRRRR
+O, (_2, (, 1.0, ORRRRRRR
+O, theta_2, \theta, 1.0, ORRRRRRRR
+O, (_1, (, 1.0, OR
+O, )_2, ), 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, theta_1, Right, 1.0
+EO, (_2, theta_2, Right, 1.0
+EO, )_1, +_1, Right, 1.0
+EO, +_1, i_1, Right, 1.0
+EO, cos_1, (_2, Right, 1.0
+EO, i_1, cos_1, Right, 1.0
+EO, sin_1, (_1, Right, 1.0
+EO, theta_1, )_1, Right, 1.0
+EO, theta_2, )_2, Right, 1.0

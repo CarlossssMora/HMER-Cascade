@@ -1,0 +1,17 @@
+# IUD, ISICAL_2014_F23_E70
+# Objects(7):
+O, +_2, +, 1.0, ORRRRR
+O, alpha_1, \alpha, 1.0, O
+O, =_1, =, 1.0, ORRR
+O, +_1, +, 1.0, OR
+O, alpha_2, \alpha, 1.0, ORRRRRR
+O, beta_1, \beta, 1.0, ORR
+O, beta_2, \beta, 1.0, ORRRR
+
+# Relations from SRT:
+EO, +_1, beta_1, Right, 1.0
+EO, +_2, alpha_2, Right, 1.0
+EO, =_1, beta_2, Right, 1.0
+EO, alpha_1, +_1, Right, 1.0
+EO, beta_1, =_1, Right, 1.0
+EO, beta_2, +_2, Right, 1.0

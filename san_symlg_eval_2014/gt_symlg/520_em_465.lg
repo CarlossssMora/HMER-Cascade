@@ -1,0 +1,25 @@
+# IUD, IVC_2014_F520_E465
+# Objects(11):
+O, =_1, =, 1.0, ORRRR
+O, 1_1, 1, 1.0, ORRRRRAbove
+O, )_1, ), 1.0, ORRR
+O, +_1, +, 1.0, ORRRRRBelowR
+O, 1_2, 1, 1.0, ORRRRRBelow
+O, h_1, h, 1.0, O
+O, _1, -, 1.0, ORRRRR
+O, T_1, T, 1.0, ORRRRRBelowRRR
+O, s_2, s, 1.0, ORRRRRBelowRR
+O, (_1, (, 1.0, OR
+O, s_1, s, 1.0, ORR
+
+# Relations from SRT:
+EO, (_1, s_1, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, +_1, s_2, Right, 1.0
+EO, 1_2, +_1, Right, 1.0
+EO, =_1, _1, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 1_2, Below, 1.0
+EO, h_1, (_1, Right, 1.0
+EO, s_1, )_1, Right, 1.0
+EO, s_2, T_1, Right, 1.0

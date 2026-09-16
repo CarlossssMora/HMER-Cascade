@@ -1,0 +1,23 @@
+# IUD, ISICAL_2014_F26_E88
+# Objects(10):
+O, v_1, v, 1.0, O
+O, =_1, =, 1.0, ORRR
+O, 2_3, 2, 1.0, ORRRRSup
+O, v_3, v, 1.0, ORRSub
+O, v_5, v, 1.0, ORRRRSub
+O, 2_2, 2, 1.0, ORRSup
+O, v_2, v, 1.0, ORR
+O, -_1, -, 1.0, OR
+O, v_4, v, 1.0, ORRRR
+O, 2_1, 2, 1.0, OSup
+
+# Relations from SRT:
+EO, -_1, v_2, Right, 1.0
+EO, =_1, v_4, Right, 1.0
+EO, v_1, -_1, Right, 1.0
+EO, v_1, 2_1, Sup, 1.0
+EO, v_2, 2_2, Sup, 1.0
+EO, v_2, =_1, Right, 1.0
+EO, v_2, v_3, Sub, 1.0
+EO, v_4, 2_3, Sup, 1.0
+EO, v_4, v_5, Sub, 1.0

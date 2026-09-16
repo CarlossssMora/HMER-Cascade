@@ -1,0 +1,35 @@
+# IUD, IVC_2014_F506_E62
+# Objects(16):
+O, a_3, a, 1.0, ORRRR
+O, =_1, =, 1.0, ORRR
+O, 1_1, 1, 1.0, ORRRRRRRR
+O, a_1, a, 1.0, O
+O, 2_2, 2, 1.0, ORRRRSup
+O, a_2, a, 1.0, ORR
+O, +_1, +, 1.0, OR
+O, 1_2, 1, 1.0, ORRRRRRRRRR
+O, -_2, -, 1.0, ORRRRRRRRRRRR
+O, =_2, =, 1.0, ORRRRRRRRRRR
+O, -_1, -, 1.0, ORRRRRRRRR
+O, +_2, +, 1.0, ORRRRR
+O, 1_3, 1, 1.0, ORRRRRRRRRRRRR
+O, a_4, a, 1.0, ORRRRRR
+O, +_3, +, 1.0, ORRRRRRR
+O, 2_1, 2, 1.0, OSup
+
+# Relations from SRT:
+EO, +_1, a_2, Right, 1.0
+EO, +_2, a_4, Right, 1.0
+EO, +_3, 1_1, Right, 1.0
+EO, -_1, 1_2, Right, 1.0
+EO, -_2, 1_3, Right, 1.0
+EO, 1_1, -_1, Right, 1.0
+EO, 1_2, =_2, Right, 1.0
+EO, =_1, a_3, Right, 1.0
+EO, =_2, -_2, Right, 1.0
+EO, a_1, +_1, Right, 1.0
+EO, a_1, 2_1, Sup, 1.0
+EO, a_2, =_1, Right, 1.0
+EO, a_3, +_2, Right, 1.0
+EO, a_3, 2_2, Sup, 1.0
+EO, a_4, +_3, Right, 1.0

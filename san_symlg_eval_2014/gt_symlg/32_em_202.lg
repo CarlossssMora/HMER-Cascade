@@ -1,0 +1,25 @@
+# IUD, ISICAL_2014_F32_E202
+# Objects(11):
+O, =_1, =, 1.0, ORRRRRR
+O, 5_1, 5, 1.0, ORRRRRRRRRR
+O, N_2, N, 1.0, ORRRRRRRR
+O, -_2, -, 1.0, ORRRR
+O, 3_3, 3, 1.0, ORRRRRRR
+O, -_1, -, 1.0, ORR
+O, 3_2, 3, 1.0, ORRR
+O, N_1, N, 1.0, OR
+O, -_3, -, 1.0, ORRRRRRRRR
+O, 3_1, 3, 1.0, O
+O, 2_1, 2, 1.0, ORRRRR
+
+# Relations from SRT:
+EO, -_1, 3_2, Right, 1.0
+EO, -_2, 2_1, Right, 1.0
+EO, -_3, 5_1, Right, 1.0
+EO, 2_1, =_1, Right, 1.0
+EO, 3_1, N_1, Right, 1.0
+EO, 3_2, -_2, Right, 1.0
+EO, 3_3, N_2, Right, 1.0
+EO, =_1, 3_3, Right, 1.0
+EO, N_1, -_1, Right, 1.0
+EO, N_2, -_3, Right, 1.0

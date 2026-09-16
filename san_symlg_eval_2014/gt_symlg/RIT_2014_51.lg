@@ -1,0 +1,29 @@
+# IUD, 2014_RIT_CROHME_51
+# Objects(13):
+O, 0_4, 0, 1.0, ORRRRRR
+O, COMMA_1, COMMA, 1.0, OR
+O, 1_1, 1, 1.0, O
+O, COMMA_3, COMMA, 1.0, ORRRRRRRRR
+O, 0_3, 0, 1.0, ORRRR
+O, 0_6, 0, 1.0, ORRRRRRRR
+O, 0_8, 0, 1.0, ORRRRRRRRRRR
+O, 0_9, 0, 1.0, ORRRRRRRRRRRR
+O, COMMA_2, COMMA, 1.0, ORRRRR
+O, 0_1, 0, 1.0, ORR
+O, 0_7, 0, 1.0, ORRRRRRRRRR
+O, 0_2, 0, 1.0, ORRR
+O, 0_5, 0, 1.0, ORRRRRRR
+
+# Relations from SRT:
+EO, 0_1, 0_2, Right, 1.0
+EO, 0_2, 0_3, Right, 1.0
+EO, 0_3, COMMA_2, Right, 1.0
+EO, 0_4, 0_5, Right, 1.0
+EO, 0_5, 0_6, Right, 1.0
+EO, 0_6, COMMA_3, Right, 1.0
+EO, 0_7, 0_8, Right, 1.0
+EO, 0_8, 0_9, Right, 1.0
+EO, 1_1, COMMA_1, Right, 1.0
+EO, COMMA_1, 0_1, Right, 1.0
+EO, COMMA_2, 0_4, Right, 1.0
+EO, COMMA_3, 0_7, Right, 1.0

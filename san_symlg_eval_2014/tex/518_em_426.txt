@@ -1,0 +1,2 @@
+%518_em_426
+$\pi \int _ { R } ^ { R } R ^ { 2 } d x - \pi \int _ { R } ^ { R } x ^ { 2 } d x$

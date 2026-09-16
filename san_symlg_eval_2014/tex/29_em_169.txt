@@ -1,0 +1,2 @@
+%29_em_169
+$\frac { d f } { d x } = \frac { 1 } { \frac { a } { d f } }$

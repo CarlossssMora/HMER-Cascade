@@ -1,0 +1,6 @@
+﻿operation,san_fragment,posformer_fragment,count
+insert,,\limits,105
+delete,},,7
+delete,_ {,,5
+insert,,},2
+replace,\pi,\Pi,1

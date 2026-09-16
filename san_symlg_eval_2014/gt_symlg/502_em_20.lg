@@ -1,0 +1,35 @@
+# IUD, IVC_2014_F502_E20
+# Objects(16):
+O, =_1, =, 1.0, ORRRRR
+O, 1_1, 1, 1.0, ORAbove
+O, x_3, x, 1.0, ORRRRRRRRR
+O, a_1, a, 1.0, ORRRRRRR
+O, _1, -, 1.0, OR
+O, d_1, d, 1.0, ORRAbove
+O, y_1, y, 1.0, ORBelow
+O, d_3, d, 1.0, ORRR
+O, x_2, x, 1.0, ORRRR
+O, d_2, d, 1.0, ORRBelow
+O, int_1, \int, 1.0, O
+O, int_2, \int, 1.0, ORRRRRR
+O, _2, -, 1.0, ORR
+O, y_2, y, 1.0, ORRAboveR
+O, d_4, d, 1.0, ORRRRRRRR
+O, x_1, x, 1.0, ORRBelowR
+
+# Relations from SRT:
+EO, =_1, int_2, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, _2, Right, 1.0
+EO, _1, y_1, Below, 1.0
+EO, _2, d_1, Above, 1.0
+EO, _2, d_2, Below, 1.0
+EO, _2, d_3, Right, 1.0
+EO, a_1, d_4, Right, 1.0
+EO, d_1, y_2, Right, 1.0
+EO, d_2, x_1, Right, 1.0
+EO, d_3, x_2, Right, 1.0
+EO, d_4, x_3, Right, 1.0
+EO, int_1, _1, Right, 1.0
+EO, int_2, a_1, Right, 1.0
+EO, x_2, =_1, Right, 1.0

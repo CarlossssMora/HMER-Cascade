@@ -1,0 +1,23 @@
+# IUD, IVC_2014_F502_E15
+# Objects(10):
+O, theta_1, \theta, 1.0, O
+O, i_2, i, 1.0, ORRSub
+O, =_1, =, 1.0, OR
+O, 1_1, 1, 1.0, OSubRR
+O, +_1, +, 1.0, OSubR
+O, -_1, -, 1.0, ORRR
+O, i_3, i, 1.0, ORRRRSub
+O, alpha_1, \alpha, 1.0, ORRRR
+O, i_1, i, 1.0, OSub
+O, theta_2, \theta, 1.0, ORR
+
+# Relations from SRT:
+EO, +_1, 1_1, Right, 1.0
+EO, -_1, alpha_1, Right, 1.0
+EO, =_1, theta_2, Right, 1.0
+EO, alpha_1, i_3, Sub, 1.0
+EO, i_1, +_1, Right, 1.0
+EO, theta_1, =_1, Right, 1.0
+EO, theta_1, i_1, Sub, 1.0
+EO, theta_2, -_1, Right, 1.0
+EO, theta_2, i_2, Sub, 1.0

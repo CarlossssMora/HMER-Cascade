@@ -1,0 +1,2 @@
+%504_em_43
+$2 \times 3 \times 4 \times x ^ { 2 } \times x \times y \times y ^ { 3 } \times 2 \times z ^ { 2 }$

@@ -1,0 +1,51 @@
+# IUD, ISICAL_2014_F26_E84
+# Objects(24):
+O, =_1, =, 1.0, OR
+O, )_1, ), 1.0, ORRRAboveRRRRR
+O, 1_1, 1, 1.0, ORRRAboveRR
+O, n_2, n, 1.0, ORRRAboveRRRRSup
+O, S_1, S, 1.0, O
+O, rarr_1, \rightarrow, 1.0, ORRSubR
+O, a_1, a, 1.0, ORRRAbove
+O, r_2, r, 1.0, ORRRBelowRR
+O, n_1, n, 1.0, ORRSub
+O, _1, -, 1.0, ORRR
+O, -_3, -, 1.0, ORRRRRBelowR
+O, infin_1, \infty, 1.0, OSub
+O, infin_2, \infty, 1.0, ORRSubRR
+O, a_2, a, 1.0, ORRRRRAbove
+O, r_3, r, 1.0, ORRRRRBelowRR
+O, (_1, (, 1.0, ORRRAboveR
+O, r_1, r, 1.0, ORRRAboveRRRR
+O, =_2, =, 1.0, ORRRR
+O, 1_2, 1, 1.0, ORRRBelow
+O, -_2, -, 1.0, ORRRBelowR
+O, -_1, -, 1.0, ORRRAboveRRR
+O, 1_3, 1, 1.0, ORRRRRBelow
+O, _2, -, 1.0, ORRRRR
+O, lim_1, \lim, 1.0, ORR
+
+# Relations from SRT:
+EO, (_1, 1_1, Right, 1.0
+EO, -_1, r_1, Right, 1.0
+EO, -_2, r_2, Right, 1.0
+EO, -_3, r_3, Right, 1.0
+EO, 1_1, -_1, Right, 1.0
+EO, 1_2, -_2, Right, 1.0
+EO, 1_3, -_3, Right, 1.0
+EO, =_1, lim_1, Right, 1.0
+EO, =_2, _2, Right, 1.0
+EO, S_1, =_1, Right, 1.0
+EO, S_1, infin_1, Sub, 1.0
+EO, _1, 1_2, Below, 1.0
+EO, _1, =_2, Right, 1.0
+EO, _1, a_1, Above, 1.0
+EO, _2, 1_3, Below, 1.0
+EO, _2, a_2, Above, 1.0
+EO, a_1, (_1, Right, 1.0
+EO, lim_1, _1, Right, 1.0
+EO, lim_1, n_1, Sub, 1.0
+EO, n_1, rarr_1, Right, 1.0
+EO, r_1, )_1, Right, 1.0
+EO, r_1, n_2, Sup, 1.0
+EO, rarr_1, infin_2, Right, 1.0

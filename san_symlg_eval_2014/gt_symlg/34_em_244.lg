@@ -1,0 +1,49 @@
+# IUD, ISICAL_2014_F34_E244
+# Objects(23):
+O, =_1, =, 1.0, OR
+O, 3_17, 3, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 1_1, 1, 1.0, OAbove
+O, 3_3, 3, 1.0, ORRRR
+O, 3_10, 3, 1.0, ORRRRRRRRRRR
+O, 3_2, 3, 1.0, ORR
+O, 3_15, 3, 1.0, ORRRRRRRRRRRRRRRR
+O, _1, -, 1.0, O
+O, ._1, ., 1.0, ORRR
+O, 3_9, 3, 1.0, ORRRRRRRRRR
+O, 3_6, 3, 1.0, ORRRRRRR
+O, 3_1, 3, 1.0, OBelow
+O, 0_1, 0, 1.0, OAboveR
+O, 3_12, 3, 1.0, ORRRRRRRRRRRRR
+O, 3_13, 3, 1.0, ORRRRRRRRRRRRRR
+O, 3_4, 3, 1.0, ORRRRR
+O, 3_8, 3, 1.0, ORRRRRRRRR
+O, 3_11, 3, 1.0, ORRRRRRRRRRRR
+O, 3_14, 3, 1.0, ORRRRRRRRRRRRRRR
+O, hellip_1, \ldots, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, 3_16, 3, 1.0, ORRRRRRRRRRRRRRRRR
+O, 3_5, 3, 1.0, ORRRRRR
+O, 3_7, 3, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+EO, ._1, 3_3, Right, 1.0
+EO, 1_1, 0_1, Right, 1.0
+EO, 3_10, 3_11, Right, 1.0
+EO, 3_11, 3_12, Right, 1.0
+EO, 3_12, 3_13, Right, 1.0
+EO, 3_13, 3_14, Right, 1.0
+EO, 3_14, 3_15, Right, 1.0
+EO, 3_15, 3_16, Right, 1.0
+EO, 3_16, 3_17, Right, 1.0
+EO, 3_17, hellip_1, Right, 1.0
+EO, 3_2, ._1, Right, 1.0
+EO, 3_3, 3_4, Right, 1.0
+EO, 3_4, 3_5, Right, 1.0
+EO, 3_5, 3_6, Right, 1.0
+EO, 3_6, 3_7, Right, 1.0
+EO, 3_7, 3_8, Right, 1.0
+EO, 3_8, 3_9, Right, 1.0
+EO, 3_9, 3_10, Right, 1.0
+EO, =_1, 3_2, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 3_1, Below, 1.0
+EO, _1, =_1, Right, 1.0

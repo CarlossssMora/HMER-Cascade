@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F34_E245
+# Objects(3):
+O, r_1, r, 1.0, O
+O, infin_1, \infty, 1.0, ORR
+O, rarr_1, \rightarrow, 1.0, OR
+
+# Relations from SRT:
+EO, r_1, rarr_1, Right, 1.0
+EO, rarr_1, infin_1, Right, 1.0

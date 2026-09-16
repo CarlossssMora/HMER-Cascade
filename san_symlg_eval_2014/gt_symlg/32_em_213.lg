@@ -1,0 +1,22 @@
+# IUD, ISICAL_2014_F32_E213
+# Objects(9):
+O, =_1, =, 1.0, ORRR
+O, b_1, b, 1.0, ORRInside
+O, a_1, a, 1.0, OInside
+O, times_1, \times, 1.0, OR
+O, _1, \sqrt, 1.0, O
+O, _2, \sqrt, 1.0, ORR
+O, a_2, a, 1.0, ORRRRInside
+O, b_2, b, 1.0, ORRRRInsideR
+O, _3, \sqrt, 1.0, ORRRR
+
+# Relations from SRT:
+EO, =_1, _3, Right, 1.0
+EO, _1, a_1, Inside, 1.0
+EO, _1, times_1, Right, 1.0
+EO, _2, =_1, Right, 1.0
+EO, _2, b_1, Inside, 1.0
+EO, _3, a_2, Inside, 1.0
+EO, _3, b_2, Inside, 1.0
+EO, a_2, b_2, Right, 1.0
+EO, times_1, _2, Right, 1.0

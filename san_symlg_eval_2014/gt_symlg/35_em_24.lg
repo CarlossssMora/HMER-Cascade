@@ -1,0 +1,36 @@
+# IUD, ISICAL_2014_F35_E24
+# Objects(16):
+O, )_1, ), 1.0, OInsideRR
+O, Delta_2, \Delta, 1.0, OInsideRRRRRAbove
+O, 2_2, 2, 1.0, OInsideRRRRRRSup
+O, _1, \sqrt, 1.0, O
+O, y_1, y, 1.0, OInsideRRRRRAboveR
+O, Delta_1, \Delta, 1.0, OInsideRAbove
+O, _3, -, 1.0, OInsideRRRRR
+O, (_1, (, 1.0, OInside
+O, x_2, x, 1.0, OInsideRBelow
+O, +_1, +, 1.0, OInsideRRR
+O, (_2, (, 1.0, OInsideRRRR
+O, _2, -, 1.0, OInsideR
+O, 2_1, 2, 1.0, OInsideRRSup
+O, y_2, y, 1.0, OInsideRRRRRBelow
+O, )_2, ), 1.0, OInsideRRRRRR
+O, x_1, x, 1.0, OInsideRAboveR
+
+# Relations from SRT:
+EO, (_1, _2, Right, 1.0
+EO, (_2, _3, Right, 1.0
+EO, )_1, +_1, Right, 1.0
+EO, )_1, 2_1, Sup, 1.0
+EO, )_2, 2_2, Sup, 1.0
+EO, +_1, (_2, Right, 1.0
+EO, Delta_1, x_1, Right, 1.0
+EO, Delta_2, y_1, Right, 1.0
+EO, _1, (_1, Inside, 1.0
+EO, _1, _2, Inside, 1.0
+EO, _2, )_1, Right, 1.0
+EO, _2, Delta_1, Above, 1.0
+EO, _2, x_2, Below, 1.0
+EO, _3, )_2, Right, 1.0
+EO, _3, Delta_2, Above, 1.0
+EO, _3, y_2, Below, 1.0

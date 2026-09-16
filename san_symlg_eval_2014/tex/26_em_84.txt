@@ -1,0 +1,2 @@
+%26_em_84
+$s _ { \infty } = \lim _ { n \rightarrow \infty } \frac { a ( 1 - r ^ { n } ) } { 1 - \infty } = \frac { a } { 1 - p }$

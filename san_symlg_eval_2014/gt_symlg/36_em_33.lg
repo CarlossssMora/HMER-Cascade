@@ -1,0 +1,49 @@
+# IUD, ISICAL_2014_F36_E33
+# Objects(23):
+O, )_1, ), 1.0, ORRR
+O, 1_1, 1, 1.0, ORR
+O, 3_1, 3, 1.0, ORRRRRRRRRRRRRRRSub
+O, j_1, j, 1.0, ORRRRRRRRRRRR
+O, beta_3, \beta, 1.0, ORRRRRRRRRR
+O, 0_1, 0, 1.0, OSub
+O, )_4, ), 1.0, ORRRRRRRRRRRRRRRRRR
+O, (_1, (, 1.0, OR
+O, +_1, +, 1.0, ORRRR
+O, (_4, (, 1.0, ORRRRRRRRRRRRRRRR
+O, 1_2, 1, 1.0, ORRRRRSub
+O, beta_1, \beta, 1.0, O
+O, (_3, (, 1.0, ORRRRRRRRRRR
+O, beta_2, \beta, 1.0, ORRRRR
+O, +_2, +, 1.0, ORRRRRRRRR
+O, i_1, i, 1.0, ORRRRRRR
+O, )_3, ), 1.0, ORRRRRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRR
+O, 2_1, 2, 1.0, ORRRRRRRRRRSub
+O, +_3, +, 1.0, ORRRRRRRRRRRRRR
+O, k_1, k, 1.0, ORRRRRRRRRRRRRRRRR
+O, beta_4, \beta, 1.0, ORRRRRRRRRRRRRRR
+O, )_2, ), 1.0, ORRRRRRRR
+
+# Relations from SRT:
+EO, (_1, 1_1, Right, 1.0
+EO, (_2, i_1, Right, 1.0
+EO, (_3, j_1, Right, 1.0
+EO, (_4, k_1, Right, 1.0
+EO, )_1, +_1, Right, 1.0
+EO, )_2, +_2, Right, 1.0
+EO, )_3, +_3, Right, 1.0
+EO, +_1, beta_2, Right, 1.0
+EO, +_2, beta_3, Right, 1.0
+EO, +_3, beta_4, Right, 1.0
+EO, 1_1, )_1, Right, 1.0
+EO, beta_1, (_1, Right, 1.0
+EO, beta_1, 0_1, Sub, 1.0
+EO, beta_2, (_2, Right, 1.0
+EO, beta_2, 1_2, Sub, 1.0
+EO, beta_3, (_3, Right, 1.0
+EO, beta_3, 2_1, Sub, 1.0
+EO, beta_4, (_4, Right, 1.0
+EO, beta_4, 3_1, Sub, 1.0
+EO, i_1, )_2, Right, 1.0
+EO, j_1, )_3, Right, 1.0
+EO, k_1, )_4, Right, 1.0

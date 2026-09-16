@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_252
+# Objects(6):
+O, 45:, \alpha, 1.0, ORRRRR
+O, 41:42:43:44:, \sin, 1.0, ORRRR
+O, 37:40:, i, 1.0, ORRR
+O, 30:32:33:, \cos, 1.0, O
+O, 35:36:, +, 1.0, ORR
+O, 34:, \alpha, 1.0, OR
+
+# Relations from SRT:
+EO, 30:32:33:, 34:, Right, 1.0
+EO, 34:, 35:36:, Right, 1.0
+EO, 35:36:, 37:40:, Right, 1.0
+EO, 37:40:, 41:42:43:44:, Right, 1.0
+EO, 41:42:43:44:, 45:, Right, 1.0

@@ -1,0 +1,2 @@
+%RIT_2014_170
+$\sin x - \sin y = 2 \cos ( \frac { x + y } { 2 } ) \sin ( \frac { x - y } { 2 } )$

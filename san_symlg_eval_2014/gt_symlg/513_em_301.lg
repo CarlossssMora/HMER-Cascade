@@ -1,0 +1,21 @@
+# IUD, IVC_2014_F513_E301
+# Objects(9):
+O, =_1, =, 1.0, ORRRRR
+O, B_2, B, 1.0, ORRRRRRRR
+O, )_1, ), 1.0, ORRRR
+O, -_2, -, 1.0, ORRRRRR
+O, -_1, -, 1.0, ORR
+O, sin_2, \sin, 1.0, ORRRRRRR
+O, sin_1, \sin, 1.0, O
+O, (_1, (, 1.0, OR
+O, B_1, B, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, -_1, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, -_1, B_1, Right, 1.0
+EO, -_2, sin_2, Right, 1.0
+EO, =_1, -_2, Right, 1.0
+EO, B_1, )_1, Right, 1.0
+EO, sin_1, (_1, Right, 1.0
+EO, sin_2, B_2, Right, 1.0

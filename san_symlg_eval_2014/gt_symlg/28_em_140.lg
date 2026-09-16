@@ -1,0 +1,49 @@
+# IUD, ISICAL_2014_F28_E140
+# Objects(23):
+O, )_1, ), 1.0, ORRRR
+O, 2_3, 2, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, 5_1, 5, 1.0, ORRR
+O, 2_2, 2, 1.0, ORRRRRRRRRRR
+O, 3_2, 3, 1.0, ORRRRRR
+O, 5_3, 5, 1.0, ORRRRRRRRRRRRRRRR
+O, -_3, -, 1.0, ORRRRRRRRRR
+O, 3_1, 3, 1.0, O
+O, )_4, ), 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, (_1, (, 1.0, OR
+O, +_1, +, 1.0, ORRRRR
+O, (_4, (, 1.0, ORRRRRRRRRRRRRRRRRR
+O, -_2, -, 1.0, ORRRRRRRR
+O, -_1, -, 1.0, ORR
+O, 5_2, 5, 1.0, ORRRRRRRRR
+O, (_3, (, 1.0, ORRRRRRRRRRRRRR
+O, 2_4, 2, 1.0, ORRRRRRRRRRRRRRRRRRRRSup
+O, (_2, (, 1.0, ORRRRRRR
+O, )_3, ), 1.0, ORRRRRRRRRRRRRRRRR
+O, 2_1, 2, 1.0, ORRRRSup
+O, -_4, -, 1.0, ORRRRRRRRRRRRR
+O, -_5, -, 1.0, ORRRRRRRRRRRRRRR
+O, )_2, ), 1.0, ORRRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, -_1, Right, 1.0
+EO, (_2, -_2, Right, 1.0
+EO, (_3, -_5, Right, 1.0
+EO, (_4, 2_3, Right, 1.0
+EO, )_1, +_1, Right, 1.0
+EO, )_1, 2_1, Sup, 1.0
+EO, )_2, -_4, Right, 1.0
+EO, )_3, (_4, Right, 1.0
+EO, )_4, 2_4, Sup, 1.0
+EO, +_1, 3_2, Right, 1.0
+EO, -_1, 5_1, Right, 1.0
+EO, -_2, 5_2, Right, 1.0
+EO, -_3, 2_2, Right, 1.0
+EO, -_4, (_3, Right, 1.0
+EO, -_5, 5_3, Right, 1.0
+EO, 2_2, )_2, Right, 1.0
+EO, 2_3, )_4, Right, 1.0
+EO, 3_1, (_1, Right, 1.0
+EO, 3_2, (_2, Right, 1.0
+EO, 5_1, )_1, Right, 1.0
+EO, 5_2, -_3, Right, 1.0
+EO, 5_3, )_3, Right, 1.0

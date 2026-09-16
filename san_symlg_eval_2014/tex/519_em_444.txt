@@ -1,0 +1,2 @@
+%519_em_444
+$x ^ { \frac { a } { b } } = \sqrt { x ^ { a } } = \sqrt { x } ^ { a }$

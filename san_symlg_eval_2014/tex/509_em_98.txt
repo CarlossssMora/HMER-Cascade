@@ -1,0 +1,2 @@
+%509_em_98
+$\sigma _ { p } = \sqrt { \sigma ^ { 2 } }$

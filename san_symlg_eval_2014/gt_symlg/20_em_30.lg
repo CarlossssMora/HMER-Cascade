@@ -1,0 +1,7 @@
+# IUD, ISICAL_2014_F20_E30
+# Objects(2):
+O, S_1, S, 1.0, OSub
+O, I_1, I, 1.0, O
+
+# Relations from SRT:
+EO, I_1, S_1, Sub, 1.0

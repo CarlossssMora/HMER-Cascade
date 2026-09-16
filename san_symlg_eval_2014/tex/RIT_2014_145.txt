@@ -1,0 +1,2 @@
+%RIT_2014_145
+$\int \frac { d y } { d x } d x = \int ( x ^ { 2 } + 7 ) d x$

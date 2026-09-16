@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_140
+# Objects(3):
+O, 17:, n, 1.0, ORSub
+O, 14:, \sum, 1.0, O
+O, 16:, a, 1.0, OR
+
+# Relations from SRT:
+EO, 14:, 16:, Right, 1.0
+EO, 16:, 17:, Sub, 1.0

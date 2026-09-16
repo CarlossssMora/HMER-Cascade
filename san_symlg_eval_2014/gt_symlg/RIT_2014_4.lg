@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_4
+# Objects(6):
+O, 70:, -, 1.0, ORR
+O, 75:, x, 1.0, ORRRRR
+O, 72:73:74:, \cos, 1.0, ORRRR
+O, 65:66:67:68:, \sin, 1.0, O
+O, 71:, x, 1.0, ORRR
+O, 69:, x, 1.0, OR
+
+# Relations from SRT:
+EO, 65:66:67:68:, 69:, Right, 1.0
+EO, 69:, 70:, Right, 1.0
+EO, 70:, 71:, Right, 1.0
+EO, 71:, 72:73:74:, Right, 1.0
+EO, 72:73:74:, 75:, Right, 1.0

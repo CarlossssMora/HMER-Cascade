@@ -1,0 +1,2 @@
+%506_em_63
+$\sqrt { x } \sqrt { y } = \sqrt { x y }$

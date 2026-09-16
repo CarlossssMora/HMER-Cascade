@@ -1,0 +1,18 @@
+# IUD, IVC_2014_F504_E41
+# Objects(7):
+O, _1, \sqrt, 1.0, ORRRR
+O, =_1, =, 1.0, ORR
+O, 1_1, 1, 1.0, ORRRRInsideR
+O, -_3, -, 1.0, ORRRRInside
+O, j_1, j, 1.0, OR
+O, -_2, -, 1.0, ORRR
+O, -_1, -, 1.0, O
+
+# Relations from SRT:
+EO, -_1, j_1, Right, 1.0
+EO, -_2, _1, Right, 1.0
+EO, -_3, 1_1, Right, 1.0
+EO, =_1, -_2, Right, 1.0
+EO, _1, -_3, Inside, 1.0
+EO, _1, 1_1, Inside, 1.0
+EO, j_1, =_1, Right, 1.0

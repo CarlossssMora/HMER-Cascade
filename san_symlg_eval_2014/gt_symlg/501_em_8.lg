@@ -1,0 +1,49 @@
+# IUD, IVC_2014_F501_E8
+# Objects(23):
+O, =_1, =, 1.0, ORRRR
+O, )_1, ), 1.0, ORRRRRRRRRRRR
+O, 1_1, 1, 1.0, ORRRRRAbove
+O, cos_1, \cos, 1.0, ORRRRRRR
+O, sin_2, \sin, 1.0, ORR
+O, sin_1, \sin, 1.0, O
+O, cos_2, \cos, 1.0, ORRRRRRRRRRRRRR
+O, alpha_1, \alpha, 1.0, OR
+O, _1, -, 1.0, ORRRRR
+O, beta_3, \beta, 1.0, ORRRRRRRRRRRRRRRRRR
+O, alpha_2, \alpha, 1.0, ORRRRRRRRR
+O, ]_1, ], 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, (_1, (, 1.0, ORRRRRRRR
+O, +_1, +, 1.0, ORRRRRRRRRRRRRRRRR
+O, -_2, -, 1.0, ORRRRRRRRRRRRR
+O, beta_1, \beta, 1.0, ORRR
+O, -_1, -, 1.0, ORRRRRRRRRR
+O, beta_2, \beta, 1.0, ORRRRRRRRRRR
+O, alpha_3, \alpha, 1.0, ORRRRRRRRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRRRRRRRRRR
+O, 2_1, 2, 1.0, ORRRRRBelow
+O, [_1, [, 1.0, ORRRRRR
+O, )_2, ), 1.0, ORRRRRRRRRRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, alpha_2, Right, 1.0
+EO, (_2, alpha_3, Right, 1.0
+EO, )_1, -_2, Right, 1.0
+EO, )_2, ]_1, Right, 1.0
+EO, +_1, beta_3, Right, 1.0
+EO, -_1, beta_2, Right, 1.0
+EO, -_2, cos_2, Right, 1.0
+EO, =_1, _1, Right, 1.0
+EO, [_1, cos_1, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 2_1, Below, 1.0
+EO, _1, [_1, Right, 1.0
+EO, alpha_1, sin_2, Right, 1.0
+EO, alpha_2, -_1, Right, 1.0
+EO, alpha_3, +_1, Right, 1.0
+EO, beta_1, =_1, Right, 1.0
+EO, beta_2, )_1, Right, 1.0
+EO, beta_3, )_2, Right, 1.0
+EO, cos_1, (_1, Right, 1.0
+EO, cos_2, (_2, Right, 1.0
+EO, sin_1, alpha_1, Right, 1.0
+EO, sin_2, beta_1, Right, 1.0

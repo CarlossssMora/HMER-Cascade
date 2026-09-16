@@ -1,0 +1,33 @@
+# IUD, ISICAL_2014_F29_E174
+# Objects(15):
+O, <_1, \lt, 1.0, ORR
+O, |_2, |, 1.0, ORAboveRRR
+O, |_4, |, 1.0, ORBelowRR
+O, 1_1, 1, 1.0, ORAboveRSubRR
+O, n_2, n, 1.0, ORBelowRSub
+O, +_1, +, 1.0, ORAboveRSubR
+O, 1_2, 1, 1.0, ORRR
+O, a_1, a, 1.0, ORAboveR
+O, |_3, |, 1.0, ORBelow
+O, n_1, n, 1.0, ORAboveRSub
+O, _1, -, 1.0, OR
+O, a_2, a, 1.0, ORBelowR
+O, lim_1, \lim, 1.0, O
+O, |_1, |, 1.0, ORAbove
+O, x_1, x, 1.0, ORAboveRR
+
+# Relations from SRT:
+EO, +_1, 1_1, Right, 1.0
+EO, <_1, 1_2, Right, 1.0
+EO, _1, <_1, Right, 1.0
+EO, _1, |_1, Above, 1.0
+EO, _1, |_3, Below, 1.0
+EO, a_1, n_1, Sub, 1.0
+EO, a_1, x_1, Right, 1.0
+EO, a_2, n_2, Sub, 1.0
+EO, a_2, |_4, Right, 1.0
+EO, lim_1, _1, Right, 1.0
+EO, n_1, +_1, Right, 1.0
+EO, x_1, |_2, Right, 1.0
+EO, |_1, a_1, Right, 1.0
+EO, |_3, a_2, Right, 1.0

@@ -1,0 +1,31 @@
+# IUD, 2014_RIT_CROHME_101
+# Objects(14):
+O, 14:15:, +, 1.0, ORRRRInsideBelowR
+O, 10:, \sqrt, 1.0, ORRRR
+O, 13:, 1, 1.0, ORRRRInsideBelow
+O, 6:, 2, 1.0, OBelow
+O, 8:, 1, 1.0, ORR
+O, 17:, 0, 1.0, ORRRRInsideBelowRRSub
+O, 11:, \gamma, 1.0, ORRRRInsideAbove
+O, 12:, -, 1.0, ORRRRInside
+O, 9:, -, 1.0, ORRR
+O, 7:, (, 1.0, OR
+O, 4:, 1, 1.0, OAbove
+O, 5:, -, 1.0, O
+O, 18:, ), 1.0, ORRRRR
+O, 16:, \gamma, 1.0, ORRRRInsideBelowRR
+
+# Relations from SRT:
+EO, 10:, 12:, Inside, 1.0
+EO, 10:, 18:, Right, 1.0
+EO, 12:, 11:, Above, 1.0
+EO, 12:, 13:, Below, 1.0
+EO, 13:, 14:15:, Right, 1.0
+EO, 14:15:, 16:, Right, 1.0
+EO, 16:, 17:, Sub, 1.0
+EO, 5:, 4:, Above, 1.0
+EO, 5:, 6:, Below, 1.0
+EO, 5:, 7:, Right, 1.0
+EO, 7:, 8:, Right, 1.0
+EO, 8:, 9:, Right, 1.0
+EO, 9:, 10:, Right, 1.0

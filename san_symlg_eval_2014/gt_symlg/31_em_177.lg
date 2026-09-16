@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F31_E177
+# Objects(3):
+O, alpha_1, \alpha, 1.0, O
+O, 1_1, 1, 1.0, OSupR
+O, -_1, -, 1.0, OSup
+
+# Relations from SRT:
+EO, -_1, 1_1, Right, 1.0
+EO, alpha_1, -_1, Sup, 1.0

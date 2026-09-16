@@ -1,0 +1,53 @@
+# IUD, IVC_2014_F519_E439
+# Objects(25):
+O, a_3, a, 1.0, ORRRRRRRRRR
+O, j_4, j, 1.0, ORRRRRRRRRRRRSubRR
+O, i_2, i, 1.0, ORRRRRRSub
+O, )_1, ), 1.0, ORRRRRRR
+O, COMMA_4, COMMA, 1.0, ORRRRRRRRRRRRSubR
+O, COMMA_3, COMMA, 1.0, ORRRRRRRRRRSubR
+O, a_1, a, 1.0, ORRRR
+O, i_3, i, 1.0, ORRRRRRRRRRSub
+O, j_1, j, 1.0, ORRRRSubRR
+O, a_2, a, 1.0, ORRRRRR
+O, j_3, j, 1.0, ORRRRRRRRRRSubRR
+O, (_1, (, 1.0, ORR
+O, COMMA_1, COMMA, 1.0, ORRRRSubR
+O, +_1, +, 1.0, ORRRRR
+O, -_1, -, 1.0, O
+O, k_2, k, 1.0, ORRR
+O, j_2, j, 1.0, ORRRRRRSubRR
+O, +_2, +, 1.0, ORRRRRRRR
+O, COMMA_2, COMMA, 1.0, ORRRRRRSubR
+O, i_4, i, 1.0, ORRRRRRRRRRRRSub
+O, a_4, a, 1.0, ORRRRRRRRRRRR
+O, i_1, i, 1.0, ORRRRSub
+O, k_3, k, 1.0, ORRRRRRRRR
+O, +_3, +, 1.0, ORRRRRRRRRRR
+O, k_1, k, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, k_2, Right, 1.0
+EO, )_1, +_2, Right, 1.0
+EO, +_1, a_2, Right, 1.0
+EO, +_2, k_3, Right, 1.0
+EO, +_3, a_4, Right, 1.0
+EO, -_1, k_1, Right, 1.0
+EO, COMMA_1, j_1, Right, 1.0
+EO, COMMA_2, j_2, Right, 1.0
+EO, COMMA_3, j_3, Right, 1.0
+EO, COMMA_4, j_4, Right, 1.0
+EO, a_1, +_1, Right, 1.0
+EO, a_1, i_1, Sub, 1.0
+EO, a_2, )_1, Right, 1.0
+EO, a_2, i_2, Sub, 1.0
+EO, a_3, +_3, Right, 1.0
+EO, a_3, i_3, Sub, 1.0
+EO, a_4, i_4, Sub, 1.0
+EO, i_1, COMMA_1, Right, 1.0
+EO, i_2, COMMA_2, Right, 1.0
+EO, i_3, COMMA_3, Right, 1.0
+EO, i_4, COMMA_4, Right, 1.0
+EO, k_1, (_1, Right, 1.0
+EO, k_2, a_1, Right, 1.0
+EO, k_3, a_3, Right, 1.0

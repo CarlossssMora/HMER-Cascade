@@ -1,0 +1,2 @@
+%502_em_6
+$u ( x , y ) = B \sin ( n \pi x ) ( e ^ { n \pi y } - e ^ { - n \pi y } )$

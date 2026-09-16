@@ -1,0 +1,11 @@
+# IUD, ISICAL_2014_F28_E134
+# Objects(4):
+O, _1, -, 1.0, O
+O, n_2, n, 1.0, OBelow
+O, A_1, A, 1.0, OAboveSub
+O, n_1, n, 1.0, OAbove
+
+# Relations from SRT:
+EO, _1, n_1, Above, 1.0
+EO, _1, n_2, Below, 1.0
+EO, n_1, A_1, Sub, 1.0

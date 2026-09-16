@@ -1,0 +1,35 @@
+# IUD, IVC_2014_F519_E441
+# Objects(16):
+O, =_1, =, 1.0, OR
+O, )_1, ), 1.0, OBelowRRR
+O, 1_1, 1, 1.0, OAbove
+O, cos_1, \cos, 1.0, ORRAbove
+O, tan_1, \tan, 1.0, OBelow
+O, sin_1, \sin, 1.0, ORRBelow
+O, _1, -, 1.0, O
+O, (_1, (, 1.0, OBelowR
+O, theta_1, \theta, 1.0, OBelowRR
+O, (_3, (, 1.0, ORRBelowR
+O, (_2, (, 1.0, ORRAboveR
+O, )_3, ), 1.0, ORRBelowRRR
+O, _2, -, 1.0, ORR
+O, theta_2, \theta, 1.0, ORRAboveRR
+O, theta_3, \theta, 1.0, ORRBelowRR
+O, )_2, ), 1.0, ORRAboveRRR
+
+# Relations from SRT:
+EO, (_1, theta_1, Right, 1.0
+EO, (_2, theta_2, Right, 1.0
+EO, (_3, theta_3, Right, 1.0
+EO, =_1, _2, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _1, tan_1, Below, 1.0
+EO, _2, cos_1, Above, 1.0
+EO, _2, sin_1, Below, 1.0
+EO, cos_1, (_2, Right, 1.0
+EO, sin_1, (_3, Right, 1.0
+EO, tan_1, (_1, Right, 1.0
+EO, theta_1, )_1, Right, 1.0
+EO, theta_2, )_2, Right, 1.0
+EO, theta_3, )_3, Right, 1.0

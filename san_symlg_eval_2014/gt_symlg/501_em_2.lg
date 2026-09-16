@@ -1,0 +1,19 @@
+# IUD, IVC_2014_F501_E2
+# Objects(8):
+O, v_1, v, 1.0, ORR
+O, i_2, i, 1.0, ORRSub
+O, COMMA_1, COMMA, 1.0, OR
+O, m_1, m, 1.0, O
+O, i_3, i, 1.0, ORRRRSub
+O, f_1, f, 1.0, ORRRR
+O, COMMA_2, COMMA, 1.0, ORRR
+O, i_1, i, 1.0, OSub
+
+# Relations from SRT:
+EO, COMMA_1, v_1, Right, 1.0
+EO, COMMA_2, f_1, Right, 1.0
+EO, f_1, i_3, Sub, 1.0
+EO, m_1, COMMA_1, Right, 1.0
+EO, m_1, i_1, Sub, 1.0
+EO, v_1, COMMA_2, Right, 1.0
+EO, v_1, i_2, Sub, 1.0

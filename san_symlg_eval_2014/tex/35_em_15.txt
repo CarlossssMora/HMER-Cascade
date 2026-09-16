@@ -1,0 +1,2 @@
+%35_em_15
+$1 \times 1 + 1 \times 2 + 2 \times 2$

@@ -1,0 +1,2 @@
+%RIT_2014_211
+$\lim _ { n \rightarrow \infty } \frac { 2 } { n } \sum _ { i = 1 } ^ { n } ( \frac { 2 } { n } ) ^ { 2 }$

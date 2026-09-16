@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_231
+# Objects(3):
+O, 37:, 3, 1.0, O
+O, 39:40:, 7, 1.0, ORInside
+O, 38:, \sqrt, 1.0, OR
+
+# Relations from SRT:
+EO, 37:, 38:, Right, 1.0
+EO, 38:, 39:40:, Inside, 1.0

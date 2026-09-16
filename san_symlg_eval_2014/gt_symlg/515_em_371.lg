@@ -1,0 +1,15 @@
+# IUD, IVC_2014_F515_E371
+# Objects(6):
+O, _1, -, 1.0, O
+O, 1_1, 1, 1.0, OAbove
+O, E_1, E, 1.0, OBelowRR
+O, 0_1, 0, 1.0, OBelowRRSub
+O, pi_1, \pi, 1.0, OBelowR
+O, 4_1, 4, 1.0, OBelow
+
+# Relations from SRT:
+EO, 4_1, pi_1, Right, 1.0
+EO, E_1, 0_1, Sub, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 4_1, Below, 1.0
+EO, pi_1, E_1, Right, 1.0

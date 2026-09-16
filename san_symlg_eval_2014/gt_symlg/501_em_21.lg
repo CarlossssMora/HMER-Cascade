@@ -1,0 +1,9 @@
+# IUD, IVC_2014_F501_E21
+# Objects(3):
+O, theta_1, \theta, 1.0, O
+O, 0_1, 0, 1.0, ORR
+O, \rightarrow_1, \rightarrow, 1.0, OR
+
+# Relations from SRT:
+EO, \rightarrow_1, 0_1, Right, 1.0
+EO, theta_1, \rightarrow_1, Right, 1.0

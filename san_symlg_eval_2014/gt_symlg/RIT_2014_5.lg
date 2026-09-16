@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_5
+# Objects(4):
+O, 0:, m, 1.0, OAbove
+O, 3:, m, 1.0, OBelowR
+O, 1:, -, 1.0, O
+O, 2:, m, 1.0, OBelow
+
+# Relations from SRT:
+EO, 1:, 0:, Above, 1.0
+EO, 1:, 2:, Below, 1.0
+EO, 2:, 3:, Right, 1.0

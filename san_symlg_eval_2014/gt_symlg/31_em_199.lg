@@ -1,0 +1,21 @@
+# IUD, ISICAL_2014_F31_E199
+# Objects(9):
+O, =_1, =, 1.0, ORRRRR
+O, +_1, +, 1.0, ORR
+O, b_1, b, 1.0, ORRRR
+O, log_2, \log, 1.0, ORRR
+O, a_1, a, 1.0, OR
+O, log_3, \log, 1.0, ORRRRRR
+O, a_2, a, 1.0, ORRRRRRR
+O, b_2, b, 1.0, ORRRRRRRR
+O, log_1, \log, 1.0, O
+
+# Relations from SRT:
+EO, +_1, log_2, Right, 1.0
+EO, =_1, log_3, Right, 1.0
+EO, a_1, +_1, Right, 1.0
+EO, a_2, b_2, Right, 1.0
+EO, b_1, =_1, Right, 1.0
+EO, log_1, a_1, Right, 1.0
+EO, log_2, b_1, Right, 1.0
+EO, log_3, a_2, Right, 1.0

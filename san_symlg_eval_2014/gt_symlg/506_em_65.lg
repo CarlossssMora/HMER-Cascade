@@ -1,0 +1,25 @@
+# IUD, IVC_2014_F506_E65
+# Objects(11):
+O, pi_3, \pi, 1.0, ORRRRRRRRRR
+O, =_1, =, 1.0, ORRRRRRRR
+O, +_1, +, 1.0, OR
+O, pi_2, \pi, 1.0, ORRRRRR
+O, pi_1, \pi, 1.0, ORR
+O, z_1, z, 1.0, ORRRRRRR
+O, +_2, +, 1.0, ORRRR
+O, 6_1, 6, 1.0, ORRRRR
+O, y_1, y, 1.0, ORRR
+O, 3_1, 3, 1.0, ORRRRRRRRR
+O, x_1, x, 1.0, O
+
+# Relations from SRT:
+EO, +_1, pi_1, Right, 1.0
+EO, +_2, 6_1, Right, 1.0
+EO, 3_1, pi_3, Right, 1.0
+EO, 6_1, pi_2, Right, 1.0
+EO, =_1, 3_1, Right, 1.0
+EO, pi_1, y_1, Right, 1.0
+EO, pi_2, z_1, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, y_1, +_2, Right, 1.0
+EO, z_1, =_1, Right, 1.0

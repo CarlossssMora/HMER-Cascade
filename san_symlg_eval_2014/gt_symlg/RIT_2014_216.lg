@@ -1,0 +1,29 @@
+# IUD, 2014_RIT_CROHME_216
+# Objects(13):
+O, 41:42:, =, 1.0, ORRRRR
+O, 45:, (, 1.0, ORRRRRRR
+O, 34:35:, x, 1.0, OBelowRR
+O, 27:28:29:30:, \lim, 1.0, O
+O, 36:37:, f, 1.0, OR
+O, 31:, y, 1.0, OBelow
+O, 40:, ), 1.0, ORRRR
+O, 43:44:, f, 1.0, ORRRRRR
+O, 46:47:, x, 1.0, ORRRRRRRR
+O, 39:, y, 1.0, ORRR
+O, 38:, (, 1.0, ORR
+O, 48:, ), 1.0, ORRRRRRRRR
+O, 32:33:, \rightarrow, 1.0, OBelowR
+
+# Relations from SRT:
+EO, 27:28:29:30:, 31:, B, 1.0
+EO, 27:28:29:30:, 36:37:, Right, 1.0
+EO, 31:, 32:33:, Right, 1.0
+EO, 32:33:, 34:35:, Right, 1.0
+EO, 36:37:, 38:, Right, 1.0
+EO, 38:, 39:, Right, 1.0
+EO, 39:, 40:, Right, 1.0
+EO, 40:, 41:42:, Right, 1.0
+EO, 41:42:, 43:44:, Right, 1.0
+EO, 43:44:, 45:, Right, 1.0
+EO, 45:, 46:47:, Right, 1.0
+EO, 46:47:, 48:, Right, 1.0

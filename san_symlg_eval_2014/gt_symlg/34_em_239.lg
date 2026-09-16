@@ -1,0 +1,19 @@
+# IUD, ISICAL_2014_F34_E239
+# Objects(8):
+O, /_1, /, 1.0, ORRRRRR
+O, 1_1, 1, 1.0, ORRRRR
+O, Delta_2, \Delta, 1.0, ORR
+O, ge_1, \geq, 1.0, ORRRR
+O, Delta_1, \Delta, 1.0, O
+O, 2_1, 2, 1.0, ORRRRRRR
+O, k_1, k, 1.0, ORRR
+O, x_1, x, 1.0, OR
+
+# Relations from SRT:
+EO, /_1, 2_1, Right, 1.0
+EO, 1_1, /_1, Right, 1.0
+EO, Delta_1, x_1, Right, 1.0
+EO, Delta_2, k_1, Right, 1.0
+EO, ge_1, 1_1, Right, 1.0
+EO, k_1, ge_1, Right, 1.0
+EO, x_1, Delta_2, Right, 1.0

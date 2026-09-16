@@ -1,0 +1,29 @@
+# IUD, IVC_2014_F502_E8
+# Objects(13):
+O, =_1, =, 1.0, ORRRR
+O, w_1, w, 1.0, ORSupR
+O, -_2, -, 1.0, ORSup
+O, -_1, -, 1.0, OSub
+O, pi_1, \pi, 1.0, ORRRRRInside
+O, \infty_1, \infty, 1.0, OSubR
+O, int_1, \int, 1.0, O
+O, w_2, w, 1.0, ORRR
+O, _1, \sqrt, 1.0, ORRRRR
+O, d_1, d, 1.0, ORR
+O, \infty_2, \infty, 1.0, OSup
+O, 2_1, 2, 1.0, ORSupRSup
+O, e_1, e, 1.0, OR
+
+# Relations from SRT:
+EO, -_1, \infty_1, Right, 1.0
+EO, -_2, w_1, Right, 1.0
+EO, =_1, _1, Right, 1.0
+EO, _1, pi_1, Inside, 1.0
+EO, d_1, w_2, Right, 1.0
+EO, e_1, -_2, Sup, 1.0
+EO, e_1, d_1, Right, 1.0
+EO, int_1, -_1, Sub, 1.0
+EO, int_1, \infty_2, Sup, 1.0
+EO, int_1, e_1, Right, 1.0
+EO, w_1, 2_1, Sup, 1.0
+EO, w_2, =_1, Right, 1.0

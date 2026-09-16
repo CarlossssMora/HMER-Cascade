@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_212
+# Objects(6):
+O, 75:76:, \leq, 1.0, OR
+O, 72:73:, t, 1.0, O
+O, 81:, b, 1.0, ORRRR
+O, 77:78:, t, 1.0, ORR
+O, 74:, 0, 1.0, OSub
+O, 79:80:, \leq, 1.0, ORRR
+
+# Relations from SRT:
+EO, 72:73:, 74:, Sub, 1.0
+EO, 72:73:, 75:76:, Right, 1.0
+EO, 75:76:, 77:78:, Right, 1.0
+EO, 77:78:, 79:80:, Right, 1.0
+EO, 79:80:, 81:, Right, 1.0

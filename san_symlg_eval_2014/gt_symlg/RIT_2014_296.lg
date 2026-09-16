@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_296
+# Objects(4):
+O, 86:, \alpha, 1.0, ORRR
+O, 85:, e, 1.0, ORR
+O, 82:, \theta, 1.0, O
+O, 83:84:, +, 1.0, OR
+
+# Relations from SRT:
+EO, 82:, 83:84:, Right, 1.0
+EO, 83:84:, 85:, Right, 1.0
+EO, 85:, 86:, Right, 1.0

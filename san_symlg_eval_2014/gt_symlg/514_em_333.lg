@@ -1,0 +1,11 @@
+# IUD, IVC_2014_F514_E333
+# Objects(4):
+O, 1_1, 1, 1.0, OSubRR
+O, +_1, +, 1.0, OSubR
+O, beta_1, \beta, 1.0, O
+O, n_1, n, 1.0, OSub
+
+# Relations from SRT:
+EO, +_1, 1_1, Right, 1.0
+EO, beta_1, n_1, Sub, 1.0
+EO, n_1, +_1, Right, 1.0

@@ -1,0 +1,5 @@
+# SAN
+python inference.py --config 14.yaml --image_path data/14_test_images --label_path data/test_caption.txt
+
+# PosFormer
+python scripts/test/test.py 0 2014

@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F515_E361
+# Objects(18):
+O, 1_1, 1, 1.0, ORRRRR
+O, =_1, =, 1.0, ORRRR
+O, _5, \sqrt, 1.0, ORRRRRRRRRRRR
+O, 2_2, 2, 1.0, ORRRRRRRR
+O, _1, \sqrt, 1.0, O
+O, 3_1, 3, 1.0, ORRRRRRRRRRR
+O, 7_4, 7, 1.0, ORRRRRRRRRInside
+O, 7_1, 7, 1.0, OInside
+O, 7_2, 7, 1.0, ORRRInside
+O, _3, \sqrt, 1.0, ORRRRRR
+O, +_1, +, 1.0, OR
+O, =_2, =, 1.0, ORRRRRRRRRR
+O, 7_3, 7, 1.0, ORRRRRRInside
+O, _4, \sqrt, 1.0, ORRRRRRRRR
+O, +_2, +, 1.0, ORRRRRRR
+O, _2, \sqrt, 1.0, ORRR
+O, 2_1, 2, 1.0, ORR
+O, 7_5, 7, 1.0, ORRRRRRRRRRRRInside
+
+# Relations from SRT:
+EO, +_1, 2_1, Right, 1.0
+EO, +_2, 2_2, Right, 1.0
+EO, 1_1, _3, Right, 1.0
+EO, 2_1, _2, Right, 1.0
+EO, 2_2, _4, Right, 1.0
+EO, 3_1, _5, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, =_2, 3_1, Right, 1.0
+EO, _1, +_1, Right, 1.0
+EO, _1, 7_1, Inside, 1.0
+EO, _2, 7_2, Inside, 1.0
+EO, _2, =_1, Right, 1.0
+EO, _3, +_2, Right, 1.0
+EO, _3, 7_3, Inside, 1.0
+EO, _4, 7_4, Inside, 1.0
+EO, _4, =_2, Right, 1.0
+EO, _5, 7_5, Inside, 1.0

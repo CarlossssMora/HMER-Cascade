@@ -1,0 +1,40 @@
+
+========================================================================
+RESUMEN FINAL
+========================================================================
+Muestras evaluadas                    : 985
+Ground truths iguales                : 900 (91.37%)
+Ground truths diferentes             : 85 (8.63%)
+
+EVALUACION USANDO GROUND TRUTH DE SAN
+------------------------------------------------------------------------
+SAN        : 0.5665 (558/985)
+PosFormer  : 0.5797 (571/985)
+Oracle     : 0.6640 (654/985)
+  Ambos correctos : 475
+  Solo SAN        : 83
+  Solo PosFormer  : 96
+  Ambos fallan    : 331
+
+EVALUACION USANDO GROUND TRUTH DE POSFORMER
+------------------------------------------------------------------------
+SAN        : 0.5269 (519/985)
+PosFormer  : 0.6274 (618/985)
+Oracle     : 0.6711 (661/985)
+  Ambos correctos : 476
+  Solo SAN        : 43
+  Solo PosFormer  : 142
+  Ambos fallan    : 324
+
+CAMBIO DE CORRECCION AL CAMBIAR EL GROUND TRUTH
+------------------------------------------------------------------------
+SAN gana aciertos                  : 1
+SAN pierde aciertos                : 40
+PosFormer gana aciertos            : 47
+PosFormer pierde aciertos          : 0
+
+ARCHIVOS GENERADOS
+------------------------------------------------------------------------
+Todas las muestras : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\ground_truth_cross_evaluation_2014.csv
+Solo GT diferentes : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\ground_truth_differences_2014.csv
+Resumen             : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\ground_truth_analysis_2014_summary.txt

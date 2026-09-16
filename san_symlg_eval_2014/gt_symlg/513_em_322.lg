@@ -1,0 +1,15 @@
+# IUD, IVC_2014_F513_E322
+# Objects(6):
+O, x_2, x, 1.0, ORR
+O, L_2, L, 1.0, OSubR
+O, \leq_1, \leq, 1.0, OR
+O, L_1, L, 1.0, OSub
+O, L_3, L, 1.0, ORRSub
+O, x_1, x, 1.0, O
+
+# Relations from SRT:
+EO, L_1, L_2, Right, 1.0
+EO, \leq_1, x_2, Right, 1.0
+EO, x_1, L_1, Sub, 1.0
+EO, x_1, \leq_1, Right, 1.0
+EO, x_2, L_3, Sub, 1.0

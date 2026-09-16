@@ -1,0 +1,19 @@
+# IUD, ISICAL_2014_F18_E8
+# Objects(8):
+O, le_1, \leq, 1.0, OR
+O, x_2, x, 1.0, ORR
+O, L_1, L, 1.0, OSub
+O, L_2, L, 1.0, OSubR
+O, L_4, L, 1.0, ORRSub
+O, L_5, L, 1.0, ORRSubR
+O, x_1, x, 1.0, O
+O, L_3, L, 1.0, OSubRR
+
+# Relations from SRT:
+EO, L_1, L_2, Right, 1.0
+EO, L_2, L_3, Right, 1.0
+EO, L_4, L_5, Right, 1.0
+EO, le_1, x_2, Right, 1.0
+EO, x_1, L_1, Sub, 1.0
+EO, x_1, le_1, Right, 1.0
+EO, x_2, L_4, Sub, 1.0

@@ -1,0 +1,2 @@
+%RIT_2014_116
+$\frac { a } { b + \sqrt { c } } = \frac { a } { b + \sqrt { c } } x ^ { \frac { b - \sqrt { c } } { b - \sqrt { c } } }$

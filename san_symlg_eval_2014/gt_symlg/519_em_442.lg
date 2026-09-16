@@ -1,0 +1,11 @@
+# IUD, IVC_2014_F519_E442
+# Objects(4):
+O, =_1, =, 1.0, OR
+O, t_2, t, 1.0, ORR
+O, prime_1, \prime, 1.0, OSup
+O, t_1, t, 1.0, O
+
+# Relations from SRT:
+EO, =_1, t_2, Right, 1.0
+EO, t_1, =_1, Right, 1.0
+EO, t_1, prime_1, Sup, 1.0

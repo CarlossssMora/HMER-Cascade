@@ -1,0 +1,17 @@
+# IUD, 2014_RIT_CROHME_192
+# Objects(7):
+O, 95:, a, 1.0, OBelowR
+O, 91:, -, 1.0, O
+O, 85:86:87:, \log, 1.0, OAbove
+O, 88:, b, 1.0, OAboveSub
+O, 94:, b, 1.0, OBelowSub
+O, 92:93:, \log, 1.0, OBelow
+O, 89:90:, x, 1.0, OAboveR
+
+# Relations from SRT:
+EO, 85:86:87:, 88:, Sub, 1.0
+EO, 85:86:87:, 89:90:, Right, 1.0
+EO, 91:, 85:86:87:, Above, 1.0
+EO, 91:, 92:93:, Below, 1.0
+EO, 92:93:, 94:, Sub, 1.0
+EO, 92:93:, 95:, Right, 1.0

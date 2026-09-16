@@ -1,0 +1,2 @@
+%18_em_14
+$\frac { d y } { d x } = \frac { 1 } { \frac { d x } { d y } }$

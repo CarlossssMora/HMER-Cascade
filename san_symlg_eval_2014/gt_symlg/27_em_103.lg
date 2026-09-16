@@ -1,0 +1,13 @@
+# IUD, ISICAL_2014_F27_E103
+# Objects(5):
+O, y_1, y, 1.0, OR
+O, exist_1, \exists, 1.0, O
+O, exist_2, \exists, 1.0, ORR
+O, F_1, F, 1.0, ORRRR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, exist_1, y_1, Right, 1.0
+EO, exist_2, x_1, Right, 1.0
+EO, x_1, F_1, Right, 1.0
+EO, y_1, exist_2, Right, 1.0

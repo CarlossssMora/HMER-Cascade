@@ -1,0 +1,33 @@
+# IUD, IVC_2014_F502_E7
+# Objects(15):
+O, k_4, k, 1.0, ORRRRSub
+O, =_1, =, 1.0, OSubR
+O, 1_1, 1, 1.0, OSubRR
+O, n_2, n, 1.0, ORRRSup
+O, +_1, +, 1.0, ORR
+O, =_2, =, 1.0, ORRRSubR
+O, b_1, b, 1.0, ORRRR
+O, 1_2, 1, 1.0, ORRRSubRR
+O, sum_1, \sum, 1.0, O
+O, a_1, a, 1.0, OR
+O, k_2, k, 1.0, ORSub
+O, n_1, n, 1.0, OSup
+O, k_3, k, 1.0, ORRRSub
+O, k_1, k, 1.0, OSub
+O, sum_2, \sum, 1.0, ORRR
+
+# Relations from SRT:
+EO, +_1, sum_2, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, =_2, 1_2, Right, 1.0
+EO, a_1, +_1, Right, 1.0
+EO, a_1, k_2, Sub, 1.0
+EO, b_1, k_4, Sub, 1.0
+EO, k_1, =_1, Right, 1.0
+EO, k_3, =_2, Right, 1.0
+EO, sum_1, a_1, Right, 1.0
+EO, sum_1, k_1, Sub, 1.0
+EO, sum_1, n_1, Sup, 1.0
+EO, sum_2, b_1, Right, 1.0
+EO, sum_2, k_3, Sub, 1.0
+EO, sum_2, n_2, Sup, 1.0

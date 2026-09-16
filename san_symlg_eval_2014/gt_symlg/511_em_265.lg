@@ -1,0 +1,7 @@
+# IUD, IVC_2014_F511_E265
+# Objects(2):
+O, b_1, b, 1.0, O
+O, R_1, R, 1.0, OSub
+
+# Relations from SRT:
+EO, b_1, R_1, Sub, 1.0

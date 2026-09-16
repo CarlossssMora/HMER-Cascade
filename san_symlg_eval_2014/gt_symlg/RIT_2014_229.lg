@@ -1,0 +1,27 @@
+# IUD, 2014_RIT_CROHME_229
+# Objects(12):
+O, 14:15:, \theta, 1.0, ORInside
+O, 10:, d, 1.0, OBelow
+O, 22:23:, \theta, 1.0, ORRRBelowRInside
+O, 13:, \sqrt, 1.0, OR
+O, 20:, 2, 1.0, ORRRBelow
+O, 8:, d, 1.0, OAbove
+O, 19:, -, 1.0, ORRR
+O, 11:12:, \theta, 1.0, OBelowR
+O, 21:, \sqrt, 1.0, ORRRBelowR
+O, 9:, -, 1.0, O
+O, 18:, 1, 1.0, ORRRAbove
+O, 16:17:, =, 1.0, ORR
+
+# Relations from SRT:
+EO, 10:, 11:12:, Right, 1.0
+EO, 13:, 14:15:, Inside, 1.0
+EO, 13:, 16:17:, Right, 1.0
+EO, 16:17:, 19:, Right, 1.0
+EO, 19:, 18:, Above, 1.0
+EO, 19:, 20:, Below, 1.0
+EO, 20:, 21:, Right, 1.0
+EO, 21:, 22:23:, Inside, 1.0
+EO, 9:, 10:, Below, 1.0
+EO, 9:, 13:, Right, 1.0
+EO, 9:, 8:, Above, 1.0

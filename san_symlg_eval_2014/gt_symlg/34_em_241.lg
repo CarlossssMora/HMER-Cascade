@@ -1,0 +1,17 @@
+# IUD, ISICAL_2014_F34_E241
+# Objects(7):
+O, )_1, ), 1.0, ORRRRR
+O, (_2, (, 1.0, ORRR
+O, phi_1, \phi, 1.0, O
+O, phi_2, \phi, 1.0, ORR
+O, )_2, ), 1.0, ORRRRRR
+O, n_1, n, 1.0, ORRRR
+O, (_1, (, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, phi_2, Right, 1.0
+EO, (_2, n_1, Right, 1.0
+EO, )_1, )_2, Right, 1.0
+EO, n_1, )_1, Right, 1.0
+EO, phi_1, (_1, Right, 1.0
+EO, phi_2, (_2, Right, 1.0

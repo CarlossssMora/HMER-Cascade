@@ -1,0 +1,55 @@
+# IUD, IVC_2014_F501_E9
+# Objects(26):
+O, j_4, j, 1.0, ORRRRRRRSub
+O, =_1, =, 1.0, ORSubR
+O, 1_1, 1, 1.0, ORRRRRRRSubRR
+O, =_3, =, 1.0, ORRRRRRRSubR
+O, a_1, a, 1.0, ORR
+O, j_5, j, 1.0, ORRRRRRRRAboveSub
+O, \infty_1, \infty, 1.0, ORSup
+O, z_1, z, 1.0, ORRR
+O, _1, -, 1.0, ORRRRRRRR
+O, d_1, d, 1.0, ORRRR
+O, j_1, j, 1.0, ORSub
+O, a_2, a, 1.0, ORRRRRRRRAbove
+O, \infty_2, \infty, 1.0, ORRRRRRRSup
+O, 0_1, 0, 1.0, ORSubRR
+O, j_6, j, 1.0, ORRRRRRRRBelow
+O, sum_2, \sum, 1.0, ORRRRRRR
+O, j_3, j, 1.0, ORRRSup
+O, =_2, =, 1.0, ORRRRRR
+O, 1_2, 1, 1.0, ORRRRRRRRAboveSubRR
+O, sum_1, \sum, 1.0, OR
+O, -_1, -, 1.0, ORRRRRRRRAboveSubR
+O, int_1, \int, 1.0, O
+O, j_2, j, 1.0, ORRSub
+O, z_2, z, 1.0, ORRRRR
+O, j_7, j, 1.0, ORRRRRRRRRSup
+O, x_1, x, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, -_1, 1_2, Right, 1.0
+EO, =_1, 0_1, Right, 1.0
+EO, =_2, sum_2, Right, 1.0
+EO, =_3, 1_1, Right, 1.0
+EO, _1, a_2, Above, 1.0
+EO, _1, j_6, Below, 1.0
+EO, _1, x_1, Right, 1.0
+EO, a_1, j_2, Sub, 1.0
+EO, a_1, z_1, Right, 1.0
+EO, a_2, j_5, Sub, 1.0
+EO, d_1, z_2, Right, 1.0
+EO, int_1, sum_1, Right, 1.0
+EO, j_1, =_1, Right, 1.0
+EO, j_4, =_3, Right, 1.0
+EO, j_5, -_1, Right, 1.0
+EO, sum_1, \infty_1, Sup, 1.0
+EO, sum_1, a_1, Right, 1.0
+EO, sum_1, j_1, Sub, 1.0
+EO, sum_2, \infty_2, Sup, 1.0
+EO, sum_2, _1, Right, 1.0
+EO, sum_2, j_4, Sub, 1.0
+EO, x_1, j_7, Sup, 1.0
+EO, z_1, d_1, Right, 1.0
+EO, z_1, j_3, Sup, 1.0
+EO, z_2, =_2, Right, 1.0

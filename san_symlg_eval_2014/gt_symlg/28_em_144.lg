@@ -1,0 +1,11 @@
+# IUD, ISICAL_2014_F28_E144
+# Objects(4):
+O, i_2, i, 1.0, ORSub
+O, i_1, i, 1.0, OSub
+O, sum_1, \sum, 1.0, O
+O, k_1, k, 1.0, OR
+
+# Relations from SRT:
+EO, k_1, i_2, Sub, 1.0
+EO, sum_1, i_1, Sub, 1.0
+EO, sum_1, k_1, Right, 1.0

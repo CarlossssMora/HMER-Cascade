@@ -1,0 +1,41 @@
+# IUD, ISICAL_2014_F26_E99
+# Objects(19):
+O, =_1, =, 1.0, ORRRRRRRRRRRR
+O, 1_1, 1, 1.0, O
+O, COMMA_3, COMMA, 1.0, ORRRRRRRRRRRRRRR
+O, 0_3, 0, 1.0, ORRRR
+O, 0_8, 0, 1.0, ORRRRRRRRRRRRRRRR
+O, 1_4, 1, 1.0, ORRRRRRRRRRRRRR
+O, 0_1, 0, 1.0, OR
+O, 0_10, 0, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 0_2, 0, 1.0, ORRR
+O, 0_4, 0, 1.0, ORRRRR
+O, COMMA_1, COMMA, 1.0, ORR
+O, +_1, +, 1.0, ORRRRRR
+O, 1_2, 1, 1.0, ORRRRRRR
+O, 0_6, 0, 1.0, ORRRRRRRRRR
+O, 0_9, 0, 1.0, ORRRRRRRRRRRRRRRRR
+O, COMMA_2, COMMA, 1.0, ORRRRRRRR
+O, 1_3, 1, 1.0, ORRRRRRRRRRRRR
+O, 0_7, 0, 1.0, ORRRRRRRRRRR
+O, 0_5, 0, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, +_1, 1_2, Right, 1.0
+EO, 0_1, COMMA_1, Right, 1.0
+EO, 0_2, 0_3, Right, 1.0
+EO, 0_3, 0_4, Right, 1.0
+EO, 0_4, +_1, Right, 1.0
+EO, 0_5, 0_6, Right, 1.0
+EO, 0_6, 0_7, Right, 1.0
+EO, 0_7, =_1, Right, 1.0
+EO, 0_8, 0_9, Right, 1.0
+EO, 0_9, 0_10, Right, 1.0
+EO, 1_1, 0_1, Right, 1.0
+EO, 1_2, COMMA_2, Right, 1.0
+EO, 1_3, 1_4, Right, 1.0
+EO, 1_4, COMMA_3, Right, 1.0
+EO, =_1, 1_3, Right, 1.0
+EO, COMMA_1, 0_2, Right, 1.0
+EO, COMMA_2, 0_5, Right, 1.0
+EO, COMMA_3, 0_8, Right, 1.0

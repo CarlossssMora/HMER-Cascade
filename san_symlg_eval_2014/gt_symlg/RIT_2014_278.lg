@@ -1,0 +1,33 @@
+# IUD, 2014_RIT_CROHME_278
+# Objects(15):
+O, 97:, -, 1.0, OR
+O, 89:, a, 1.0, ORAboveR
+O, 101:, |, 1.0, ORBelowRR
+O, 91:92:, +, 1.0, ORAboveRSubR
+O, 84:85:87:, \lim, 1.0, O
+O, 94:95:, x, 1.0, ORAboveRR
+O, 93:, 1, 1.0, ORAboveRSubRR
+O, 99:, a, 1.0, ORBelowR
+O, 100:, n, 1.0, ORBelowRSub
+O, 104:, \gt, 1.0, ORR
+O, 88:, |, 1.0, ORAbove
+O, 96:, |, 1.0, ORAboveRRR
+O, 90:, n, 1.0, ORAboveRSub
+O, 98:, |, 1.0, ORBelow
+O, 105:106:, 1, 1.0, ORRR
+
+# Relations from SRT:
+EO, 104:, 105:106:, Right, 1.0
+EO, 84:85:87:, 97:, Right, 1.0
+EO, 88:, 89:, Right, 1.0
+EO, 89:, 90:, Sub, 1.0
+EO, 89:, 94:95:, Right, 1.0
+EO, 90:, 91:92:, Right, 1.0
+EO, 91:92:, 93:, Right, 1.0
+EO, 94:95:, 96:, Right, 1.0
+EO, 97:, 104:, Right, 1.0
+EO, 97:, 88:, Above, 1.0
+EO, 97:, 98:, Below, 1.0
+EO, 98:, 99:, Right, 1.0
+EO, 99:, 100:, Sub, 1.0
+EO, 99:, 101:, Right, 1.0

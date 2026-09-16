@@ -1,0 +1,11 @@
+# IUD, IVC_2014_F501_E22
+# Objects(4):
+O, in_1, \in, 1.0, ORR
+O, X_1, X, 1.0, ORRR
+O, gamma_1, \gamma, 1.0, OR
+O, forall_1, \forall, 1.0, O
+
+# Relations from SRT:
+EO, forall_1, gamma_1, Right, 1.0
+EO, gamma_1, in_1, Right, 1.0
+EO, in_1, X_1, Right, 1.0

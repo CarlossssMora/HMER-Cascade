@@ -1,0 +1,9 @@
+# IUD, IVC_2014_F503_E25
+# Objects(3):
+O, Y_1, Y, 1.0, OR
+O, i_1, i, 1.0, ORSub
+O, sum_1, \sum, 1.0, O
+
+# Relations from SRT:
+EO, Y_1, i_1, Sub, 1.0
+EO, sum_1, Y_1, Right, 1.0

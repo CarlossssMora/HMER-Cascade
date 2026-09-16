@@ -1,0 +1,2 @@
+%503_em_26
+$\lim _ { z \rightarrow z _ { 0 } } f ( z )$

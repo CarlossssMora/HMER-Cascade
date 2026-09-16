@@ -1,0 +1,2 @@
+%28_em_139
+$x y x + x y + y x + y = x ^ { 2 } y + x y + x y + y$

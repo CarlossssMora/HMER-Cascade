@@ -1,0 +1,2 @@
+%516_em_394
+$\int f ( a x ) d x = \frac { 1 } { a } \int f ( x ) d x$

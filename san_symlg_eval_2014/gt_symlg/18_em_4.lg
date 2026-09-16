@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F18_E4
+# Objects(3):
+O, -_1, -, 1.0, OSup
+O, e_1, e, 1.0, O
+O, n_1, n, 1.0, OSupR
+
+# Relations from SRT:
+EO, -_1, n_1, Right, 1.0
+EO, e_1, -_1, Sup, 1.0

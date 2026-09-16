@@ -1,0 +1,2 @@
+%512_em_293
+$\lim _ { x \rightarrow \infty } \frac { 2 n ^ { 2 } + 3 n + 1 } { 3 } = n ^ { 2 }$

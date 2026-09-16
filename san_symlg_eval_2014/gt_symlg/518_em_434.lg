@@ -1,0 +1,49 @@
+# IUD, IVC_2014_F518_E434
+# Objects(23):
+O, =_1, =, 1.0, OSubR
+O, )_1, ), 1.0, ORRRRRRRRRR
+O, 1_1, 1, 1.0, OSubRR
+O, n_4, n, 1.0, ORRRRRRRRRRRR
+O, n_2, n, 1.0, ORRRR
+O, 2_2, 2, 1.0, ORRRRRR
+O, r_2, r, 1.0, OR
+O, n_1, n, 1.0, OSup
+O, 6_1, 6, 1.0, ORRRBelow
+O, _1, -, 1.0, ORRR
+O, 1_4, 1, 1.0, ORRRRRRRRRRRRRR
+O, (_1, (, 1.0, ORRRRR
+O, r_1, r, 1.0, OSub
+O, +_1, +, 1.0, ORRRRRRRR
+O, =_2, =, 1.0, ORR
+O, sum_1, \sum, 1.0, O
+O, 1_2, 1, 1.0, ORRRAbove
+O, +_2, +, 1.0, ORRRRRRRRRRRRR
+O, 1_3, 1, 1.0, ORRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRRRRRR
+O, 2_1, 2, 1.0, ORSup
+O, )_2, ), 1.0, ORRRRRRRRRRRRRRR
+O, n_3, n, 1.0, ORRRRRRR
+
+# Relations from SRT:
+EO, (_1, 2_2, Right, 1.0
+EO, (_2, n_4, Right, 1.0
+EO, )_1, (_2, Right, 1.0
+EO, +_1, 1_3, Right, 1.0
+EO, +_2, 1_4, Right, 1.0
+EO, 1_3, )_1, Right, 1.0
+EO, 1_4, )_2, Right, 1.0
+EO, 2_2, n_3, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, =_2, _1, Right, 1.0
+EO, _1, 1_2, Above, 1.0
+EO, _1, 6_1, Below, 1.0
+EO, _1, n_2, Right, 1.0
+EO, n_2, (_1, Right, 1.0
+EO, n_3, +_1, Right, 1.0
+EO, n_4, +_2, Right, 1.0
+EO, r_1, =_1, Right, 1.0
+EO, r_2, 2_1, Sup, 1.0
+EO, r_2, =_2, Right, 1.0
+EO, sum_1, n_1, Sup, 1.0
+EO, sum_1, r_1, Sub, 1.0
+EO, sum_1, r_2, Right, 1.0

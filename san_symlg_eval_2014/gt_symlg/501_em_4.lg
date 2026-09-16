@@ -1,0 +1,21 @@
+# IUD, IVC_2014_F501_E4
+# Objects(9):
+O, le_1, \leq, 1.0, ORRRR
+O, S_1, S, 1.0, O
+O, F_1, F, 1.0, ORRRRRRRR
+O, p_1, p, 1.0, ORR
+O, S_2, S, 1.0, ORRRRR
+O, u_2, u, 1.0, ORRRRRR
+O, u_1, u, 1.0, OR
+O, E_1, E, 1.0, ORRR
+O, p_2, p, 1.0, ORRRRRRR
+
+# Relations from SRT:
+EO, E_1, le_1, Right, 1.0
+EO, S_1, u_1, Right, 1.0
+EO, S_2, u_2, Right, 1.0
+EO, le_1, S_2, Right, 1.0
+EO, p_1, E_1, Right, 1.0
+EO, p_2, F_1, Right, 1.0
+EO, u_1, p_1, Right, 1.0
+EO, u_2, p_2, Right, 1.0

@@ -1,0 +1,2 @@
+%RIT_2014_210
+$\frac { 1 } { 4 } + \frac { 2 } { 5 } = \frac { 1 \times 5 } { 4 \times 5 } + \frac { 2 \times 4 } { 4 \times 5 } + \frac { 8 } { 2 0 }$

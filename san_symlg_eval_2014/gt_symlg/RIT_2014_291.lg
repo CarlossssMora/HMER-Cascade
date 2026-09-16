@@ -1,0 +1,7 @@
+# IUD, 2014_RIT_CROHME_291
+# Objects(2):
+O, 17:, \mu, 1.0, O
+O, 18:, m, 1.0, OR
+
+# Relations from SRT:
+EO, 17:, 18:, Right, 1.0

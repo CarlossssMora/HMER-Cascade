@@ -1,0 +1,41 @@
+# IUD, 2014_RIT_CROHME_186
+# Objects(19):
+O, 101:, 3, 1.0, ORRRRRRRRSup
+O, 105:, ), 1.0, ORRRRRRRRRRR
+O, 94:, -, 1.0, ORRRRRR
+O, 100:97:98:, \sin, 1.0, ORRRRRRRR
+O, 115:, (, 1.0, ORRRRRRRRRRRRRRR
+O, 102:, (, 1.0, ORRRRRRRRR
+O, 91:, ), 1.0, ORRRR
+O, 87:, (, 1.0, OR
+O, 118:, ), 1.0, ORRRRRRRRRRRRRRRRR
+O, 89:90:, x, 1.0, ORRR
+O, 109:110:112:113:114:, \sin, 1.0, ORRRRRRRRRRRRRR
+O, 108:, 3, 1.0, ORRRRRRRRRRRRR
+O, 106:107:, +, 1.0, ORRRRRRRRRRRR
+O, 80:81:83:86:, \sin, 1.0, O
+O, 116:117:, x, 1.0, ORRRRRRRRRRRRRRRR
+O, 88:, 3, 1.0, ORR
+O, 92:93:, =, 1.0, ORRRRR
+O, 95:96:, 4, 1.0, ORRRRRRR
+O, 103:104:, x, 1.0, ORRRRRRRRRR
+
+# Relations from SRT:
+EO, 100:97:98:, 101:, Sup, 1.0
+EO, 100:97:98:, 102:, Right, 1.0
+EO, 102:, 103:104:, Right, 1.0
+EO, 103:104:, 105:, Right, 1.0
+EO, 105:, 106:107:, Right, 1.0
+EO, 106:107:, 108:, Right, 1.0
+EO, 108:, 109:110:112:113:114:, Right, 1.0
+EO, 109:110:112:113:114:, 115:, Right, 1.0
+EO, 115:, 116:117:, Right, 1.0
+EO, 116:117:, 118:, Right, 1.0
+EO, 80:81:83:86:, 87:, Right, 1.0
+EO, 87:, 88:, Right, 1.0
+EO, 88:, 89:90:, Right, 1.0
+EO, 89:90:, 91:, Right, 1.0
+EO, 91:, 92:93:, Right, 1.0
+EO, 92:93:, 94:, Right, 1.0
+EO, 94:, 95:96:, Right, 1.0
+EO, 95:96:, 100:97:98:, Right, 1.0

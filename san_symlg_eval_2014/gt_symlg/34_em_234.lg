@@ -1,0 +1,45 @@
+# IUD, ISICAL_2014_F34_E234
+# Objects(21):
+O, 1_1, 1, 1.0, ORRRRRRRRRRRRRRAbove
+O, 2_3, 2, 1.0, ORRRRRRRRRRRRRRRSup
+O, =_1, =, 1.0, ORRRRRRRRRRR
+O, )_1, ), 1.0, ORRRRR
+O, pi_2, \pi, 1.0, ORRRRRRRRRRRRRRR
+O, 2_2, 2, 1.0, ORRRRRRRRRRRRRRBelow
+O, sin_1, \sin, 1.0, ORR
+O, pi_1, \pi, 1.0, OSup
+O, _1, -, 1.0, ORRRRRRRRRRRRRR
+O, d_1, d, 1.0, ORRRRRRRRR
+O, 0_1, 0, 1.0, OSub
+O, (_1, (, 1.0, OR
+O, -_2, -, 1.0, ORRRRRRRRRRRRR
+O, -_1, -, 1.0, ORRRRRR
+O, t_3, t, 1.0, ORRRRRRRRRR
+O, int_1, \int, 1.0, O
+O, t_1, t, 1.0, ORRRR
+O, (_2, (, 1.0, ORRR
+O, 2_1, 2, 1.0, ORRRRRRRRRRRR
+O, t_2, t, 1.0, ORRRRRRR
+O, )_2, ), 1.0, ORRRRRRRR
+
+# Relations from SRT:
+EO, (_1, sin_1, Right, 1.0
+EO, (_2, t_1, Right, 1.0
+EO, )_1, -_1, Right, 1.0
+EO, )_2, d_1, Right, 1.0
+EO, -_1, t_2, Right, 1.0
+EO, -_2, _1, Right, 1.0
+EO, 2_1, -_2, Right, 1.0
+EO, =_1, 2_1, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 2_2, Below, 1.0
+EO, _1, pi_2, Right, 1.0
+EO, d_1, t_3, Right, 1.0
+EO, int_1, (_1, Right, 1.0
+EO, int_1, 0_1, Sub, 1.0
+EO, int_1, pi_1, Sup, 1.0
+EO, pi_2, 2_3, Sup, 1.0
+EO, sin_1, (_2, Right, 1.0
+EO, t_1, )_1, Right, 1.0
+EO, t_2, )_2, Right, 1.0
+EO, t_3, =_1, Right, 1.0

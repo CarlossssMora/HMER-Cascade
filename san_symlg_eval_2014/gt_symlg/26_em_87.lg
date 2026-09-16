@@ -1,0 +1,47 @@
+# IUD, ISICAL_2014_F26_E87
+# Objects(22):
+O, =_1, =, 1.0, ORRRRRRRR
+O, )_1, ), 1.0, ORRRRR
+O, x_3, x, 1.0, ORRRRRRR
+O, cos_1, \cos, 1.0, ORR
+O, x_7, x, 1.0, ORRRRRRRRRRRRRRRRRRRRR
+O, sin_2, \sin, 1.0, ORRRRRRRRRRRRRRRR
+O, sin_1, \sin, 1.0, ORRRRRRRRRR
+O, d_1, d, 1.0, ORRRRRR
+O, x_5, x, 1.0, ORRRRRRRRRRRR
+O, x_4, x, 1.0, ORRRRRRRRR
+O, (_1, (, 1.0, ORRR
+O, x_2, x, 1.0, ORRRR
+O, d_2, d, 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, -_1, -, 1.0, ORRRRRRRRRRRRRR
+O, (_3, (, 1.0, ORRRRRRRRRRRRRRRRR
+O, int_1, \int, 1.0, O
+O, int_2, \int, 1.0, ORRRRRRRRRRRRRRR
+O, )_3, ), 1.0, ORRRRRRRRRRRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRRRRRR
+O, x_6, x, 1.0, ORRRRRRRRRRRRRRRRRR
+O, )_2, ), 1.0, ORRRRRRRRRRRRR
+O, x_1, x, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, x_2, Right, 1.0
+EO, (_2, x_5, Right, 1.0
+EO, (_3, x_6, Right, 1.0
+EO, )_1, d_1, Right, 1.0
+EO, )_2, -_1, Right, 1.0
+EO, )_3, d_2, Right, 1.0
+EO, -_1, int_2, Right, 1.0
+EO, =_1, x_4, Right, 1.0
+EO, cos_1, (_1, Right, 1.0
+EO, d_1, x_3, Right, 1.0
+EO, d_2, x_7, Right, 1.0
+EO, int_1, x_1, Right, 1.0
+EO, int_2, sin_2, Right, 1.0
+EO, sin_1, (_2, Right, 1.0
+EO, sin_2, (_3, Right, 1.0
+EO, x_1, cos_1, Right, 1.0
+EO, x_2, )_1, Right, 1.0
+EO, x_3, =_1, Right, 1.0
+EO, x_4, sin_1, Right, 1.0
+EO, x_5, )_2, Right, 1.0
+EO, x_6, )_3, Right, 1.0

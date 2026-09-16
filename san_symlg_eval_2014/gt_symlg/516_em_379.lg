@@ -1,0 +1,25 @@
+# IUD, IVC_2014_F516_E379
+# Objects(11):
+O, =_1, =, 1.0, ORRRRR
+O, )_1, ), 1.0, ORRRR
+O, n_2, n, 1.0, ORSub
+O, \rightarrow_1, \rightarrow, 1.0, OSubR
+O, \infty_1, \infty, 1.0, OSubRR
+O, f_1, f, 1.0, OR
+O, n_1, n, 1.0, OSub
+O, 0_1, 0, 1.0, ORRRRRR
+O, lim_1, \lim, 1.0, O
+O, (_1, (, 1.0, ORR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, =_1, 0_1, Right, 1.0
+EO, \rightarrow_1, \infty_1, Right, 1.0
+EO, f_1, (_1, Right, 1.0
+EO, f_1, n_2, Sub, 1.0
+EO, lim_1, f_1, Right, 1.0
+EO, lim_1, n_1, Sub, 1.0
+EO, n_1, \rightarrow_1, Right, 1.0
+EO, x_1, )_1, Right, 1.0

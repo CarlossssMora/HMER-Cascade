@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_121
+# Objects(6):
+O, 37:, (, 1.0, OR
+O, 42:, z, 1.0, ORRRRR
+O, 39:, ), 1.0, ORRR
+O, 38:, z, 1.0, ORR
+O, 40:41:, =, 1.0, ORRRR
+O, 35:36:, f, 1.0, O
+
+# Relations from SRT:
+EO, 35:36:, 37:, Right, 1.0
+EO, 37:, 38:, Right, 1.0
+EO, 38:, 39:, Right, 1.0
+EO, 39:, 40:41:, Right, 1.0
+EO, 40:41:, 42:, Right, 1.0

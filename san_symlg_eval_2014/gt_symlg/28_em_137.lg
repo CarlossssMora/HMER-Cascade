@@ -1,0 +1,21 @@
+# IUD, ISICAL_2014_F28_E137
+# Objects(9):
+O, 5_1, 5, 1.0, ORRRR
+O, COMMA_1, COMMA, 1.0, OR
+O, COMMA_4, COMMA, 1.0, ORRRRRRR
+O, COMMA_3, COMMA, 1.0, ORRRRR
+O, 4_1, 4, 1.0, ORR
+O, 6_1, 6, 1.0, ORRRRRR
+O, COMMA_2, COMMA, 1.0, ORRR
+O, 3_1, 3, 1.0, O
+O, hellip_1, \ldots, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+EO, 3_1, COMMA_1, Right, 1.0
+EO, 4_1, COMMA_2, Right, 1.0
+EO, 5_1, COMMA_3, Right, 1.0
+EO, 6_1, COMMA_4, Right, 1.0
+EO, COMMA_1, 4_1, Right, 1.0
+EO, COMMA_2, 5_1, Right, 1.0
+EO, COMMA_3, 6_1, Right, 1.0
+EO, COMMA_4, hellip_1, Right, 1.0

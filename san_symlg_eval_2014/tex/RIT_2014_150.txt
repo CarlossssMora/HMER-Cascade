@@ -1,0 +1,2 @@
+%RIT_2014_150
+$\cos \theta = \frac { e ^ { \theta \theta } + e ^ { - i \theta } } { 2 }$

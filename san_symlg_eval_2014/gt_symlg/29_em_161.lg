@@ -1,0 +1,33 @@
+# IUD, ISICAL_2014_F29_E161
+# Objects(15):
+O, =_1, =, 1.0, ORRRR
+O, )_1, ), 1.0, ORRR
+O, z_4, z, 1.0, ORRRRRRRR
+O, f_2, f, 1.0, ORRRRRR
+O, rarr_1, \rightarrow, 1.0, ORRRRRSubR
+O, z_3, z, 1.0, ORRRRRSubRR
+O, z_1, z, 1.0, ORR
+O, f_1, f, 1.0, O
+O, (_2, (, 1.0, ORRRRRRR
+O, z_2, z, 1.0, ORRRRRSub
+O, 0_1, 0, 1.0, ORRSub
+O, lim_1, \lim, 1.0, ORRRRR
+O, 0_2, 0, 1.0, ORRRRRSubRRSub
+O, (_1, (, 1.0, OR
+O, )_2, ), 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, z_1, Right, 1.0
+EO, (_2, z_4, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, =_1, lim_1, Right, 1.0
+EO, f_1, (_1, Right, 1.0
+EO, f_2, (_2, Right, 1.0
+EO, lim_1, f_2, Right, 1.0
+EO, lim_1, z_2, Sub, 1.0
+EO, rarr_1, z_3, Right, 1.0
+EO, z_1, )_1, Right, 1.0
+EO, z_1, 0_1, Sub, 1.0
+EO, z_2, rarr_1, Right, 1.0
+EO, z_3, 0_2, Sub, 1.0
+EO, z_4, )_2, Right, 1.0

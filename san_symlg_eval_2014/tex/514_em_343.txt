@@ -1,0 +1,2 @@
+%514_em_343
+$- e ^ { x } \cos ( x ) + \int e ^ { x } \cos ( x ) d x$

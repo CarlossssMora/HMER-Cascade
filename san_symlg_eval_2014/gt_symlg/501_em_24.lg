@@ -1,0 +1,15 @@
+# IUD, IVC_2014_F501_E24
+# Objects(6):
+O, v_1, v, 1.0, OR
+O, =_1, =, 1.0, ORR
+O, 2_1, 2, 1.0, ORRRRR
+O, b_1, b, 1.0, ORRR
+O, log_2, \log, 1.0, ORRRR
+O, log_1, \log, 1.0, O
+
+# Relations from SRT:
+EO, =_1, b_1, Right, 1.0
+EO, b_1, log_2, Right, 1.0
+EO, log_1, v_1, Right, 1.0
+EO, log_2, 2_1, Right, 1.0
+EO, v_1, =_1, Right, 1.0

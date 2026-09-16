@@ -1,0 +1,17 @@
+# IUD, IVC_2014_F505_E53
+# Objects(7):
+O, _1, \sqrt, 1.0, ORR
+O, sigma_2, \sigma, 1.0, ORRInside
+O, x_2, x, 1.0, ORRInsideSub
+O, =_1, =, 1.0, OR
+O, 2_1, 2, 1.0, ORRInsideSup
+O, sigma_1, \sigma, 1.0, O
+O, x_1, x, 1.0, OSub
+
+# Relations from SRT:
+EO, =_1, _1, Right, 1.0
+EO, _1, sigma_2, Inside, 1.0
+EO, sigma_1, =_1, Right, 1.0
+EO, sigma_1, x_1, Sub, 1.0
+EO, sigma_2, 2_1, Sup, 1.0
+EO, sigma_2, x_2, Sub, 1.0

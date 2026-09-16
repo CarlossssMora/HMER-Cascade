@@ -1,0 +1,39 @@
+# IUD, 2014_RIT_CROHME_220
+# Objects(18):
+O, 25:26:, +, 1.0, ORRRRR
+O, 17:, -, 1.0, ORRSupR
+O, 11:, -, 1.0, OSupR
+O, 15:, x, 1.0, ORR
+O, 12:, 1, 1.0, OSupRR
+O, 13:14:, +, 1.0, OR
+O, 32:33:, +, 1.0, ORRRRRRRRR
+O, 10:, n, 1.0, OSup
+O, 27:, x, 1.0, ORRRRRR
+O, 21:22:23:24:, \ldots, 1.0, ORRRR
+O, 31:, x, 1.0, ORRRRRRRR
+O, 34:, 1, 1.0, ORRRRRRRRRR
+O, 19:20:, +, 1.0, ORRR
+O, 29:30:, +, 1.0, ORRRRRRR
+O, 9:, x, 1.0, O
+O, 18:, 2, 1.0, ORRSupRR
+O, 16:, n, 1.0, ORRSup
+O, 28:, 2, 1.0, ORRRRRRSup
+
+# Relations from SRT:
+EO, 10:, 11:, Right, 1.0
+EO, 11:, 12:, Right, 1.0
+EO, 13:14:, 15:, Right, 1.0
+EO, 15:, 16:, Sup, 1.0
+EO, 15:, 19:20:, Right, 1.0
+EO, 16:, 17:, Right, 1.0
+EO, 17:, 18:, Right, 1.0
+EO, 19:20:, 21:22:23:24:, Right, 1.0
+EO, 21:22:23:24:, 25:26:, Right, 1.0
+EO, 25:26:, 27:, Right, 1.0
+EO, 27:, 28:, Sup, 1.0
+EO, 27:, 29:30:, Right, 1.0
+EO, 29:30:, 31:, Right, 1.0
+EO, 31:, 32:33:, Right, 1.0
+EO, 32:33:, 34:, Right, 1.0
+EO, 9:, 10:, Sup, 1.0
+EO, 9:, 13:14:, Right, 1.0

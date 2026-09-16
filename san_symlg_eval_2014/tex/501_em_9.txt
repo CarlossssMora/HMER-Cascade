@@ -1,0 +1,2 @@
+%501_em_9
+$\int \sum _ { j = 0 } ^ { \infty } a _ { j } z ^ { j } d z = 2 \frac { a _ { j - 1 } x ^ { j } } { j } x ^ { j }$

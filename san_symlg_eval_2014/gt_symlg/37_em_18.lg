@@ -1,0 +1,39 @@
+# IUD, ISICAL_2014_F37_E18
+# Objects(18):
+O, =_1, =, 1.0, OR
+O, x_3, x, 1.0, OAboveRRRR
+O, x_7, x, 1.0, ORR
+O, times_1, \times, 1.0, OAboveR
+O, times_5, \times, 1.0, ORRR
+O, _1, -, 1.0, O
+O, x_5, x, 1.0, OBelow
+O, times_3, \times, 1.0, OAboveRRRRR
+O, times_2, \times, 1.0, OAboveRRR
+O, x_4, x, 1.0, OAboveRRRRRR
+O, x_2, x, 1.0, OAboveRR
+O, =_2, =, 1.0, ORRRRR
+O, x_8, x, 1.0, ORRRR
+O, times_4, \times, 1.0, OBelowR
+O, 2_1, 2, 1.0, ORRRRRRSup
+O, x_1, x, 1.0, OAbove
+O, x_9, x, 1.0, ORRRRRR
+O, x_6, x, 1.0, OBelowRR
+
+# Relations from SRT:
+EO, =_1, x_7, Right, 1.0
+EO, =_2, x_9, Right, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _1, x_1, Above, 1.0
+EO, _1, x_5, Below, 1.0
+EO, times_1, x_2, Right, 1.0
+EO, times_2, x_3, Right, 1.0
+EO, times_3, x_4, Right, 1.0
+EO, times_4, x_6, Right, 1.0
+EO, times_5, x_8, Right, 1.0
+EO, x_1, times_1, Right, 1.0
+EO, x_2, times_2, Right, 1.0
+EO, x_3, times_3, Right, 1.0
+EO, x_5, times_4, Right, 1.0
+EO, x_7, times_5, Right, 1.0
+EO, x_8, =_2, Right, 1.0
+EO, x_9, 2_1, Sup, 1.0

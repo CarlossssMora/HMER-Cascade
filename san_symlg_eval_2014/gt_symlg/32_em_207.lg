@@ -1,0 +1,15 @@
+# IUD, ISICAL_2014_F32_E207
+# Objects(6):
+O, d_1, d, 1.0, ORRRR
+O, cos_1, \cos, 1.0, ORR
+O, phi_1, \phi, 1.0, ORRR
+O, phi_2, \phi, 1.0, ORRRRR
+O, -_1, -, 1.0, OR
+O, int_1, \int, 1.0, O
+
+# Relations from SRT:
+EO, -_1, cos_1, Right, 1.0
+EO, cos_1, phi_1, Right, 1.0
+EO, d_1, phi_2, Right, 1.0
+EO, int_1, -_1, Right, 1.0
+EO, phi_1, d_1, Right, 1.0

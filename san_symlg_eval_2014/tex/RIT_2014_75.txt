@@ -1,0 +1,2 @@
+%RIT_2014_75
+$\sqrt { \frac { x } { y } } = \frac { \sqrt { x } } { \sqrt { y } }$

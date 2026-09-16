@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F23_E71
+# Objects(3):
+O, T_1, T, 1.0, OR
+O, prime_1, \prime, 1.0, ORSup
+O, c_1, c, 1.0, O
+
+# Relations from SRT:
+EO, T_1, prime_1, Sup, 1.0
+EO, c_1, T_1, Right, 1.0

@@ -1,0 +1,2 @@
+%31_em_175
+$\lim _ { x \rightarrow c } f ( x ) = f ( c )$

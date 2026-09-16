@@ -1,0 +1,2 @@
+%37_em_18
+$\frac { x \times x \times x \times x } { x \times x } = x \times x = x ^ { 2 }$

@@ -1,0 +1,2 @@
+%504_em_35
+$( x \times x ) \times ( x \times x ) \times ( x \times x ) = x \times x \times x \times x \times x \times x$

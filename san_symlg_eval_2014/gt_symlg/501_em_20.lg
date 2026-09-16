@@ -1,0 +1,33 @@
+# IUD, IVC_2014_F501_E20
+# Objects(15):
+O, =_1, =, 1.0, OR
+O, )_1, ), 1.0, ORRRRRRRRRR
+O, COMMA_1, COMMA, 1.0, ORRRR
+O, q_5, q, 1.0, ORRRRRRRRRSub
+O, w_1, w, 1.0, ORRRRRRRRR
+O, COMMA_3, COMMA, 1.0, ORRRRRRRR
+O, q_4, q, 1.0, ORRRRRRRSub
+O, q_3, q, 1.0, ORRRRRSub
+O, z_1, z, 1.0, ORRRRRRR
+O, q_1, q, 1.0, O
+O, y_1, y, 1.0, ORRRRR
+O, COMMA_2, COMMA, 1.0, ORRRRRR
+O, q_2, q, 1.0, ORRRSub
+O, (_1, (, 1.0, ORR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, =_1, (_1, Right, 1.0
+EO, COMMA_1, y_1, Right, 1.0
+EO, COMMA_2, z_1, Right, 1.0
+EO, COMMA_3, w_1, Right, 1.0
+EO, q_1, =_1, Right, 1.0
+EO, w_1, )_1, Right, 1.0
+EO, w_1, q_5, Sub, 1.0
+EO, x_1, COMMA_1, Right, 1.0
+EO, x_1, q_2, Sub, 1.0
+EO, y_1, COMMA_2, Right, 1.0
+EO, y_1, q_3, Sub, 1.0
+EO, z_1, COMMA_3, Right, 1.0
+EO, z_1, q_4, Sub, 1.0

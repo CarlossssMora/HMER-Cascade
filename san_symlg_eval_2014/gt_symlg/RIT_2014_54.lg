@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_54
+# Objects(3):
+O, 26:27:, p, 1.0, ORR
+O, 24:, z, 1.0, O
+O, 25:, \lt, 1.0, OR
+
+# Relations from SRT:
+EO, 24:, 25:, Right, 1.0
+EO, 25:, 26:27:, Right, 1.0

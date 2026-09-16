@@ -1,0 +1,2 @@
+%516_em_398
+$\sin ( x - y ) = \sin x \cos y - \cos x \sin y$

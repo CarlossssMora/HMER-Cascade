@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F32_E223
+# Objects(3):
+O, )_1, ), 1.0, ORR
+O, pi_1, \pi, 1.0, OR
+O, (_1, (, 1.0, O
+
+# Relations from SRT:
+EO, (_1, pi_1, Right, 1.0
+EO, pi_1, )_1, Right, 1.0

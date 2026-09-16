@@ -1,0 +1,19 @@
+# IUD, 2014_RIT_CROHME_279
+# Objects(8):
+O, 10:, \sqrt, 1.0, ORRRRRR
+O, 7:8:, 4, 1.0, ORRRR
+O, 3:4:, 4, 1.0, ORR
+O, 11:12:, 4, 1.0, ORRRRRRInside
+O, 0:1:, 4, 1.0, O
+O, 5:6:, +, 1.0, ORRR
+O, 9:, -, 1.0, ORRRRR
+O, 2:, -, 1.0, OR
+
+# Relations from SRT:
+EO, 0:1:, 2:, Right, 1.0
+EO, 10:, 11:12:, Inside, 1.0
+EO, 2:, 3:4:, Right, 1.0
+EO, 3:4:, 5:6:, Right, 1.0
+EO, 5:6:, 7:8:, Right, 1.0
+EO, 7:8:, 9:, Right, 1.0
+EO, 9:, 10:, Right, 1.0

@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_277
+# Objects(3):
+O, 82:, COMMA, 1.0, OR
+O, 83:, n, 1.0, ORR
+O, 81:, m, 1.0, O
+
+# Relations from SRT:
+EO, 81:, 82:, Right, 1.0
+EO, 82:, 83:, Right, 1.0

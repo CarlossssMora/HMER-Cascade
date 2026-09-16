@@ -1,0 +1,11 @@
+# IUD, IVC_2014_F509_E95
+# Objects(4):
+O, P_1, P, 1.0, OSub
+O, V_1, V, 1.0, OSubR
+O, T_1, T, 1.0, OSubRR
+O, e_1, e, 1.0, O
+
+# Relations from SRT:
+EO, P_1, V_1, Right, 1.0
+EO, V_1, T_1, Right, 1.0
+EO, e_1, P_1, Sub, 1.0

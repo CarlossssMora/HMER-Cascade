@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_115
+# Objects(3):
+O, 27:, G, 1.0, O
+O, 29:, q, 1.0, OSubR
+O, 28:, e, 1.0, OSub
+
+# Relations from SRT:
+EO, 27:, 28:, Sub, 1.0
+EO, 28:, 29:, Right, 1.0

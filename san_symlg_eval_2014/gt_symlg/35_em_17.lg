@@ -1,0 +1,15 @@
+# IUD, ISICAL_2014_F35_E17
+# Objects(6):
+O, +_2, +, 1.0, ORRR
+O, 1_1, 1, 1.0, ORRRR
+O, x_2, x, 1.0, ORR
+O, +_1, +, 1.0, OR
+O, 2_1, 2, 1.0, OSup
+O, x_1, x, 1.0, O
+
+# Relations from SRT:
+EO, +_1, x_2, Right, 1.0
+EO, +_2, 1_1, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, x_1, 2_1, Sup, 1.0
+EO, x_2, +_2, Right, 1.0

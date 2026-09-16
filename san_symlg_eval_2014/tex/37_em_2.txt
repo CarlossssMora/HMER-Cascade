@@ -1,0 +1,2 @@
+%37_em_2
+$( \frac { 1 } { n \pi } - \frac { \cos ( n ) ) } { n n } ) + ( \frac { 1 } { n \pi \pi } - \frac { \cos \pi \pi } { n } )$

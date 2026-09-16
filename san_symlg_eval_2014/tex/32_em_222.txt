@@ -1,0 +1,2 @@
+%32_em_222
+$\frac { d a } { d c } = \frac { c } { a }$

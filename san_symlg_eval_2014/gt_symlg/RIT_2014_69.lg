@@ -1,0 +1,19 @@
+# IUD, 2014_RIT_CROHME_69
+# Objects(8):
+O, 68:69:, x, 1.0, OInsideBelowRR
+O, 108:, \sqrt, 1.0, O
+O, 67:, -, 1.0, OInsideBelowR
+O, 65:, -, 1.0, OInside
+O, 61:62:, +, 1.0, OInsideAboveR
+O, 63:64:, x, 1.0, OInsideAboveRR
+O, 60:, 1, 1.0, OInsideAbove
+O, 66:, 1, 1.0, OInsideBelow
+
+# Relations from SRT:
+EO, 108:, 65:, Inside, 1.0
+EO, 60:, 61:62:, Right, 1.0
+EO, 61:62:, 63:64:, Right, 1.0
+EO, 65:, 60:, Above, 1.0
+EO, 65:, 66:, Below, 1.0
+EO, 66:, 67:, Right, 1.0
+EO, 67:, 68:69:, Right, 1.0

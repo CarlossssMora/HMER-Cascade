@@ -1,0 +1,2 @@
+%514_em_326
+$\frac { 1 } { 6 } \int \frac { u ^ { 6 } } { 2 } d a + \frac { 1 } { 6 } \int \frac { 2 u ^ { 5 } } { 2 }$

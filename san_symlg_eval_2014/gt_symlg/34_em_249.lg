@@ -1,0 +1,29 @@
+# IUD, ISICAL_2014_F34_E249
+# Objects(13):
+O, )_1, ), 1.0, ORRRRRRRR
+O, 1_1, 1, 1.0, ORR
+O, n_2, n, 1.0, ORRRRRR
+O, cos_1, \cos, 1.0, ORRRR
+O, pi_2, \pi, 1.0, ORRRRRRR
+O, -_1, -, 1.0, ORRR
+O, pi_1, \pi, 1.0, OBelowR
+O, n_1, n, 1.0, OBelow
+O, _1, -, 1.0, O
+O, (_2, (, 1.0, ORRRRR
+O, 2_1, 2, 1.0, OAbove
+O, )_2, ), 1.0, ORRRRRRRRR
+O, (_1, (, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, 1_1, Right, 1.0
+EO, (_2, n_2, Right, 1.0
+EO, )_1, )_2, Right, 1.0
+EO, -_1, cos_1, Right, 1.0
+EO, 1_1, -_1, Right, 1.0
+EO, _1, (_1, Right, 1.0
+EO, _1, 2_1, Above, 1.0
+EO, _1, n_1, Below, 1.0
+EO, cos_1, (_2, Right, 1.0
+EO, n_1, pi_1, Right, 1.0
+EO, n_2, pi_2, Right, 1.0
+EO, pi_2, )_1, Right, 1.0

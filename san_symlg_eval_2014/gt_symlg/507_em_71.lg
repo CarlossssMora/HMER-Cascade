@@ -1,0 +1,43 @@
+# IUD, IVC_2014_F507_E71
+# Objects(20):
+O, =_1, =, 1.0, OSubR
+O, )_1, ), 1.0, ORRRRRRRRR
+O, 1_1, 1, 1.0, OSubRR
+O, n_2, n, 1.0, ORRRRRRRR
+O, 0_3, 0, 1.0, OSupRRR
+O, n_1, n, 1.0, OSub
+O, 1_4, 1, 1.0, ORRRRRR
+O, 0_1, 0, 1.0, OSupR
+O, 0_2, 0, 1.0, OSupRR
+O, (_1, (, 1.0, OR
+O, 0_4, 0, 1.0, OSupRRRR
+O, sum_1, \sum, 1.0, O
+O, 1_2, 1, 1.0, OSup
+O, -_2, -, 1.0, ORRRRRRRRRSup
+O, -_1, -, 1.0, ORRRRRRR
+O, 0_6, 0, 1.0, ORRRR
+O, 1_3, 1, 1.0, ORR
+O, 2_1, 2, 1.0, ORRRRRRRRRSupR
+O, 0_7, 0, 1.0, ORRRRR
+O, 0_5, 0, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, 1_3, Right, 1.0
+EO, )_1, -_2, Sup, 1.0
+EO, -_1, n_2, Right, 1.0
+EO, -_2, 2_1, Right, 1.0
+EO, 0_1, 0_2, Right, 1.0
+EO, 0_2, 0_3, Right, 1.0
+EO, 0_3, 0_4, Right, 1.0
+EO, 0_5, 0_6, Right, 1.0
+EO, 0_6, 0_7, Right, 1.0
+EO, 0_7, 1_4, Right, 1.0
+EO, 1_2, 0_1, Right, 1.0
+EO, 1_3, 0_5, Right, 1.0
+EO, 1_4, -_1, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, n_1, =_1, Right, 1.0
+EO, n_2, )_1, Right, 1.0
+EO, sum_1, (_1, Right, 1.0
+EO, sum_1, 1_2, Sup, 1.0
+EO, sum_1, n_1, Sub, 1.0

@@ -1,0 +1,37 @@
+# IUD, ISICAL_2014_F27_E121
+# Objects(17):
+O, 5_1, 5, 1.0, ORRRRRRRRRRSup
+O, 1_1, 1, 1.0, O
+O, z_3, z, 1.0, ORRRRRR
+O, z_1, z, 1.0, ORR
+O, -_3, -, 1.0, ORRRRRRRRR
+O, 3_1, 3, 1.0, ORRRRRRSup
+O, z_5, z, 1.0, ORRRRRRRRRR
+O, +_1, +, 1.0, ORRR
+O, -_2, -, 1.0, ORRRRR
+O, z_4, z, 1.0, ORRRRRRRR
+O, -_1, -, 1.0, OR
+O, 4_1, 4, 1.0, ORRRRRRRRSup
+O, +_2, +, 1.0, ORRRRRRR
+O, hellip_1, \ldots, 1.0, ORRRRRRRRRRRR
+O, 2_1, 2, 1.0, ORRRRSup
+O, z_2, z, 1.0, ORRRR
+O, +_3, +, 1.0, ORRRRRRRRRRR
+
+# Relations from SRT:
+EO, +_1, z_2, Right, 1.0
+EO, +_2, z_4, Right, 1.0
+EO, +_3, hellip_1, Right, 1.0
+EO, -_1, z_1, Right, 1.0
+EO, -_2, z_3, Right, 1.0
+EO, -_3, z_5, Right, 1.0
+EO, 1_1, -_1, Right, 1.0
+EO, z_1, +_1, Right, 1.0
+EO, z_2, -_2, Right, 1.0
+EO, z_2, 2_1, Sup, 1.0
+EO, z_3, +_2, Right, 1.0
+EO, z_3, 3_1, Sup, 1.0
+EO, z_4, -_3, Right, 1.0
+EO, z_4, 4_1, Sup, 1.0
+EO, z_5, +_3, Right, 1.0
+EO, z_5, 5_1, Sup, 1.0

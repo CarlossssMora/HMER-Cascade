@@ -1,0 +1,2 @@
+%519_em_454
+$\int f ( x ) - g ( x ) d x = \int f ( x ) d x - \int ( x ) d x$

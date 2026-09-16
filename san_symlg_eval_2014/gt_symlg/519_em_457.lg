@@ -1,0 +1,36 @@
+# IUD, IVC_2014_F519_E457
+# Objects(15):
+O, =_1, =, 1.0, OR
+O, 1_1, 1, 1.0, OInsideRR
+O, =_2, =, 1.0, ORRR
+O, 1_2, 1, 1.0, ORRInsideRR
+O, -_2, -, 1.0, ORRInsideR
+O, -_1, -, 1.0, OInsideR
+O, _1, \sqrt, 1.0, O
+O, 6_1, 6, 1.0, OInsideRRR
+O, -_3, -, 1.0, ORRRRInside
+O, 9_1, 9, 1.0, ORRRRInsideR
+O, _2, \sqrt, 1.0, ORR
+O, 6_2, 6, 1.0, ORRInsideRRR
+O, 7_1, 7, 1.0, ORRInside
+O, _3, \sqrt, 1.0, ORRRR
+O, x_1, x, 1.0, OInside
+
+# Relations from SRT:
+EO, -_1, 1_1, Right, 1.0
+EO, -_2, 1_2, Right, 1.0
+EO, -_3, 9_1, Right, 1.0
+EO, 1_1, 6_1, Right, 1.0
+EO, 1_2, 6_2, Right, 1.0
+EO, 7_1, -_2, Right, 1.0
+EO, =_1, _2, Right, 1.0
+EO, =_2, _3, Right, 1.0
+EO, _1, -_1, Inside, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _1, x_1, Inside, 1.0
+EO, _2, -_2, Inside, 1.0
+EO, _2, 7_1, Inside, 1.0
+EO, _2, =_2, Right, 1.0
+EO, _3, -_3, Inside, 1.0
+EO, _3, 9_1, Inside, 1.0
+EO, x_1, -_1, Right, 1.0

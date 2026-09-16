@@ -1,0 +1,33 @@
+# IUD, 2014_RIT_CROHME_172
+# Objects(15):
+O, 62:, 0, 1.0, OBelowRR
+O, 55:, 0, 1.0, OAboveRRRRRRR
+O, 61:, -, 1.0, OBelowR
+O, 50:, -, 1.0, OAboveRRRR
+O, 45:, (, 1.0, OAboveR
+O, 65:, 0, 1.0, ORR
+O, 49:, ), 1.0, OAboveRRR
+O, 46:47:48:, \pi, 1.0, OAboveRR
+O, 63:64:, =, 1.0, OR
+O, 58:59:60:, \pi, 1.0, OBelow
+O, 56:, ), 1.0, OAboveRRRRRRRR
+O, 42:43:44:, \sin, 1.0, OAbove
+O, 54:, (, 1.0, OAboveRRRRRR
+O, 57:, -, 1.0, O
+O, 51:52:53:, \sin, 1.0, OAboveRRRRR
+
+# Relations from SRT:
+EO, 42:43:44:, 45:, Right, 1.0
+EO, 45:, 46:47:48:, Right, 1.0
+EO, 46:47:48:, 49:, Right, 1.0
+EO, 49:, 50:, Right, 1.0
+EO, 50:, 51:52:53:, Right, 1.0
+EO, 51:52:53:, 54:, Right, 1.0
+EO, 54:, 55:, Right, 1.0
+EO, 55:, 56:, Right, 1.0
+EO, 57:, 42:43:44:, Above, 1.0
+EO, 57:, 58:59:60:, Below, 1.0
+EO, 57:, 63:64:, Right, 1.0
+EO, 58:59:60:, 61:, Right, 1.0
+EO, 61:, 62:, Right, 1.0
+EO, 63:64:, 65:, Right, 1.0

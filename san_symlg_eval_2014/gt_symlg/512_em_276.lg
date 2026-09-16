@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F512_E276
+# Objects(18):
+O, i_2, i, 1.0, ORRSub
+O, =_1, =, 1.0, OR
+O, 1_1, 1, 1.0, OSubRR
+O, x_3, x, 1.0, ORRRRRRR
+O, i_3, i, 1.0, ORRRRSubSub
+O, f_1, f, 1.0, ORRRRR
+O, d_1, d, 1.0, ORRRRRR
+O, y_1, y, 1.0, O
+O, x_2, x, 1.0, ORRRRSup
+O, +_1, +, 1.0, OSubR
+O, 1_2, 1, 1.0, ORRRRSupSubRR
+O, int_1, \int, 1.0, ORRRR
+O, +_2, +, 1.0, ORRR
+O, i_1, i, 1.0, OSub
+O, i_4, i, 1.0, ORRRRSupSub
+O, +_3, +, 1.0, ORRRRSupSubR
+O, y_2, y, 1.0, ORR
+O, x_1, x, 1.0, ORRRRSub
+
+# Relations from SRT:
+EO, +_1, 1_1, Right, 1.0
+EO, +_2, int_1, Right, 1.0
+EO, +_3, 1_2, Right, 1.0
+EO, =_1, y_2, Right, 1.0
+EO, d_1, x_3, Right, 1.0
+EO, f_1, d_1, Right, 1.0
+EO, i_1, +_1, Right, 1.0
+EO, i_4, +_3, Right, 1.0
+EO, int_1, f_1, Right, 1.0
+EO, int_1, x_1, Sub, 1.0
+EO, int_1, x_2, Sup, 1.0
+EO, x_1, i_3, Sub, 1.0
+EO, x_2, i_4, Sub, 1.0
+EO, y_1, =_1, Right, 1.0
+EO, y_1, i_1, Sub, 1.0
+EO, y_2, +_2, Right, 1.0
+EO, y_2, i_2, Sub, 1.0

@@ -1,0 +1,2 @@
+%RIT_2014_287
+$\log x - \log y = \log ( \frac { x } { y } )$

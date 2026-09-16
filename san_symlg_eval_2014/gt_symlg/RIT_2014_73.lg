@@ -1,0 +1,21 @@
+# IUD, 2014_RIT_CROHME_73
+# Objects(9):
+O, 105:, \{, 1.0, ORRRRR
+O, 100:101:, 7, 1.0, ORR
+O, 108:, \}, 1.0, ORRRRRRR
+O, 106:107:, 7, 1.0, ORRRRRR
+O, 99:, COMMA, 1.0, ORSub
+O, 102:, \}, 1.0, ORRR
+O, 97:98:, 7, 1.0, OR
+O, 96:, \{, 1.0, O
+O, 103:104:, =, 1.0, ORRRR
+
+# Relations from SRT:
+EO, 100:101:, 102:, Right, 1.0
+EO, 102:, 103:104:, Right, 1.0
+EO, 103:104:, 105:, Right, 1.0
+EO, 105:, 106:107:, Right, 1.0
+EO, 106:107:, 108:, Right, 1.0
+EO, 96:, 97:98:, Right, 1.0
+EO, 97:98:, 100:101:, Right, 1.0
+EO, 97:98:, 99:, Sub, 1.0

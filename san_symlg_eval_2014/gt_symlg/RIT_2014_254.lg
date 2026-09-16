@@ -1,0 +1,17 @@
+# IUD, 2014_RIT_CROHME_254
+# Objects(7):
+O, 52:, -, 1.0, O
+O, 53:, 2, 1.0, OBelow
+O, 54:55:56:, \div, 1.0, OR
+O, 58:, -, 1.0, ORR
+O, 59:60:, 4, 1.0, ORRBelow
+O, 57:, 3, 1.0, ORRAbove
+O, 51:, 1, 1.0, OAbove
+
+# Relations from SRT:
+EO, 52:, 51:, Above, 1.0
+EO, 52:, 53:, Below, 1.0
+EO, 52:, 54:55:56:, Right, 1.0
+EO, 54:55:56:, 58:, Right, 1.0
+EO, 58:, 57:, Above, 1.0
+EO, 58:, 59:60:, Below, 1.0

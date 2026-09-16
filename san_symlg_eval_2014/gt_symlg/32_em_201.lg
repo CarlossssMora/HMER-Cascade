@@ -1,0 +1,45 @@
+# IUD, ISICAL_2014_F32_E201
+# Objects(21):
+O, )_1, ), 1.0, ORRRR
+O, =_1, =, 1.0, OSubR
+O, 1_1, 1, 1.0, OSubRR
+O, =_3, =, 1.0, ORRRRRRRSubR
+O, n_2, n, 1.0, ORRRRRRRSup
+O, a_1, a, 1.0, ORRR
+O, n_1, n, 1.0, OSup
+O, a_2, a, 1.0, ORRRRRRRRR
+O, sum_2, \sum, 1.0, ORRRRRRR
+O, (_1, (, 1.0, OR
+O, c_2, c, 1.0, ORRRRRR
+O, =_2, =, 1.0, ORRRRR
+O, sum_1, \sum, 1.0, O
+O, 1_2, 1, 1.0, ORRRRRRRSubRR
+O, c_1, c, 1.0, ORR
+O, k_2, k, 1.0, ORRRSub
+O, i_1, i, 1.0, ORRRRRRRSub
+O, (_2, (, 1.0, ORRRRRRRR
+O, k_3, k, 1.0, ORRRRRRRRRSub
+O, k_1, k, 1.0, OSub
+O, )_2, ), 1.0, ORRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, c_1, Right, 1.0
+EO, (_2, a_2, Right, 1.0
+EO, )_1, =_2, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, =_2, c_2, Right, 1.0
+EO, =_3, 1_2, Right, 1.0
+EO, a_1, )_1, Right, 1.0
+EO, a_1, k_2, Sub, 1.0
+EO, a_2, )_2, Right, 1.0
+EO, a_2, k_3, Sub, 1.0
+EO, c_1, a_1, Right, 1.0
+EO, c_2, sum_2, Right, 1.0
+EO, i_1, =_3, Right, 1.0
+EO, k_1, =_1, Right, 1.0
+EO, sum_1, (_1, Right, 1.0
+EO, sum_1, k_1, Sub, 1.0
+EO, sum_1, n_1, Sup, 1.0
+EO, sum_2, (_2, Right, 1.0
+EO, sum_2, i_1, Sub, 1.0
+EO, sum_2, n_2, Sup, 1.0

@@ -1,0 +1,2 @@
+%35_em_24
+$\sqrt { ( \frac { a } { a } ) ^ { 2 } + ( \frac { \Delta } { y } ) ^ { 2 } } ) ^ { ( \frac { \Delta } { y } ) ^ { 2 } } + ( \frac { y } { y } ) ^ { 2 }$

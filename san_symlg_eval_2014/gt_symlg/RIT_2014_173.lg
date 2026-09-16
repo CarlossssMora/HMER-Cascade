@@ -1,0 +1,33 @@
+# IUD, 2014_RIT_CROHME_173
+# Objects(15):
+O, 27:, \sum, 1.0, ORRBelow
+O, 23:24:, +, 1.0, ORRAboveR
+O, 14:15:, p, 1.0, O
+O, 26:, -, 1.0, ORR
+O, 31:32:, +, 1.0, ORRBelowRRR
+O, 149:150:, i, 1.0, ORRAboveSub
+O, 21:, q, 1.0, ORRAbove
+O, 34:, ), 1.0, ORRBelowRRRRR
+O, 19:20:, =, 1.0, OR
+O, 154:155:, i, 1.0, ORRBelowRRSub
+O, 144:145:, i, 1.0, OSub
+O, 33:, c, 1.0, ORRBelowRRRR
+O, 29:, q, 1.0, ORRBelowRR
+O, 25:, a, 1.0, ORRAboveRR
+O, 28:, (, 1.0, ORRBelowR
+
+# Relations from SRT:
+EO, 14:15:, 144:145:, Sub, 1.0
+EO, 14:15:, 19:20:, Right, 1.0
+EO, 19:20:, 26:, Right, 1.0
+EO, 21:, 149:150:, Sub, 1.0
+EO, 21:, 23:24:, Right, 1.0
+EO, 23:24:, 25:, Right, 1.0
+EO, 26:, 21:, Above, 1.0
+EO, 26:, 27:, Below, 1.0
+EO, 27:, 28:, Right, 1.0
+EO, 28:, 29:, Right, 1.0
+EO, 29:, 154:155:, Sub, 1.0
+EO, 29:, 31:32:, Right, 1.0
+EO, 31:32:, 33:, Right, 1.0
+EO, 33:, 34:, Right, 1.0

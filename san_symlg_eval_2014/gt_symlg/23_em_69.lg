@@ -1,0 +1,11 @@
+# IUD, ISICAL_2014_F23_E69
+# Objects(4):
+O, le_1, \leq, 1.0, OR
+O, 1_1, 1, 1.0, ORR
+O, 5_1, 5, 1.0, ORRR
+O, X_1, X, 1.0, O
+
+# Relations from SRT:
+EO, 1_1, 5_1, Right, 1.0
+EO, X_1, le_1, Right, 1.0
+EO, le_1, 1_1, Right, 1.0

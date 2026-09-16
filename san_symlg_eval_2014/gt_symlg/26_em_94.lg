@@ -1,0 +1,45 @@
+# IUD, ISICAL_2014_F26_E94
+# Objects(21):
+O, ]_2, ], 1.0, ORRRRRRRRRRRRRR
+O, 2_3, 2, 1.0, ORRRRRRRRRBelow
+O, )_1, ), 1.0, ORRRRR
+O, 1_1, 1, 1.0, ORAbove
+O, 2_2, 2, 1.0, ORRSup
+O, sin_2, \sin, 1.0, ORRRRRRRRRR
+O, sin_1, \sin, 1.0, ORR
+O, _1, -, 1.0, OR
+O, 0_1, 0, 1.0, ORRRRRRRRRRRR
+O, ]_1, ], 1.0, ORRRRRR
+O, (_1, (, 1.0, ORRR
+O, 1_2, 1, 1.0, ORRRR
+O, -_1, -, 1.0, ORRRRRRR
+O, 2_4, 2, 1.0, ORRRRRRRRRRSup
+O, [_2, [, 1.0, ORRRRRRRR
+O, 1_3, 1, 1.0, ORRRRRRRRRAbove
+O, _2, -, 1.0, ORRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRRRRRR
+O, 2_1, 2, 1.0, ORBelow
+O, [_1, [, 1.0, O
+O, )_2, ), 1.0, ORRRRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, 1_2, Right, 1.0
+EO, (_2, 0_1, Right, 1.0
+EO, )_1, ]_1, Right, 1.0
+EO, )_2, ]_2, Right, 1.0
+EO, -_1, [_2, Right, 1.0
+EO, 0_1, )_2, Right, 1.0
+EO, 1_2, )_1, Right, 1.0
+EO, [_1, _1, Right, 1.0
+EO, [_2, _2, Right, 1.0
+EO, ]_1, -_1, Right, 1.0
+EO, _1, 1_1, Above, 1.0
+EO, _1, 2_1, Below, 1.0
+EO, _1, sin_1, Right, 1.0
+EO, _2, 1_3, Above, 1.0
+EO, _2, 2_3, Below, 1.0
+EO, _2, sin_2, Right, 1.0
+EO, sin_1, (_1, Right, 1.0
+EO, sin_1, 2_2, Sup, 1.0
+EO, sin_2, (_2, Right, 1.0
+EO, sin_2, 2_4, Sup, 1.0

@@ -1,0 +1,43 @@
+# IUD, IVC_2014_F502_E3
+# Objects(20):
+O, 5_1, 5, 1.0, ORRRRRRRRRRRRR
+O, )_1, ), 1.0, ORRRR
+O, x_3, x, 1.0, ORRRRRRRRR
+O, 2_2, 2, 1.0, ORRRRRRRSup
+O, -_3, -, 1.0, ORRRRRRRRRRRRRRR
+O, ]_1, ], 1.0, ORRRRRRRRRRRRRRRRRR
+O, x_4, x, 1.0, ORRRRRRRRRRRRRR
+O, (_1, (, 1.0, O
+O, x_2, x, 1.0, ORRRRRRR
+O, +_1, +, 1.0, ORRRRRRRRRRR
+O, -_2, -, 1.0, ORRRRRRRR
+O, 5_2, 5, 1.0, ORRRRRRRRRRRRRRRR
+O, -_1, -, 1.0, ORR
+O, (_3, (, 1.0, ORRRRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRR
+O, )_3, ), 1.0, ORRRRRRRRRRRRRRRRR
+O, 2_1, 2, 1.0, ORRR
+O, x_1, x, 1.0, OR
+O, [_1, [, 1.0, ORRRRR
+O, )_2, ), 1.0, ORRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, (_2, x_2, Right, 1.0
+EO, (_3, 5_1, Right, 1.0
+EO, )_1, [_1, Right, 1.0
+EO, )_2, +_1, Right, 1.0
+EO, )_3, ]_1, Right, 1.0
+EO, +_1, (_3, Right, 1.0
+EO, -_1, 2_1, Right, 1.0
+EO, -_2, x_3, Right, 1.0
+EO, -_3, 5_2, Right, 1.0
+EO, 2_1, )_1, Right, 1.0
+EO, 5_1, x_4, Right, 1.0
+EO, 5_2, )_3, Right, 1.0
+EO, [_1, (_2, Right, 1.0
+EO, x_1, -_1, Right, 1.0
+EO, x_2, -_2, Right, 1.0
+EO, x_2, 2_2, Sup, 1.0
+EO, x_3, )_2, Right, 1.0
+EO, x_4, -_3, Right, 1.0

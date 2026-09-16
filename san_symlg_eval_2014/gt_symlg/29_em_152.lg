@@ -1,0 +1,18 @@
+# IUD, ISICAL_2014_F29_E152
+# Objects(7):
+O, _1, \sqrt, 1.0, O
+O, =_1, =, 1.0, OR
+O, i_1, i, 1.0, ORR
+O, _2, \sqrt, 1.0, ORRR
+O, n_2, n, 1.0, ORRRInside
+O, -_1, -, 1.0, OInside
+O, n_1, n, 1.0, OInsideR
+
+# Relations from SRT:
+EO, -_1, n_1, Right, 1.0
+EO, =_1, i_1, Right, 1.0
+EO, _1, -_1, Inside, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _1, n_1, Inside, 1.0
+EO, _2, n_2, Inside, 1.0
+EO, i_1, _2, Right, 1.0

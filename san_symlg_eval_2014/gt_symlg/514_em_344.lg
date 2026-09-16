@@ -1,0 +1,21 @@
+# IUD, IVC_2014_F514_E344
+# Objects(9):
+O, =_1, =, 1.0, OR
+O, 1_1, 1, 1.0, ORRSub
+O, +_1, +, 1.0, ORRR
+O, H_1, H, 1.0, O
+O, +_2, +, 1.0, ORRRRR
+O, H_3, H, 1.0, ORRRR
+O, hellip_1, \ldots, 1.0, ORRRRRR
+O, 2_1, 2, 1.0, ORRRRSub
+O, H_2, H, 1.0, ORR
+
+# Relations from SRT:
+EO, +_1, H_3, Right, 1.0
+EO, +_2, hellip_1, Right, 1.0
+EO, =_1, H_2, Right, 1.0
+EO, H_1, =_1, Right, 1.0
+EO, H_2, +_1, Right, 1.0
+EO, H_2, 1_1, Sub, 1.0
+EO, H_3, +_2, Right, 1.0
+EO, H_3, 2_1, Sub, 1.0

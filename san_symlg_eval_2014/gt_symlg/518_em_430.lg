@@ -1,0 +1,17 @@
+# IUD, IVC_2014_F518_E430
+# Objects(7):
+O, _1, -, 1.0, O
+O, +_2, +, 1.0, OAboveRRR
+O, 4_2, 4, 1.0, OAboveRR
+O, +_1, +, 1.0, OAboveR
+O, 4_4, 4, 1.0, OBelow
+O, 4_3, 4, 1.0, OAboveRRRR
+O, 4_1, 4, 1.0, OAbove
+
+# Relations from SRT:
+EO, +_1, 4_2, Right, 1.0
+EO, +_2, 4_3, Right, 1.0
+EO, 4_1, +_1, Right, 1.0
+EO, 4_2, +_2, Right, 1.0
+EO, _1, 4_1, Above, 1.0
+EO, _1, 4_4, Below, 1.0

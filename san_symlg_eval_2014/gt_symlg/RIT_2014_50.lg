@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_50
+# Objects(3):
+O, 42:, x, 1.0, OInside
+O, 43:, 5, 1.0, OInsideSup
+O, 41:, \sqrt, 1.0, O
+
+# Relations from SRT:
+EO, 41:, 42:, Inside, 1.0
+EO, 42:, 43:, Sup, 1.0

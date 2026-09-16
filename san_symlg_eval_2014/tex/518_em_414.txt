@@ -1,0 +1,2 @@
+%518_em_414
+$\lim _ { z \rightarrow z _ { 0 } } f ( z ) = f ( z _ { 0 } )$

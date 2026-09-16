@@ -1,0 +1,7 @@
+# Entorno virtual
+.venv-hmer-gpu/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class

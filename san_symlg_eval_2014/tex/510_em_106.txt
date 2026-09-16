@@ -1,0 +1,2 @@
+%510_em_106
+$\sqrt { a b } = \sqrt { a } \sqrt { b }$

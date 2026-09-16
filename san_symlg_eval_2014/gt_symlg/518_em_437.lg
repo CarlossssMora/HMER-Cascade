@@ -1,0 +1,29 @@
+# IUD, IVC_2014_F518_E437
+# Objects(13):
+O, le_1, \leq, 1.0, ORRRRR
+O, |_2, |, 1.0, ORRRR
+O, |_4, |, 1.0, ORRRRRRRR
+O, x_2, x, 1.0, ORRRRRRR
+O, +_1, +, 1.0, ORR
+O, |_3, |, 1.0, ORRRRRR
+O, +_2, +, 1.0, ORRRRRRRRR
+O, y_1, y, 1.0, ORRR
+O, |_6, |, 1.0, ORRRRRRRRRRRR
+O, y_2, y, 1.0, ORRRRRRRRRRR
+O, |_1, |, 1.0, O
+O, |_5, |, 1.0, ORRRRRRRRRR
+O, x_1, x, 1.0, OR
+
+# Relations from SRT:
+EO, +_1, y_1, Right, 1.0
+EO, +_2, |_5, Right, 1.0
+EO, le_1, |_3, Right, 1.0
+EO, x_1, +_1, Right, 1.0
+EO, x_2, |_4, Right, 1.0
+EO, y_1, |_2, Right, 1.0
+EO, y_2, |_6, Right, 1.0
+EO, |_1, x_1, Right, 1.0
+EO, |_2, le_1, Right, 1.0
+EO, |_3, x_2, Right, 1.0
+EO, |_4, +_2, Right, 1.0
+EO, |_5, y_2, Right, 1.0

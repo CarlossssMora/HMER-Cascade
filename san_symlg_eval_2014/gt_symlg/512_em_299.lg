@@ -1,0 +1,15 @@
+# IUD, IVC_2014_F512_E299
+# Objects(6):
+O, p_1, p, 1.0, O
+O, )_1, ), 1.0, ORRRRR
+O, 1_1, 1, 1.0, ORR
+O, p_2, p, 1.0, ORRRR
+O, -_1, -, 1.0, ORRR
+O, (_1, (, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, 1_1, Right, 1.0
+EO, -_1, p_2, Right, 1.0
+EO, 1_1, -_1, Right, 1.0
+EO, p_1, (_1, Right, 1.0
+EO, p_2, )_1, Right, 1.0

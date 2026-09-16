@@ -1,0 +1,9 @@
+# IUD, 2014_RIT_CROHME_238
+# Objects(3):
+O, 72:, -, 1.0, OSup
+O, 73:74:, k, 1.0, OSupR
+O, 71:, r, 1.0, O
+
+# Relations from SRT:
+EO, 71:, 72:, Sup, 1.0
+EO, 72:, 73:74:, Right, 1.0

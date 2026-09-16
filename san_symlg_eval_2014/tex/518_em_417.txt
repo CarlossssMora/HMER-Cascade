@@ -1,0 +1,2 @@
+%518_em_417
+$\frac { d } { d x } \sqrt { x } = \frac { 1 } { 2 \sqrt { x } }$

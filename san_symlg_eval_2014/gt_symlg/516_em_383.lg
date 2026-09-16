@@ -1,0 +1,11 @@
+# IUD, IVC_2014_F516_E383
+# Objects(4):
+O, )_1, ), 1.0, ORRR
+O, r_1, r, 1.0, O
+O, x_1, x, 1.0, ORR
+O, (_1, (, 1.0, OR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, r_1, (_1, Right, 1.0
+EO, x_1, )_1, Right, 1.0

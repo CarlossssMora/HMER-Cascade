@@ -1,0 +1,2 @@
+%502_em_17
+$\frac { d } { d \theta } e ^ { i \theta } = i e ^ { i \theta }$

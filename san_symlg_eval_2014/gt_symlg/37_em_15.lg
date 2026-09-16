@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F37_E15
+# Objects(3):
+O, ge_1, \geq, 1.0, OR
+O, u_1, u, 1.0, O
+O, 0_1, 0, 1.0, ORR
+
+# Relations from SRT:
+EO, ge_1, 0_1, Right, 1.0
+EO, u_1, ge_1, Right, 1.0

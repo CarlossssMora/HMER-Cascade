@@ -1,0 +1,15 @@
+# IUD, ISICAL_2014_F35_E6
+# Objects(6):
+O, =_1, =, 1.0, ORRRR
+O, 5_1, 5, 1.0, OR
+O, 1_1, 1, 1.0, O
+O, 3_1, 3, 1.0, ORRRRR
+O, 5_2, 5, 1.0, ORRR
+O, div_1, \div, 1.0, ORR
+
+# Relations from SRT:
+EO, 1_1, 5_1, Right, 1.0
+EO, 5_1, div_1, Right, 1.0
+EO, 5_2, =_1, Right, 1.0
+EO, =_1, 3_1, Right, 1.0
+EO, div_1, 5_2, Right, 1.0

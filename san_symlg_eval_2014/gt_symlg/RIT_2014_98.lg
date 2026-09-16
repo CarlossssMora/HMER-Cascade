@@ -1,0 +1,21 @@
+# IUD, 2014_RIT_CROHME_98
+# Objects(9):
+O, 20:, g, 1.0, ORR
+O, 17:, b, 1.0, OSub
+O, 21:, G, 1.0, ORRR
+O, 18:19:, =, 1.0, OR
+O, 22:, a, 1.0, ORRRSub
+O, 24:, -, 1.0, ORRRRSup
+O, 25:, 1, 1.0, ORRRRSupR
+O, 16:, G, 1.0, O
+O, 23:, g, 1.0, ORRRR
+
+# Relations from SRT:
+EO, 16:, 17:, Sub, 1.0
+EO, 16:, 18:19:, Right, 1.0
+EO, 18:19:, 20:, Right, 1.0
+EO, 20:, 21:, Right, 1.0
+EO, 21:, 22:, Sub, 1.0
+EO, 21:, 23:, Right, 1.0
+EO, 23:, 24:, Sup, 1.0
+EO, 24:, 25:, Right, 1.0

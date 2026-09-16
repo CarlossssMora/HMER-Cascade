@@ -1,0 +1,2 @@
+%507_em_70
+$- \infty \leq x \leq \infty$

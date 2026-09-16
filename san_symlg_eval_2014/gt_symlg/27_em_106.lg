@@ -1,0 +1,35 @@
+# IUD, ISICAL_2014_F27_E106
+# Objects(16):
+O, )_1, ), 1.0, ORRRRRRRR
+O, =_1, =, 1.0, ORRR
+O, 2_3, 2, 1.0, ORRRRRRRRSup
+O, 2_2, 2, 1.0, ORRSup
+O, alpha_1, \alpha, 1.0, O
+O, beta_3, \beta, 1.0, ORRRRRRRRRRRR
+O, alpha_2, \alpha, 1.0, ORRRRR
+O, (_1, (, 1.0, ORRRR
+O, +_1, +, 1.0, OR
+O, beta_1, \beta, 1.0, ORR
+O, -_1, -, 1.0, ORRRRRRRRR
+O, beta_2, \beta, 1.0, ORRRRRRR
+O, 2_4, 2, 1.0, ORRRRRRRRRR
+O, +_2, +, 1.0, ORRRRRR
+O, alpha_3, \alpha, 1.0, ORRRRRRRRRRR
+O, 2_1, 2, 1.0, OSup
+
+# Relations from SRT:
+EO, (_1, alpha_2, Right, 1.0
+EO, )_1, -_1, Right, 1.0
+EO, )_1, 2_3, Sup, 1.0
+EO, +_1, beta_1, Right, 1.0
+EO, +_2, beta_2, Right, 1.0
+EO, -_1, 2_4, Right, 1.0
+EO, 2_4, alpha_3, Right, 1.0
+EO, =_1, (_1, Right, 1.0
+EO, alpha_1, +_1, Right, 1.0
+EO, alpha_1, 2_1, Sup, 1.0
+EO, alpha_2, +_2, Right, 1.0
+EO, alpha_3, beta_3, Right, 1.0
+EO, beta_1, 2_2, Sup, 1.0
+EO, beta_1, =_1, Right, 1.0
+EO, beta_2, )_1, Right, 1.0

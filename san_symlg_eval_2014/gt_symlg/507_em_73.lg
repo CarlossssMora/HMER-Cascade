@@ -1,0 +1,45 @@
+# IUD, IVC_2014_F507_E73
+# Objects(21):
+O, a_3, a, 1.0, ORRRRRRRRRRR
+O, =_1, =, 1.0, ORRRR
+O, 1_1, 1, 1.0, ORRRRRRSupR
+O, )_1, ), 1.0, ORRR
+O, a_1, a, 1.0, O
+O, d_1, d, 1.0, ORRRRRRR
+O, a_2, a, 1.0, ORRRRRR
+O, 0_1, 0, 1.0, ORRRRRRRRRRRSub
+O, (_1, (, 1.0, OR
+O, d_2, d, 1.0, ORRRRRRRRRRRR
+O, =_2, =, 1.0, ORRRRRRRRR
+O, 1_2, 1, 1.0, ORRRRRRRRRRRSupR
+O, (_3, (, 1.0, ORRRRRRRRRRRSup
+O, int_1, \int, 1.0, ORRRRR
+O, t_3, t, 1.0, ORRRRRRRRRRRRR
+O, t_1, t, 1.0, ORR
+O, int_2, \int, 1.0, ORRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRSup
+O, )_3, ), 1.0, ORRRRRRRRRRRSupRR
+O, t_2, t, 1.0, ORRRRRRRR
+O, )_2, ), 1.0, ORRRRRRSupRR
+
+# Relations from SRT:
+EO, (_1, t_1, Right, 1.0
+EO, (_2, 1_1, Right, 1.0
+EO, (_3, 1_2, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, 1_1, )_2, Right, 1.0
+EO, 1_2, )_3, Right, 1.0
+EO, =_1, int_1, Right, 1.0
+EO, =_2, int_2, Right, 1.0
+EO, a_1, (_1, Right, 1.0
+EO, a_2, (_2, Sup, 1.0
+EO, a_2, d_1, Right, 1.0
+EO, a_3, (_3, Sup, 1.0
+EO, a_3, 0_1, Sub, 1.0
+EO, a_3, d_2, Right, 1.0
+EO, d_1, t_2, Right, 1.0
+EO, d_2, t_3, Right, 1.0
+EO, int_1, a_2, Right, 1.0
+EO, int_2, a_3, Right, 1.0
+EO, t_1, )_1, Right, 1.0
+EO, t_2, =_2, Right, 1.0

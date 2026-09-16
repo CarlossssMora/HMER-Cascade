@@ -1,0 +1,27 @@
+# IUD, 2014_RIT_CROHME_42
+# Objects(12):
+O, 10:, \alpha, 1.0, ORRRRRRR
+O, 6:, \alpha, 1.0, ORRRR
+O, 3:, \beta, 1.0, ORR
+O, 11:, \gamma, 1.0, ORRRRRRRR
+O, 0:1:, \sum, 1.0, O
+O, 15:, \gamma, 1.0, ORRRRRRRRRRR
+O, 14:, \beta, 1.0, ORRRRRRRRRR
+O, 8:9:, +, 1.0, ORRRRRR
+O, 12:13:, +, 1.0, ORRRRRRRRR
+O, 7:, \beta, 1.0, ORRRRR
+O, 4:5:, =, 1.0, ORRR
+O, 2:, \alpha, 1.0, OR
+
+# Relations from SRT:
+EO, 0:1:, 2:, Right, 1.0
+EO, 10:, 11:, Right, 1.0
+EO, 11:, 12:13:, Right, 1.0
+EO, 12:13:, 14:, Right, 1.0
+EO, 14:, 15:, Right, 1.0
+EO, 2:, 3:, Right, 1.0
+EO, 3:, 4:5:, Right, 1.0
+EO, 4:5:, 6:, Right, 1.0
+EO, 6:, 7:, Right, 1.0
+EO, 7:, 8:9:, Right, 1.0
+EO, 8:9:, 10:, Right, 1.0

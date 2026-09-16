@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_64
+# Objects(4):
+O, 2:3:6:, \sin, 1.0, ORR
+O, 0:, a, 1.0, O
+O, 1:, b, 1.0, OR
+O, 7:, \alpha, 1.0, ORRR
+
+# Relations from SRT:
+EO, 0:, 1:, Right, 1.0
+EO, 1:, 2:3:6:, Right, 1.0
+EO, 2:3:6:, 7:, Right, 1.0

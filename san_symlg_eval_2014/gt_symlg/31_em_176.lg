@@ -1,0 +1,15 @@
+# IUD, ISICAL_2014_F31_E176
+# Objects(6):
+O, _1, -, 1.0, OR
+O, )_1, ), 1.0, ORR
+O, _2, \sqrt, 1.0, ORBelow
+O, 2_1, 2, 1.0, ORBelowInside
+O, pi_1, \pi, 1.0, ORAbove
+O, (_1, (, 1.0, O
+
+# Relations from SRT:
+EO, (_1, _1, Right, 1.0
+EO, _1, )_1, Right, 1.0
+EO, _1, _2, Below, 1.0
+EO, _1, pi_1, Above, 1.0
+EO, _2, 2_1, Inside, 1.0

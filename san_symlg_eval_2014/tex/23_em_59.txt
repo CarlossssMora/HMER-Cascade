@@ -1,0 +1,2 @@
+%23_em_59
+$\sum _ { \gamma = 1 } ^ { n } a ^ { b } = a \sum _ { r = 1 } ^ { n } \gamma ^ { b }$

@@ -1,0 +1,37 @@
+# IUD, ISICAL_2014_F18_E21
+# Objects(17):
+O, 1_10, 1, 1.0, ORRRRRRRRRRRRR
+O, 1_1, 1, 1.0, O
+O, 1_8, 1, 1.0, ORRRRRRRRR
+O, 1_5, 1, 1.0, ORRRRR
+O, 0_3, 0, 1.0, ORRRRRRRRRRR
+O, 1_6, 1, 1.0, ORRRRRR
+O, 1_4, 1, 1.0, ORRRR
+O, 0_1, 0, 1.0, OR
+O, 1_7, 1, 1.0, ORRRRRRRR
+O, 0_2, 0, 1.0, ORRRRRRR
+O, 0_4, 0, 1.0, ORRRRRRRRRRRR
+O, 1_11, 1, 1.0, ORRRRRRRRRRRRRRR
+O, 1_2, 1, 1.0, ORR
+O, 1_9, 1, 1.0, ORRRRRRRRRR
+O, 1_3, 1, 1.0, ORRR
+O, 2_1, 2, 1.0, ORRRRRRRRRRRRRRRSub
+O, 0_5, 0, 1.0, ORRRRRRRRRRRRRR
+
+# Relations from SRT:
+EO, 0_1, 1_2, Right, 1.0
+EO, 0_2, 1_7, Right, 1.0
+EO, 0_3, 0_4, Right, 1.0
+EO, 0_4, 1_10, Right, 1.0
+EO, 0_5, 1_11, Right, 1.0
+EO, 1_10, 0_5, Right, 1.0
+EO, 1_11, 2_1, Sub, 1.0
+EO, 1_1, 0_1, Right, 1.0
+EO, 1_2, 1_3, Right, 1.0
+EO, 1_3, 1_4, Right, 1.0
+EO, 1_4, 1_5, Right, 1.0
+EO, 1_5, 1_6, Right, 1.0
+EO, 1_6, 0_2, Right, 1.0
+EO, 1_7, 1_8, Right, 1.0
+EO, 1_8, 1_9, Right, 1.0
+EO, 1_9, 0_3, Right, 1.0

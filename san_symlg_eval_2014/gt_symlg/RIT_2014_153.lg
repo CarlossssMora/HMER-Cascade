@@ -1,0 +1,15 @@
+# IUD, 2014_RIT_CROHME_153
+# Objects(6):
+O, 55:, x, 1.0, ORSup
+O, 53:, b, 1.0, OSub
+O, 58:59:, X, 1.0, ORRR
+O, 56:57:, =, 1.0, ORR
+O, 50:51:52:, \log, 1.0, O
+O, 54:, b, 1.0, OR
+
+# Relations from SRT:
+EO, 50:51:52:, 53:, Sub, 1.0
+EO, 50:51:52:, 54:, Right, 1.0
+EO, 54:, 55:, Sup, 1.0
+EO, 54:, 56:57:, Right, 1.0
+EO, 56:57:, 58:59:, Right, 1.0

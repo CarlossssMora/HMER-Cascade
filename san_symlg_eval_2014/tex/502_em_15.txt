@@ -1,0 +1,2 @@
+%502_em_15
+$\theta _ { i + 1 } = \theta _ { i } - \alpha _ { i }$

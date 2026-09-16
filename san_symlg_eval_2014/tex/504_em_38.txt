@@ -1,0 +1,2 @@
+%504_em_38
+$- \frac { \sin ( n \pi ) } { 1 \pi } + \frac { \sin ( n \pi ) } { 1 n }$

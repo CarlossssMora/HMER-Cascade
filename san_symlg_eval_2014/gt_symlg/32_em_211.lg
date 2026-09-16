@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F32_E211
+# Objects(3):
+O, l_1, l, 1.0, OSubR
+O, c_1, c, 1.0, OSub
+O, H_1, H, 1.0, O
+
+# Relations from SRT:
+EO, H_1, c_1, Sub, 1.0
+EO, c_1, l_1, Right, 1.0

@@ -1,0 +1,9 @@
+# IUD, IVC_2014_F501_E16
+# Objects(3):
+O, Y_1, Y, 1.0, OSubR
+O, N_1, N, 1.0, O
+O, X_1, X, 1.0, OSub
+
+# Relations from SRT:
+EO, N_1, X_1, Sub, 1.0
+EO, X_1, Y_1, Right, 1.0

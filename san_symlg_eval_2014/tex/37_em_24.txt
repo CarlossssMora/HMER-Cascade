@@ -1,0 +1,2 @@
+%37_em_24
+$\lim _ { n \rightarrow \alpha } \frac { 2 } { n } \sum _ { i = 1 } ^ { n } \frac { 4 } { n ^ { 2 } }$

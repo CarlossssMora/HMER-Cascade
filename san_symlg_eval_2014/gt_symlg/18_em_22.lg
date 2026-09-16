@@ -1,0 +1,29 @@
+# IUD, ISICAL_2014_F18_E22
+# Objects(13):
+O, gamma_2, \gamma, 1.0, ORSup
+O, gamma_3, \gamma, 1.0, ORRRSup
+O, 1_1, 1, 1.0, OSub
+O, n_2, n, 1.0, ORRRSupSub
+O, p_3, p, 1.0, ORRR
+O, 1_2, 1, 1.0, OSupSub
+O, 2_2, 2, 1.0, ORSupSub
+O, gamma_1, \gamma, 1.0, OSup
+O, n_1, n, 1.0, ORRRSub
+O, ctdot_1, \ldots, 1.0, ORR
+O, p_1, p, 1.0, O
+O, 2_1, 2, 1.0, ORSub
+O, p_2, p, 1.0, OR
+
+# Relations from SRT:
+EO, ctdot_1, p_3, Right, 1.0
+EO, gamma_1, 1_2, Sub, 1.0
+EO, gamma_2, 2_2, Sub, 1.0
+EO, gamma_3, n_2, Sub, 1.0
+EO, p_1, 1_1, Sub, 1.0
+EO, p_1, gamma_1, Sup, 1.0
+EO, p_1, p_2, Right, 1.0
+EO, p_2, 2_1, Sub, 1.0
+EO, p_2, ctdot_1, Right, 1.0
+EO, p_2, gamma_2, Sup, 1.0
+EO, p_3, gamma_3, Sup, 1.0
+EO, p_3, n_1, Sub, 1.0

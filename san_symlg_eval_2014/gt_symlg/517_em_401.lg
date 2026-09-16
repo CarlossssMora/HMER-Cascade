@@ -1,0 +1,23 @@
+# IUD, IVC_2014_F517_E401
+# Objects(10):
+O, =_1, =, 1.0, ORRRR
+O, x_2, x, 1.0, ORRRRR
+O, )_1, ), 1.0, ORRR
+O, t_1, t, 1.0, ORR
+O, (_2, (, 1.0, ORRRRRR
+O, 0_1, 0, 1.0, ORRRRRSub
+O, t_2, t, 1.0, ORRRRRRR
+O, x_1, x, 1.0, O
+O, (_1, (, 1.0, OR
+O, )_2, ), 1.0, ORRRRRRRR
+
+# Relations from SRT:
+EO, (_1, t_1, Right, 1.0
+EO, (_2, t_2, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, =_1, x_2, Right, 1.0
+EO, t_1, )_1, Right, 1.0
+EO, t_2, )_2, Right, 1.0
+EO, x_1, (_1, Right, 1.0
+EO, x_2, (_2, Right, 1.0
+EO, x_2, 0_1, Sub, 1.0

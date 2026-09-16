@@ -1,0 +1,21 @@
+# IUD, IVC_2014_F513_E323
+# Objects(9):
+O, =_1, =, 1.0, ORRR
+O, r_1, r, 1.0, ORR
+O, sum_1, \sum, 1.0, O
+O, pi_2, \pi, 1.0, ORRRR
+O, 2_2, 2, 1.0, ORRRRRRSup
+O, pi_1, \pi, 1.0, OR
+O, r_2, r, 1.0, ORRRRRR
+O, 2_1, 2, 1.0, ORRSup
+O, sum_2, \sum, 1.0, ORRRRR
+
+# Relations from SRT:
+EO, =_1, pi_2, Right, 1.0
+EO, pi_1, r_1, Right, 1.0
+EO, pi_2, sum_2, Right, 1.0
+EO, r_1, 2_1, Sup, 1.0
+EO, r_1, =_1, Right, 1.0
+EO, r_2, 2_2, Sup, 1.0
+EO, sum_1, pi_1, Right, 1.0
+EO, sum_2, r_2, Right, 1.0

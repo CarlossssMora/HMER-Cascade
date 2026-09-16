@@ -1,0 +1,55 @@
+# IUD, ISICAL_2014_F37_E8
+# Objects(26):
+O, =_1, =, 1.0, ORRRRR
+O, )_1, ), 1.0, ORRRR
+O, 1_1, 1, 1.0, ORRRRRRBelow
+O, x_3, x, 1.0, ORRRRRRAboveRRRRRRRR
+O, tan_2, \tan, 1.0, ORRRRRRAboveR
+O, 3_3, 3, 1.0, ORRRRRRAboveRRRRRRSup
+O, 3_2, 3, 1.0, ORRRRRRAbove
+O, tan_1, \tan, 1.0, O
+O, _1, -, 1.0, ORRRRRR
+O, 3_1, 3, 1.0, ORR
+O, tan_3, \tan, 1.0, ORRRRRRAboveRRRRRR
+O, x_4, x, 1.0, ORRRRRRBelowRRRRR
+O, )_4, ), 1.0, ORRRRRRBelowRRRRRR
+O, 3_4, 3, 1.0, ORRRRRRBelowRR
+O, (_1, (, 1.0, OR
+O, x_2, x, 1.0, ORRRRRRAboveRRR
+O, (_4, (, 1.0, ORRRRRRBelowRRRR
+O, -_2, -, 1.0, ORRRRRRBelowR
+O, -_1, -, 1.0, ORRRRRRAboveRRRRR
+O, (_3, (, 1.0, ORRRRRRAboveRRRRRRR
+O, )_3, ), 1.0, ORRRRRRAboveRRRRRRRRR
+O, (_2, (, 1.0, ORRRRRRAboveRR
+O, 2_1, 2, 1.0, ORRRRRRBelowRRRSup
+O, tan_4, \tan, 1.0, ORRRRRRBelowRRR
+O, )_2, ), 1.0, ORRRRRRAboveRRRR
+O, x_1, x, 1.0, ORRR
+
+# Relations from SRT:
+EO, (_1, 3_1, Right, 1.0
+EO, (_2, x_2, Right, 1.0
+EO, (_3, x_3, Right, 1.0
+EO, (_4, x_4, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, )_2, -_1, Right, 1.0
+EO, -_1, tan_3, Right, 1.0
+EO, -_2, 3_4, Right, 1.0
+EO, 1_1, -_2, Right, 1.0
+EO, 3_1, x_1, Right, 1.0
+EO, 3_2, tan_2, Right, 1.0
+EO, 3_4, tan_4, Right, 1.0
+EO, =_1, _1, Right, 1.0
+EO, _1, 1_1, Below, 1.0
+EO, _1, 3_2, Above, 1.0
+EO, tan_1, (_1, Right, 1.0
+EO, tan_2, (_2, Right, 1.0
+EO, tan_3, (_3, Right, 1.0
+EO, tan_3, 3_3, Sup, 1.0
+EO, tan_4, (_4, Right, 1.0
+EO, tan_4, 2_1, Sup, 1.0
+EO, x_1, )_1, Right, 1.0
+EO, x_2, )_2, Right, 1.0
+EO, x_3, )_3, Right, 1.0
+EO, x_4, )_4, Right, 1.0

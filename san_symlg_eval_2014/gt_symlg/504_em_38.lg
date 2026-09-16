@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F504_E38
+# Objects(18):
+O, pi_3, \pi, 1.0, ORRRAboveRRR
+O, )_1, ), 1.0, ORAboveRRRR
+O, pi_4, \pi, 1.0, ORRRBelowR
+O, n_4, n, 1.0, ORRRBelow
+O, n_2, n, 1.0, ORBelow
+O, pi_2, \pi, 1.0, ORBelowR
+O, sin_2, \sin, 1.0, ORRRAbove
+O, pi_1, \pi, 1.0, ORAboveRRR
+O, sin_1, \sin, 1.0, ORAbove
+O, n_1, n, 1.0, ORAboveRR
+O, _1, -, 1.0, OR
+O, (_1, (, 1.0, ORAboveR
+O, +_1, +, 1.0, ORR
+O, -_1, -, 1.0, O
+O, (_2, (, 1.0, ORRRAboveR
+O, _2, -, 1.0, ORRR
+O, n_3, n, 1.0, ORRRAboveRR
+O, )_2, ), 1.0, ORRRAboveRRRR
+
+# Relations from SRT:
+EO, (_1, n_1, Right, 1.0
+EO, (_2, n_3, Right, 1.0
+EO, +_1, _2, Right, 1.0
+EO, -_1, _1, Right, 1.0
+EO, _1, +_1, Right, 1.0
+EO, _1, n_2, Below, 1.0
+EO, _1, sin_1, Above, 1.0
+EO, _2, n_4, Below, 1.0
+EO, _2, sin_2, Above, 1.0
+EO, n_1, pi_1, Right, 1.0
+EO, n_2, pi_2, Right, 1.0
+EO, n_3, pi_3, Right, 1.0
+EO, n_4, pi_4, Right, 1.0
+EO, pi_1, )_1, Right, 1.0
+EO, pi_3, )_2, Right, 1.0
+EO, sin_1, (_1, Right, 1.0
+EO, sin_2, (_2, Right, 1.0

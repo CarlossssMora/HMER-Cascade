@@ -1,0 +1,39 @@
+# IUD, ISICAL_2014_F37_E24
+# Objects(18):
+O, i_2, i, 1.0, ORRRAboveR
+O, =_1, =, 1.0, ORRSubR
+O, 2_3, 2, 1.0, ORRRBelowSup
+O, 1_1, 1, 1.0, ORRSubRR
+O, n_4, n, 1.0, ORRRBelow
+O, n_2, n, 1.0, ORBelow
+O, 2_2, 2, 1.0, ORRRAboveRSup
+O, rarr_1, \rightarrow, 1.0, OSubR
+O, n_1, n, 1.0, OSub
+O, _1, -, 1.0, OR
+O, infin_1, \infty, 1.0, OSubRR
+O, sum_1, \sum, 1.0, ORR
+O, 4_1, 4, 1.0, ORRRAbove
+O, _2, -, 1.0, ORRR
+O, i_1, i, 1.0, ORRSub
+O, 2_1, 2, 1.0, ORAbove
+O, lim_1, \lim, 1.0, O
+O, n_3, n, 1.0, ORRSup
+
+# Relations from SRT:
+EO, 4_1, i_2, Right, 1.0
+EO, =_1, 1_1, Right, 1.0
+EO, _1, 2_1, Above, 1.0
+EO, _1, n_2, Below, 1.0
+EO, _1, sum_1, Right, 1.0
+EO, _2, 4_1, Above, 1.0
+EO, _2, n_4, Below, 1.0
+EO, i_1, =_1, Right, 1.0
+EO, i_2, 2_2, Sup, 1.0
+EO, lim_1, _1, Right, 1.0
+EO, lim_1, n_1, Sub, 1.0
+EO, n_1, rarr_1, Right, 1.0
+EO, n_4, 2_3, Sup, 1.0
+EO, rarr_1, infin_1, Right, 1.0
+EO, sum_1, _2, Right, 1.0
+EO, sum_1, i_1, Sub, 1.0
+EO, sum_1, n_3, Sup, 1.0

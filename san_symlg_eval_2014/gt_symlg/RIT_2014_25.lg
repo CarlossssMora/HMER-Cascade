@@ -1,0 +1,41 @@
+# IUD, 2014_RIT_CROHME_25
+# Objects(19):
+O, 37:, (, 1.0, OR
+O, 56:57:, t, 1.0, ORRRRRRRRRRRR
+O, 47:, ), 1.0, ORRRRRRRR
+O, 42:43:, \cos, 1.0, ORRRRR
+O, 62:63:, t, 1.0, ORRRRRRRRRRRRRRRRR
+O, 40:, ), 1.0, ORRR
+O, 60:, \cos, 1.0, ORRRRRRRRRRRRRRR
+O, 35:, \sin, 1.0, O
+O, 44:, (, 1.0, ORRRRRR
+O, 38:39:, t, 1.0, ORR
+O, 55:, (, 1.0, ORRRRRRRRRRR
+O, 61:, (, 1.0, ORRRRRRRRRRRRRRRR
+O, 59:, /, 1.0, ORRRRRRRRRRRRRR
+O, 50:54:, \sin, 1.0, ORRRRRRRRRR
+O, 64:, ), 1.0, ORRRRRRRRRRRRRRRRRR
+O, 48:, =, 1.0, O
+O, 41:, /, 1.0, ORRRR
+O, 58:, ), 1.0, ORRRRRRRRRRRRR
+O, 45:46:, t, 1.0, ORRRRRRR
+
+# Relations from SRT:
+EO, 35:, 37:, Right, 1.0
+EO, 37:, 38:39:, Right, 1.0
+EO, 38:39:, 40:, Right, 1.0
+EO, 40:, 41:, Right, 1.0
+EO, 41:, 42:43:, Right, 1.0
+EO, 42:43:, 44:, Right, 1.0
+EO, 44:, 45:46:, Right, 1.0
+EO, 45:46:, 47:, Right, 1.0
+EO, 47:, 48:49:, Right, 1.0
+EO, 48:49:, 50:54:, Right, 1.0
+EO, 50:54:, 55:, Right, 1.0
+EO, 55:, 56:57:, Right, 1.0
+EO, 56:57:, 58:, Right, 1.0
+EO, 58:, 59:, Right, 1.0
+EO, 59:, 60:, Right, 1.0
+EO, 60:, 61:, Right, 1.0
+EO, 61:, 62:63:, Right, 1.0
+EO, 62:63:, 64:, Right, 1.0

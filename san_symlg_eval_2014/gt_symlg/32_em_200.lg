@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F32_E200
+# Objects(3):
+O, _1, -, 1.0, O
+O, 8_1, 8, 1.0, OBelow
+O, pi_1, \pi, 1.0, OAbove
+
+# Relations from SRT:
+EO, _1, 8_1, Below, 1.0
+EO, _1, pi_1, Above, 1.0

@@ -1,0 +1,29 @@
+# IUD, ISICAL_2014_F31_E175
+# Objects(13):
+O, x_2, x, 1.0, ORRR
+O, )_1, ), 1.0, ORRRR
+O, =_1, =, 1.0, ORRRRR
+O, f_2, f, 1.0, ORRRRRR
+O, \rightarrow_1, \rightarrow, 1.0, OSubR
+O, c_1, c, 1.0, OSubRR
+O, f_1, f, 1.0, OR
+O, (_2, (, 1.0, ORRRRRRR
+O, lim_1, \lim, 1.0, O
+O, (_1, (, 1.0, ORR
+O, x_1, x, 1.0, OSub
+O, c_2, c, 1.0, ORRRRRRRR
+O, )_2, ), 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, x_2, Right, 1.0
+EO, (_2, c_2, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, =_1, f_2, Right, 1.0
+EO, \rightarrow_1, c_1, Right, 1.0
+EO, c_2, )_2, Right, 1.0
+EO, f_1, (_1, Right, 1.0
+EO, f_2, (_2, Right, 1.0
+EO, lim_1, f_1, Right, 1.0
+EO, lim_1, x_1, Sub, 1.0
+EO, x_1, \rightarrow_1, Right, 1.0
+EO, x_2, )_1, Right, 1.0

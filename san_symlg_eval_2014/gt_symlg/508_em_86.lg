@@ -1,0 +1,29 @@
+# IUD, IVC_2014_F508_E86
+# Objects(12):
+O, =_1, =, 1.0, OR
+O, 5_1, 5, 1.0, OInsideR
+O, =_2, =, 1.0, ORRR
+O, 5_2, 5, 1.0, ORRInsideRR
+O, times_1, \times, 1.0, ORRInsideR
+O, 4_1, 4, 1.0, OInside
+O, 5_3, 5, 1.0, ORRRRRInside
+O, _1, \sqrt, 1.0, O
+O, _2, \sqrt, 1.0, ORR
+O, 9_1, 9, 1.0, ORRInside
+O, 3_1, 3, 1.0, ORRRR
+O, _3, \sqrt, 1.0, ORRRRR
+
+# Relations from SRT:
+EO, 3_1, _3, Right, 1.0
+EO, 4_1, 5_1, Right, 1.0
+EO, 9_1, times_1, Right, 1.0
+EO, =_1, _2, Right, 1.0
+EO, =_2, 3_1, Right, 1.0
+EO, _1, 4_1, Inside, 1.0
+EO, _1, 5_1, Inside, 1.0
+EO, _1, =_1, Right, 1.0
+EO, _2, 9_1, Inside, 1.0
+EO, _2, =_2, Right, 1.0
+EO, _2, times_1, Inside, 1.0
+EO, _3, 5_3, Inside, 1.0
+EO, times_1, 5_2, Right, 1.0

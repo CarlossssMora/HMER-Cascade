@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F37_E7
+# Objects(3):
+O, theta_1, \theta, 1.0, ORR
+O, 6_1, 6, 1.0, OR
+O, cos_1, \cos, 1.0, O
+
+# Relations from SRT:
+EO, 6_1, theta_1, Right, 1.0
+EO, cos_1, 6_1, Right, 1.0

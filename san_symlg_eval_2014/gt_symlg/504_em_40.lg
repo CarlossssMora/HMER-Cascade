@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F504_E40
+# Objects(18):
+O, =_1, =, 1.0, ORRRRRRR
+O, \ldots_1, \ldots, 1.0, ORRR
+O, 2_3, 2, 1.0, ORRSupRR
+O, 1_1, 1, 1.0, OSupRR
+O, n_2, n, 1.0, ORRSup
+O, 2_2, 2, 1.0, ORR
+O, n_1, n, 1.0, OSup
+O, -_3, -, 1.0, ORRRRRRRRR
+O, 2_5, 2, 1.0, ORRRRRRRR
+O, +_1, +, 1.0, OR
+O, -_2, -, 1.0, ORRSupR
+O, 1_2, 1, 1.0, ORRRRRR
+O, -_1, -, 1.0, OSupR
+O, 2_4, 2, 1.0, ORRRR
+O, +_2, +, 1.0, ORRRRR
+O, 1_3, 1, 1.0, ORRRRRRRRRR
+O, 2_1, 2, 1.0, O
+O, n_3, n, 1.0, ORRRRRRRRSup
+
+# Relations from SRT:
+EO, +_1, 2_2, Right, 1.0
+EO, +_2, 1_2, Right, 1.0
+EO, -_1, 1_1, Right, 1.0
+EO, -_2, 2_3, Right, 1.0
+EO, -_3, 1_3, Right, 1.0
+EO, 1_2, =_1, Right, 1.0
+EO, 2_1, +_1, Right, 1.0
+EO, 2_1, n_1, Sup, 1.0
+EO, 2_2, \ldots_1, Right, 1.0
+EO, 2_2, n_2, Sup, 1.0
+EO, 2_4, +_2, Right, 1.0
+EO, 2_5, -_3, Right, 1.0
+EO, 2_5, n_3, Sup, 1.0
+EO, =_1, 2_5, Right, 1.0
+EO, \ldots_1, 2_4, Right, 1.0
+EO, n_1, -_1, Right, 1.0
+EO, n_2, -_2, Right, 1.0

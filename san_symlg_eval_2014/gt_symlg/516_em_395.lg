@@ -1,0 +1,9 @@
+# IUD, IVC_2014_F516_E395
+# Objects(3):
+O, \neq_1, \neq, 1.0, OR
+O, 0_1, 0, 1.0, ORR
+O, n_1, n, 1.0, O
+
+# Relations from SRT:
+EO, \neq_1, 0_1, Right, 1.0
+EO, n_1, \neq_1, Right, 1.0

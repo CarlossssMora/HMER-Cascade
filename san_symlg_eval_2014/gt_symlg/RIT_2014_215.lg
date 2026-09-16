@@ -1,0 +1,51 @@
+# IUD, 2014_RIT_CROHME_215
+# Objects(24):
+O, 24:25:, i, 1.0, ORRRRRRRRRRRR
+O, 20:, \sqrt, 1.0, ORRRRRRRRRRRAbove
+O, 0:, (, 1.0, O
+O, 8:, -, 1.0, ORRRR
+O, 3:, -, 1.0, ORR
+O, 17:, 2, 1.0, ORRRRRRRRRBelow
+O, 15:, 1, 1.0, ORRRRRRRRRAbove
+O, 18:19:, +, 1.0, ORRRRRRRRRR
+O, 12:, ), 1.0, ORRRRRR
+O, 10:11:, i, 1.0, ORRRRR
+O, 4:, 2, 1.0, ORRBelow
+O, 5:, -, 1.0, ORRR
+O, 23:, 2, 1.0, ORRRRRRRRRRRBelow
+O, 13:, (, 1.0, ORRRRRRR
+O, 6:, \sqrt, 1.0, ORRRRAbove
+O, 1:, -, 1.0, OR
+O, 26:, ), 1.0, ORRRRRRRRRRRRR
+O, 21:, 3, 1.0, ORRRRRRRRRRRAboveInside
+O, 14:, -, 1.0, ORRRRRRRR
+O, 22:, -, 1.0, ORRRRRRRRRRR
+O, 9:, 2, 1.0, ORRRRBelow
+O, 7:, 3, 1.0, ORRRRAboveInside
+O, 2:, 1, 1.0, ORRAbove
+O, 16:, -, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+EO, 0:, 1:, Right, 1.0
+EO, 10:11:, 12:, Right, 1.0
+EO, 12:, 13:, Right, 1.0
+EO, 13:, 14:, Right, 1.0
+EO, 14:, 16:, Right, 1.0
+EO, 16:, 15:, Above, 1.0
+EO, 16:, 17:, Below, 1.0
+EO, 16:, 18:19:, Right, 1.0
+EO, 18:19:, 22:, Right, 1.0
+EO, 1:, 3:, Right, 1.0
+EO, 20:, 21:, Inside, 1.0
+EO, 22:, 20:, Above, 1.0
+EO, 22:, 23:, Below, 1.0
+EO, 22:, 24:25:, Right, 1.0
+EO, 24:25:, 26:, Right, 1.0
+EO, 3:, 2:, Above, 1.0
+EO, 3:, 4:, Below, 1.0
+EO, 3:, 5:, Right, 1.0
+EO, 5:, 8:, Right, 1.0
+EO, 6:, 7:, Inside, 1.0
+EO, 8:, 10:11:, Right, 1.0
+EO, 8:, 6:, Above, 1.0
+EO, 8:, 9:, Below, 1.0

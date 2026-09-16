@@ -1,0 +1,2 @@
+%519_em_441
+$\frac { 1 } { \tan ( \theta ) } = \frac { \cos ( \theta ) } { m ( \theta ) }$

@@ -1,0 +1,2 @@
+%505_em_53
+$\sigma _ { x } = \sqrt { \sigma _ { x } ^ { 2 } }$

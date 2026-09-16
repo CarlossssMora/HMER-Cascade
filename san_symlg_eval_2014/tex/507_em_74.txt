@@ -1,0 +1,2 @@
+%507_em_74
+$\cos 4 \sigma + i \sin 4 \sigma = ( \cos \theta + i \sin y ) ^ { 4 }$

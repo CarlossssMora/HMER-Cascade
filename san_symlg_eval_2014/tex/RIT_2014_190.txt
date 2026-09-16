@@ -1,0 +1,2 @@
+%RIT_2014_190
+$B \sin ( n y ) = \sin ( \pi y ) ^ { t } s ^ { \sin ( 3 \pi ) ) }$

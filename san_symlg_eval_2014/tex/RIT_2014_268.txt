@@ -1,0 +1,2 @@
+%RIT_2014_268
+$\int \frac { 1 } { x } \sqrt { \frac { 1 - x } { x } } d x$

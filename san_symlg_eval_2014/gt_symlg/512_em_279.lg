@@ -1,0 +1,51 @@
+# IUD, IVC_2014_F512_E279
+# Objects(24):
+O, )_1, ), 1.0, OAboveRRRRRRRR
+O, 1_1, 1, 1.0, OAboveSupR
+O, 1_5, 1, 1.0, OBelowRRRSupR
+O, z_3, z, 1.0, OAboveRRRRRRR
+O, z_1, z, 1.0, OAbove
+O, _1, -, 1.0, O
+O, 1_4, 1, 1.0, OBelowR
+O, -_3, -, 1.0, OAboveRRRRRRRSup
+O, (_1, (, 1.0, OAboveR
+O, 4_2, 4, 1.0, OBelowRRRRSup
+O, +_1, +, 1.0, OAboveRRR
+O, z_4, z, 1.0, OBelowRRR
+O, 1_2, 1, 1.0, OAboveRR
+O, -_2, -, 1.0, OAboveRRRRRSup
+O, -_1, -, 1.0, OAboveSup
+O, 4_1, 4, 1.0, OAboveRRRR
+O, +_2, +, 1.0, OAboveRRRRRR
+O, 1_3, 1, 1.0, OAboveRRRRRSupR
+O, (_2, (, 1.0, OBelow
+O, z_2, z, 1.0, OAboveRRRRR
+O, 2_1, 2, 1.0, OAboveRRRRRRRSupR
+O, -_5, -, 1.0, OBelowRRRSup
+O, -_4, -, 1.0, OBelowRR
+O, )_2, ), 1.0, OBelowRRRR
+
+# Relations from SRT:
+EO, (_1, 1_2, Right, 1.0
+EO, (_2, 1_4, Right, 1.0
+EO, )_2, 4_2, Sup, 1.0
+EO, +_1, 4_1, Right, 1.0
+EO, +_2, z_3, Right, 1.0
+EO, -_1, 1_1, Right, 1.0
+EO, -_2, 1_3, Right, 1.0
+EO, -_3, 2_1, Right, 1.0
+EO, -_4, z_4, Right, 1.0
+EO, -_5, 1_5, Right, 1.0
+EO, 1_2, +_1, Right, 1.0
+EO, 1_4, -_4, Right, 1.0
+EO, 4_1, z_2, Right, 1.0
+EO, _1, (_2, Below, 1.0
+EO, _1, z_1, Above, 1.0
+EO, z_1, (_1, Right, 1.0
+EO, z_1, -_1, Sup, 1.0
+EO, z_2, +_2, Right, 1.0
+EO, z_2, -_2, Sup, 1.0
+EO, z_3, )_1, Right, 1.0
+EO, z_3, -_3, Sup, 1.0
+EO, z_4, )_2, Right, 1.0
+EO, z_4, -_5, Sup, 1.0

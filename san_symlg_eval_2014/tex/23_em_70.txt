@@ -1,0 +1,2 @@
+%23_em_70
+$\alpha + \beta = \beta + \alpha$

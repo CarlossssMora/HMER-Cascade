@@ -1,0 +1,25 @@
+# IUD, ISICAL_2014_F26_E77
+# Objects(11):
+O, =_1, =, 1.0, ORR
+O, i_2, i, 1.0, ORSub
+O, x_2, x, 1.0, ORRRR
+O, i_5, i, 1.0, ORRRRRSub
+O, e_2, e, 1.0, ORRRRR
+O, sum_1, \sum, 1.0, ORRR
+O, i_3, i, 1.0, ORRRSub
+O, i_1, i, 1.0, OSup
+O, i_4, i, 1.0, ORRRRSup
+O, e_1, e, 1.0, OR
+O, x_1, x, 1.0, O
+
+# Relations from SRT:
+EO, =_1, sum_1, Right, 1.0
+EO, e_1, =_1, Right, 1.0
+EO, e_1, i_2, Sub, 1.0
+EO, e_2, i_5, Sub, 1.0
+EO, sum_1, i_3, Sub, 1.0
+EO, sum_1, x_2, Right, 1.0
+EO, x_1, e_1, Right, 1.0
+EO, x_1, i_1, Sup, 1.0
+EO, x_2, e_2, Right, 1.0
+EO, x_2, i_4, Sup, 1.0

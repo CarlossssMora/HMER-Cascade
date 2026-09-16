@@ -1,0 +1,9 @@
+# IUD, ISICAL_2014_F23_E64
+# Objects(3):
+O, e_1, e, 1.0, OSub
+O, log_1, \log, 1.0, O
+O, x_1, x, 1.0, OR
+
+# Relations from SRT:
+EO, log_1, e_1, Sub, 1.0
+EO, log_1, x_1, Right, 1.0

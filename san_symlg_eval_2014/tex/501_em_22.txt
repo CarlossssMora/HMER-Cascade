@@ -1,0 +1,2 @@
+%501_em_22
+$\forall \gamma \in X$

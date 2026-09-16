@@ -1,0 +1,2 @@
+%31_em_198
+$\lim _ { x \rightarrow - \alpha } p _ { 2 } ( a ) > 0$

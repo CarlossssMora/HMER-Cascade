@@ -1,0 +1,39 @@
+# IUD, IVC_2014_F513_E312
+# Objects(18):
+O, i_2, i, 1.0, ORRRRRRRRRRRRR
+O, =_1, =, 1.0, ORRRRRRRR
+O, )_1, ), 1.0, ORRRRRRR
+O, theta_4, \theta, 1.0, ORRRRRRRRRRRRRRRR
+O, n_2, n, 1.0, ORRRRRRRRRR
+O, cos_1, \cos, 1.0, OR
+O, sin_2, \sin, 1.0, ORRRRRRRRRRRRRR
+O, sin_1, \sin, 1.0, ORRRRR
+O, n_1, n, 1.0, ORRRRRRRSup
+O, cos_2, \cos, 1.0, ORRRRRRRRR
+O, (_1, (, 1.0, O
+O, theta_1, \theta, 1.0, ORR
+O, +_1, +, 1.0, ORRR
+O, +_2, +, 1.0, ORRRRRRRRRRRR
+O, i_1, i, 1.0, ORRRR
+O, theta_2, \theta, 1.0, ORRRRRR
+O, theta_3, \theta, 1.0, ORRRRRRRRRRR
+O, n_3, n, 1.0, ORRRRRRRRRRRRRRR
+
+# Relations from SRT:
+EO, (_1, cos_1, Right, 1.0
+EO, )_1, =_1, Right, 1.0
+EO, )_1, n_1, Sup, 1.0
+EO, +_1, i_1, Right, 1.0
+EO, +_2, i_2, Right, 1.0
+EO, =_1, cos_2, Right, 1.0
+EO, cos_1, theta_1, Right, 1.0
+EO, cos_2, n_2, Right, 1.0
+EO, i_1, sin_1, Right, 1.0
+EO, i_2, sin_2, Right, 1.0
+EO, n_2, theta_3, Right, 1.0
+EO, n_3, theta_4, Right, 1.0
+EO, sin_1, theta_2, Right, 1.0
+EO, sin_2, n_3, Right, 1.0
+EO, theta_1, +_1, Right, 1.0
+EO, theta_2, )_1, Right, 1.0
+EO, theta_3, +_2, Right, 1.0

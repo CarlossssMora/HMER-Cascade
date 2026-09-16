@@ -1,0 +1,2 @@
+%501_em_12
+$\frac { T ^ { \frac { l } { H } } } { T _ { \frac { l } { 2 } } ^ { 2 } } = \frac { T ^ { \frac { l } { 2 } } } { ( \frac { 1 } { 2 } v _ { 4 } }$

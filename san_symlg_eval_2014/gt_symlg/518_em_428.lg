@@ -1,0 +1,21 @@
+# IUD, IVC_2014_F518_E428
+# Objects(9):
+O, 1_1, 1, 1.0, O
+O, 1_5, 1, 1.0, ORRRRRRR
+O, 1_2, 1, 1.0, OR
+O, 0_3, 0, 1.0, ORRRRR
+O, 1_3, 1, 1.0, ORR
+O, 1_4, 1, 1.0, ORRRRRR
+O, 2_1, 2, 1.0, ORRRRRRRSub
+O, 0_1, 0, 1.0, ORRR
+O, 0_2, 0, 1.0, ORRRR
+
+# Relations from SRT:
+EO, 0_1, 0_2, Right, 1.0
+EO, 0_2, 0_3, Right, 1.0
+EO, 0_3, 1_4, Right, 1.0
+EO, 1_1, 1_2, Right, 1.0
+EO, 1_2, 1_3, Right, 1.0
+EO, 1_3, 0_1, Right, 1.0
+EO, 1_4, 1_5, Right, 1.0
+EO, 1_5, 2_1, Sub, 1.0

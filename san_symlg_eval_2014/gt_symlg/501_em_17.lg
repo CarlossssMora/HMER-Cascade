@@ -1,0 +1,9 @@
+# IUD, IVC_2014_F501_E17
+# Objects(3):
+O, mu_1, \mu, 1.0, O
+O, sigma_1, \sigma, 1.0, ORR
+O, pm_1, \pm, 1.0, OR
+
+# Relations from SRT:
+EO, mu_1, pm_1, Right, 1.0
+EO, pm_1, sigma_1, Right, 1.0

@@ -1,0 +1,11 @@
+# IUD, ISICAL_2014_F28_E127
+# Objects(4):
+O, COMMA_1, COMMA, 1.0, OR
+O, X_2, X, 1.0, ORR
+O, X_1, X, 1.0, O
+O, t_1, t, 1.0, ORRSub
+
+# Relations from SRT:
+EO, COMMA_1, X_2, Right, 1.0
+EO, X_1, COMMA_1, Right, 1.0
+EO, X_2, t_1, Sub, 1.0

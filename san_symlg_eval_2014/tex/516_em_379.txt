@@ -1,0 +1,2 @@
+%516_em_379
+$\lim _ { n \rightarrow \infty } f _ { n } ( x ) = 0$

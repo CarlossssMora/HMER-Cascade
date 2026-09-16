@@ -1,0 +1,2 @@
+%RIT_2014_213
+$\tan x - \tan y = \frac { \sin ( x - y ) } { \cos \cos y }$

@@ -1,0 +1,2 @@
+%506_em_67
+$\lim _ { n \rightarrow \infty } \frac { 8 } { n ^ { 3 } } \sum _ { i = 1 } ^ { n } i ^ { 2 }$

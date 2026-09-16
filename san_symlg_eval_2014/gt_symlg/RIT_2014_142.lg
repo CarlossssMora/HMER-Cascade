@@ -1,0 +1,16 @@
+# IUD, 2014_RIT_CROHME_142
+# Objects(6):
+O, 38:39:, +, 1.0, OBelowInsideR
+O, 35:36:37:, k, 1.0, OBelowInside
+O, 33:, -, 1.0, O
+O, 32:, 1, 1.0, OAbove
+O, 40:, 1, 1.0, OBelowInsideRR
+O, 34:, \sqrt, 1.0, OBelow
+
+# Relations from SRT:
+EO, 33:, 32:, Above, 1.0
+EO, 33:, 34:, Below, 1.0
+EO, 34:, 35:36:37:, Inside, 1.0
+EO, 34:, 38:39:, Inside, 1.0
+EO, 35:36:37:, 38:39:, Right, 1.0
+EO, 38:39:, 40:, Right, 1.0

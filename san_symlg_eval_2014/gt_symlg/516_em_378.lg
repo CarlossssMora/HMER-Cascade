@@ -1,0 +1,13 @@
+# IUD, IVC_2014_F516_E378
+# Objects(5):
+O, j_2, j, 1.0, ORRRR
+O, 5_1, 5, 1.0, O
+O, 3_1, 3, 1.0, ORRR
+O, +_1, +, 1.0, ORR
+O, j_1, j, 1.0, OR
+
+# Relations from SRT:
+EO, +_1, 3_1, Right, 1.0
+EO, 3_1, j_2, Right, 1.0
+EO, 5_1, j_1, Right, 1.0
+EO, j_1, +_1, Right, 1.0

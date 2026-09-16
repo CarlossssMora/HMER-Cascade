@@ -1,0 +1,11 @@
+# IUD, 2014_RIT_CROHME_169
+# Objects(4):
+O, 243:250:, j, 1.0, OSub
+O, 128:129:, 1, 1.0, OSubRR
+O, 119:, \beta, 1.0, O
+O, 122:123:126:, +, 1.0, OSubR
+
+# Relations from SRT:
+EO, 119:, 243:250:, Sub, 1.0
+EO, 122:123:126:, 128:129:, Right, 1.0
+EO, 243:250:, 122:123:126:, Right, 1.0

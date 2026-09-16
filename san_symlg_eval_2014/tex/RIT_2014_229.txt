@@ -1,0 +1,2 @@
+%RIT_2014_229
+$\frac { d } { d \theta } \sqrt { \theta } = \frac { 1 } { 2 \sqrt { \theta } }$

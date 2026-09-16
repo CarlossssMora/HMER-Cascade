@@ -1,0 +1,2 @@
+%RIT_2014_101
+$\frac { 1 } { 2 } ( - \sqrt { \frac { \gamma } { 1 + \sqrt { 0 } } } )$

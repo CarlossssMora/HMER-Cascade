@@ -1,0 +1,19 @@
+# IUD, 2014_RIT_CROHME_200
+# Objects(8):
+O, 26:, n, 1.0, OBelow
+O, 31:, n, 1.0, ORSub
+O, 34:, 0, 1.0, ORRR
+O, 27:28:, \rightarrow, 1.0, OBelowR
+O, 22:23:24:25:, \lim, 1.0, O
+O, 29:, \infty, 1.0, OBelowRR
+O, 32:33:, =, 1.0, ORR
+O, 30:, y, 1.0, OR
+
+# Relations from SRT:
+EO, 22:23:24:25:, 26:, B, 1.0
+EO, 22:23:24:25:, 30:, Right, 1.0
+EO, 26:, 27:28:, Right, 1.0
+EO, 27:28:, 29:, Right, 1.0
+EO, 30:, 31:, Sub, 1.0
+EO, 30:, 32:33:, Right, 1.0
+EO, 32:33:, 34:, Right, 1.0

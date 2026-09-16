@@ -1,0 +1,17 @@
+# IUD, IVC_2014_F511_E258
+# Objects(7):
+O, i_2, i, 1.0, ORSub
+O, =_1, =, 1.0, OSubR
+O, 1_1, 1, 1.0, OSubRR
+O, i_1, i, 1.0, OSub
+O, sum_1, \sum, 1.0, O
+O, a_1, a, 1.0, OR
+O, n_1, n, 1.0, OSup
+
+# Relations from SRT:
+EO, =_1, 1_1, Right, 1.0
+EO, a_1, i_2, Sub, 1.0
+EO, i_1, =_1, Right, 1.0
+EO, sum_1, a_1, Right, 1.0
+EO, sum_1, i_1, Sub, 1.0
+EO, sum_1, n_1, Sup, 1.0

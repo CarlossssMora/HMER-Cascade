@@ -1,0 +1,43 @@
+# IUD, IVC_2014_F511_E262
+# Objects(20):
+O, n_4, n, 1.0, ORRAboveRRRR
+O, n_2, n, 1.0, ORBelow
+O, 3_3, 3, 1.0, ORRAboveRSup
+O, n_5, n, 1.0, ORRAboveRRRRRR
+O, 2_2, 2, 1.0, ORRAboveRRRRSup
+O, 3_2, 3, 1.0, ORBelowSup
+O, \rightarrow_1, \rightarrow, 1.0, OSubR
+O, \infty_1, \infty, 1.0, OSubRR
+O, n_1, n, 1.0, OSub
+O, 6_1, 6, 1.0, ORRBelow
+O, _1, -, 1.0, OR
+O, 3_1, 3, 1.0, ORAboveSup
+O, 3_4, 3, 1.0, ORRAboveRRR
+O, +_1, +, 1.0, ORRAboveRR
+O, +_2, +, 1.0, ORRAboveRRRRR
+O, _2, -, 1.0, ORR
+O, 2_1, 2, 1.0, ORRAbove
+O, lim_1, \lim, 1.0, O
+O, x_1, x, 1.0, ORAbove
+O, n_3, n, 1.0, ORRAboveR
+
+# Relations from SRT:
+EO, +_1, 3_4, Right, 1.0
+EO, +_2, n_5, Right, 1.0
+EO, 2_1, n_3, Right, 1.0
+EO, 3_4, n_4, Right, 1.0
+EO, \rightarrow_1, \infty_1, Right, 1.0
+EO, _1, _2, Right, 1.0
+EO, _1, n_2, Below, 1.0
+EO, _1, x_1, Above, 1.0
+EO, _2, 2_1, Above, 1.0
+EO, _2, 6_1, Below, 1.0
+EO, lim_1, _1, Right, 1.0
+EO, lim_1, n_1, Sub, 1.0
+EO, n_1, \rightarrow_1, Right, 1.0
+EO, n_2, 3_2, Sup, 1.0
+EO, n_3, +_1, Right, 1.0
+EO, n_3, 3_3, Sup, 1.0
+EO, n_4, +_2, Right, 1.0
+EO, n_4, 2_2, Sup, 1.0
+EO, x_1, 3_1, Sup, 1.0

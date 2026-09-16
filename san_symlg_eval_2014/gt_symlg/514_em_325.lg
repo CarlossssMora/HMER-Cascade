@@ -1,0 +1,33 @@
+# IUD, IVC_2014_F514_E325
+# Objects(15):
+O, times_6, \times, 1.0, OBelowRRR
+O, x_2, x, 1.0, OAboveRR
+O, x_3, x, 1.0, OAboveRRRR
+O, x_7, x, 1.0, OBelowRR
+O, times_1, \times, 1.0, OAboveR
+O, times_5, \times, 1.0, OBelowR
+O, x_8, x, 1.0, OBelowRRRR
+O, _1, -, 1.0, O
+O, x_5, x, 1.0, OAboveRRRRRRRR
+O, times_4, \times, 1.0, OAboveRRRRRRR
+O, times_3, \times, 1.0, OAboveRRRRR
+O, times_2, \times, 1.0, OAboveRRR
+O, x_4, x, 1.0, OAboveRRRRRR
+O, x_6, x, 1.0, OBelow
+O, x_1, x, 1.0, OAbove
+
+# Relations from SRT:
+EO, _1, x_1, Above, 1.0
+EO, _1, x_6, Below, 1.0
+EO, times_1, x_2, Right, 1.0
+EO, times_2, x_3, Right, 1.0
+EO, times_3, x_4, Right, 1.0
+EO, times_4, x_5, Right, 1.0
+EO, times_5, x_7, Right, 1.0
+EO, times_6, x_8, Right, 1.0
+EO, x_1, times_1, Right, 1.0
+EO, x_2, times_2, Right, 1.0
+EO, x_3, times_3, Right, 1.0
+EO, x_4, times_4, Right, 1.0
+EO, x_6, times_5, Right, 1.0
+EO, x_7, times_6, Right, 1.0

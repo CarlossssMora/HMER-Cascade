@@ -1,0 +1,29 @@
+# IUD, IVC_2014_F515_E359
+# Objects(13):
+O, 4_2, 4, 1.0, ORRRRRRRRR
+O, )_1, ), 1.0, ORRRRRRRRRRRR
+O, COMMA_1, COMMA, 1.0, ORRRR
+O, /_1, /, 1.0, ORR
+O, 3_3, 3, 1.0, ORRRRRRRRRRR
+O, 3_2, 3, 1.0, ORRRRRRR
+O, 4_1, 4, 1.0, OR
+O, COMMA_2, COMMA, 1.0, ORRRRRRRR
+O, /_2, /, 1.0, ORRRRRR
+O, 3_1, 3, 1.0, ORRR
+O, 2_1, 2, 1.0, ORRRRR
+O, /_3, /, 1.0, ORRRRRRRRRR
+O, (_1, (, 1.0, O
+
+# Relations from SRT:
+EO, (_1, 4_1, Right, 1.0
+EO, /_1, 3_1, Right, 1.0
+EO, /_2, 3_2, Right, 1.0
+EO, /_3, 3_3, Right, 1.0
+EO, 2_1, /_2, Right, 1.0
+EO, 3_1, COMMA_1, Right, 1.0
+EO, 3_2, COMMA_2, Right, 1.0
+EO, 3_3, )_1, Right, 1.0
+EO, 4_1, /_1, Right, 1.0
+EO, 4_2, /_3, Right, 1.0
+EO, COMMA_1, 2_1, Right, 1.0
+EO, COMMA_2, 4_2, Right, 1.0

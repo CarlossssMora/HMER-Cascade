@@ -1,0 +1,25 @@
+# IUD, ISICAL_2014_F29_E162
+# Objects(11):
+O, prime_2, \prime, 1.0, OBelowR
+O, x_2, x, 1.0, OBelowRRR
+O, )_1, ), 1.0, OAboveRRRR
+O, g_1, g, 1.0, OBelow
+O, f_1, f, 1.0, OAbove
+O, _1, -, 1.0, O
+O, (_2, (, 1.0, OBelowRR
+O, prime_1, \prime, 1.0, OAboveR
+O, x_1, x, 1.0, OAboveRRR
+O, )_2, ), 1.0, OBelowRRRR
+O, (_1, (, 1.0, OAboveRR
+
+# Relations from SRT:
+EO, (_1, x_1, Right, 1.0
+EO, (_2, x_2, Right, 1.0
+EO, _1, f_1, Above, 1.0
+EO, _1, g_1, Below, 1.0
+EO, f_1, prime_1, Right, 1.0
+EO, g_1, prime_2, Right, 1.0
+EO, prime_1, (_1, Right, 1.0
+EO, prime_2, (_2, Right, 1.0
+EO, x_1, )_1, Right, 1.0
+EO, x_2, )_2, Right, 1.0
