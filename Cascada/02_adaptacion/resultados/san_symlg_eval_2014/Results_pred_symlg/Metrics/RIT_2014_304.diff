@@ -1,0 +1,17 @@
+*N,OSubR,\rightarrow,1.0,:vs:,ABSENT,1.0
+*N,OSubRRR,\infty,1.0,:vs:,ABSENT,1.0
+*N,OBelow,ABSENT,1.0,:vs:,x,1.0
+*N,OR,p,1.0,:vs:,P,1.0
+*N,OSub,x,1.0,:vs:,ABSENT,1.0
+*N,OBelowR,ABSENT,1.0,:vs:,\rightarrow,1.0
+*N,OBelowRR,ABSENT,1.0,:vs:,-,1.0
+*N,OSubRR,-,1.0,:vs:,ABSENT,1.0
+*N,OBelowRRR,ABSENT,1.0,:vs:,\infty,1.0
+*E,OSubRR,OSubRRR,Right,1.0,:vs:,_,1.0
+*E,O,OSub,Sub,1.0,:vs:,_,1.0
+*E,OSubR,OSubRR,Right,1.0,:vs:,_,1.0
+*E,OSub,OSubR,Right,1.0,:vs:,_,1.0
+*E,O,OBelow,_,1.0,:vs:,B,1.0
+*E,OBelow,OBelowR,_,1.0,:vs:,Right,1.0
+*E,OBelowR,OBelowRR,_,1.0,:vs:,Right,1.0
+*E,OBelowRR,OBelowRRR,_,1.0,:vs:,Right,1.0

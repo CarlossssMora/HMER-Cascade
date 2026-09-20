@@ -1,0 +1,31 @@
+# IUD, 37_em_30
+# Objects(14):
+O, x_7, x, 1.0, ORRRR
+O, (_3, (, 1.0, OR
+O, 3_16, 3, 1.0, ORRRRRRRRRRR
+O, =_9, =, 1.0, ORRRRRR
+O, (_12, (, 1.0, ORRRRRRRR
+O, )_17, ), 1.0, ORRRRRRRRRRRR
+O, f_2, f, 1.0, O
+O, f_4, f, 1.0, ORR
+O, )_18, ), 1.0, ORRRRRRRRRRRRR
+O, (_15, (, 1.0, ORRRRRRRRRR
+O, )_8, ), 1.0, ORRRRR
+O, (_6, (, 1.0, ORRR
+O, g_13, g, 1.0, ORRRRRRRRR
+O, g_10, g, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, (_12, g_13, Right, 1.0
+R, (_15, 3_16, Right, 1.0
+R, (_3, f_4, Right, 1.0
+R, (_6, x_7, Right, 1.0
+R, )_17, )_18, Right, 1.0
+R, )_8, =_9, Right, 1.0
+R, 3_16, )_17, Right, 1.0
+R, =_9, g_10, Right, 1.0
+R, f_2, (_3, Right, 1.0
+R, f_4, (_6, Right, 1.0
+R, g_10, (_12, Right, 1.0
+R, g_13, (_15, Right, 1.0
+R, x_7, )_8, Right, 1.0

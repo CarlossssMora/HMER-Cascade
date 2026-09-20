@@ -1,0 +1,7 @@
+# IUD, 514_em_346
+# Objects(2):
+O, n_2, n, 1.0, O
+O, 2_3, 2, 1.0, OSup
+
+# Relations from SRT:
+R, n_2, 2_3, Sup, 1.0

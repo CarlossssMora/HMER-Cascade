@@ -1,0 +1,9 @@
+# IUD, 511_em_273
+# Objects(3):
+O, \beta_4, \beta, 1.0, ORR
+O, x_2, x, 1.0, O
+O, =_3, =, 1.0, OR
+
+# Relations from SRT:
+R, =_3, \beta_4, Right, 1.0
+R, x_2, =_3, Right, 1.0

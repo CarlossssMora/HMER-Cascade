@@ -1,0 +1,2 @@
+%26_em_77
+$x ^ { i } e _ { i } = \sum \limits _ { i } x ^ { i } e _ { i }$

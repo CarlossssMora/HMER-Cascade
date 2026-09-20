@@ -1,0 +1,9 @@
+# IUD, 513_em_319
+# Objects(3):
+O, A_4, A, 1.0, ORR
+O, x_2, x, 1.0, O
+O, \gt_3, \gt, 1.0, OR
+
+# Relations from SRT:
+R, \gt_3, A_4, Right, 1.0
+R, x_2, \gt_3, Right, 1.0

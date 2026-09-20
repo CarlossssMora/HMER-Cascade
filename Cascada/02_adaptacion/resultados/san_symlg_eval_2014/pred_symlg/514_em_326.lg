@@ -1,0 +1,43 @@
+# IUD, 514_em_326
+# Objects(20):
+O, +_13, +, 1.0, ORRRRR
+O, _6, -, 1.0, ORR
+O, 2_10, 2, 1.0, ORRBelow
+O, 6_4, 6, 1.0, OBelow
+O, 2_24, 2, 1.0, ORRRRRRRRBelow
+O, 5_23, 5, 1.0, ORRRRRRRRAboveRSup
+O, 6_16, 6, 1.0, ORRRRRRBelow
+O, 2_20, 2, 1.0, ORRRRRRRRAbove
+O, 1_15, 1, 1.0, ORRRRRRAbove
+O, d_11, d, 1.0, ORRR
+O, u_8, u, 1.0, ORRAbove
+O, \int_17, \int, 1.0, ORRRRRRR
+O, \int_5, \int, 1.0, OR
+O, _18, -, 1.0, ORRRRRRRR
+O, 1_3, 1, 1.0, OAbove
+O, _2, -, 1.0, O
+O, a_12, a, 1.0, ORRRR
+O, _14, -, 1.0, ORRRRRR
+O, u_22, u, 1.0, ORRRRRRRRAboveR
+O, 6_9, 6, 1.0, ORRAboveSup
+
+# Relations from SRT:
+R, +_13, _14, Right, 1.0
+R, 2_20, u_22, Right, 1.0
+R, \int_17, _18, Right, 1.0
+R, \int_5, _6, Right, 1.0
+R, _14, 1_15, Above, 1.0
+R, _14, 6_16, Below, 1.0
+R, _14, \int_17, Right, 1.0
+R, _18, 2_20, Above, 1.0
+R, _18, 2_24, Below, 1.0
+R, _2, 1_3, Above, 1.0
+R, _2, 6_4, Below, 1.0
+R, _2, \int_5, Right, 1.0
+R, _6, 2_10, Below, 1.0
+R, _6, d_11, Right, 1.0
+R, _6, u_8, Above, 1.0
+R, a_12, +_13, Right, 1.0
+R, d_11, a_12, Right, 1.0
+R, u_22, 5_23, Sup, 1.0
+R, u_8, 6_9, Sup, 1.0

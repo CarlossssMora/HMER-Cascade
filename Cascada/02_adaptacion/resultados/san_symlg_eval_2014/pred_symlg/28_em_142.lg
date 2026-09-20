@@ -1,0 +1,25 @@
+# IUD, 28_em_142
+# Objects(11):
+O, 3_13, 3, 1.0, OBelowRRRR
+O, 9_11, 9, 1.0, OBelowRR
+O, 3_9, 3, 1.0, OBelow
+O, 7_12, 7, 1.0, OBelowRRR
+O, 7_7, 7, 1.0, OAboveRRRR
+O, _1, -, 1.0, O
+O, 8_10, 8, 1.0, OBelowR
+O, 4_3, 4, 1.0, OAbove
+O, 4_5, 4, 1.0, OAboveRR
+O, 4_4, 4, 1.0, OAboveR
+O, 6_6, 6, 1.0, OAboveRRR
+
+# Relations from SRT:
+R, 3_9, 8_10, Right, 1.0
+R, 4_3, 4_4, Right, 1.0
+R, 4_4, 4_5, Right, 1.0
+R, 4_5, 6_6, Right, 1.0
+R, 6_6, 7_7, Right, 1.0
+R, 7_12, 3_13, Right, 1.0
+R, 8_10, 9_11, Right, 1.0
+R, 9_11, 7_12, Right, 1.0
+R, _1, 3_9, Below, 1.0
+R, _1, 4_3, Above, 1.0

@@ -1,0 +1,33 @@
+# IUD, 23_em_72
+# Objects(15):
+O, \sum_3, \sum, 1.0, O
+O, n_19, n, 1.0, ORRRAbove
+O, \sum_14, \sum, 1.0, ORRR
+O, =_12, =, 1.0, ORR
+O, 1_18, 1, 1.0, ORRRBelowRR
+O, n_8, n, 1.0, OAbove
+O, 1_7, 1, 1.0, OBelowRR
+O, x_10, x, 1.0, OR
+O, y_21, y, 1.0, ORRRR
+O, n_11, n, 1.0, ORSub
+O, i_5, i, 1.0, OBelow
+O, =_6, =, 1.0, OBelowR
+O, =_17, =, 1.0, ORRRBelowR
+O, i_16, i, 1.0, ORRRBelow
+O, n_22, n, 1.0, ORRRRSub
+
+# Relations from SRT:
+R, =_12, \sum_14, Right, 1.0
+R, =_17, 1_18, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \sum_14, i_16, Below, 1.0
+R, \sum_14, n_19, Above, 1.0
+R, \sum_14, y_21, Right, 1.0
+R, \sum_3, i_5, Below, 1.0
+R, \sum_3, n_8, Above, 1.0
+R, \sum_3, x_10, Right, 1.0
+R, i_16, =_17, Right, 1.0
+R, i_5, =_6, Right, 1.0
+R, x_10, =_12, Right, 1.0
+R, x_10, n_11, Sub, 1.0
+R, y_21, n_22, Sub, 1.0

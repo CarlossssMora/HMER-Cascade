@@ -1,0 +1,15 @@
+# IUD, RIT_2014_63
+# Objects(6):
+O, C_5, C, 1.0, OR
+O, c_3, c, 1.0, O
+O, +_7, +, 1.0, ORRR
+O, x_4, x, 1.0, OSub
+O, x_6, x, 1.0, ORR
+O, 1_8, 1, 1.0, ORRRR
+
+# Relations from SRT:
+R, +_7, 1_8, Right, 1.0
+R, C_5, x_6, Right, 1.0
+R, c_3, C_5, Right, 1.0
+R, c_3, x_4, Sub, 1.0
+R, x_6, +_7, Right, 1.0

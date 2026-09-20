@@ -1,0 +1,9 @@
+# IUD, 518_em_415
+# Objects(3):
+O, (_2, (, 1.0, O
+O, 1_5, 1, 1.0, ORSub
+O, u_4, u, 1.0, OR
+
+# Relations from SRT:
+R, (_2, u_4, Right, 1.0
+R, u_4, 1_5, Sub, 1.0

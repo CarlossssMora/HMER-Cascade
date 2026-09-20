@@ -1,0 +1,21 @@
+# IUD, 31_em_192
+# Objects(9):
+O, x_9, x, 1.0, ORRR
+O, \int_3, \int, 1.0, O
+O, (_8, (, 1.0, ORR
+O, x_12, x, 1.0, ORRRRRR
+O, d_11, d, 1.0, ORRRRR
+O, x_5, x, 1.0, OSup
+O, a_4, a, 1.0, OSub
+O, f_6, f, 1.0, OR
+O, )_10, ), 1.0, ORRRR
+
+# Relations from SRT:
+R, (_8, x_9, Right, 1.0
+R, )_10, d_11, Right, 1.0
+R, \int_3, a_4, Sub, 1.0
+R, \int_3, f_6, Right, 1.0
+R, \int_3, x_5, Sup, 1.0
+R, d_11, x_12, Right, 1.0
+R, f_6, (_8, Right, 1.0
+R, x_9, )_10, Right, 1.0

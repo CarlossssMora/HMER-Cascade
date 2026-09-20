@@ -1,0 +1,9 @@
+# IUD, 31_em_177
+# Objects(3):
+O, -_4, -, 1.0, OSup
+O, 1_5, 1, 1.0, OSupR
+O, \alpha_2, \alpha, 1.0, O
+
+# Relations from SRT:
+R, -_4, 1_5, Right, 1.0
+R, \alpha_2, -_4, Sup, 1.0

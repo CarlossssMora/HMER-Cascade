@@ -1,0 +1,12 @@
+# IUD, 23_em_55
+# Objects(4):
+O, 1_3, 1, 1.0, OInside
+O, _1, \sqrt, 1.0, O
+O, 3_5, 3, 1.0, OInsideRR
+O, 1_4, 1, 1.0, OInsideR
+
+# Relations from SRT:
+R, 1_3, 1_4, Right, 1.0
+R, 1_4, 3_5, Right, 1.0
+R, _1, 1_3, Inside, 1.0
+R, _1, 1_4, Inside, 1.0

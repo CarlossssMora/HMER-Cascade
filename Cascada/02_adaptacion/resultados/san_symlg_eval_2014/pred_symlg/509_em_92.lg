@@ -1,0 +1,25 @@
+# IUD, 509_em_92
+# Objects(11):
+O, x_5, x, 1.0, OSub
+O, \infty_16, \infty, 1.0, ORRRRRR
+O, =_15, =, 1.0, ORRRRR
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, x_13, x, 1.0, ORRR
+O, \lim_3, \lim, 1.0, O
+O, k_10, k, 1.0, ORSub
+O, \infty_7, \infty, 1.0, OSubRR
+O, (_12, (, 1.0, ORR
+O, p_9, p, 1.0, OR
+O, )_14, ), 1.0, ORRRR
+
+# Relations from SRT:
+R, (_12, x_13, Right, 1.0
+R, )_14, =_15, Right, 1.0
+R, =_15, \infty_16, Right, 1.0
+R, \lim_3, p_9, Right, 1.0
+R, \lim_3, x_5, Sub, 1.0
+R, \rightarrow_6, \infty_7, Right, 1.0
+R, p_9, (_12, Right, 1.0
+R, p_9, k_10, Sub, 1.0
+R, x_13, )_14, Right, 1.0
+R, x_5, \rightarrow_6, Right, 1.0

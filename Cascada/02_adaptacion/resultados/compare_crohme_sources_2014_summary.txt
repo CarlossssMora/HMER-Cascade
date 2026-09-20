@@ -1,0 +1,41 @@
+
+========================================================================
+RESUMEN DEL DIAGNOSTICO
+========================================================================
+SAN captions                    : 986
+PosFormer captions              : 986
+Benchmark conjunto              : 986
+Predicciones oficiales          : 985
+IDs comunes SAN/PosFormer       : 986
+IDs comunes en las 4 fuentes    : 985
+
+Ground truth
+  Iguales SAN vs PosFormer       : 901 / 986 (91.38%)
+
+Filtro oficial PosFormer
+  Muestras filtradas             : 1
+    505_em_51 -> label_len>200;area>320000
+
+Imagenes SAN vs PosFormer
+  Misma forma                    : 986 / 986
+  Pixeles exactamente iguales    : 986 / 986 (100.00%)
+  Binarias iguales (thr=128)     : 986 / 986 (100.00%)
+  Binarias invertidas exactas    : 0 / 986 (0.00%)
+  MAE pixel medio                : 0.0000
+  MAE pixel mediano              : 0.0000
+  Desacuerdo binario medio       : 0.0000%
+  Desacuerdo binario mediano     : 0.0000%
+
+Prediccion PosFormer: oficial vs entrada comun SAN
+  IDs comparables                : 985
+  Aciertos oficiales             : 618 (62.74%)
+  Aciertos con entrada SAN       : 571 (57.97%)
+  Ambos correctos                : 571
+  Solo evaluacion oficial        : 47
+  Solo entrada SAN               : 0
+  Ambos incorrectos              : 367
+  Prediccion exacta sin cambiar  : 985 / 985 (100.00%)
+
+Archivos generados
+  Detalle : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\compare_crohme_sources_2014.csv
+  Resumen : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\compare_crohme_sources_2014_summary.txt

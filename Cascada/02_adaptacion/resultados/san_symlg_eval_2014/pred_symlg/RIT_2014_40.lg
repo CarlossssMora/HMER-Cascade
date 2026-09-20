@@ -1,0 +1,7 @@
+# IUD, RIT_2014_40
+# Objects(2):
+O, \cos_2, \cos, 1.0, O
+O, d_3, d, 1.0, OR
+
+# Relations from SRT:
+R, \cos_2, d_3, Right, 1.0

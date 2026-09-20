@@ -1,0 +1,49 @@
+# IUD, 501_em_8
+# Objects(23):
+O, -_15, -, 1.0, ORRRRRRRRRR
+O, \beta_5, \beta, 1.0, ORRR
+O, \cos_19, \cos, 1.0, ORRRRRRRRRRRRRR
+O, \alpha_3, \alpha, 1.0, OR
+O, =_6, =, 1.0, ORRRR
+O, +_23, +, 1.0, ORRRRRRRRRRRRRRRRR
+O, (_20, (, 1.0, ORRRRRRRRRRRRRRR
+O, 7_24, 7, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 2_9, 2, 1.0, ORRRRRBelow
+O, (_13, (, 1.0, ORRRRRRRR
+O, \beta_16, \beta, 1.0, ORRRRRRRRRRR
+O, \sin_4, \sin, 1.0, ORR
+O, _7, -, 1.0, ORRRRR
+O, ]_26, ], 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, -_18, -, 1.0, ORRRRRRRRRRRRR
+O, \infty_11, \infty, 1.0, ORRRRRRR
+O, )_25, ), 1.0, ORRRRRRRRRRRRRRRRRRR
+O, (_22, (, 1.0, ORRRRRRRRRRRRRRRR
+O, )_17, ), 1.0, ORRRRRRRRRRRR
+O, \sin_2, \sin, 1.0, O
+O, \alpha_14, \alpha, 1.0, ORRRRRRRRR
+O, (_10, (, 1.0, ORRRRRR
+O, 1_8, 1, 1.0, ORRRRRAbove
+
+# Relations from SRT:
+R, (_10, \infty_11, Right, 1.0
+R, (_13, \alpha_14, Right, 1.0
+R, (_20, (_22, Right, 1.0
+R, (_22, +_23, Right, 1.0
+R, )_17, -_18, Right, 1.0
+R, )_25, ]_26, Right, 1.0
+R, +_23, 7_24, Right, 1.0
+R, -_15, \beta_16, Right, 1.0
+R, -_18, \cos_19, Right, 1.0
+R, 7_24, )_25, Right, 1.0
+R, =_6, _7, Right, 1.0
+R, \alpha_14, -_15, Right, 1.0
+R, \alpha_3, \sin_4, Right, 1.0
+R, \beta_16, )_17, Right, 1.0
+R, \beta_5, =_6, Right, 1.0
+R, \cos_19, (_20, Right, 1.0
+R, \infty_11, (_13, Right, 1.0
+R, \sin_2, \alpha_3, Right, 1.0
+R, \sin_4, \beta_5, Right, 1.0
+R, _7, (_10, Right, 1.0
+R, _7, 1_8, Above, 1.0
+R, _7, 2_9, Below, 1.0

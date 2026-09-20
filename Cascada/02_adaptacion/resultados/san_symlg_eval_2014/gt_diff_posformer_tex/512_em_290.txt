@@ -1,0 +1,2 @@
+%512_em_290
+$2 \sum \limits _ { x = 1 } ^ { n } x - \sum \limits _ { x = 1 } ^ { n } 1$

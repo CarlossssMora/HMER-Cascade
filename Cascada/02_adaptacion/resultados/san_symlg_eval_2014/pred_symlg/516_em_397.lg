@@ -1,0 +1,45 @@
+# IUD, 516_em_397
+# Objects(21):
+O, =_19, =, 1.0, ORRRRRRR
+O, 1_10, 1, 1.0, ORRRSub
+O, 2_13, 2, 1.0, ORRRRSub
+O, +_6, +, 1.0, OR
+O, 2_18, 2, 1.0, ORRRRRRSup
+O, v_26, v, 1.0, ORRRRRRRRRR
+O, 1_4, 1, 1.0, OSub
+O, +_24, +, 1.0, ORRRRRRRRR
+O, s_3, s, 1.0, O
+O, 1_17, 1, 1.0, ORRRRRRSub
+O, 2_27, 2, 1.0, ORRRRRRRRRRSub
+O, 2_5, 2, 1.0, OSup
+O, 1_22, 1, 1.0, ORRRRRRRRSub
+O, +_14, +, 1.0, ORRRRR
+O, v_21, v, 1.0, ORRRRRRRR
+O, 2_7, 2, 1.0, ORR
+O, v_12, v, 1.0, ORRRR
+O, 2_28, 2, 1.0, ORRRRRRRRRRSup
+O, v_9, v, 1.0, ORRR
+O, v_16, v, 1.0, ORRRRRR
+O, 2_23, 2, 1.0, ORRRRRRRRSup
+
+# Relations from SRT:
+R, +_14, v_16, Right, 1.0
+R, +_24, v_26, Right, 1.0
+R, +_6, 2_7, Right, 1.0
+R, 2_7, v_9, Right, 1.0
+R, =_19, v_21, Right, 1.0
+R, s_3, +_6, Right, 1.0
+R, s_3, 1_4, Sub, 1.0
+R, s_3, 2_5, Sup, 1.0
+R, v_12, +_14, Right, 1.0
+R, v_12, 2_13, Sub, 1.0
+R, v_16, 1_17, Sub, 1.0
+R, v_16, 2_18, Sup, 1.0
+R, v_16, =_19, Right, 1.0
+R, v_21, +_24, Right, 1.0
+R, v_21, 1_22, Sub, 1.0
+R, v_21, 2_23, Sup, 1.0
+R, v_26, 2_27, Sub, 1.0
+R, v_26, 2_28, Sup, 1.0
+R, v_9, 1_10, Sub, 1.0
+R, v_9, v_12, Right, 1.0

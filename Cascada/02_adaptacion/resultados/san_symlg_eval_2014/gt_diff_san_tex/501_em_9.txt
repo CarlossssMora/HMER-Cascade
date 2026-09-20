@@ -1,0 +1,2 @@
+%501_em_9
+$\int \sum _ { j = 0 } ^ { \infty } a _ { j } z ^ { j } d z = \sum _ { j = 1 } ^ { \infty } \frac { a _ { j - 1 } } { j } x ^ { j }$

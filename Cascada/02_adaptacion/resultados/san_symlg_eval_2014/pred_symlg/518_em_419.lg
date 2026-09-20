@@ -1,0 +1,17 @@
+# IUD, 518_em_419
+# Objects(7):
+O, 1_11, 1, 1.0, ORRSupRR
+O, \alpha_9, \alpha, 1.0, ORRSup
+O, -_5, -, 1.0, OR
+O, p_7, p, 1.0, ORR
+O, -_10, -, 1.0, ORRSupR
+O, p_3, p, 1.0, O
+O, \alpha_4, \alpha, 1.0, OSup
+
+# Relations from SRT:
+R, -_10, 1_11, Right, 1.0
+R, -_5, p_7, Right, 1.0
+R, \alpha_9, -_10, Right, 1.0
+R, p_3, -_5, Right, 1.0
+R, p_3, \alpha_4, Sup, 1.0
+R, p_7, \alpha_9, Sup, 1.0

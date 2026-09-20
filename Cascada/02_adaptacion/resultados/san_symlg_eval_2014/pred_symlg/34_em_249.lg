@@ -1,0 +1,29 @@
+# IUD, 34_em_249
+# Objects(13):
+O, n_14, n, 1.0, ORRRRRR
+O, \cos_11, \cos, 1.0, ORRRR
+O, (_8, (, 1.0, OR
+O, _2, -, 1.0, O
+O, 1_9, 1, 1.0, ORR
+O, 2_3, 2, 1.0, OAbove
+O, \pi_6, \pi, 1.0, OBelowR
+O, )_16, ), 1.0, ORRRRRRRR
+O, \pi_15, \pi, 1.0, ORRRRRRR
+O, n_5, n, 1.0, OBelow
+O, (_13, (, 1.0, ORRRRR
+O, -_10, -, 1.0, ORRR
+O, )_17, ), 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, (_13, n_14, Right, 1.0
+R, (_8, 1_9, Right, 1.0
+R, )_16, )_17, Right, 1.0
+R, -_10, \cos_11, Right, 1.0
+R, 1_9, -_10, Right, 1.0
+R, \cos_11, (_13, Right, 1.0
+R, \pi_15, )_16, Right, 1.0
+R, _2, (_8, Right, 1.0
+R, _2, 2_3, Above, 1.0
+R, _2, n_5, Below, 1.0
+R, n_14, \pi_15, Right, 1.0
+R, n_5, \pi_6, Right, 1.0

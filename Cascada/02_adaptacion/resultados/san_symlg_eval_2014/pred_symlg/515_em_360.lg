@@ -1,0 +1,7 @@
+# IUD, 515_em_360
+# Objects(2):
+O, \alpha_3, \alpha, 1.0, OSup
+O, c_2, c, 1.0, O
+
+# Relations from SRT:
+R, c_2, \alpha_3, Sup, 1.0

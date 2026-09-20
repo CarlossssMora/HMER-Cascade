@@ -1,0 +1,5 @@
+*N,OSubRR,\alpha,1.0,:vs:,\infty,1.0
+*N,ORRRAboveR,ABSENT,1.0,:vs:,i,1.0
+*N,ORRRAboveRSup,ABSENT,1.0,:vs:,2,1.0
+*E,ORRRAbove,ORRRAboveR,_,1.0,:vs:,Right,1.0
+*E,ORRRAboveR,ORRRAboveRSup,_,1.0,:vs:,Sup,1.0

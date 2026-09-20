@@ -1,0 +1,2 @@
+%RIT_2014_185
+$\lim \limits _ { n \rightarrow \infty } n \sin ( \frac { 2 ^ { \pi } } { n + 1 } ) - \lim \limits _ { n \rightarrow \infty } n \frac { 2 \pi } { n + 1 } - 2 \pi$

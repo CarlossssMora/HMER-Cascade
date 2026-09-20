@@ -1,0 +1,9 @@
+# IUD, RIT_2014_90
+# Objects(3):
+O, M_2, M, 1.0, O
+O, \geq_3, \geq, 1.0, OR
+O, 1_4, 1, 1.0, ORR
+
+# Relations from SRT:
+R, M_2, \geq_3, Right, 1.0
+R, \geq_3, 1_4, Right, 1.0

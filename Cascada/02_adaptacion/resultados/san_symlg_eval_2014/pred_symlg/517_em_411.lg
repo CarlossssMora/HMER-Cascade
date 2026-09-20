@@ -1,0 +1,13 @@
+# IUD, 517_em_411
+# Objects(5):
+O, B_4, B, 1.0, ORR
+O, B_6, B, 1.0, ORRRR
+O, B_2, B, 1.0, O
+O, =_5, =, 1.0, ORRR
+O, +_3, +, 1.0, OR
+
+# Relations from SRT:
+R, +_3, B_4, Right, 1.0
+R, =_5, B_6, Right, 1.0
+R, B_2, +_3, Right, 1.0
+R, B_4, =_5, Right, 1.0

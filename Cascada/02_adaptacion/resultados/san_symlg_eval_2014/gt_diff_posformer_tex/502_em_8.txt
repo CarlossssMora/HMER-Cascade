@@ -1,0 +1,2 @@
+%502_em_8
+$\int \limits _ { - \infty } ^ { \infty } e ^ { - w ^ { 2 } } d w = \sqrt { \pi }$

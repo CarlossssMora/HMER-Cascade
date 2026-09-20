@@ -1,0 +1,39 @@
+# IUD, 36_em_41
+# Objects(18):
+O, COMMA_5, COMMA, 1.0, ORRR
+O, =_3, =, 1.0, OR
+O, c_10, c, 1.0, ORRRRRR
+O, n_19, n, 1.0, ORRRRRRRRRRRRR
+O, +_17, +, 1.0, ORRRRRRRRRRR
+O, 2_14, 2, 1.0, ORRRRRRRRSub
+O, +_9, +, 1.0, ORRRRR
+O, (_18, (, 1.0, ORRRRRRRRRRRR
+O, 1_8, 1, 1.0, ORRRRSub
+O, z_11, z, 1.0, ORRRRRRR
+O, y_21, y, 1.0, ORRRRRRRRRRRRRR
+O, c_4, c, 1.0, ORR
+O, y_2, y, 1.0, O
+O, y_7, y, 1.0, ORRRR
+O, \ldots_16, \ldots, 1.0, ORRRRRRRRRR
+O, +_15, +, 1.0, ORRRRRRRRR
+O, n_22, n, 1.0, ORRRRRRRRRRRRRRSub
+O, y_13, y, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+R, (_18, n_19, Right, 1.0
+R, +_15, \ldots_16, Right, 1.0
+R, +_17, (_18, Right, 1.0
+R, +_9, c_10, Right, 1.0
+R, =_3, c_4, Right, 1.0
+R, COMMA_5, y_7, Right, 1.0
+R, \ldots_16, +_17, Right, 1.0
+R, c_10, z_11, Right, 1.0
+R, c_4, COMMA_5, Right, 1.0
+R, n_19, y_21, Right, 1.0
+R, y_13, +_15, Right, 1.0
+R, y_13, 2_14, Sub, 1.0
+R, y_21, n_22, Sub, 1.0
+R, y_2, =_3, Right, 1.0
+R, y_7, +_9, Right, 1.0
+R, y_7, 1_8, Sub, 1.0
+R, z_11, y_13, Right, 1.0

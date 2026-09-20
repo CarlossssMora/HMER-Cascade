@@ -1,0 +1,9 @@
+# IUD, 20_em_44
+# Objects(3):
+O, c_3, c, 1.0, OR
+O, m_4, m, 1.0, ORR
+O, 8_2, 8, 1.0, O
+
+# Relations from SRT:
+R, 8_2, c_3, Right, 1.0
+R, c_3, m_4, Right, 1.0

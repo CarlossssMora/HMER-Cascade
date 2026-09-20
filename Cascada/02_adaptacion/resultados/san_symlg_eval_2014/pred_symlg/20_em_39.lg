@@ -1,0 +1,15 @@
+# IUD, 20_em_39
+# Objects(6):
+O, -_7, -, 1.0, ORRR
+O, n_6, n, 1.0, ORR
+O, n_8, n, 1.0, ORRRR
+O, +_5, +, 1.0, OR
+O, n_3, n, 1.0, O
+O, 2_4, 2, 1.0, OSup
+
+# Relations from SRT:
+R, +_5, n_6, Right, 1.0
+R, -_7, n_8, Right, 1.0
+R, n_3, +_5, Right, 1.0
+R, n_3, 2_4, Sup, 1.0
+R, n_6, -_7, Right, 1.0

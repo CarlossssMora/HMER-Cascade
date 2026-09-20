@@ -1,0 +1,11 @@
+# IUD, 514_em_337
+# Objects(4):
+O, V_2, V, 1.0, O
+O, -_6, -, 1.0, ORSup
+O, V_4, V, 1.0, OR
+O, 1_7, 1, 1.0, ORSupR
+
+# Relations from SRT:
+R, -_6, 1_7, Right, 1.0
+R, V_2, V_4, Right, 1.0
+R, V_4, -_6, Sup, 1.0

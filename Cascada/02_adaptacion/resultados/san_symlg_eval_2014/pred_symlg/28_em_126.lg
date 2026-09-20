@@ -1,0 +1,25 @@
+# IUD, 28_em_126
+# Objects(11):
+O, k_11, k, 1.0, OAboveR
+O, _13, -, 1.0, OBelow
+O, \sum_4, \sum, 1.0, OAbove
+O, 0_15, 0, 1.0, OBelowBelow
+O, =_7, =, 1.0, OAboveSubR
+O, 2_12, 2, 1.0, OAboveRSup
+O, 1_8, 1, 1.0, OAboveSubRR
+O, _1, -, 1.0, O
+O, N_9, N, 1.0, OAboveSup
+O, k_6, k, 1.0, OAboveSub
+O, N_14, N, 1.0, OBelowAbove
+
+# Relations from SRT:
+R, =_7, 1_8, Right, 1.0
+R, \sum_4, N_9, Sup, 1.0
+R, \sum_4, k_11, Right, 1.0
+R, \sum_4, k_6, Sub, 1.0
+R, _13, 0_15, Below, 1.0
+R, _13, N_14, Above, 1.0
+R, _1, \sum_4, Above, 1.0
+R, _1, _13, Below, 1.0
+R, k_11, 2_12, Sup, 1.0
+R, k_6, =_7, Right, 1.0

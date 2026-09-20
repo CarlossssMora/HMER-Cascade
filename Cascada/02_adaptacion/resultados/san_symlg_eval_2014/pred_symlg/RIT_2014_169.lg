@@ -1,0 +1,11 @@
+# IUD, RIT_2014_169
+# Objects(4):
+O, j_4, j, 1.0, OSub
+O, 1_6, 1, 1.0, OSubRR
+O, \beta_2, \beta, 1.0, O
+O, +_5, +, 1.0, OSubR
+
+# Relations from SRT:
+R, +_5, 1_6, Right, 1.0
+R, \beta_2, j_4, Sub, 1.0
+R, j_4, +_5, Right, 1.0

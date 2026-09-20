@@ -1,0 +1,13 @@
+# IUD, 517_em_400
+# Objects(5):
+O, _1, -, 1.0, O
+O, +_4, +, 1.0, OAboveR
+O, a_3, a, 1.0, OAbove
+O, 2_6, 2, 1.0, OBelow
+O, b_5, b, 1.0, OAboveRR
+
+# Relations from SRT:
+R, +_4, b_5, Right, 1.0
+R, _1, 2_6, Below, 1.0
+R, _1, a_3, Above, 1.0
+R, a_3, +_4, Right, 1.0

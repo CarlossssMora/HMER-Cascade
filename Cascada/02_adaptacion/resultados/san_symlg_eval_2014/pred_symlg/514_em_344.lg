@@ -1,0 +1,21 @@
+# IUD, 514_em_344
+# Objects(9):
+O, \ldots_12, \ldots, 1.0, ORRRRRR
+O, +_7, +, 1.0, ORRR
+O, H_9, H, 1.0, ORRRR
+O, H_2, H, 1.0, O
+O, +_11, +, 1.0, ORRRRR
+O, 2_10, 2, 1.0, ORRRRSub
+O, 1_6, 1, 1.0, ORRSub
+O, H_5, H, 1.0, ORR
+O, =_3, =, 1.0, OR
+
+# Relations from SRT:
+R, +_11, \ldots_12, Right, 1.0
+R, +_7, H_9, Right, 1.0
+R, =_3, H_5, Right, 1.0
+R, H_2, =_3, Right, 1.0
+R, H_5, +_7, Right, 1.0
+R, H_5, 1_6, Sub, 1.0
+R, H_9, +_11, Right, 1.0
+R, H_9, 2_10, Sub, 1.0

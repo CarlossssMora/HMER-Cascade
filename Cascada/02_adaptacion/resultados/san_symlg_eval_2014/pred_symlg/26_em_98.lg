@@ -1,0 +1,27 @@
+# IUD, 26_em_98
+# Objects(12):
+O, _4, \sqrt, 1.0, OR
+O, 3_14, 3, 1.0, ORRRRRRRRR
+O, 2_5, 2, 1.0, ORInside
+O, )_15, ), 1.0, ORRRRRRRRRR
+O, x_12, x, 1.0, ORRRRRRR
+O, )_9, ), 1.0, ORRRRR
+O, (_3, (, 1.0, O
+O, +_7, +, 1.0, ORRR
+O, (_11, (, 1.0, ORRRRRR
+O, 2_8, 2, 1.0, ORRRR
+O, +_13, +, 1.0, ORRRRRRRR
+O, x_6, x, 1.0, ORR
+
+# Relations from SRT:
+R, (_11, x_12, Right, 1.0
+R, (_3, _4, Right, 1.0
+R, )_9, (_11, Right, 1.0
+R, +_13, 3_14, Right, 1.0
+R, +_7, 2_8, Right, 1.0
+R, 2_8, )_9, Right, 1.0
+R, 3_14, )_15, Right, 1.0
+R, _4, 2_5, Inside, 1.0
+R, _4, x_6, Right, 1.0
+R, x_12, +_13, Right, 1.0
+R, x_6, +_7, Right, 1.0

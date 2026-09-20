@@ -1,0 +1,37 @@
+# IUD, 518_em_426
+# Objects(17):
+O, \int_4, \int, 1.0, OR
+O, x_11, x, 1.0, ORRRR
+O, \pi_13, \pi, 1.0, ORRRRRR
+O, R_8, R, 1.0, ORR
+O, d_21, d, 1.0, ORRRRRRRRR
+O, d_10, d, 1.0, ORRR
+O, 2_20, 2, 1.0, ORRRRRRRRSup
+O, R_5, R, 1.0, ORSub
+O, R_17, R, 1.0, ORRRRRRRSup
+O, x_19, x, 1.0, ORRRRRRRR
+O, \int_15, \int, 1.0, ORRRRRRR
+O, -_12, -, 1.0, ORRRRR
+O, x_22, x, 1.0, ORRRRRRRRRR
+O, R_16, R, 1.0, ORRRRRRRSub
+O, 2_9, 2, 1.0, ORRSup
+O, R_6, R, 1.0, ORSup
+O, \pi_2, \pi, 1.0, O
+
+# Relations from SRT:
+R, -_12, \pi_13, Right, 1.0
+R, R_8, 2_9, Sup, 1.0
+R, R_8, d_10, Right, 1.0
+R, \int_15, R_16, Sub, 1.0
+R, \int_15, R_17, Sup, 1.0
+R, \int_15, x_19, Right, 1.0
+R, \int_4, R_5, Sub, 1.0
+R, \int_4, R_6, Sup, 1.0
+R, \int_4, R_8, Right, 1.0
+R, \pi_13, \int_15, Right, 1.0
+R, \pi_2, \int_4, Right, 1.0
+R, d_10, x_11, Right, 1.0
+R, d_21, x_22, Right, 1.0
+R, x_11, -_12, Right, 1.0
+R, x_19, 2_20, Sup, 1.0
+R, x_19, d_21, Right, 1.0

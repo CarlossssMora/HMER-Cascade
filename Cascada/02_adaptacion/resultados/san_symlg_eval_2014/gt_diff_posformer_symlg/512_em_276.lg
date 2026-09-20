@@ -1,0 +1,39 @@
+# IUD, 512_em_276
+# Objects(18):
+O, +_12, +, 1.0, ORRR
+O, +_6, +, 1.0, OSubR
+O, i_17, i, 1.0, ORRRRBelowSub
+O, 1_7, 1, 1.0, OSubRR
+O, f_24, f, 1.0, ORRRRR
+O, \int_14, \int, 1.0, ORRRR
+O, x_16, x, 1.0, ORRRRBelow
+O, i_11, i, 1.0, ORRSub
+O, y_3, y, 1.0, O
+O, y_10, y, 1.0, ORR
+O, i_5, i, 1.0, OSub
+O, =_8, =, 1.0, OR
+O, d_25, d, 1.0, ORRRRRR
+O, x_26, x, 1.0, ORRRRRRR
+O, i_21, i, 1.0, ORRRRAboveSub
+O, 1_23, 1, 1.0, ORRRRAboveSubRR
+O, +_22, +, 1.0, ORRRRAboveSubR
+O, x_19, x, 1.0, ORRRRAbove
+
+# Relations from SRT:
+R, +_12, \int_14, Right, 1.0
+R, +_22, 1_23, Right, 1.0
+R, +_6, 1_7, Right, 1.0
+R, =_8, y_10, Right, 1.0
+R, \int_14, f_24, Right, 1.0
+R, \int_14, x_16, Below, 1.0
+R, \int_14, x_19, Above, 1.0
+R, d_25, x_26, Right, 1.0
+R, f_24, d_25, Right, 1.0
+R, i_21, +_22, Right, 1.0
+R, i_5, +_6, Right, 1.0
+R, x_16, i_17, Sub, 1.0
+R, x_19, i_21, Sub, 1.0
+R, y_10, +_12, Right, 1.0
+R, y_10, i_11, Sub, 1.0
+R, y_3, =_8, Right, 1.0
+R, y_3, i_5, Sub, 1.0

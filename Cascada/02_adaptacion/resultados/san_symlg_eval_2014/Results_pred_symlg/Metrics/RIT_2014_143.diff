@@ -1,0 +1,11 @@
+*N,ORRRRRR,),1.0,:vs:,=,1.0
+*N,ORRRRRRRR,|,1.0,:vs:,x,1.0
+*N,ORRRRRRRRRRR,|,1.0,:vs:,ABSENT,1.0
+*N,ORRR,y,1.0,:vs:,|,1.0
+*N,O,(,1.0,:vs:,|,1.0
+*N,ORRRRR,y,1.0,:vs:,|,1.0
+*N,ORRRR,|,1.0,:vs:,y,1.0
+*N,ORRRRRRRRRR,y,1.0,:vs:,|,1.0
+*N,ORRRRRRR,=,1.0,:vs:,|,1.0
+*N,ORRRRRRRRR,x,1.0,:vs:,y,1.0
+*E,ORRRRRRRRRR,ORRRRRRRRRRR,Right,1.0,:vs:,_,1.0

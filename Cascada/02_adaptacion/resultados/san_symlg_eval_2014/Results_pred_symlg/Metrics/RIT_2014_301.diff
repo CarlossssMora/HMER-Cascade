@@ -1,0 +1,8 @@
+*N,ORRRRRRAboveR,1,1.0,:vs:,(,1.0
+*N,ORRR,\geq,1.0,:vs:,=,1.0
+*N,ORRRRRRAboveRRRR,),1.0,:vs:,1,1.0
+*N,ORRRRRRAbove,(,1.0,:vs:,1,1.0
+*N,ORRRRRRAboveRRR,1,1.0,:vs:,+,1.0
+*N,ORRRRRRAboveRRRRR,ABSENT,1.0,:vs:,),1.0
+*N,ORRRRRRAboveRR,+,1.0,:vs:,1,1.0
+*E,ORRRRRRAboveRRRR,ORRRRRRAboveRRRRR,_,1.0,:vs:,Right,1.0

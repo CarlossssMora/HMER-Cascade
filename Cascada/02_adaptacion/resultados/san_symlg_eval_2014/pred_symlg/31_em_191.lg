@@ -1,0 +1,21 @@
+# IUD, 31_em_191
+# Objects(9):
+O, e_12, e, 1.0, ORR
+O, j_11, j, 1.0, ORSub
+O, =_6, =, 1.0, OSubR
+O, m_8, m, 1.0, OSup
+O, \sum_3, \sum, 1.0, O
+O, j_13, j, 1.0, ORRR
+O, j_5, j, 1.0, OSub
+O, 1_7, 1, 1.0, OSubRR
+O, a_10, a, 1.0, OR
+
+# Relations from SRT:
+R, =_6, 1_7, Right, 1.0
+R, \sum_3, a_10, Right, 1.0
+R, \sum_3, j_5, Sub, 1.0
+R, \sum_3, m_8, Sup, 1.0
+R, a_10, e_12, Right, 1.0
+R, a_10, j_11, Sub, 1.0
+R, e_12, j_13, Right, 1.0
+R, j_5, =_6, Right, 1.0

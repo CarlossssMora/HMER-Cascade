@@ -1,0 +1,12 @@
+*N,ORR,d,1.0,:vs:,-,1.0
+*N,ORRAboveR,ABSENT,1.0,:vs:,u,1.0
+*N,ORRBelowR,ABSENT,1.0,:vs:,2,1.0
+*N,ORRBelow,ABSENT,1.0,:vs:,1,1.0
+*N,ORRR,u,1.0,:vs:,ABSENT,1.0
+*N,ORSup,B,1.0,:vs:,8,1.0
+*N,ORRAbove,ABSENT,1.0,:vs:,d,1.0
+*E,ORR,ORRR,Right,1.0,:vs:,_,1.0
+*E,ORRAbove,ORRAboveR,_,1.0,:vs:,Right,1.0
+*E,ORR,ORRAbove,_,1.0,:vs:,Above,1.0
+*E,ORR,ORRBelow,_,1.0,:vs:,Below,1.0
+*E,ORRBelow,ORRBelowR,_,1.0,:vs:,Right,1.0

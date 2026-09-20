@@ -1,0 +1,45 @@
+# IUD, RIT_2014_62
+# Objects(21):
+O, \cos_13, \cos, 1.0, OBelowRRR
+O, 2_25, 2, 1.0, ORRRRBelow
+O, +_12, +, 1.0, OBelowRR
+O, )_24, ), 1.0, ORRRRAboveRRR
+O, +_22, +, 1.0, ORRRRAboveR
+O, \theta_14, \theta, 1.0, OBelowRRRR
+O, \tan_16, \tan, 1.0, ORR
+O, )_26, ), 1.0, ORRRRR
+O, \sin_4, \sin, 1.0, OAbove
+O, _19, -, 1.0, ORRRR
+O, \phi_5, \phi, 1.0, OAboveR
+O, \phi_11, \phi, 1.0, OBelowR
+O, \sin_7, \sin, 1.0, OAboveRRR
+O, \theta_8, \theta, 1.0, OAboveRRRR
+O, (_18, (, 1.0, ORRR
+O, \cos_10, \cos, 1.0, OBelow
+O, +_6, +, 1.0, OAboveRR
+O, =_15, =, 1.0, OR
+O, _2, -, 1.0, O
+O, \theta_23, \theta, 1.0, ORRRRAboveRR
+O, \phi_21, \phi, 1.0, ORRRRAbove
+
+# Relations from SRT:
+R, (_18, _19, Right, 1.0
+R, +_12, \cos_13, Right, 1.0
+R, +_22, \theta_23, Right, 1.0
+R, +_6, \sin_7, Right, 1.0
+R, =_15, \tan_16, Right, 1.0
+R, \cos_10, \phi_11, Right, 1.0
+R, \cos_13, \theta_14, Right, 1.0
+R, \phi_11, +_12, Right, 1.0
+R, \phi_21, +_22, Right, 1.0
+R, \phi_5, +_6, Right, 1.0
+R, \sin_4, \phi_5, Right, 1.0
+R, \sin_7, \theta_8, Right, 1.0
+R, \tan_16, (_18, Right, 1.0
+R, \theta_23, )_24, Right, 1.0
+R, _19, )_26, Right, 1.0
+R, _19, 2_25, Below, 1.0
+R, _19, \phi_21, Above, 1.0
+R, _2, =_15, Right, 1.0
+R, _2, \cos_10, Below, 1.0
+R, _2, \sin_4, Above, 1.0

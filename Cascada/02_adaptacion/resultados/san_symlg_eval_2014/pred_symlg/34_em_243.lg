@@ -1,0 +1,19 @@
+# IUD, 34_em_243
+# Objects(8):
+O, \pi_7, \pi, 1.0, ORInside
+O, =_8, =, 1.0, ORR
+O, _2, -, 1.0, O
+O, _6, \sqrt, 1.0, OR
+O, \pi_5, \pi, 1.0, OBelowInside
+O, _4, \sqrt, 1.0, OBelow
+O, 1_3, 1, 1.0, OAbove
+O, 1_9, 1, 1.0, ORRR
+
+# Relations from SRT:
+R, =_8, 1_9, Right, 1.0
+R, _2, 1_3, Above, 1.0
+R, _2, _4, Below, 1.0
+R, _2, _6, Right, 1.0
+R, _4, \pi_5, Inside, 1.0
+R, _6, =_8, Right, 1.0
+R, _6, \pi_7, Inside, 1.0

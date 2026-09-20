@@ -1,0 +1,11 @@
+# IUD, 509_em_95
+# Objects(4):
+O, e_2, e, 1.0, O
+O, p_4, p, 1.0, OSub
+O, T_6, T, 1.0, OSubRR
+O, v_5, v, 1.0, OSubR
+
+# Relations from SRT:
+R, e_2, p_4, Sub, 1.0
+R, p_4, v_5, Right, 1.0
+R, v_5, T_6, Right, 1.0

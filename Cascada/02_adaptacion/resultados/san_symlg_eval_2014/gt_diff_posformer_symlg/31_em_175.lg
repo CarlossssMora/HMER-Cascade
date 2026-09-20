@@ -1,0 +1,29 @@
+# IUD, 31_em_175
+# Objects(13):
+O, (_10, (, 1.0, ORR
+O, c_7, c, 1.0, OBelowRR
+O, x_11, x, 1.0, ORRR
+O, )_12, ), 1.0, ORRRR
+O, =_13, =, 1.0, ORRRRR
+O, )_18, ), 1.0, ORRRRRRRRR
+O, x_5, x, 1.0, OBelow
+O, c_17, c, 1.0, ORRRRRRRR
+O, f_8, f, 1.0, OR
+O, (_16, (, 1.0, ORRRRRRR
+O, f_14, f, 1.0, ORRRRRR
+O, \lim_3, \lim, 1.0, O
+O, \rightarrow_6, \rightarrow, 1.0, OBelowR
+
+# Relations from SRT:
+R, (_10, x_11, Right, 1.0
+R, (_16, c_17, Right, 1.0
+R, )_12, =_13, Right, 1.0
+R, =_13, f_14, Right, 1.0
+R, \lim_3, f_8, Right, 1.0
+R, \lim_3, x_5, Below, 1.0
+R, \rightarrow_6, c_7, Right, 1.0
+R, c_17, )_18, Right, 1.0
+R, f_14, (_16, Right, 1.0
+R, f_8, (_10, Right, 1.0
+R, x_11, )_12, Right, 1.0
+R, x_5, \rightarrow_6, Right, 1.0

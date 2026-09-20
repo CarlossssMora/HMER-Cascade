@@ -1,0 +1,7 @@
+# IUD, 27_em_112
+# Objects(2):
+O, M_2, M, 1.0, O
+O, 3_3, 3, 1.0, OSub
+
+# Relations from SRT:
+R, M_2, 3_3, Sub, 1.0

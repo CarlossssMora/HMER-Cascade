@@ -1,0 +1,8 @@
+*N,ORRR,g,1.0,:vs:,\sin,1.0
+*N,OR,\theta,1.0,:vs:,=,1.0
+*N,ORRRRR,\theta,1.0,:vs:,ABSENT,1.0
+*N,OSub,ABSENT,1.0,:vs:,\theta,1.0
+*N,ORR,=,1.0,:vs:,g,1.0
+*N,ORRRR,\sin,1.0,:vs:,\theta,1.0
+*E,ORRRR,ORRRRR,Right,1.0,:vs:,_,1.0
+*E,O,OSub,_,1.0,:vs:,Sub,1.0

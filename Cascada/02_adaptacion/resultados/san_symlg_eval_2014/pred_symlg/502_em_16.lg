@@ -1,0 +1,39 @@
+# IUD, 502_em_16
+# Objects(17):
+O, v_8, v, 1.0, OInsideRR
+O, v_18, v, 1.0, OInsideRRRRBelowInside
+O, 2_14, 2, 1.0, OInsideRRRRAboveSup
+O, v_13, v, 1.0, OInsideRRRRAbove
+O, =_10, =, 1.0, OInsideRRR
+O, 2_5, 2, 1.0, OInsideSup
+O, -_20, -, 1.0, OInsideRRRRBelowInsideR
+O, _15, \sqrt, 1.0, OInsideRRRRBelow
+O, 2_19, 2, 1.0, OInsideRRRRBelowInsideSup
+O, v_22, v, 1.0, OInsideRRRRBelowInsideRR
+O, -_6, -, 1.0, OInsideR
+O, v_4, v, 1.0, OInside
+O, 2_24, 2, 1.0, OInsideRRRRBelowInsideRRSup
+O, v_23, v, 1.0, OInsideRRRRBelowInsideRRSub
+O, _1, \sqrt, 1.0, O
+O, _11, -, 1.0, OInsideRRRR
+O, 2_9, 2, 1.0, OInsideRRSup
+
+# Relations from SRT:
+R, -_20, v_22, Right, 1.0
+R, -_6, v_8, Right, 1.0
+R, =_10, _11, Right, 1.0
+R, _11, _15, Below, 1.0
+R, _11, v_13, Above, 1.0
+R, _15, -_20, Inside, 1.0
+R, _15, v_18, Inside, 1.0
+R, _1, -_6, Inside, 1.0
+R, _1, v_4, Inside, 1.0
+R, v_13, 2_14, Sup, 1.0
+R, v_18, -_20, Right, 1.0
+R, v_18, 2_19, Sup, 1.0
+R, v_22, 2_24, Sup, 1.0
+R, v_22, v_23, Sub, 1.0
+R, v_4, -_6, Right, 1.0
+R, v_4, 2_5, Sup, 1.0
+R, v_8, 2_9, Sup, 1.0
+R, v_8, =_10, Right, 1.0

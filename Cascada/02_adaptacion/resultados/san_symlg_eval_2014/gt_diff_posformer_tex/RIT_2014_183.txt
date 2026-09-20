@@ -1,0 +1,2 @@
+%RIT_2014_183
+$\lim \limits _ { x \rightarrow \infty } p _ { 2 } ( x ) > 0$

@@ -1,0 +1,6 @@
+*N,ORRRRRRR,x,1.0,:vs:,2,1.0
+*N,ORRRRRRRRRR,x,1.0,:vs:,d,1.0
+*N,ORRRRRRRRR,d,1.0,:vs:,),1.0
+*N,ORRRRRRRRRRR,ABSENT,1.0,:vs:,x,1.0
+*N,ORRRRRRRR,),1.0,:vs:,x,1.0
+*E,ORRRRRRRRRR,ORRRRRRRRRRR,_,1.0,:vs:,Right,1.0

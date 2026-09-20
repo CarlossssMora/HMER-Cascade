@@ -1,0 +1,23 @@
+# IUD, 18_em_5
+# Objects(10):
+O, g_13, g, 1.0, ORRRRR
+O, =_4, =, 1.0, ORR
+O, \rightarrow_9, \rightarrow, 1.0, ORRRBelowR
+O, \lim_6, \lim, 1.0, ORRR
+O, n_14, n, 1.0, ORRRRRSub
+O, \int_11, \int, 1.0, ORRRR
+O, \int_2, \int, 1.0, O
+O, \infty_10, \infty, 1.0, ORRRBelowRR
+O, g_3, g, 1.0, OR
+O, n_8, n, 1.0, ORRRBelow
+
+# Relations from SRT:
+R, =_4, \lim_6, Right, 1.0
+R, \int_11, g_13, Right, 1.0
+R, \int_2, g_3, Right, 1.0
+R, \lim_6, \int_11, Right, 1.0
+R, \lim_6, n_8, Below, 1.0
+R, \rightarrow_9, \infty_10, Right, 1.0
+R, g_13, n_14, Sub, 1.0
+R, g_3, =_4, Right, 1.0
+R, n_8, \rightarrow_9, Right, 1.0

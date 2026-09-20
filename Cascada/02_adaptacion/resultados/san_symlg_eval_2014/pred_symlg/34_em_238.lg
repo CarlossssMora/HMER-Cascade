@@ -1,0 +1,27 @@
+# IUD, 34_em_238
+# Objects(12):
+O, +_5, +, 1.0, OR
+O, n_14, n, 1.0, ORRRRRRSub
+O, \neq_15, \neq, 1.0, ORRRRRRR
+O, 2_8, 2, 1.0, ORRSub
+O, x_13, x, 1.0, ORRRRRR
+O, x_7, x, 1.0, ORR
+O, \ldots_10, \ldots, 1.0, ORRRR
+O, x_3, x, 1.0, O
+O, 1_4, 1, 1.0, OSub
+O, +_11, +, 1.0, ORRRRR
+O, +_9, +, 1.0, ORRR
+O, 0_16, 0, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+R, +_11, x_13, Right, 1.0
+R, +_5, x_7, Right, 1.0
+R, +_9, \ldots_10, Right, 1.0
+R, \ldots_10, +_11, Right, 1.0
+R, \neq_15, 0_16, Right, 1.0
+R, x_13, \neq_15, Right, 1.0
+R, x_13, n_14, Sub, 1.0
+R, x_3, +_5, Right, 1.0
+R, x_3, 1_4, Sub, 1.0
+R, x_7, +_9, Right, 1.0
+R, x_7, 2_8, Sub, 1.0

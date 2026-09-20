@@ -1,0 +1,11 @@
+# IUD, 503_em_29
+# Objects(4):
+O, +_4, +, 1.0, ORR
+O, \sin_2, \sin, 1.0, O
+O, \phi_3, \phi, 1.0, OR
+O, c_5, c, 1.0, ORRR
+
+# Relations from SRT:
+R, +_4, c_5, Right, 1.0
+R, \phi_3, +_4, Right, 1.0
+R, \sin_2, \phi_3, Right, 1.0

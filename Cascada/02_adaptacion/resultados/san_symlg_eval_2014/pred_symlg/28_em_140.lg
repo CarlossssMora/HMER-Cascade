@@ -1,0 +1,49 @@
+# IUD, 28_em_140
+# Objects(23):
+O, )_24, ), 1.0, ORRRRRRRRRRRRRRRRR
+O, 3_2, 3, 1.0, O
+O, 5_15, 5, 1.0, ORRRRRRRRR
+O, )_29, ), 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, 2_30, 2, 1.0, ORRRRRRRRRRRRRRRRRRRRSup
+O, 5_23, 5, 1.0, ORRRRRRRRRRRRRRRR
+O, +_10, +, 1.0, ORRRRR
+O, 2_17, 2, 1.0, ORRRRRRRRRRR
+O, )_18, ), 1.0, ORRRRRRRRRRRR
+O, (_5, (, 1.0, OR
+O, 2_9, 2, 1.0, ORRRRSup
+O, (_27, (, 1.0, ORRRRRRRRRRRRRRRRRR
+O, (_13, (, 1.0, ORRRRRRR
+O, 5_7, 5, 1.0, ORRR
+O, -_6, -, 1.0, ORR
+O, -_14, -, 1.0, ORRRRRRRR
+O, (_21, (, 1.0, ORRRRRRRRRRRRRR
+O, 3_11, 3, 1.0, ORRRRRR
+O, -_19, -, 1.0, ORRRRRRRRRRRRR
+O, )_8, ), 1.0, ORRRR
+O, -_22, -, 1.0, ORRRRRRRRRRRRRRR
+O, -_16, -, 1.0, ORRRRRRRRRR
+O, 2_28, 2, 1.0, ORRRRRRRRRRRRRRRRRRR
+
+# Relations from SRT:
+R, (_13, -_14, Right, 1.0
+R, (_21, -_22, Right, 1.0
+R, (_27, 2_28, Right, 1.0
+R, (_5, -_6, Right, 1.0
+R, )_18, -_19, Right, 1.0
+R, )_24, (_27, Right, 1.0
+R, )_29, 2_30, Sup, 1.0
+R, )_8, +_10, Right, 1.0
+R, )_8, 2_9, Sup, 1.0
+R, +_10, 3_11, Right, 1.0
+R, -_14, 5_15, Right, 1.0
+R, -_16, 2_17, Right, 1.0
+R, -_19, (_21, Right, 1.0
+R, -_22, 5_23, Right, 1.0
+R, -_6, 5_7, Right, 1.0
+R, 2_17, )_18, Right, 1.0
+R, 2_28, )_29, Right, 1.0
+R, 3_11, (_13, Right, 1.0
+R, 3_2, (_5, Right, 1.0
+R, 5_15, -_16, Right, 1.0
+R, 5_23, )_24, Right, 1.0
+R, 5_7, )_8, Right, 1.0

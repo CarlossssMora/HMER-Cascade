@@ -1,0 +1,16 @@
+*N,ORRRBelowRRRR,),1.0,:vs:,ABSENT,1.0
+*N,O,6,1.0,:vs:,r,1.0
+*N,ORRRAboveRR,ABSENT,1.0,:vs:,|,1.0
+*N,ORRRAboveRSub,1,1.0,:vs:,n,1.0
+*N,ORRRBelowRR,+,1.0,:vs:,|,1.0
+*N,ORRRBelowRRR,1,1.0,:vs:,ABSENT,1.0
+*N,ORRRAbove,1,1.0,:vs:,|,1.0
+*N,ORRRBelowRSubR,ABSENT,1.0,:vs:,+,1.0
+*N,ORRRBelowRSubRR,ABSENT,1.0,:vs:,1,1.0
+*N,ORR,\sin,1.0,:vs:,\lim,1.0
+*N,ORRRBelow,1,1.0,:vs:,|,1.0
+*E,ORRRBelowRR,ORRRBelowRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRBelowRRR,ORRRBelowRRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRBelowRSubR,ORRRBelowRSubRR,_,1.0,:vs:,Right,1.0
+*E,ORRRAboveR,ORRRAboveRR,_,1.0,:vs:,Right,1.0
+*E,ORRRBelowRSub,ORRRBelowRSubR,_,1.0,:vs:,Right,1.0

@@ -1,0 +1,11 @@
+# IUD, 519_em_450
+# Objects(4):
+O, \rightarrow_3, \rightarrow, 1.0, OR
+O, z_2, z, 1.0, O
+O, -_4, -, 1.0, ORR
+O, z_5, z, 1.0, ORRR
+
+# Relations from SRT:
+R, -_4, z_5, Right, 1.0
+R, \rightarrow_3, -_4, Right, 1.0
+R, z_2, \rightarrow_3, Right, 1.0

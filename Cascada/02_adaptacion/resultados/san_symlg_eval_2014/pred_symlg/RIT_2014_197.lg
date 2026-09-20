@@ -1,0 +1,21 @@
+# IUD, RIT_2014_197
+# Objects(9):
+O, i_4, i, 1.0, OSub
+O, X_13, X, 1.0, ORRBelowR
+O, i_9, i, 1.0, ORRAboveSub
+O, k_3, k, 1.0, O
+O, _6, -, 1.0, ORR
+O, \sum_11, \sum, 1.0, ORRBelow
+O, X_8, X, 1.0, ORRAbove
+O, =_5, =, 1.0, OR
+O, i_14, i, 1.0, ORRBelowRSub
+
+# Relations from SRT:
+R, =_5, _6, Right, 1.0
+R, X_13, i_14, Sub, 1.0
+R, X_8, i_9, Sub, 1.0
+R, \sum_11, X_13, Right, 1.0
+R, _6, X_8, Above, 1.0
+R, _6, \sum_11, Below, 1.0
+R, k_3, =_5, Right, 1.0
+R, k_3, i_4, Sub, 1.0

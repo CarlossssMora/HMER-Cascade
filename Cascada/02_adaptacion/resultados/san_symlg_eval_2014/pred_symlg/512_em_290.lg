@@ -1,0 +1,31 @@
+# IUD, 512_em_290
+# Objects(14):
+O, =_7, =, 1.0, ORSubR
+O, 1_19, 1, 1.0, ORRRRR
+O, x_10, x, 1.0, ORR
+O, 1_8, 1, 1.0, ORSubRR
+O, \sum_13, \sum, 1.0, ORRRR
+O, x_15, x, 1.0, ORRRRSub
+O, x_6, x, 1.0, ORSub
+O, -_11, -, 1.0, ORRR
+O, 2_2, 2, 1.0, O
+O, n_9, n, 1.0, ORSup
+O, n_18, n, 1.0, ORRRRSup
+O, =_16, =, 1.0, ORRRRSubR
+O, \sum_4, \sum, 1.0, OR
+O, 1_17, 1, 1.0, ORRRRSubRR
+
+# Relations from SRT:
+R, -_11, \sum_13, Right, 1.0
+R, 2_2, \sum_4, Right, 1.0
+R, =_16, 1_17, Right, 1.0
+R, =_7, 1_8, Right, 1.0
+R, \sum_13, 1_19, Right, 1.0
+R, \sum_13, n_18, Sup, 1.0
+R, \sum_13, x_15, Sub, 1.0
+R, \sum_4, n_9, Sup, 1.0
+R, \sum_4, x_10, Right, 1.0
+R, \sum_4, x_6, Sub, 1.0
+R, x_10, -_11, Right, 1.0
+R, x_15, =_16, Right, 1.0
+R, x_6, =_7, Right, 1.0

@@ -1,0 +1,49 @@
+
+========================================================================
+RESUMEN
+========================================================================
+Muestras                         : 985
+GT iguales antes                 : 900 / 985 (91.37%)
+GT iguales tras quitar \\limits : 979 / 985 (99.39%)
+Discrepancias residuales         : 6
+
+Presencia de \\limits
+  GT SAN          : 0
+  GT PosFormer    : 81
+  Prediccion SAN  : 0
+  Prediccion Pos  : 82
+
+NORMALIZADO CONTRA GT SAN SIN \\limits
+------------------------------------------------------------------------
+SAN        : 0.5665 (558/985)
+PosFormer  : 0.6254 (616/985)
+Oracle     : 0.6751 (665/985)
+  Ambos correctos : 509
+  Solo SAN        : 49
+  Solo PosFormer  : 107
+  Ambos fallan    : 320
+
+NORMALIZADO CONTRA GT POSFORMER SIN \\limits
+------------------------------------------------------------------------
+SAN        : 0.5685 (560/985)
+PosFormer  : 0.6274 (618/985)
+Oracle     : 0.6772 (667/985)
+  Ambos correctos : 511
+  Solo SAN        : 49
+  Solo PosFormer  : 107
+  Ambos fallan    : 318
+
+SUBCONJUNTO DONDE AMBOS GT COINCIDEN TRAS QUITAR \\limits
+------------------------------------------------------------------------
+SAN        : 0.5700 (558/979)
+PosFormer  : 0.6292 (616/979)
+Oracle     : 0.6793 (665/979)
+  Ambos correctos : 509
+  Solo SAN        : 49
+  Solo PosFormer  : 107
+  Ambos fallan    : 314
+
+Archivos generados
+  Evaluacion completa : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\limits_normalization_cross_evaluation_2014.csv
+  GT residuales       : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\limits_normalization_residual_gt_differences_2014.csv
+  Resumen             : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\limits_normalization_2014_summary.txt

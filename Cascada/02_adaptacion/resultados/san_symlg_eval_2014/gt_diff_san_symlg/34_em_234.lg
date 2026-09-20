@@ -1,0 +1,45 @@
+# IUD, 34_em_234
+# Objects(21):
+O, t_14, t, 1.0, ORRRRRRR
+O, t_11, t, 1.0, ORRRR
+O, =_18, =, 1.0, ORRRRRRRRRRR
+O, t_17, t, 1.0, ORRRRRRRRRR
+O, \pi_25, \pi, 1.0, ORRRRRRRRRRRRRRR
+O, )_12, ), 1.0, ORRRRR
+O, d_16, d, 1.0, ORRRRRRRRR
+O, )_15, ), 1.0, ORRRRRRRR
+O, \int_3, \int, 1.0, O
+O, \pi_5, \pi, 1.0, OSup
+O, (_10, (, 1.0, ORRR
+O, 2_19, 2, 1.0, ORRRRRRRRRRRR
+O, -_13, -, 1.0, ORRRRRR
+O, 2_26, 2, 1.0, ORRRRRRRRRRRRRRRSup
+O, 1_22, 1, 1.0, ORRRRRRRRRRRRRRAbove
+O, 2_23, 2, 1.0, ORRRRRRRRRRRRRRBelow
+O, _21, -, 1.0, ORRRRRRRRRRRRRR
+O, -_20, -, 1.0, ORRRRRRRRRRRRR
+O, \sin_8, \sin, 1.0, ORR
+O, 0_4, 0, 1.0, OSub
+O, (_7, (, 1.0, OR
+
+# Relations from SRT:
+R, (_10, t_11, Right, 1.0
+R, (_7, \sin_8, Right, 1.0
+R, )_12, -_13, Right, 1.0
+R, )_15, d_16, Right, 1.0
+R, -_13, t_14, Right, 1.0
+R, -_20, _21, Right, 1.0
+R, 2_19, -_20, Right, 1.0
+R, =_18, 2_19, Right, 1.0
+R, \int_3, (_7, Right, 1.0
+R, \int_3, 0_4, Sub, 1.0
+R, \int_3, \pi_5, Sup, 1.0
+R, \pi_25, 2_26, Sup, 1.0
+R, \sin_8, (_10, Right, 1.0
+R, _21, 1_22, Above, 1.0
+R, _21, 2_23, Below, 1.0
+R, _21, \pi_25, Right, 1.0
+R, d_16, t_17, Right, 1.0
+R, t_11, )_12, Right, 1.0
+R, t_14, )_15, Right, 1.0
+R, t_17, =_18, Right, 1.0

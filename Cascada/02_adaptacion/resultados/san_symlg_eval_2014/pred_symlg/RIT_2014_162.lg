@@ -1,0 +1,33 @@
+# IUD, RIT_2014_162
+# Objects(15):
+O, =_15, =, 1.0, OBelowSubR
+O, i_14, i, 1.0, OBelowSub
+O, 0_16, 0, 1.0, OBelowSubRR
+O, \sum_3, \sum, 1.0, OAbove
+O, 2_23, 2, 1.0, OBelowRRSup
+O, s_22, s, 1.0, OBelowRR
+O, a_19, a, 1.0, OBelowR
+O, b_5, b, 1.0, OAboveR
+O, s_8, s, 1.0, OAboveRR
+O, \sum_12, \sum, 1.0, OBelow
+O, i_6, i, 1.0, OAboveRSup
+O, i_20, i, 1.0, OBelowRSup
+O, i_9, i, 1.0, OAboveRRSup
+O, _1, -, 1.0, O
+O, n_17, n, 1.0, OBelowSup
+
+# Relations from SRT:
+R, =_15, 0_16, Right, 1.0
+R, \sum_12, a_19, Right, 1.0
+R, \sum_12, i_14, Sub, 1.0
+R, \sum_12, n_17, Sup, 1.0
+R, \sum_3, b_5, Right, 1.0
+R, _1, \sum_12, Below, 1.0
+R, _1, \sum_3, Above, 1.0
+R, a_19, i_20, Sup, 1.0
+R, a_19, s_22, Right, 1.0
+R, b_5, i_6, Sup, 1.0
+R, b_5, s_8, Right, 1.0
+R, i_14, =_15, Right, 1.0
+R, s_22, 2_23, Sup, 1.0
+R, s_8, i_9, Sup, 1.0

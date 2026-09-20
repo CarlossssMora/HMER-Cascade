@@ -1,0 +1,3 @@
+*N,ORRBelowAboveR,ABSENT,1.0,:vs:,x,1.0
+*N,ORRBelowAbove,a,1.0,:vs:,d,1.0
+*E,ORRBelowAbove,ORRBelowAboveR,_,1.0,:vs:,Right,1.0

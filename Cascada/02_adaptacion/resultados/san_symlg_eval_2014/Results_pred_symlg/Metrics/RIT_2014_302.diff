@@ -1,0 +1,3 @@
+*N,ORInsideAboveR,ABSENT,1.0,:vs:,5,1.0
+*N,ORInsideAbove,5,1.0,:vs:,1,1.0
+*E,ORInsideAbove,ORInsideAboveR,_,1.0,:vs:,Right,1.0

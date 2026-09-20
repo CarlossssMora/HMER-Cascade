@@ -1,0 +1,15 @@
+# IUD, RIT_2014_135
+# Objects(6):
+O, b_7, b, 1.0, OSupSub
+O, b_3, b, 1.0, O
+O, X_10, X, 1.0, ORR
+O, =_9, =, 1.0, OR
+O, x_8, x, 1.0, OSupR
+O, \log_6, \log, 1.0, OSup
+
+# Relations from SRT:
+R, =_9, X_10, Right, 1.0
+R, \log_6, b_7, Sub, 1.0
+R, \log_6, x_8, Right, 1.0
+R, b_3, =_9, Right, 1.0
+R, b_3, \log_6, Sup, 1.0

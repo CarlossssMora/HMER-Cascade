@@ -1,0 +1,9 @@
+*N,ORRRRRRAboveRRRR,-,1.0,:vs:,\tan,1.0
+*N,ORRRRRRAboveRRRRRR,y,1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRAboveRRRRR,|,1.0,:vs:,a,1.0
+*N,ORRRRRRAboveR,\cos,1.0,:vs:,\tan,1.0
+*N,ORRRRRRAboveRRRRSup,ABSENT,1.0,:vs:,3,1.0
+*N,ORRR,),1.0,:vs:,a,1.0
+*N,ORRRRRRAboveRRR,a,1.0,:vs:,-,1.0
+*E,ORRRRRRAboveRRRRR,ORRRRRRAboveRRRRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRRRRAboveRRRR,ORRRRRRAboveRRRRSup,_,1.0,:vs:,Sup,1.0

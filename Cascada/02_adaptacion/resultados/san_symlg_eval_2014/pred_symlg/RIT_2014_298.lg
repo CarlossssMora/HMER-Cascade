@@ -1,0 +1,9 @@
+# IUD, RIT_2014_298
+# Objects(3):
+O, \Delta_2, \Delta, 1.0, O
+O, X_5, X, 1.0, ORSub
+O, k_4, k, 1.0, OR
+
+# Relations from SRT:
+R, \Delta_2, k_4, Right, 1.0
+R, k_4, X_5, Sub, 1.0

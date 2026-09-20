@@ -1,0 +1,2 @@
+%37_em_24
+$\lim \limits _ { n \rightarrow \infty } \frac { 2 } { n } \sum \limits _ { i = 1 } ^ { n } \frac { 4 i ^ { 2 } } { n ^ { 2 } }$

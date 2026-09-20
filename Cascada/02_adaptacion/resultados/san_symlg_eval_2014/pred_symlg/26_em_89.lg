@@ -1,0 +1,43 @@
+# IUD, 26_em_89
+# Objects(20):
+O, 2_17, 2, 1.0, ORRRRRRSup
+O, +_18, +, 1.0, ORRRRRRR
+O, x_3, x, 1.0, O
+O, 2_8, 2, 1.0, ORRSup
+O, COMMA_21, COMMA, 1.0, ORRRRRRRRRR
+O, l_11, l, 1.0, ORRRR
+O, +_5, +, 1.0, OR
+O, y_7, y, 1.0, ORR
+O, 2_4, 2, 1.0, OSup
+O, (_25, (, 1.0, ORRRRRRRRRRRR
+O, 1_12, 1, 1.0, ORRRRSub
+O, l_23, l, 1.0, ORRRRRRRRRRR
+O, l_16, l, 1.0, ORRRRRR
+O, 2_26, 2, 1.0, ORRRRRRRRRRRRR
+O, =_9, =, 1.0, ORRR
+O, 2_13, 2, 1.0, ORRRRSup
+O, 2_19, 2, 1.0, ORRRRRRRR
+O, 2_24, 2, 1.0, ORRRRRRRRRRRSub
+O, +_14, +, 1.0, ORRRRR
+O, b_20, b, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, (_25, 2_26, Right, 1.0
+R, +_14, l_16, Right, 1.0
+R, +_18, 2_19, Right, 1.0
+R, +_5, y_7, Right, 1.0
+R, 2_19, b_20, Right, 1.0
+R, =_9, l_11, Right, 1.0
+R, COMMA_21, l_23, Right, 1.0
+R, b_20, COMMA_21, Right, 1.0
+R, l_11, +_14, Right, 1.0
+R, l_11, 1_12, Sub, 1.0
+R, l_11, 2_13, Sup, 1.0
+R, l_16, +_18, Right, 1.0
+R, l_16, 2_17, Sup, 1.0
+R, l_23, (_25, Right, 1.0
+R, l_23, 2_24, Sub, 1.0
+R, x_3, +_5, Right, 1.0
+R, x_3, 2_4, Sup, 1.0
+R, y_7, 2_8, Sup, 1.0
+R, y_7, =_9, Right, 1.0

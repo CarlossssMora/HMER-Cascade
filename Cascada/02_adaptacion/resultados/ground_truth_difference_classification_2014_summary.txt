@@ -1,0 +1,33 @@
+
+========================================================================
+RESUMEN
+========================================================================
+Casos analizados : 85
+
+Categorias
+  single_edit_block             :  59 ( 69.41%)
+  minor_lexical_difference      :  23 ( 27.06%)
+  structural_difference         :   3 (  3.53%)
+
+Prioridad de revision
+  muy_alta  :   3 (  3.53%)
+  alta      :  82 ( 96.47%)
+  media     :   0 (  0.00%)
+  baja      :   0 (  0.00%)
+
+Impacto en Exact Match
+  Cambian correccion de algun modelo : 53 / 85 (62.35%)
+  Favorecen especificamente a SAN    : 40
+  Favorecen especificamente PosFormer: 47
+
+Cambios de tokens mas frecuentes
+  insert  105x : [] -> [\limits]
+  delete    7x : [}] -> []
+  delete    5x : [_ {] -> []
+  insert    2x : [] -> [}]
+  replace   1x : [\pi] -> [\Pi]
+
+Archivos generados
+  Clasificacion : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\ground_truth_difference_classification_2014.csv
+  Cambios token : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\ground_truth_token_changes_2014.csv
+  Resumen       : C:\Users\novac\Documents\Unidad\Documentos\IPN\Trabajo_terminal\Programas\Cascada\02_adaptacion\resultados\ground_truth_difference_classification_2014_summary.txt

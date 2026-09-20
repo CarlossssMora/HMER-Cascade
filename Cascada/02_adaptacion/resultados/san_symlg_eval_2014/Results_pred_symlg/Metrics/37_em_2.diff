@@ -1,0 +1,12 @@
+*N,ORRRRRRRRRAboveR,\pi,1.0,:vs:,(,1.0
+*N,ORRRRRRRRRAboveRRRR,ABSENT,1.0,:vs:,),1.0
+*N,ORRRAboveRRR,),1.0,:vs:,\pi,1.0
+*N,ORRRRRRRRRAboveRR,\pi,1.0,:vs:,n,1.0
+*N,ORRRRRRRRRAboveRRR,ABSENT,1.0,:vs:,\pi,1.0
+*N,ORRRRRRRBelowRR,\pi,1.0,:vs:,ABSENT,1.0
+*N,ORRRBelowR,n,1.0,:vs:,\pi,1.0
+*N,ORRRRRRRRRBelowR,ABSENT,1.0,:vs:,\pi,1.0
+*E,ORRRRRRRBelowR,ORRRRRRRBelowRR,Right,1.0,:vs:,_,1.0
+*E,ORRRRRRRRRAboveRR,ORRRRRRRRRAboveRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRRRRRBelow,ORRRRRRRRRBelowR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRRRRRAboveRRR,ORRRRRRRRRAboveRRRR,_,1.0,:vs:,Right,1.0

@@ -1,0 +1,19 @@
+# IUD, RIT_2014_102
+# Objects(8):
+O, [_9, [, 1.0, ORRRR
+O, m_10, m, 1.0, ORRRRR
+O, =_7, =, 1.0, ORRR
+O, N_6, N, 1.0, ORR
+O, ]_11, ], 1.0, ORRRRRR
+O, \prime_4, \prime, 1.0, OSup
+O, +_5, +, 1.0, OR
+O, m_3, m, 1.0, O
+
+# Relations from SRT:
+R, +_5, N_6, Right, 1.0
+R, =_7, [_9, Right, 1.0
+R, N_6, =_7, Right, 1.0
+R, [_9, m_10, Right, 1.0
+R, m_10, ]_11, Right, 1.0
+R, m_3, +_5, Right, 1.0
+R, m_3, \prime_4, Sup, 1.0

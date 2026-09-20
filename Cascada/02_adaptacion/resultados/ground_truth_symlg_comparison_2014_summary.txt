@@ -1,0 +1,4 @@
+GT discrepantes: 85
+Solo \limits: 79 muestras, 0 symLG iguales, 79 distintos
+Otras diferencias: 6 muestras, 0 symLG iguales, 6 distintos
+Los IDs y las distancias D_B estan en el CSV.

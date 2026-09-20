@@ -1,0 +1,8 @@
+*N,ORSub,0,1.0,:vs:,ABSENT,1.0
+*N,ORSup,1,1.0,:vs:,ABSENT,1.0
+*N,ORAbove,ABSENT,1.0,:vs:,1,1.0
+*N,ORBelow,ABSENT,1.0,:vs:,0,1.0
+*E,OR,ORSub,Sub,1.0,:vs:,_,1.0
+*E,OR,ORSup,Sup,1.0,:vs:,_,1.0
+*E,OR,ORBelow,_,1.0,:vs:,Below,1.0
+*E,OR,ORAbove,_,1.0,:vs:,Above,1.0

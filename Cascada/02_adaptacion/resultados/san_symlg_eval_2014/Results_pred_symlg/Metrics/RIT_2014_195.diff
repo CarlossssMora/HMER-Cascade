@@ -1,0 +1,4 @@
+*N,OInsideAbove,ABSENT,1.0,:vs:,n,1.0
+*N,OAbove,ABSENT,1.0,:vs:,m,1.0
+*E,O,OAbove,_,1.0,:vs:,Above,1.0
+*E,OInside,OInsideAbove,_,1.0,:vs:,Above,1.0

@@ -1,0 +1,15 @@
+*N,ORRRRRRRRR,ABSENT,1.0,:vs:,z,1.0
+*N,ORR,|,1.0,:vs:,-,1.0
+*N,ORRRRRRRRRR,ABSENT,1.0,:vs:,|,1.0
+*N,ORRR,=,1.0,:vs:,z,1.0
+*N,ORRRRRR,z,1.0,:vs:,|,1.0
+*N,ORRRR,k,1.0,:vs:,|,1.0
+*N,ORRRRRRRR,|,1.0,:vs:,-,1.0
+*N,ORRRRR,-,1.0,:vs:,=,1.0
+*N,O,R,1.0,:vs:,|,1.0
+*N,ORRRRRRRRRSub,ABSENT,1.0,:vs:,2,1.0
+*N,ORRRSub,ABSENT,1.0,:vs:,1,1.0
+*E,ORRR,ORRRSub,_,1.0,:vs:,Sub,1.0
+*E,ORRRRRRRR,ORRRRRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRRRRR,ORRRRRRRRRSub,_,1.0,:vs:,Sub,1.0
+*E,ORRRRRRRRR,ORRRRRRRRRR,_,1.0,:vs:,Right,1.0

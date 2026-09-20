@@ -1,0 +1,17 @@
+# IUD, RIT_2014_126
+# Objects(7):
+O, -_9, -, 1.0, OBelowRRSup
+O, 1_10, 1, 1.0, OBelowRRSupR
+O, _1, -, 1.0, O
+O, 1_4, 1, 1.0, OBelow
+O, 1_2, 1, 1.0, OAbove
+O, -_5, -, 1.0, OBelowR
+O, z_7, z, 1.0, OBelowRR
+
+# Relations from SRT:
+R, -_5, z_7, Right, 1.0
+R, -_9, 1_10, Right, 1.0
+R, 1_4, -_5, Right, 1.0
+R, _1, 1_2, Above, 1.0
+R, _1, 1_4, Below, 1.0
+R, z_7, -_9, Sup, 1.0

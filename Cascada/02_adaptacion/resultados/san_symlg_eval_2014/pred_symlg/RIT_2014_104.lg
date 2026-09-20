@@ -1,0 +1,15 @@
+# IUD, RIT_2014_104
+# Objects(6):
+O, -_2, -, 1.0, O
+O, 2_7, 2, 1.0, ORRRRR
+O, 2_3, 2, 1.0, OR
+O, \leq_4, \leq, 1.0, ORR
+O, x_5, x, 1.0, ORRR
+O, \leq_6, \leq, 1.0, ORRRR
+
+# Relations from SRT:
+R, -_2, 2_3, Right, 1.0
+R, 2_3, \leq_4, Right, 1.0
+R, \leq_4, x_5, Right, 1.0
+R, \leq_6, 2_7, Right, 1.0
+R, x_5, \leq_6, Right, 1.0

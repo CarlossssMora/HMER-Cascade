@@ -1,0 +1,7 @@
+# IUD, 513_em_306
+# Objects(2):
+O, \gamma_3, \gamma, 1.0, OSub
+O, R_2, R, 1.0, O
+
+# Relations from SRT:
+R, R_2, \gamma_3, Sub, 1.0

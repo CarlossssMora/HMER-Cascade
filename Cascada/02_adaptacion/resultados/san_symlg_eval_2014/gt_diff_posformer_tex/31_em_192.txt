@@ -1,0 +1,2 @@
+%31_em_192
+$\int \limits _ { a } ^ { x } f ( x ) d x$

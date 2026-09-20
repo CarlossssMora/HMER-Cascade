@@ -1,0 +1,35 @@
+# IUD, 511_em_269
+# Objects(16):
+O, 0_10, 0, 1.0, OSupR
+O, 1_9, 1, 1.0, OSup
+O, _19, -, 1.0, ORRRRR
+O, -_15, -, 1.0, ORR
+O, 0_11, 0, 1.0, OSupRR
+O, \sum_3, \sum, 1.0, O
+O, x_18, x, 1.0, ORRRRSup
+O, (_14, (, 1.0, OR
+O, )_17, ), 1.0, ORRRR
+O, 1_20, 1, 1.0, ORRRRRAbove
+O, \alpha_5, \alpha, 1.0, OSub
+O, 2_7, 2, 1.0, OSubRR
+O, x_22, x, 1.0, ORRRRRBelow
+O, 1_16, 1, 1.0, ORRR
+O, =_6, =, 1.0, OSubR
+O, 2_23, 2, 1.0, ORRRRRBelowSup
+
+# Relations from SRT:
+R, (_14, -_15, Right, 1.0
+R, )_17, _19, Right, 1.0
+R, )_17, x_18, Sup, 1.0
+R, -_15, 1_16, Right, 1.0
+R, 0_10, 0_11, Right, 1.0
+R, 1_16, )_17, Right, 1.0
+R, 1_9, 0_10, Right, 1.0
+R, =_6, 2_7, Right, 1.0
+R, \alpha_5, =_6, Right, 1.0
+R, \sum_3, (_14, Right, 1.0
+R, \sum_3, 1_9, Sup, 1.0
+R, \sum_3, \alpha_5, Sub, 1.0
+R, _19, 1_20, Above, 1.0
+R, _19, x_22, Below, 1.0
+R, x_22, 2_23, Sup, 1.0

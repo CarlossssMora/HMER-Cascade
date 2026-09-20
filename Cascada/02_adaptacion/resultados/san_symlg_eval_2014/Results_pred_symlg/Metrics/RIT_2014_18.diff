@@ -1,0 +1,10 @@
+*N,ORRRRR,g,1.0,:vs:,t,1.0
+*N,ORSub,ABSENT,1.0,:vs:,X,1.0
+*N,ORRRRRR,t,1.0,:vs:,d,1.0
+*N,ORRR,=,1.0,:vs:,\int,1.0
+*N,ORRRR,\int,1.0,:vs:,g,1.0
+*N,ORRRRRRRR,t,1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRR,d,1.0,:vs:,t,1.0
+*N,ORR,x,1.0,:vs:,=,1.0
+*E,ORRRRRRR,ORRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OR,ORSub,_,1.0,:vs:,Sub,1.0

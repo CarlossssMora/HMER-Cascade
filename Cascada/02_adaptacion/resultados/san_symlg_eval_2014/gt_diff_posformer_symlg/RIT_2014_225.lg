@@ -1,0 +1,43 @@
+# IUD, RIT_2014_225
+# Objects(20):
+O, d_18, d, 1.0, ORRRRRRRRRRRRRR
+O, )_24, ), 1.0, ORRRRRRRRRRRRRRRRRRR
+O, )_16, ), 1.0, ORRRRRRRRRRRR
+O, z_23, z, 1.0, ORRRRRRRRRRRRRRRRRR
+O, COMMA_22, COMMA, 1.0, ORRRRRRRRRRRRRRRRR
+O, x_5, x, 1.0, ORR
+O, COMMA_14, COMMA, 1.0, ORRRRRRRRRR
+O, d_2, d, 1.0, O
+O, d_10, d, 1.0, ORRRRRRR
+O, (_4, (, 1.0, OR
+O, )_8, ), 1.0, ORRRRR
+O, x_21, x, 1.0, ORRRRRRRRRRRRRRRR
+O, z_15, z, 1.0, ORRRRRRRRRRR
+O, COMMA_6, COMMA, 1.0, ORRR
+O, (_20, (, 1.0, ORRRRRRRRRRRRRRR
+O, \geq_17, \geq, 1.0, ORRRRRRRRRRRRR
+O, y_7, y, 1.0, ORRRR
+O, (_12, (, 1.0, ORRRRRRRR
+O, +_9, +, 1.0, ORRRRRR
+O, y_13, y, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, (_12, y_13, Right, 1.0
+R, (_20, x_21, Right, 1.0
+R, (_4, x_5, Right, 1.0
+R, )_16, \geq_17, Right, 1.0
+R, )_8, +_9, Right, 1.0
+R, +_9, d_10, Right, 1.0
+R, COMMA_14, z_15, Right, 1.0
+R, COMMA_22, z_23, Right, 1.0
+R, COMMA_6, y_7, Right, 1.0
+R, \geq_17, d_18, Right, 1.0
+R, d_10, (_12, Right, 1.0
+R, d_18, (_20, Right, 1.0
+R, d_2, (_4, Right, 1.0
+R, x_21, COMMA_22, Right, 1.0
+R, x_5, COMMA_6, Right, 1.0
+R, y_13, COMMA_14, Right, 1.0
+R, y_7, )_8, Right, 1.0
+R, z_15, )_16, Right, 1.0
+R, z_23, )_24, Right, 1.0

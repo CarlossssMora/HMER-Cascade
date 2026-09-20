@@ -1,0 +1,31 @@
+# IUD, 28_em_137
+# Objects(14):
+O, 4_11, 4, 1.0, ORRRRRRRRR
+O, 4_13, 4, 1.0, ORRRRRRRRRRR
+O, 3_2, 3, 1.0, O
+O, 4_5, 4, 1.0, ORRR
+O, 4_3, 4, 1.0, OR
+O, COMMA_6, COMMA, 1.0, ORRRR
+O, -_8, -, 1.0, ORRRRRR
+O, 5_9, 5, 1.0, ORRRRRRR
+O, COMMA_4, COMMA, 1.0, ORR
+O, 4_15, 4, 1.0, ORRRRRRRRRRRRR
+O, COMMA_10, COMMA, 1.0, ORRRRRRRR
+O, 5_7, 5, 1.0, ORRRRR
+O, COMMA_12, COMMA, 1.0, ORRRRRRRRRR
+O, COMMA_14, COMMA, 1.0, ORRRRRRRRRRRR
+
+# Relations from SRT:
+R, -_8, 5_9, Right, 1.0
+R, 3_2, 4_3, Right, 1.0
+R, 4_11, COMMA_12, Right, 1.0
+R, 4_13, COMMA_14, Right, 1.0
+R, 4_3, COMMA_4, Right, 1.0
+R, 4_5, COMMA_6, Right, 1.0
+R, 5_7, -_8, Right, 1.0
+R, 5_9, COMMA_10, Right, 1.0
+R, COMMA_10, 4_11, Right, 1.0
+R, COMMA_12, 4_13, Right, 1.0
+R, COMMA_14, 4_15, Right, 1.0
+R, COMMA_4, 4_5, Right, 1.0
+R, COMMA_6, 5_7, Right, 1.0

@@ -1,0 +1,13 @@
+# IUD, 506_em_66
+# Objects(5):
+O, A_4, A, 1.0, ORR
+O, 4_6, 4, 1.0, ORRRR
+O, 2_2, 2, 1.0, O
+O, \leq_3, \leq, 1.0, OR
+O, 5_5, 5, 1.0, ORRR
+
+# Relations from SRT:
+R, 2_2, \leq_3, Right, 1.0
+R, 5_5, 4_6, Right, 1.0
+R, A_4, 5_5, Right, 1.0
+R, \leq_3, A_4, Right, 1.0

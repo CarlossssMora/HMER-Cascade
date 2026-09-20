@@ -1,0 +1,7 @@
+# IUD, 29_em_151
+# Objects(2):
+O, a_3, a, 1.0, OSub
+O, p_2, p, 1.0, O
+
+# Relations from SRT:
+R, p_2, a_3, Sub, 1.0

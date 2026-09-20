@@ -1,0 +1,9 @@
+# IUD, 36_em_47
+# Objects(3):
+O, 7_2, 7, 1.0, O
+O, 0_5, 0, 1.0, ORSup
+O, 0_4, 0, 1.0, OR
+
+# Relations from SRT:
+R, 0_4, 0_5, Sup, 1.0
+R, 7_2, 0_4, Right, 1.0

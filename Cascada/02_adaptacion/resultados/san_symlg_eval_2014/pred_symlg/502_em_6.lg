@@ -1,0 +1,55 @@
+# IUD, 502_em_6
+# Objects(26):
+O, n_23, n, 1.0, ORRRRRRRRRRRRRRRSup
+O, -_30, -, 1.0, ORRRRRRRRRRRRRRRRRSup
+O, x_16, x, 1.0, ORRRRRRRRRRRR
+O, \pi_24, \pi, 1.0, ORRRRRRRRRRRRRRRSupR
+O, (_19, (, 1.0, ORRRRRRRRRRRRRR
+O, y_33, y, 1.0, ORRRRRRRRRRRRRRRRRSupRRR
+O, n_14, n, 1.0, ORRRRRRRRRR
+O, =_9, =, 1.0, ORRRRRR
+O, n_31, n, 1.0, ORRRRRRRRRRRRRRRRRSupR
+O, )_8, ), 1.0, ORRRRR
+O, -_26, -, 1.0, ORRRRRRRRRRRRRRRR
+O, (_13, (, 1.0, ORRRRRRRRR
+O, e_28, e, 1.0, ORRRRRRRRRRRRRRRRR
+O, )_17, ), 1.0, ORRRRRRRRRRRRR
+O, x_5, x, 1.0, ORR
+O, \sin_11, \sin, 1.0, ORRRRRRRR
+O, \pi_15, \pi, 1.0, ORRRRRRRRRRR
+O, e_21, e, 1.0, ORRRRRRRRRRRRRRR
+O, (_4, (, 1.0, OR
+O, \pi_32, \pi, 1.0, ORRRRRRRRRRRRRRRRRSupRR
+O, COMMA_6, COMMA, 1.0, ORRR
+O, B_10, B, 1.0, ORRRRRRR
+O, u_2, u, 1.0, O
+O, y_7, y, 1.0, ORRRR
+O, y_25, y, 1.0, ORRRRRRRRRRRRRRRSupRR
+O, )_34, ), 1.0, ORRRRRRRRRRRRRRRRRR
+
+# Relations from SRT:
+R, (_13, n_14, Right, 1.0
+R, (_19, e_21, Right, 1.0
+R, (_4, x_5, Right, 1.0
+R, )_17, (_19, Right, 1.0
+R, )_8, =_9, Right, 1.0
+R, -_26, e_28, Right, 1.0
+R, -_30, n_31, Right, 1.0
+R, =_9, B_10, Right, 1.0
+R, B_10, \sin_11, Right, 1.0
+R, COMMA_6, y_7, Right, 1.0
+R, \pi_15, x_16, Right, 1.0
+R, \pi_24, y_25, Right, 1.0
+R, \pi_32, y_33, Right, 1.0
+R, \sin_11, (_13, Right, 1.0
+R, e_21, -_26, Right, 1.0
+R, e_21, n_23, Sup, 1.0
+R, e_28, )_34, Right, 1.0
+R, e_28, -_30, Sup, 1.0
+R, n_14, \pi_15, Right, 1.0
+R, n_23, \pi_24, Right, 1.0
+R, n_31, \pi_32, Right, 1.0
+R, u_2, (_4, Right, 1.0
+R, x_16, )_17, Right, 1.0
+R, x_5, COMMA_6, Right, 1.0
+R, y_7, )_8, Right, 1.0

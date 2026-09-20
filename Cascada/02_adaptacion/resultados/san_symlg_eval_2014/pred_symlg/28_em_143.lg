@@ -1,0 +1,21 @@
+# IUD, 28_em_143
+# Objects(9):
+O, [_3, [, 1.0, O
+O, [_11, [, 1.0, ORRRRRR
+O, =_9, =, 1.0, ORRRRR
+O, S_6, S, 1.0, ORR
+O, ]_13, ], 1.0, ORRRRRRRR
+O, s_12, s, 1.0, ORRRRRRR
+O, ]_7, ], 1.0, ORRR
+O, [_5, [, 1.0, OR
+O, ]_8, ], 1.0, ORRRR
+
+# Relations from SRT:
+R, =_9, [_11, Right, 1.0
+R, S_6, ]_7, Right, 1.0
+R, [_11, s_12, Right, 1.0
+R, [_3, [_5, Right, 1.0
+R, [_5, S_6, Right, 1.0
+R, ]_7, ]_8, Right, 1.0
+R, ]_8, =_9, Right, 1.0
+R, s_12, ]_13, Right, 1.0

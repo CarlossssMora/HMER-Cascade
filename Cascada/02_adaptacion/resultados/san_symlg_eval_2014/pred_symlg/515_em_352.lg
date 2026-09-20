@@ -1,0 +1,17 @@
+# IUD, 515_em_352
+# Objects(7):
+O, A_8, A, 1.0, ORRR
+O, T_9, T, 1.0, ORRRSup
+O, A_10, A, 1.0, ORRRR
+O, T_5, T, 1.0, ORSup
+O, A_4, A, 1.0, OR
+O, A_2, A, 1.0, O
+O, =_6, =, 1.0, ORR
+
+# Relations from SRT:
+R, =_6, A_8, Right, 1.0
+R, A_2, A_4, Right, 1.0
+R, A_4, =_6, Right, 1.0
+R, A_4, T_5, Sup, 1.0
+R, A_8, A_10, Right, 1.0
+R, A_8, T_9, Sup, 1.0

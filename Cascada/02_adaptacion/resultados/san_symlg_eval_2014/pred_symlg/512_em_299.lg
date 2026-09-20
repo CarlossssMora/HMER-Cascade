@@ -1,0 +1,15 @@
+# IUD, 512_em_299
+# Objects(6):
+O, -_6, -, 1.0, ORRR
+O, p_7, p, 1.0, ORRRR
+O, p_2, p, 1.0, O
+O, 1_5, 1, 1.0, ORR
+O, (_4, (, 1.0, OR
+O, )_8, ), 1.0, ORRRRR
+
+# Relations from SRT:
+R, (_4, 1_5, Right, 1.0
+R, -_6, p_7, Right, 1.0
+R, 1_5, -_6, Right, 1.0
+R, p_2, (_4, Right, 1.0
+R, p_7, )_8, Right, 1.0

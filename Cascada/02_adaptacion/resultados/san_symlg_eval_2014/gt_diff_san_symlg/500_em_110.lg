@@ -1,0 +1,15 @@
+# IUD, 500_em_110
+# Objects(6):
+O, x_8, x, 1.0, ORRR
+O, i_6, i, 1.0, ORRSub
+O, =_3, =, 1.0, OR
+O, i_9, i, 1.0, ORRRSub
+O, \sum_5, \sum, 1.0, ORR
+O, x_2, x, 1.0, O
+
+# Relations from SRT:
+R, =_3, \sum_5, Right, 1.0
+R, \sum_5, i_6, Sub, 1.0
+R, \sum_5, x_8, Right, 1.0
+R, x_2, =_3, Right, 1.0
+R, x_8, i_9, Sub, 1.0

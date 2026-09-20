@@ -1,0 +1,27 @@
+# IUD, 28_em_128
+# Objects(12):
+O, -_7, -, 1.0, OR
+O, 1_16, 1, 1.0, ORRRR
+O, _2, -, 1.0, O
+O, 4_13, 4, 1.0, ORRBelow
+O, _8, -, 1.0, ORR
+O, y_10, y, 1.0, ORRAbove
+O, 2_11, 2, 1.0, ORRAboveSup
+O, 2_5, 2, 1.0, OAboveSup
+O, x_4, x, 1.0, OAbove
+O, =_15, =, 1.0, ORRR
+O, q_6, q, 1.0, OBelow
+O, q_14, q, 1.0, ORRBelowR
+
+# Relations from SRT:
+R, -_7, _8, Right, 1.0
+R, 4_13, q_14, Right, 1.0
+R, =_15, 1_16, Right, 1.0
+R, _2, -_7, Right, 1.0
+R, _2, q_6, Below, 1.0
+R, _2, x_4, Above, 1.0
+R, _8, 4_13, Below, 1.0
+R, _8, =_15, Right, 1.0
+R, _8, y_10, Above, 1.0
+R, x_4, 2_5, Sup, 1.0
+R, y_10, 2_11, Sup, 1.0

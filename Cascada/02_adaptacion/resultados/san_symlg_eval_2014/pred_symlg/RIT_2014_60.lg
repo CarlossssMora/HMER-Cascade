@@ -1,0 +1,31 @@
+# IUD, RIT_2014_60
+# Objects(14):
+O, =_6, =, 1.0, ORRRR
+O, 1_5, 1, 1.0, ORRR
+O, +_4, +, 1.0, ORR
+O, +_11, +, 1.0, ORRRRRRRR
+O, A_7, A, 1.0, ORRRRR
+O, 8_15, 8, 1.0, ORRRRRRRRRRRR
+O, 1_12, 1, 1.0, ORRRRRRRRR
+O, (_9, (, 1.0, ORRRRRR
+O, +_14, +, 1.0, ORRRRRRRRRRR
+O, x_10, x, 1.0, ORRRRRRR
+O, x_3, x, 1.0, OR
+O, x_16, x, 1.0, ORRRRRRRRRRRRR
+O, )_13, ), 1.0, ORRRRRRRRRR
+O, 3_2, 3, 1.0, O
+
+# Relations from SRT:
+R, (_9, x_10, Right, 1.0
+R, )_13, +_14, Right, 1.0
+R, +_11, 1_12, Right, 1.0
+R, +_14, 8_15, Right, 1.0
+R, +_4, 1_5, Right, 1.0
+R, 1_12, )_13, Right, 1.0
+R, 1_5, =_6, Right, 1.0
+R, 3_2, x_3, Right, 1.0
+R, 8_15, x_16, Right, 1.0
+R, =_6, A_7, Right, 1.0
+R, A_7, (_9, Right, 1.0
+R, x_10, +_11, Right, 1.0
+R, x_3, +_4, Right, 1.0

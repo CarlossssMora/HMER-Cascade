@@ -1,0 +1,29 @@
+# IUD, 27_em_107
+# Objects(13):
+O, n_6, n, 1.0, ORRSup
+O, x_8, x, 1.0, ORRRR
+O, \int_11, \int, 1.0, ORRRRRRR
+O, d_15, d, 1.0, ORRRRRRRRR
+O, k_3, k, 1.0, OR
+O, x_5, x, 1.0, ORR
+O, =_9, =, 1.0, ORRRRR
+O, x_16, x, 1.0, ORRRRRRRRRR
+O, d_7, d, 1.0, ORRR
+O, x_13, x, 1.0, ORRRRRRRR
+O, k_10, k, 1.0, ORRRRRR
+O, n_14, n, 1.0, ORRRRRRRRSup
+O, \int_2, \int, 1.0, O
+
+# Relations from SRT:
+R, =_9, k_10, Right, 1.0
+R, \int_11, x_13, Right, 1.0
+R, \int_2, k_3, Right, 1.0
+R, d_15, x_16, Right, 1.0
+R, d_7, x_8, Right, 1.0
+R, k_10, \int_11, Right, 1.0
+R, k_3, x_5, Right, 1.0
+R, x_13, d_15, Right, 1.0
+R, x_13, n_14, Sup, 1.0
+R, x_5, d_7, Right, 1.0
+R, x_5, n_6, Sup, 1.0
+R, x_8, =_9, Right, 1.0

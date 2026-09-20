@@ -1,0 +1,8 @@
+*N,ORRSubR,ABSENT,1.0,:vs:,\theta,1.0
+*N,ORRSub,ABSENT,1.0,:vs:,-,1.0
+*N,ORRRR,\theta,1.0,:vs:,ABSENT,1.0
+*N,ORRR,-,1.0,:vs:,ABSENT,1.0
+*E,ORRR,ORRRR,Right,1.0,:vs:,_,1.0
+*E,ORR,ORRR,Right,1.0,:vs:,_,1.0
+*E,ORRSub,ORRSubR,_,1.0,:vs:,Right,1.0
+*E,ORR,ORRSub,_,1.0,:vs:,Sub,1.0

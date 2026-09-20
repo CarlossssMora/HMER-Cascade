@@ -1,0 +1,29 @@
+# IUD, 519_em_461
+# Objects(13):
+O, 1_14, 1, 1.0, ORRRRAbove
+O, -_5, -, 1.0, OR
+O, \alpha_3, \alpha, 1.0, OAbove
+O, _2, -, 1.0, O
+O, \alpha_8, \alpha, 1.0, ORRAbove
+O, 2_11, 2, 1.0, ORRBelow
+O, 2_4, 2, 1.0, OBelow
+O, _13, -, 1.0, ORRRR
+O, 2_15, 2, 1.0, ORRRRBelow
+O, =_12, =, 1.0, ORRR
+O, +_9, +, 1.0, ORRAboveR
+O, _6, -, 1.0, ORR
+O, 1_10, 1, 1.0, ORRAboveRR
+
+# Relations from SRT:
+R, +_9, 1_10, Right, 1.0
+R, -_5, _6, Right, 1.0
+R, =_12, _13, Right, 1.0
+R, \alpha_8, +_9, Right, 1.0
+R, _13, 1_14, Above, 1.0
+R, _13, 2_15, Below, 1.0
+R, _2, -_5, Right, 1.0
+R, _2, 2_4, Below, 1.0
+R, _2, \alpha_3, Above, 1.0
+R, _6, 2_11, Below, 1.0
+R, _6, =_12, Right, 1.0
+R, _6, \alpha_8, Above, 1.0

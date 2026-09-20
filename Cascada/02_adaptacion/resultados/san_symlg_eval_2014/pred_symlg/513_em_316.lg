@@ -1,0 +1,29 @@
+# IUD, 513_em_316
+# Objects(13):
+O, (_17, (, 1.0, ORRRRRRR
+O, )_19, ), 1.0, ORRRRRRRRR
+O, n_7, n, 1.0, ORSub
+O, \lim_3, \lim, 1.0, O
+O, x_4, x, 1.0, OSub
+O, )_11, ), 1.0, ORRRR
+O, (_9, (, 1.0, ORR
+O, a_10, a, 1.0, ORRR
+O, x_15, x, 1.0, ORRRRRRSub
+O, r_6, r, 1.0, OR
+O, a_18, a, 1.0, ORRRRRRRR
+O, =_12, =, 1.0, ORRRRR
+O, f_14, f, 1.0, ORRRRRR
+
+# Relations from SRT:
+R, (_17, a_18, Right, 1.0
+R, (_9, a_10, Right, 1.0
+R, )_11, =_12, Right, 1.0
+R, =_12, f_14, Right, 1.0
+R, \lim_3, r_6, Right, 1.0
+R, \lim_3, x_4, Sub, 1.0
+R, a_10, )_11, Right, 1.0
+R, a_18, )_19, Right, 1.0
+R, f_14, (_17, Right, 1.0
+R, f_14, x_15, Sub, 1.0
+R, r_6, (_9, Right, 1.0
+R, r_6, n_7, Sub, 1.0

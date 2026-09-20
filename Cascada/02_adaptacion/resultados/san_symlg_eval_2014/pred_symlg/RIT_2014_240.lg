@@ -1,0 +1,21 @@
+# IUD, RIT_2014_240
+# Objects(9):
+O, |_11, |, 1.0, ORRRRRRRR
+O, R_2, R, 1.0, O
+O, -_8, -, 1.0, ORRRRR
+O, z_3, z, 1.0, OR
+O, |_5, |, 1.0, ORR
+O, =_6, =, 1.0, ORRR
+O, k_7, k, 1.0, ORRRR
+O, z_9, z, 1.0, ORRRRRR
+O, z_10, z, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, -_8, z_9, Right, 1.0
+R, =_6, k_7, Right, 1.0
+R, R_2, z_3, Right, 1.0
+R, k_7, -_8, Right, 1.0
+R, z_10, |_11, Right, 1.0
+R, z_3, |_5, Right, 1.0
+R, z_9, z_10, Right, 1.0
+R, |_5, =_6, Right, 1.0

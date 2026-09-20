@@ -1,0 +1,9 @@
+# IUD, 20_em_45
+# Objects(3):
+O, C_3, C, 1.0, OInside
+O, n_4, n, 1.0, OInsideSub
+O, _1, \sqrt, 1.0, O
+
+# Relations from SRT:
+R, C_3, n_4, Sub, 1.0
+R, _1, C_3, Inside, 1.0

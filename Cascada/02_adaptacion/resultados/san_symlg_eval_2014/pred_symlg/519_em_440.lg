@@ -1,0 +1,21 @@
+# IUD, 519_em_440
+# Objects(9):
+O, 7_10, 7, 1.0, OBelowRR
+O, 8_3, 8, 1.0, OAbove
+O, 7_8, 7, 1.0, OBelow
+O, 3_11, 3, 1.0, OBelowRRR
+O, _1, -, 1.0, O
+O, 3_6, 3, 1.0, OAboveRRR
+O, 9_4, 9, 1.0, OAboveR
+O, 8_9, 8, 1.0, OBelowR
+O, 9_5, 9, 1.0, OAboveRR
+
+# Relations from SRT:
+R, 7_10, 3_11, Right, 1.0
+R, 7_8, 8_9, Right, 1.0
+R, 8_3, 9_4, Right, 1.0
+R, 8_9, 7_10, Right, 1.0
+R, 9_4, 9_5, Right, 1.0
+R, 9_5, 3_6, Right, 1.0
+R, _1, 7_8, Below, 1.0
+R, _1, 8_3, Above, 1.0

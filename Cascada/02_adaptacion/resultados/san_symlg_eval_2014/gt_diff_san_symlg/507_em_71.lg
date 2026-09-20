@@ -1,0 +1,43 @@
+# IUD, 507_em_71
+# Objects(20):
+O, n_23, n, 1.0, ORRRRRRRR
+O, 2_27, 2, 1.0, ORRRRRRRRRSupR
+O, \sum_3, \sum, 1.0, O
+O, 1_7, 1, 1.0, OSubRR
+O, 1_9, 1, 1.0, OSup
+O, 0_12, 0, 1.0, OSupRRR
+O, 0_18, 0, 1.0, ORRR
+O, 0_13, 0, 1.0, OSupRRRR
+O, 0_11, 0, 1.0, OSupRR
+O, 1_21, 1, 1.0, ORRRRRR
+O, n_5, n, 1.0, OSub
+O, 0_20, 0, 1.0, ORRRRR
+O, (_16, (, 1.0, OR
+O, 1_17, 1, 1.0, ORR
+O, -_22, -, 1.0, ORRRRRRR
+O, -_26, -, 1.0, ORRRRRRRRRSup
+O, =_6, =, 1.0, OSubR
+O, )_24, ), 1.0, ORRRRRRRRR
+O, 0_19, 0, 1.0, ORRRR
+O, 0_10, 0, 1.0, OSupR
+
+# Relations from SRT:
+R, (_16, 1_17, Right, 1.0
+R, )_24, -_26, Sup, 1.0
+R, -_22, n_23, Right, 1.0
+R, -_26, 2_27, Right, 1.0
+R, 0_10, 0_11, Right, 1.0
+R, 0_11, 0_12, Right, 1.0
+R, 0_12, 0_13, Right, 1.0
+R, 0_18, 0_19, Right, 1.0
+R, 0_19, 0_20, Right, 1.0
+R, 0_20, 1_21, Right, 1.0
+R, 1_17, 0_18, Right, 1.0
+R, 1_21, -_22, Right, 1.0
+R, 1_9, 0_10, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \sum_3, (_16, Right, 1.0
+R, \sum_3, 1_9, Sup, 1.0
+R, \sum_3, n_5, Sub, 1.0
+R, n_23, )_24, Right, 1.0
+R, n_5, =_6, Right, 1.0

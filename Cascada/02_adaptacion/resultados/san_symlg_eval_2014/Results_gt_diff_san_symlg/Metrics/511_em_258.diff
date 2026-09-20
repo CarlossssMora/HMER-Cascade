@@ -1,0 +1,16 @@
+*N,OBelow,ABSENT,1.0,:vs:,i,1.0
+*N,OSubR,=,1.0,:vs:,ABSENT,1.0
+*N,OSub,i,1.0,:vs:,ABSENT,1.0
+*N,OAbove,ABSENT,1.0,:vs:,n,1.0
+*N,OBelowRR,ABSENT,1.0,:vs:,1,1.0
+*N,OBelowR,ABSENT,1.0,:vs:,=,1.0
+*N,OSup,n,1.0,:vs:,ABSENT,1.0
+*N,OSubRR,1,1.0,:vs:,ABSENT,1.0
+*E,OSubR,OSubRR,Right,1.0,:vs:,_,1.0
+*E,O,OSub,Sub,1.0,:vs:,_,1.0
+*E,O,OSup,Sup,1.0,:vs:,_,1.0
+*E,OSub,OSubR,Right,1.0,:vs:,_,1.0
+*E,OBelowR,OBelowRR,_,1.0,:vs:,Right,1.0
+*E,O,OBelow,_,1.0,:vs:,Below,1.0
+*E,O,OAbove,_,1.0,:vs:,Above,1.0
+*E,OBelow,OBelowR,_,1.0,:vs:,Right,1.0

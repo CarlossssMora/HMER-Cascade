@@ -1,0 +1,3 @@
+*N,OInsideR,ABSENT,1.0,:vs:,1,1.0
+*E,O,OInsideR,_,1.0,:vs:,Inside,1.0
+*E,OInside,OInsideR,_,1.0,:vs:,Right,1.0

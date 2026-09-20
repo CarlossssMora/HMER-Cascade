@@ -1,0 +1,7 @@
+# IUD, 37_em_25
+# Objects(2):
+O, _1, \sqrt, 1.0, O
+O, b_2, b, 1.0, OInside
+
+# Relations from SRT:
+R, _1, b_2, Inside, 1.0

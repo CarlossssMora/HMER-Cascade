@@ -1,0 +1,15 @@
+# IUD, 26_em_79
+# Objects(6):
+O, c_7, c, 1.0, ORRRRR
+O, +_4, +, 1.0, ORR
+O, a_3, a, 1.0, OR
+O, b_5, b, 1.0, ORRR
+O, +_6, +, 1.0, ORRRR
+O, -_2, -, 1.0, O
+
+# Relations from SRT:
+R, +_4, b_5, Right, 1.0
+R, +_6, c_7, Right, 1.0
+R, -_2, a_3, Right, 1.0
+R, a_3, +_4, Right, 1.0
+R, b_5, +_6, Right, 1.0

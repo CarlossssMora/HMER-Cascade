@@ -1,0 +1,2 @@
+%32_em_201
+$\sum \limits _ { k = 1 } ^ { n } ( c a _ { k } ) = c \sum \limits _ { i = 1 } ^ { n } ( a _ { k } )$

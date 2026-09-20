@@ -1,0 +1,7 @@
+# IUD, RIT_2014_280
+# Objects(2):
+O, q_2, q, 1.0, OInside
+O, _1, \sqrt, 1.0, O
+
+# Relations from SRT:
+R, _1, q_2, Inside, 1.0

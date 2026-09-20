@@ -1,0 +1,35 @@
+# IUD, RIT_2014_274
+# Objects(16):
+O, \alpha_2, \alpha, 1.0, O
+O, )_13, ), 1.0, ORRRRRRRRR
+O, (_4, (, 1.0, OR
+O, (_10, (, 1.0, ORRRRRR
+O, a_12, a, 1.0, ORRRRRRRR
+O, =_8, =, 1.0, ORRRRR
+O, b_14, b, 1.0, ORRRRRRRRRR
+O, (_18, (, 1.0, ORRRRRRRRRRRRR
+O, =_15, =, 1.0, ORRRRRRRRRRR
+O, )_20, ), 1.0, ORRRRRRRRRRRRRRR
+O, a_16, a, 1.0, ORRRRRRRRRRRR
+O, a_5, a, 1.0, ORR
+O, b_6, b, 1.0, ORRR
+O, )_7, ), 1.0, ORRRR
+O, x_19, x, 1.0, ORRRRRRRRRRRRRR
+O, x_11, x, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, (_10, x_11, Right, 1.0
+R, (_18, x_19, Right, 1.0
+R, (_4, a_5, Right, 1.0
+R, )_13, b_14, Right, 1.0
+R, )_7, =_8, Right, 1.0
+R, =_15, a_16, Right, 1.0
+R, =_8, (_10, Right, 1.0
+R, \alpha_2, (_4, Right, 1.0
+R, a_12, )_13, Right, 1.0
+R, a_16, (_18, Right, 1.0
+R, a_5, b_6, Right, 1.0
+R, b_14, =_15, Right, 1.0
+R, b_6, )_7, Right, 1.0
+R, x_11, a_12, Right, 1.0
+R, x_19, )_20, Right, 1.0

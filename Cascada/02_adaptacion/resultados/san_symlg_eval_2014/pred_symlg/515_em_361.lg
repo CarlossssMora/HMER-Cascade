@@ -1,0 +1,39 @@
+# IUD, 515_em_361
+# Objects(18):
+O, =_16, =, 1.0, ORRRRRRRRRR
+O, 7_19, 7, 1.0, ORRRRRRRRRRRRInside
+O, _14, \sqrt, 1.0, ORRRRRRRRR
+O, _18, \sqrt, 1.0, ORRRRRRRRRRRR
+O, 1_9, 1, 1.0, ORRRRR
+O, 7_7, 7, 1.0, ORRRInside
+O, +_12, +, 1.0, ORRRRRRR
+O, 2_13, 2, 1.0, ORRRRRRRR
+O, _10, \sqrt, 1.0, ORRRRRR
+O, 2_5, 2, 1.0, ORR
+O, =_8, =, 1.0, ORRRR
+O, _2, \sqrt, 1.0, O
+O, _6, \sqrt, 1.0, ORRR
+O, 7_11, 7, 1.0, ORRRRRRInside
+O, 7_15, 7, 1.0, ORRRRRRRRRInside
+O, +_4, +, 1.0, OR
+O, 3_17, 3, 1.0, ORRRRRRRRRRR
+O, 7_3, 7, 1.0, OInside
+
+# Relations from SRT:
+R, +_12, 2_13, Right, 1.0
+R, +_4, 2_5, Right, 1.0
+R, 1_9, _10, Right, 1.0
+R, 2_13, _14, Right, 1.0
+R, 2_5, _6, Right, 1.0
+R, 3_17, _18, Right, 1.0
+R, =_16, 3_17, Right, 1.0
+R, =_8, 1_9, Right, 1.0
+R, _10, +_12, Right, 1.0
+R, _10, 7_11, Inside, 1.0
+R, _14, 7_15, Inside, 1.0
+R, _14, =_16, Right, 1.0
+R, _18, 7_19, Inside, 1.0
+R, _2, +_4, Right, 1.0
+R, _2, 7_3, Inside, 1.0
+R, _6, 7_7, Inside, 1.0
+R, _6, =_8, Right, 1.0

@@ -1,0 +1,49 @@
+# IUD, RIT_2014_290
+# Objects(23):
+O, 1_18, 1, 1.0, ORRRBelowRR
+O, \leq_23, \leq, 1.0, ORRRRR
+O, n_27, n, 1.0, ORRRRRRBelow
+O, \infty_30, \infty, 1.0, ORRRRRRAbove
+O, n_11, n, 1.0, ORSub
+O, =_6, =, 1.0, OBelowR
+O, \sum_25, \sum, 1.0, ORRRRRR
+O, 1_29, 1, 1.0, ORRRRRRBelowRR
+O, 1_7, 1, 1.0, OBelowRR
+O, =_28, =, 1.0, ORRRRRRBelowR
+O, k_16, k, 1.0, ORRRBelow
+O, k_5, k, 1.0, OBelow
+O, \leq_12, \leq, 1.0, ORR
+O, n_33, n, 1.0, ORRRRRRRSub
+O, N_19, N, 1.0, ORRRAbove
+O, \sum_14, \sum, 1.0, ORRR
+O, a_10, a, 1.0, OR
+O, n_22, n, 1.0, ORRRRSub
+O, b_21, b, 1.0, ORRRR
+O, =_17, =, 1.0, ORRRBelowR
+O, \sum_3, \sum, 1.0, O
+O, N_8, N, 1.0, OAbove
+O, b_32, b, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, =_17, 1_18, Right, 1.0
+R, =_28, 1_29, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \leq_12, \sum_14, Right, 1.0
+R, \leq_23, \sum_25, Right, 1.0
+R, \sum_14, N_19, Above, 1.0
+R, \sum_14, b_21, Right, 1.0
+R, \sum_14, k_16, Below, 1.0
+R, \sum_25, \infty_30, Above, 1.0
+R, \sum_25, b_32, Right, 1.0
+R, \sum_25, n_27, Below, 1.0
+R, \sum_3, N_8, Above, 1.0
+R, \sum_3, a_10, Right, 1.0
+R, \sum_3, k_5, Below, 1.0
+R, a_10, \leq_12, Right, 1.0
+R, a_10, n_11, Sub, 1.0
+R, b_21, \leq_23, Right, 1.0
+R, b_21, n_22, Sub, 1.0
+R, b_32, n_33, Sub, 1.0
+R, k_16, =_17, Right, 1.0
+R, k_5, =_6, Right, 1.0
+R, n_27, =_28, Right, 1.0

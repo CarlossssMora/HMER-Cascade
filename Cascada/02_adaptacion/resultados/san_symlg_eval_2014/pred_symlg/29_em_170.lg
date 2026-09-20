@@ -1,0 +1,21 @@
+# IUD, 29_em_170
+# Objects(9):
+O, \leq_7, \leq, 1.0, ORRRR
+O, (_5, (, 1.0, ORR
+O, )_12, ), 1.0, ORRRRRRRR
+O, )_6, ), 1.0, ORRR
+O, (_10, (, 1.0, ORRRRRR
+O, E_8, E, 1.0, ORRRRR
+O, E_2, E, 1.0, O
+O, 0_11, 0, 1.0, ORRRRRRR
+O, (_3, (, 1.0, OR
+
+# Relations from SRT:
+R, (_10, 0_11, Right, 1.0
+R, (_3, (_5, Right, 1.0
+R, (_5, )_6, Right, 1.0
+R, )_6, \leq_7, Right, 1.0
+R, 0_11, )_12, Right, 1.0
+R, E_2, (_3, Right, 1.0
+R, E_8, (_10, Right, 1.0
+R, \leq_7, E_8, Right, 1.0

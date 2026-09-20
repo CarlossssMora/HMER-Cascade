@@ -1,0 +1,39 @@
+# IUD, 37_em_18
+# Objects(18):
+O, x_6, x, 1.0, OAboveRR
+O, =_15, =, 1.0, OR
+O, x_18, x, 1.0, ORRRR
+O, x_14, x, 1.0, OBelowRR
+O, \times_5, \times, 1.0, OAboveR
+O, \times_7, \times, 1.0, OAboveRRR
+O, x_12, x, 1.0, OBelow
+O, \times_17, \times, 1.0, ORRR
+O, \times_9, \times, 1.0, OAboveRRRRR
+O, 2_22, 2, 1.0, ORRRRRRSup
+O, x_21, x, 1.0, ORRRRRR
+O, _2, -, 1.0, O
+O, x_16, x, 1.0, ORR
+O, x_10, x, 1.0, OAboveRRRRRR
+O, \times_13, \times, 1.0, OBelowR
+O, =_19, =, 1.0, ORRRRR
+O, x_4, x, 1.0, OAbove
+O, x_8, x, 1.0, OAboveRRRR
+
+# Relations from SRT:
+R, =_15, x_16, Right, 1.0
+R, =_19, x_21, Right, 1.0
+R, \times_13, x_14, Right, 1.0
+R, \times_17, x_18, Right, 1.0
+R, \times_5, x_6, Right, 1.0
+R, \times_7, x_8, Right, 1.0
+R, \times_9, x_10, Right, 1.0
+R, _2, =_15, Right, 1.0
+R, _2, x_12, Below, 1.0
+R, _2, x_4, Above, 1.0
+R, x_12, \times_13, Right, 1.0
+R, x_16, \times_17, Right, 1.0
+R, x_18, =_19, Right, 1.0
+R, x_21, 2_22, Sup, 1.0
+R, x_4, \times_5, Right, 1.0
+R, x_6, \times_7, Right, 1.0
+R, x_8, \times_9, Right, 1.0

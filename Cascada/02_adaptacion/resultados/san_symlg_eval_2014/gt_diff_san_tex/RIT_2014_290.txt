@@ -1,0 +1,2 @@
+%RIT_2014_290
+$\sum _ { k = 1 } ^ { N } a _ { n } \leq \sum _ { k = 1 } ^ { N } b _ { n } \leq \sum _ { n = 1 } ^ { \infty } b _ { n }$

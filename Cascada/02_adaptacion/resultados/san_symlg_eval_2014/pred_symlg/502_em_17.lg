@@ -1,0 +1,27 @@
+# IUD, 502_em_17
+# Objects(12):
+O, \theta_6, \theta, 1.0, OBelowR
+O, d_5, d, 1.0, OBelow
+O, i_13, i, 1.0, ORRR
+O, e_8, e, 1.0, OR
+O, \theta_11, \theta, 1.0, ORSupR
+O, i_10, i, 1.0, ORSup
+O, i_17, i, 1.0, ORRRRSup
+O, =_12, =, 1.0, ORR
+O, e_15, e, 1.0, ORRRR
+O, \theta_18, \theta, 1.0, ORRRRSupR
+O, d_3, d, 1.0, OAbove
+O, _2, -, 1.0, O
+
+# Relations from SRT:
+R, =_12, i_13, Right, 1.0
+R, _2, d_3, Above, 1.0
+R, _2, d_5, Below, 1.0
+R, _2, e_8, Right, 1.0
+R, d_5, \theta_6, Right, 1.0
+R, e_15, i_17, Sup, 1.0
+R, e_8, =_12, Right, 1.0
+R, e_8, i_10, Sup, 1.0
+R, i_10, \theta_11, Right, 1.0
+R, i_13, e_15, Right, 1.0
+R, i_17, \theta_18, Right, 1.0

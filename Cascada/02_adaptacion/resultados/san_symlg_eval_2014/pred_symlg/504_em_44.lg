@@ -1,0 +1,9 @@
+# IUD, 504_em_44
+# Objects(3):
+O, 1_4, 1, 1.0, OSub
+O, 8_2, 8, 1.0, O
+O, 6_5, 6, 1.0, OSubR
+
+# Relations from SRT:
+R, 1_4, 6_5, Right, 1.0
+R, 8_2, 1_4, Sub, 1.0

@@ -1,0 +1,33 @@
+# IUD, 29_em_161
+# Objects(15):
+O, \lim_11, \lim, 1.0, ORRRRR
+O, =_9, =, 1.0, ORRRR
+O, z_21, z, 1.0, ORRRRRRRR
+O, )_22, ), 1.0, ORRRRRRRRR
+O, (_4, (, 1.0, OR
+O, z_13, z, 1.0, ORRRRRSub
+O, )_8, ), 1.0, ORRR
+O, 0_17, 0, 1.0, ORRRRRSubRRSub
+O, z_16, z, 1.0, ORRRRRSubRR
+O, \rightarrow_14, \rightarrow, 1.0, ORRRRRSubR
+O, f_2, f, 1.0, O
+O, 0_7, 0, 1.0, ORRSub
+O, z_6, z, 1.0, ORR
+O, (_20, (, 1.0, ORRRRRRR
+O, f_18, f, 1.0, ORRRRRR
+
+# Relations from SRT:
+R, (_20, z_21, Right, 1.0
+R, (_4, z_6, Right, 1.0
+R, )_8, =_9, Right, 1.0
+R, =_9, \lim_11, Right, 1.0
+R, \lim_11, f_18, Right, 1.0
+R, \lim_11, z_13, Sub, 1.0
+R, \rightarrow_14, z_16, Right, 1.0
+R, f_18, (_20, Right, 1.0
+R, f_2, (_4, Right, 1.0
+R, z_13, \rightarrow_14, Right, 1.0
+R, z_16, 0_17, Sub, 1.0
+R, z_21, )_22, Right, 1.0
+R, z_6, )_8, Right, 1.0
+R, z_6, 0_7, Sub, 1.0

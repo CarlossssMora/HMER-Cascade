@@ -1,0 +1,11 @@
+# IUD, 501_em_13
+# Objects(4):
+O, \lt_3, \lt, 1.0, OR
+O, y_2, y, 1.0, O
+O, l_6, l, 1.0, ORRSup
+O, y_5, y, 1.0, ORR
+
+# Relations from SRT:
+R, \lt_3, y_5, Right, 1.0
+R, y_2, \lt_3, Right, 1.0
+R, y_5, l_6, Sup, 1.0

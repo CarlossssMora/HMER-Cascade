@@ -1,0 +1,24 @@
+# IUD, 23_em_63
+# Objects(10):
+O, F_12, F, 1.0, ORRInsideRR
+O, +_10, +, 1.0, ORRInsideR
+O, _4, \sqrt, 1.0, ORR
+O, 2_9, 2, 1.0, ORRInsideSup
+O, x_8, x, 1.0, ORRInsideSub
+O, y_13, y, 1.0, ORRInsideRRSub
+O, 2_14, 2, 1.0, ORRInsideRRSup
+O, =_3, =, 1.0, OR
+O, F_2, F, 1.0, O
+O, F_7, F, 1.0, ORRInside
+
+# Relations from SRT:
+R, +_10, F_12, Right, 1.0
+R, =_3, _4, Right, 1.0
+R, F_12, 2_14, Sup, 1.0
+R, F_12, y_13, Sub, 1.0
+R, F_2, =_3, Right, 1.0
+R, F_7, +_10, Right, 1.0
+R, F_7, 2_9, Sup, 1.0
+R, F_7, x_8, Sub, 1.0
+R, _4, +_10, Inside, 1.0
+R, _4, F_7, Inside, 1.0

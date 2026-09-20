@@ -1,0 +1,11 @@
+# IUD, 28_em_134
+# Objects(4):
+O, n_3, n, 1.0, OAbove
+O, n_5, n, 1.0, OBelow
+O, _1, -, 1.0, O
+O, A_4, A, 1.0, OAboveSub
+
+# Relations from SRT:
+R, _1, n_3, Above, 1.0
+R, _1, n_5, Below, 1.0
+R, n_3, A_4, Sub, 1.0

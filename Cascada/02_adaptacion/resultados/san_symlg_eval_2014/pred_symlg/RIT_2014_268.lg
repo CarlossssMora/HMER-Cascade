@@ -1,0 +1,27 @@
+# IUD, RIT_2014_268
+# Objects(12):
+O, \int_2, \int, 1.0, O
+O, x_11, x, 1.0, ORRInsideAboveRR
+O, _6, \sqrt, 1.0, ORR
+O, x_5, x, 1.0, ORBelow
+O, 1_4, 1, 1.0, ORAbove
+O, _3, -, 1.0, OR
+O, _7, -, 1.0, ORRInside
+O, -_10, -, 1.0, ORRInsideAboveR
+O, 1_9, 1, 1.0, ORRInsideAbove
+O, d_13, d, 1.0, ORRR
+O, x_12, x, 1.0, ORRInsideBelow
+O, x_14, x, 1.0, ORRRR
+
+# Relations from SRT:
+R, -_10, x_11, Right, 1.0
+R, 1_9, -_10, Right, 1.0
+R, \int_2, _3, Right, 1.0
+R, _3, 1_4, Above, 1.0
+R, _3, _6, Right, 1.0
+R, _3, x_5, Below, 1.0
+R, _6, _7, Inside, 1.0
+R, _6, d_13, Right, 1.0
+R, _7, 1_9, Above, 1.0
+R, _7, x_12, Below, 1.0
+R, d_13, x_14, Right, 1.0

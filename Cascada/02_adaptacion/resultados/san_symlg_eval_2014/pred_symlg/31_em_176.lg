@@ -1,0 +1,15 @@
+# IUD, 31_em_176
+# Objects(6):
+O, _5, \sqrt, 1.0, ORBelow
+O, )_7, ), 1.0, ORR
+O, 2_6, 2, 1.0, ORBelowInside
+O, \pi_4, \pi, 1.0, ORAbove
+O, _3, -, 1.0, OR
+O, (_2, (, 1.0, O
+
+# Relations from SRT:
+R, (_2, _3, Right, 1.0
+R, _3, )_7, Right, 1.0
+R, _3, \pi_4, Above, 1.0
+R, _3, _5, Below, 1.0
+R, _5, 2_6, Inside, 1.0

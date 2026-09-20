@@ -1,0 +1,9 @@
+*N,OSubRR,ABSENT,1.0,:vs:,1,1.0
+*N,ORR,1,1.0,:vs:,ABSENT,1.0
+*N,OSubR,ABSENT,1.0,:vs:,+,1.0
+*N,OSub,b,1.0,:vs:,t,1.0
+*N,OR,+,1.0,:vs:,ABSENT,1.0
+*E,OR,ORR,Right,1.0,:vs:,_,1.0
+*E,O,OR,Right,1.0,:vs:,_,1.0
+*E,OSubR,OSubRR,_,1.0,:vs:,Right,1.0
+*E,OSub,OSubR,_,1.0,:vs:,Right,1.0

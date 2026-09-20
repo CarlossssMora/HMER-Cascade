@@ -1,0 +1,39 @@
+# IUD, 504_em_38
+# Objects(18):
+O, (_19, (, 1.0, ORRRAboveR
+O, )_10, ), 1.0, ORAboveRRRR
+O, n_8, n, 1.0, ORAboveRR
+O, \pi_13, \pi, 1.0, ORBelowR
+O, )_22, ), 1.0, ORRRAboveRRRR
+O, (_7, (, 1.0, ORAboveR
+O, \pi_21, \pi, 1.0, ORRRAboveRRR
+O, -_2, -, 1.0, O
+O, n_20, n, 1.0, ORRRAboveRR
+O, _3, -, 1.0, OR
+O, n_25, n, 1.0, ORRRBelowR
+O, _15, -, 1.0, ORRR
+O, +_14, +, 1.0, ORR
+O, \pi_9, \pi, 1.0, ORAboveRRR
+O, \sin_5, \sin, 1.0, ORAbove
+O, \sin_17, \sin, 1.0, ORRRAbove
+O, 1_24, 1, 1.0, ORRRBelow
+O, 1_12, 1, 1.0, ORBelow
+
+# Relations from SRT:
+R, (_19, n_20, Right, 1.0
+R, (_7, n_8, Right, 1.0
+R, +_14, _15, Right, 1.0
+R, -_2, _3, Right, 1.0
+R, 1_12, \pi_13, Right, 1.0
+R, 1_24, n_25, Right, 1.0
+R, \pi_21, )_22, Right, 1.0
+R, \pi_9, )_10, Right, 1.0
+R, \sin_17, (_19, Right, 1.0
+R, \sin_5, (_7, Right, 1.0
+R, _15, 1_24, Below, 1.0
+R, _15, \sin_17, Above, 1.0
+R, _3, +_14, Right, 1.0
+R, _3, 1_12, Below, 1.0
+R, _3, \sin_5, Above, 1.0
+R, n_20, \pi_21, Right, 1.0
+R, n_8, \pi_9, Right, 1.0

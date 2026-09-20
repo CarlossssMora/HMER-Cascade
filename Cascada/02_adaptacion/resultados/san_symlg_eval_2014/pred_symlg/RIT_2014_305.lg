@@ -1,0 +1,9 @@
+# IUD, RIT_2014_305
+# Objects(3):
+O, \alpha_3, \alpha, 1.0, OBelow
+O, \pi_2, \pi, 1.0, OAbove
+O, _1, -, 1.0, O
+
+# Relations from SRT:
+R, _1, \alpha_3, Below, 1.0
+R, _1, \pi_2, Above, 1.0

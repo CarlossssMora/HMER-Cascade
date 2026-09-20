@@ -1,0 +1,39 @@
+# IUD, 507_em_74
+# Objects(18):
+O, 4_3, 4, 1.0, OR
+O, (_13, (, 1.0, ORRRRRRRRR
+O, y_19, y, 1.0, ORRRRRRRRRRRRRRR
+O, \theta_15, \theta, 1.0, ORRRRRRRRRRR
+O, \sigma_9, \sigma, 1.0, ORRRRRRR
+O, i_6, i, 1.0, ORRRR
+O, \sin_18, \sin, 1.0, ORRRRRRRRRRRRRR
+O, =_10, =, 1.0, ORRRRRRRR
+O, +_5, +, 1.0, ORRR
+O, \cos_2, \cos, 1.0, O
+O, +_16, +, 1.0, ORRRRRRRRRRRR
+O, 4_21, 4, 1.0, ORRRRRRRRRRRRRRRRSup
+O, 4_8, 4, 1.0, ORRRRRR
+O, i_17, i, 1.0, ORRRRRRRRRRRRR
+O, \cos_14, \cos, 1.0, ORRRRRRRRRR
+O, \sigma_4, \sigma, 1.0, ORR
+O, )_20, ), 1.0, ORRRRRRRRRRRRRRRR
+O, \sin_7, \sin, 1.0, ORRRRR
+
+# Relations from SRT:
+R, (_13, \cos_14, Right, 1.0
+R, )_20, 4_21, Sup, 1.0
+R, +_16, i_17, Right, 1.0
+R, +_5, i_6, Right, 1.0
+R, 4_3, \sigma_4, Right, 1.0
+R, 4_8, \sigma_9, Right, 1.0
+R, =_10, (_13, Right, 1.0
+R, \cos_14, \theta_15, Right, 1.0
+R, \cos_2, 4_3, Right, 1.0
+R, \sigma_4, +_5, Right, 1.0
+R, \sigma_9, =_10, Right, 1.0
+R, \sin_18, y_19, Right, 1.0
+R, \sin_7, 4_8, Right, 1.0
+R, \theta_15, +_16, Right, 1.0
+R, i_17, \sin_18, Right, 1.0
+R, i_6, \sin_7, Right, 1.0
+R, y_19, )_20, Right, 1.0

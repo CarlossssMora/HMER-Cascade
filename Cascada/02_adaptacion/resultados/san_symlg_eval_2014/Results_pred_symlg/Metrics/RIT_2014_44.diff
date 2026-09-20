@@ -1,0 +1,14 @@
+*N,ORRRRRRR,3,1.0,:vs:,x,1.0
+*N,O,6,1.0,:vs:,\sin,1.0
+*N,ORRR,3,1.0,:vs:,-,1.0
+*N,ORRRRRRRRR,=,1.0,:vs:,-,1.0
+*N,ORRRRRR,\cos,1.0,:vs:,3,1.0
+*N,ORRRRRRRR,),1.0,:vs:,=,1.0
+*N,ORRRRInside,ABSENT,1.0,:vs:,3,1.0
+*N,ORRRRRInside,3,1.0,:vs:,ABSENT,1.0
+*N,ORRRRR,\sqrt,1.0,:vs:,\cos,1.0
+*N,ORRRR,-,1.0,:vs:,\sqrt,1.0
+*N,ORR,3,1.0,:vs:,x,1.0
+*N,OR,m,1.0,:vs:,3,1.0
+*E,ORRRRR,ORRRRRInside,Inside,1.0,:vs:,_,1.0
+*E,ORRRR,ORRRRInside,_,1.0,:vs:,Inside,1.0

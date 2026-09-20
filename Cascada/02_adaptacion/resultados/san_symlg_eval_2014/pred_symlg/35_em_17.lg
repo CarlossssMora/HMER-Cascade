@@ -1,0 +1,15 @@
+# IUD, 35_em_17
+# Objects(6):
+O, 1_8, 1, 1.0, ORRRR
+O, x_3, x, 1.0, O
+O, +_7, +, 1.0, ORRR
+O, +_5, +, 1.0, OR
+O, x_6, x, 1.0, ORR
+O, 2_4, 2, 1.0, OSup
+
+# Relations from SRT:
+R, +_5, x_6, Right, 1.0
+R, +_7, 1_8, Right, 1.0
+R, x_3, +_5, Right, 1.0
+R, x_3, 2_4, Sup, 1.0
+R, x_6, +_7, Right, 1.0

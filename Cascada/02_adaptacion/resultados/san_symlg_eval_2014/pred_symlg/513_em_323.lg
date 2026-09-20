@@ -1,0 +1,21 @@
+# IUD, 513_em_323
+# Objects(9):
+O, 2_6, 2, 1.0, ORRSup
+O, \sum_9, \sum, 1.0, ORRRRR
+O, r_11, r, 1.0, ORRRRRR
+O, =_7, =, 1.0, ORRR
+O, \pi_3, \pi, 1.0, OR
+O, r_5, r, 1.0, ORR
+O, 2_12, 2, 1.0, ORRRRRRSup
+O, \pi_8, \pi, 1.0, ORRRR
+O, \sum_2, \sum, 1.0, O
+
+# Relations from SRT:
+R, =_7, \pi_8, Right, 1.0
+R, \pi_3, r_5, Right, 1.0
+R, \pi_8, \sum_9, Right, 1.0
+R, \sum_2, \pi_3, Right, 1.0
+R, \sum_9, r_11, Right, 1.0
+R, r_11, 2_12, Sup, 1.0
+R, r_5, 2_6, Sup, 1.0
+R, r_5, =_7, Right, 1.0

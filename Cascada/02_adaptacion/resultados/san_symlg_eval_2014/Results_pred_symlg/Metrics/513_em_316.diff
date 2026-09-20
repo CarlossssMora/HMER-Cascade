@@ -1,0 +1,7 @@
+*N,ORSub,n,1.0,:vs:,x,1.0
+*N,OR,r,1.0,:vs:,F,1.0
+*N,OSub,x,1.0,:vs:,ABSENT,1.0
+*N,ORSubSub,ABSENT,1.0,:vs:,n,1.0
+*N,ORRRRRR,f,1.0,:vs:,F,1.0
+*E,O,OSub,Sub,1.0,:vs:,_,1.0
+*E,ORSub,ORSubSub,_,1.0,:vs:,Sub,1.0

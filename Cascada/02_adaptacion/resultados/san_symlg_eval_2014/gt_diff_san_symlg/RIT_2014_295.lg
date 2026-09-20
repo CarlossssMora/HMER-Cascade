@@ -1,0 +1,19 @@
+# IUD, RIT_2014_295
+# Objects(8):
+O, x_7, x, 1.0, OSubRR
+O, )_12, ), 1.0, ORRRR
+O, (_10, (, 1.0, ORR
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, x_11, x, 1.0, ORRR
+O, y_5, y, 1.0, OSub
+O, \lim_3, \lim, 1.0, O
+O, f_8, f, 1.0, OR
+
+# Relations from SRT:
+R, (_10, x_11, Right, 1.0
+R, \lim_3, f_8, Right, 1.0
+R, \lim_3, y_5, Sub, 1.0
+R, \rightarrow_6, x_7, Right, 1.0
+R, f_8, (_10, Right, 1.0
+R, x_11, )_12, Right, 1.0
+R, y_5, \rightarrow_6, Right, 1.0

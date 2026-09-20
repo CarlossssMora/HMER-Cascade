@@ -1,0 +1,11 @@
+# IUD, 23_em_73
+# Objects(4):
+O, B_2, B, 1.0, O
+O, +_5, +, 1.0, OSubR
+O, 1_6, 1, 1.0, OSubRR
+O, m_4, m, 1.0, OSub
+
+# Relations from SRT:
+R, +_5, 1_6, Right, 1.0
+R, B_2, m_4, Sub, 1.0
+R, m_4, +_5, Right, 1.0

@@ -1,0 +1,49 @@
+# IUD, 509_em_89
+# Objects(23):
+O, j_19, j, 1.0, ORRRRRRRRRRRRRRRR
+O, j_8, j, 1.0, ORRRRR
+O, (_3, (, 1.0, O
+O, 1_5, 1, 1.0, ORR
+O, =_22, =, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, +_6, +, 1.0, ORRR
+O, \div_20, \div, 1.0, ORRRRRRRRRRRRRRRRR
+O, =_12, =, 1.0, ORRRRRRRRR
+O, 7_11, 7, 1.0, ORRRRRRRR
+O, 3_23, 3, 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, +_17, +, 1.0, ORRRRRRRRRRRRRR
+O, j_25, j, 1.0, ORRRRRRRRRRRRRRRRRRRRRR
+O, 2_13, 2, 1.0, ORRRRRRRRRR
+O, 7_16, 7, 1.0, ORRRRRRRRRRRRR
+O, 7_18, 7, 1.0, ORRRRRRRRRRRRRRR
+O, 7_7, 7, 1.0, ORRRR
+O, 7_21, 7, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 1_14, 1, 1.0, ORRRRRRRRRRR
+O, 2_4, 2, 1.0, OR
+O, \div_10, \div, 1.0, ORRRRRRR
+O, +_24, +, 1.0, ORRRRRRRRRRRRRRRRRRRRR
+O, )_9, ), 1.0, ORRRRRR
+O, \div_15, \div, 1.0, ORRRRRRRRRRRR
+
+# Relations from SRT:
+R, (_3, 2_4, Right, 1.0
+R, )_9, \div_10, Right, 1.0
+R, +_17, 7_18, Right, 1.0
+R, +_24, j_25, Right, 1.0
+R, +_6, 7_7, Right, 1.0
+R, 1_14, \div_15, Right, 1.0
+R, 1_5, +_6, Right, 1.0
+R, 2_13, 1_14, Right, 1.0
+R, 2_4, 1_5, Right, 1.0
+R, 3_23, +_24, Right, 1.0
+R, 7_11, =_12, Right, 1.0
+R, 7_16, +_17, Right, 1.0
+R, 7_18, j_19, Right, 1.0
+R, 7_21, =_22, Right, 1.0
+R, 7_7, j_8, Right, 1.0
+R, =_12, 2_13, Right, 1.0
+R, =_22, 3_23, Right, 1.0
+R, \div_10, 7_11, Right, 1.0
+R, \div_15, 7_16, Right, 1.0
+R, \div_20, 7_21, Right, 1.0
+R, j_19, \div_20, Right, 1.0
+R, j_8, )_9, Right, 1.0

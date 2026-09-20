@@ -1,0 +1,9 @@
+# IUD, 26_em_76
+# Objects(3):
+O, -_2, -, 1.0, O
+O, p_4, p, 1.0, ORR
+O, m_3, m, 1.0, OR
+
+# Relations from SRT:
+R, -_2, m_3, Right, 1.0
+R, m_3, p_4, Right, 1.0

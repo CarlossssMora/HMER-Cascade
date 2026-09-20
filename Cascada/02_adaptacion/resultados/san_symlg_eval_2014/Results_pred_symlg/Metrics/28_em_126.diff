@@ -1,0 +1,5 @@
+*N,OBelowBelow,0,1.0,:vs:,ABSENT,1.0
+*N,OBelow,-,1.0,:vs:,a,1.0
+*N,OBelowAbove,N,1.0,:vs:,ABSENT,1.0
+*E,OBelow,OBelowBelow,Below,1.0,:vs:,_,1.0
+*E,OBelow,OBelowAbove,Above,1.0,:vs:,_,1.0

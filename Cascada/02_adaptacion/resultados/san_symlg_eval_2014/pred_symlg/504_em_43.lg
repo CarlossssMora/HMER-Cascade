@@ -1,0 +1,43 @@
+# IUD, 504_em_43
+# Objects(20):
+O, 4_6, 4, 1.0, ORRRR
+O, \times_11, \times, 1.0, ORRRRRRR
+O, 2_10, 2, 1.0, ORRRRRRSup
+O, 2_24, 2, 1.0, ORRRRRRRRRRRRRRRRSup
+O, 3_18, 3, 1.0, ORRRRRRRRRRRRSup
+O, \times_21, \times, 1.0, ORRRRRRRRRRRRRRR
+O, x_9, x, 1.0, ORRRRRR
+O, 2_2, 2, 1.0, O
+O, \times_3, \times, 1.0, OR
+O, 3_4, 3, 1.0, ORR
+O, \times_7, \times, 1.0, ORRRRR
+O, x_12, x, 1.0, ORRRRRRRR
+O, y_14, y, 1.0, ORRRRRRRRRR
+O, 2_20, 2, 1.0, ORRRRRRRRRRRRRR
+O, \times_15, \times, 1.0, ORRRRRRRRRRR
+O, \times_13, \times, 1.0, ORRRRRRRRR
+O, \times_5, \times, 1.0, ORRR
+O, \times_19, \times, 1.0, ORRRRRRRRRRRRR
+O, z_23, z, 1.0, ORRRRRRRRRRRRRRRR
+O, y_17, y, 1.0, ORRRRRRRRRRRR
+
+# Relations from SRT:
+R, 2_20, \times_21, Right, 1.0
+R, 2_2, \times_3, Right, 1.0
+R, 3_4, \times_5, Right, 1.0
+R, 4_6, \times_7, Right, 1.0
+R, \times_11, x_12, Right, 1.0
+R, \times_13, y_14, Right, 1.0
+R, \times_15, y_17, Right, 1.0
+R, \times_19, 2_20, Right, 1.0
+R, \times_21, z_23, Right, 1.0
+R, \times_3, 3_4, Right, 1.0
+R, \times_5, 4_6, Right, 1.0
+R, \times_7, x_9, Right, 1.0
+R, x_12, \times_13, Right, 1.0
+R, x_9, 2_10, Sup, 1.0
+R, x_9, \times_11, Right, 1.0
+R, y_14, \times_15, Right, 1.0
+R, y_17, 3_18, Sup, 1.0
+R, y_17, \times_19, Right, 1.0
+R, z_23, 2_24, Sup, 1.0

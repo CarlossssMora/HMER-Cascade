@@ -1,0 +1,15 @@
+# IUD, RIT_2014_129
+# Objects(6):
+O, \int_3, \int, 1.0, O
+O, b_5, b, 1.0, OSup
+O, \alpha_8, \alpha, 1.0, ORRR
+O, d_7, d, 1.0, ORR
+O, 2_4, 2, 1.0, OSub
+O, f_6, f, 1.0, OR
+
+# Relations from SRT:
+R, \int_3, 2_4, Sub, 1.0
+R, \int_3, b_5, Sup, 1.0
+R, \int_3, f_6, Right, 1.0
+R, d_7, \alpha_8, Right, 1.0
+R, f_6, d_7, Right, 1.0

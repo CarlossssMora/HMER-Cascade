@@ -1,0 +1,35 @@
+# IUD, RIT_2014_218
+# Objects(16):
+O, A_9, A, 1.0, OAboveRRRRR
+O, =_16, =, 1.0, OR
+O, A_15, A, 1.0, OBelowRRRR
+O, \sin_7, \sin, 1.0, OAboveRRR
+O, _2, -, 1.0, O
+O, A_12, A, 1.0, OBelowR
+O, \cos_11, \cos, 1.0, OBelow
+O, \cos_14, \cos, 1.0, OBelowRRR
+O, (_18, (, 1.0, ORRR
+O, \tan_17, \tan, 1.0, ORR
+O, A_19, A, 1.0, ORRRR
+O, +_6, +, 1.0, OAboveRR
+O, A_5, A, 1.0, OAboveR
+O, +_13, +, 1.0, OBelowRR
+O, 3_8, 3, 1.0, OAboveRRRR
+O, \sin_4, \sin, 1.0, OAbove
+
+# Relations from SRT:
+R, (_18, A_19, Right, 1.0
+R, +_13, \cos_14, Right, 1.0
+R, +_6, \sin_7, Right, 1.0
+R, 3_8, A_9, Right, 1.0
+R, =_16, \tan_17, Right, 1.0
+R, A_12, +_13, Right, 1.0
+R, A_5, +_6, Right, 1.0
+R, \cos_11, A_12, Right, 1.0
+R, \cos_14, A_15, Right, 1.0
+R, \sin_4, A_5, Right, 1.0
+R, \sin_7, 3_8, Right, 1.0
+R, \tan_17, (_18, Right, 1.0
+R, _2, =_16, Right, 1.0
+R, _2, \cos_11, Below, 1.0
+R, _2, \sin_4, Above, 1.0

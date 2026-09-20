@@ -1,0 +1,17 @@
+# IUD, 37_em_23
+# Objects(7):
+O, p_9, p, 1.0, ORRRR
+O, \sum_2, \sum, 1.0, O
+O, p_4, p, 1.0, OR
+O, i_5, i, 1.0, ORSub
+O, \sum_7, \sum, 1.0, ORRR
+O, =_6, =, 1.0, ORR
+O, f_10, f, 1.0, ORRRRSub
+
+# Relations from SRT:
+R, =_6, \sum_7, Right, 1.0
+R, \sum_2, p_4, Right, 1.0
+R, \sum_7, p_9, Right, 1.0
+R, p_4, =_6, Right, 1.0
+R, p_4, i_5, Sub, 1.0
+R, p_9, f_10, Sub, 1.0

@@ -1,0 +1,5 @@
+*N,ORRRInsideR,y,1.0,:vs:,ABSENT,1.0
+*N,ORRRR,ABSENT,1.0,:vs:,y,1.0
+*E,ORRR,ORRRInsideR,Inside,1.0,:vs:,_,1.0
+*E,ORRRInside,ORRRInsideR,Right,1.0,:vs:,_,1.0
+*E,ORRR,ORRRR,_,1.0,:vs:,Right,1.0

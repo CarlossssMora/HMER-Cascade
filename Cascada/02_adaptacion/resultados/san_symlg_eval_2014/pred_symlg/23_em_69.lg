@@ -1,0 +1,11 @@
+# IUD, 23_em_69
+# Objects(4):
+O, x_2, x, 1.0, O
+O, 1_4, 1, 1.0, ORR
+O, \leq_3, \leq, 1.0, OR
+O, 5_5, 5, 1.0, ORRR
+
+# Relations from SRT:
+R, 1_4, 5_5, Right, 1.0
+R, \leq_3, 1_4, Right, 1.0
+R, x_2, \leq_3, Right, 1.0

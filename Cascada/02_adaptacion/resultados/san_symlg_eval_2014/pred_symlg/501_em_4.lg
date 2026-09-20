@@ -1,0 +1,13 @@
+# IUD, 501_em_4
+# Objects(5):
+O, \leq_4, \leq, 1.0, ORR
+O, \sin_5, \sin, 1.0, ORRR
+O, \sin_2, \sin, 1.0, O
+O, E_3, E, 1.0, OR
+O, F_6, F, 1.0, ORRRR
+
+# Relations from SRT:
+R, E_3, \leq_4, Right, 1.0
+R, \leq_4, \sin_5, Right, 1.0
+R, \sin_2, E_3, Right, 1.0
+R, \sin_5, F_6, Right, 1.0

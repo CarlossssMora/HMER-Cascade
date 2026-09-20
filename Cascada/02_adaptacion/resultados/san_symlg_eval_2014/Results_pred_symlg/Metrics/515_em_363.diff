@@ -1,0 +1,4 @@
+*N,OBelowRR,ABSENT,1.0,:vs:,2,1.0
+*N,OBelowR,ABSENT,1.0,:vs:,-,1.0
+*E,OBelowR,OBelowRR,_,1.0,:vs:,Right,1.0
+*E,OBelow,OBelowR,_,1.0,:vs:,Right,1.0

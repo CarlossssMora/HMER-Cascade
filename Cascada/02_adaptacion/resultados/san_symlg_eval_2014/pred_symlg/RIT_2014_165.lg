@@ -1,0 +1,29 @@
+# IUD, RIT_2014_165
+# Objects(13):
+O, 1_4, 1, 1.0, OSub
+O, 2_11, 2, 1.0, ORSupSub
+O, p_3, p, 1.0, O
+O, n_20, n, 1.0, ORRRSupSub
+O, \beta_19, \beta, 1.0, ORRRSup
+O, n_17, n, 1.0, ORRRSub
+O, 2_14, 2, 1.0, ORRSub
+O, \beta_10, \beta, 1.0, ORSup
+O, p_16, p, 1.0, ORRR
+O, p_7, p, 1.0, OR
+O, \beta_13, \beta, 1.0, ORR
+O, \beta_5, \beta, 1.0, OSup
+O, 2_8, 2, 1.0, ORSub
+
+# Relations from SRT:
+R, \beta_10, 2_11, Sub, 1.0
+R, \beta_13, 2_14, Sub, 1.0
+R, \beta_13, p_16, Right, 1.0
+R, \beta_19, n_20, Sub, 1.0
+R, p_16, \beta_19, Sup, 1.0
+R, p_16, n_17, Sub, 1.0
+R, p_3, 1_4, Sub, 1.0
+R, p_3, \beta_5, Sup, 1.0
+R, p_3, p_7, Right, 1.0
+R, p_7, 2_8, Sub, 1.0
+R, p_7, \beta_10, Sup, 1.0
+R, p_7, \beta_13, Right, 1.0

@@ -1,0 +1,33 @@
+# IUD, 506_em_67
+# Objects(15):
+O, 8_9, 8, 1.0, ORAbove
+O, \infty_7, \infty, 1.0, OSubRR
+O, n_19, n, 1.0, ORRSup
+O, =_17, =, 1.0, ORRSubR
+O, n_11, n, 1.0, ORBelow
+O, \lim_3, \lim, 1.0, O
+O, 2_22, 2, 1.0, ORRRSup
+O, \sum_14, \sum, 1.0, ORR
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, _8, -, 1.0, OR
+O, i_16, i, 1.0, ORRSub
+O, 1_18, 1, 1.0, ORRSubRR
+O, 3_12, 3, 1.0, ORBelowSup
+O, i_21, i, 1.0, ORRR
+O, n_5, n, 1.0, OSub
+
+# Relations from SRT:
+R, =_17, 1_18, Right, 1.0
+R, \lim_3, _8, Right, 1.0
+R, \lim_3, n_5, Sub, 1.0
+R, \rightarrow_6, \infty_7, Right, 1.0
+R, \sum_14, i_16, Sub, 1.0
+R, \sum_14, i_21, Right, 1.0
+R, \sum_14, n_19, Sup, 1.0
+R, _8, 8_9, Above, 1.0
+R, _8, \sum_14, Right, 1.0
+R, _8, n_11, Below, 1.0
+R, i_16, =_17, Right, 1.0
+R, i_21, 2_22, Sup, 1.0
+R, n_11, 3_12, Sup, 1.0
+R, n_5, \rightarrow_6, Right, 1.0

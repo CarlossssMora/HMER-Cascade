@@ -1,0 +1,9 @@
+# IUD, 35_em_18
+# Objects(3):
+O, \int_4, \int, 1.0, OR
+O, \pi_2, \pi, 1.0, O
+O, 0_5, 0, 1.0, ORSub
+
+# Relations from SRT:
+R, \int_4, 0_5, Sub, 1.0
+R, \pi_2, \int_4, Right, 1.0

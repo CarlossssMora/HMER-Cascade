@@ -1,0 +1,41 @@
+# IUD, 37_em_26
+# Objects(19):
+O, (_20, (, 1.0, ORRRRRRRRRR
+O, b_17, b, 1.0, ORRRRRRRRAbove
+O, b_5, b, 1.0, OAbove
+O, )_22, ), 1.0, ORRRRRRRRRRRR
+O, f_6, f, 1.0, OR
+O, )_10, ), 1.0, ORRRR
+O, \int_15, \int, 1.0, ORRRRRRRR
+O, x_12, x, 1.0, ORRRRRR
+O, g_18, g, 1.0, ORRRRRRRRR
+O, \int_3, \int, 1.0, O
+O, d_23, d, 1.0, ORRRRRRRRRRRRR
+O, x_21, x, 1.0, ORRRRRRRRRRR
+O, d_11, d, 1.0, ORRRRR
+O, a_4, a, 1.0, OBelow
+O, a_16, a, 1.0, ORRRRRRRRBelow
+O, x_9, x, 1.0, ORRR
+O, x_24, x, 1.0, ORRRRRRRRRRRRRR
+O, (_8, (, 1.0, ORR
+O, =_13, =, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, (_20, x_21, Right, 1.0
+R, (_8, x_9, Right, 1.0
+R, )_10, d_11, Right, 1.0
+R, )_22, d_23, Right, 1.0
+R, =_13, \int_15, Right, 1.0
+R, \int_15, a_16, Below, 1.0
+R, \int_15, b_17, Above, 1.0
+R, \int_15, g_18, Right, 1.0
+R, \int_3, a_4, Below, 1.0
+R, \int_3, b_5, Above, 1.0
+R, \int_3, f_6, Right, 1.0
+R, d_11, x_12, Right, 1.0
+R, d_23, x_24, Right, 1.0
+R, f_6, (_8, Right, 1.0
+R, g_18, (_20, Right, 1.0
+R, x_12, =_13, Right, 1.0
+R, x_21, )_22, Right, 1.0
+R, x_9, )_10, Right, 1.0

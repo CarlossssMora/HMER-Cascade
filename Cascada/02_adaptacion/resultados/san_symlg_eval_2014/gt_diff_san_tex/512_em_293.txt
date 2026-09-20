@@ -1,0 +1,2 @@
+%512_em_293
+$\lim _ { n \rightarrow \infty } \frac { 4 } { 3 } \frac { 2 n ^ { 2 } + 3 n + 1 } { n ^ { 2 } }$

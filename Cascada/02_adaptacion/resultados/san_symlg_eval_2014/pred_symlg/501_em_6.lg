@@ -1,0 +1,39 @@
+# IUD, 501_em_6
+# Objects(18):
+O, 9_8, 9, 1.0, ORRRRR
+O, f_2, f, 1.0, O
+O, ._15, ., 1.0, ORRRRRRRRRRRR
+O, 9_16, 9, 1.0, ORRRRRRRRRRRRR
+O, 3_14, 3, 1.0, ORRRRRRRRRRR
+O, ._6, ., 1.0, ORRR
+O, 9_19, 9, 1.0, ORRRRRRRRRRRRRRRR
+O, 3_9, 3, 1.0, ORRRRRR
+O, 9_18, 9, 1.0, ORRRRRRRRRRRRRRR
+O, 9_7, 9, 1.0, ORRRR
+O, =_13, =, 1.0, ORRRRRRRRRR
+O, 1_5, 1, 1.0, ORR
+O, 9_11, 9, 1.0, ORRRRRRRR
+O, (_4, (, 1.0, OR
+O, )_12, ), 1.0, ORRRRRRRRR
+O, 9_20, 9, 1.0, ORRRRRRRRRRRRRRRRR
+O, 9_17, 9, 1.0, ORRRRRRRRRRRRRR
+O, 9_10, 9, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, (_4, 1_5, Right, 1.0
+R, )_12, =_13, Right, 1.0
+R, ._15, 9_16, Right, 1.0
+R, ._6, 9_7, Right, 1.0
+R, 1_5, ._6, Right, 1.0
+R, 3_14, ._15, Right, 1.0
+R, 3_9, 9_10, Right, 1.0
+R, 9_10, 9_11, Right, 1.0
+R, 9_11, )_12, Right, 1.0
+R, 9_16, 9_17, Right, 1.0
+R, 9_17, 9_18, Right, 1.0
+R, 9_18, 9_19, Right, 1.0
+R, 9_19, 9_20, Right, 1.0
+R, 9_7, 9_8, Right, 1.0
+R, 9_8, 3_9, Right, 1.0
+R, =_13, 3_14, Right, 1.0
+R, f_2, (_4, Right, 1.0

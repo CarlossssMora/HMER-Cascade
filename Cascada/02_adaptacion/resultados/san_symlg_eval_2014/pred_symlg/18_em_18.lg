@@ -1,0 +1,19 @@
+# IUD, 18_em_18
+# Objects(8):
+O, +_9, +, 1.0, ORRR
+O, 2_12, 2, 1.0, ORRRRSub
+O, \theta_7, \theta, 1.0, ORR
+O, 3_4, 3, 1.0, OSub
+O, =_5, =, 1.0, OR
+O, \theta_11, \theta, 1.0, ORRRR
+O, \theta_3, \theta, 1.0, O
+O, 1_8, 1, 1.0, ORRSub
+
+# Relations from SRT:
+R, +_9, \theta_11, Right, 1.0
+R, =_5, \theta_7, Right, 1.0
+R, \theta_11, 2_12, Sub, 1.0
+R, \theta_3, 3_4, Sub, 1.0
+R, \theta_3, =_5, Right, 1.0
+R, \theta_7, +_9, Right, 1.0
+R, \theta_7, 1_8, Sub, 1.0

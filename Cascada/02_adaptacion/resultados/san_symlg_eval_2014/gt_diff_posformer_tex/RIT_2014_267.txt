@@ -1,0 +1,2 @@
+%RIT_2014_267
+$\int \limits _ { a } ^ { c } f + \int \limits _ { c } ^ { b } f = \int \limits _ { a } ^ { b } f$

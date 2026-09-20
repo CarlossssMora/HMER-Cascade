@@ -1,0 +1,9 @@
+# IUD, 511_em_253
+# Objects(3):
+O, f_4, f, 1.0, OSub
+O, g_5, g, 1.0, OSubR
+O, X_2, X, 1.0, O
+
+# Relations from SRT:
+R, X_2, f_4, Sub, 1.0
+R, f_4, g_5, Right, 1.0

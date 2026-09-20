@@ -1,0 +1,17 @@
+# IUD, 35_em_18
+# Objects(7):
+O, 1_6, 1, 1.0, ORSup
+O, x_9, x, 1.0, ORRRR
+O, \pi_2, \pi, 1.0, O
+O, 0_5, 0, 1.0, ORSub
+O, d_8, d, 1.0, ORRR
+O, \int_4, \int, 1.0, OR
+O, x_7, x, 1.0, ORR
+
+# Relations from SRT:
+R, \int_4, 0_5, Sub, 1.0
+R, \int_4, 1_6, Sup, 1.0
+R, \int_4, x_7, Right, 1.0
+R, \pi_2, \int_4, Right, 1.0
+R, d_8, x_9, Right, 1.0
+R, x_7, d_8, Right, 1.0

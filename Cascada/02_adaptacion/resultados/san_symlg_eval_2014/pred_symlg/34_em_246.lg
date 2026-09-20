@@ -1,0 +1,11 @@
+# IUD, 34_em_246
+# Objects(4):
+O, v_2, v, 1.0, O
+O, v_5, v, 1.0, ORRR
+O, =_3, =, 1.0, OR
+O, (_4, (, 1.0, ORR
+
+# Relations from SRT:
+R, (_4, v_5, Right, 1.0
+R, =_3, (_4, Right, 1.0
+R, v_2, =_3, Right, 1.0

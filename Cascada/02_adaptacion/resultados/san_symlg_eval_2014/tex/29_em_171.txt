@@ -1,0 +1,2 @@
+%29_em_171
+$\lim _ { t \rightarrow c } a _ { 1 } ( t ) = a _ { 1 }$

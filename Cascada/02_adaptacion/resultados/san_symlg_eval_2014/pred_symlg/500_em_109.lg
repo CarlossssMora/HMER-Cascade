@@ -1,0 +1,7 @@
+# IUD, 500_em_109
+# Objects(2):
+O, b_2, b, 1.0, O
+O, L_3, L, 1.0, OSub
+
+# Relations from SRT:
+R, b_2, L_3, Sub, 1.0

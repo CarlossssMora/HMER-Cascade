@@ -1,0 +1,9 @@
+# IUD, 506_em_59
+# Objects(3):
+O, \in_3, \in, 1.0, OR
+O, y_2, y, 1.0, O
+O, B_4, B, 1.0, ORR
+
+# Relations from SRT:
+R, \in_3, B_4, Right, 1.0
+R, y_2, \in_3, Right, 1.0

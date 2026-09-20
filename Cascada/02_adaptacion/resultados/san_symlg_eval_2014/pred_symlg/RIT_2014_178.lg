@@ -1,0 +1,39 @@
+# IUD, RIT_2014_178
+# Objects(18):
+O, _9, \sqrt, 1.0, OSupRR
+O, =_8, =, 1.0, OSupR
+O, x_23, x, 1.0, ORRRRInside
+O, x_3, x, 1.0, O
+O, _22, \sqrt, 1.0, ORRRR
+O, x_19, x, 1.0, ORRInside
+O, _5, -, 1.0, OSup
+O, x_11, x, 1.0, OSupRRInside
+O, B_6, B, 1.0, OSupAbove
+O, p_12, p, 1.0, OSupRRInsideSup
+O, x_15, x, 1.0, OSupRRRRInside
+O, =_13, =, 1.0, OSupRRR
+O, _14, \sqrt, 1.0, OSupRRRR
+O, p_20, p, 1.0, ORRInsideSup
+O, =_16, =, 1.0, OR
+O, q_7, q, 1.0, OSupBelow
+O, =_21, =, 1.0, ORRR
+O, _17, \sqrt, 1.0, ORR
+
+# Relations from SRT:
+R, =_13, _14, Right, 1.0
+R, =_16, _17, Right, 1.0
+R, =_21, _22, Right, 1.0
+R, =_8, _9, Right, 1.0
+R, _14, x_15, Inside, 1.0
+R, _17, =_21, Right, 1.0
+R, _17, x_19, Inside, 1.0
+R, _22, x_23, Inside, 1.0
+R, _5, =_8, Right, 1.0
+R, _5, B_6, Above, 1.0
+R, _5, q_7, Below, 1.0
+R, _9, =_13, Right, 1.0
+R, _9, x_11, Inside, 1.0
+R, x_11, p_12, Sup, 1.0
+R, x_19, p_20, Sup, 1.0
+R, x_3, =_16, Right, 1.0
+R, x_3, _5, Sup, 1.0

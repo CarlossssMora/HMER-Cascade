@@ -1,0 +1,29 @@
+# IUD, 514_em_347
+# Objects(13):
+O, \sin_4, \sin, 1.0, ORR
+O, =_3, =, 1.0, OR
+O, )_18, ), 1.0, ORRRBelowRRRR
+O, 1_17, 1, 1.0, ORRRBelowRRR
+O, 6_2, 6, 1.0, O
+O, +_16, +, 1.0, ORRRBelowRR
+O, n_15, n, 1.0, ORRRBelowRSub
+O, 1_7, 1, 1.0, ORRRAbove
+O, 1_10, 1, 1.0, ORRRAboveRSub
+O, a_14, a, 1.0, ORRRBelowR
+O, _5, -, 1.0, ORRR
+O, a_9, a, 1.0, ORRRAboveR
+O, 1_12, 1, 1.0, ORRRBelow
+
+# Relations from SRT:
+R, +_16, 1_17, Right, 1.0
+R, 1_12, a_14, Right, 1.0
+R, 1_17, )_18, Right, 1.0
+R, 1_7, a_9, Right, 1.0
+R, 6_2, =_3, Right, 1.0
+R, =_3, \sin_4, Right, 1.0
+R, \sin_4, _5, Right, 1.0
+R, _5, 1_12, Below, 1.0
+R, _5, 1_7, Above, 1.0
+R, a_14, +_16, Right, 1.0
+R, a_14, n_15, Sub, 1.0
+R, a_9, 1_10, Sub, 1.0

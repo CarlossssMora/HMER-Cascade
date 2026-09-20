@@ -1,0 +1,19 @@
+# IUD, 514_em_328
+# Objects(8):
+O, =_9, =, 1.0, ORRR
+O, p_8, p, 1.0, ORRSup
+O, b_7, b, 1.0, ORR
+O, +_5, +, 1.0, OR
+O, p_4, p, 1.0, OSup
+O, a_3, a, 1.0, O
+O, p_12, p, 1.0, ORRRRSup
+O, c_11, c, 1.0, ORRRR
+
+# Relations from SRT:
+R, +_5, b_7, Right, 1.0
+R, =_9, c_11, Right, 1.0
+R, a_3, +_5, Right, 1.0
+R, a_3, p_4, Sup, 1.0
+R, b_7, =_9, Right, 1.0
+R, b_7, p_8, Sup, 1.0
+R, c_11, p_12, Sup, 1.0

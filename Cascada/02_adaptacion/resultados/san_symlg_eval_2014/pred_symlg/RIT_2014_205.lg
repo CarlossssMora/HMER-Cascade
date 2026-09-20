@@ -1,0 +1,13 @@
+# IUD, RIT_2014_205
+# Objects(5):
+O, m_8, m, 1.0, ORRSub
+O, \theta_7, \theta, 1.0, ORR
+O, a_4, a, 1.0, OSub
+O, \gt_5, \gt, 1.0, OR
+O, \sigma_3, \sigma, 1.0, O
+
+# Relations from SRT:
+R, \gt_5, \theta_7, Right, 1.0
+R, \sigma_3, \gt_5, Right, 1.0
+R, \sigma_3, a_4, Sub, 1.0
+R, \theta_7, m_8, Sub, 1.0

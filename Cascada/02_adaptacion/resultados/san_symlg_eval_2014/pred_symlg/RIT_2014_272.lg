@@ -1,0 +1,7 @@
+# IUD, RIT_2014_272
+# Objects(2):
+O, 4_2, 4, 1.0, O
+O, 0_3, 0, 1.0, OR
+
+# Relations from SRT:
+R, 4_2, 0_3, Right, 1.0

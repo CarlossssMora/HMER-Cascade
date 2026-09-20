@@ -1,0 +1,16 @@
+*N,OR,=,1.0,:vs:,\sqrt,1.0
+*N,ORInside,ABSENT,1.0,:vs:,b,1.0
+*N,ORRInside,a,1.0,:vs:,ABSENT,1.0
+*N,ORRInsideR,b,1.0,:vs:,ABSENT,1.0
+*N,ORRRInsideR,ABSENT,1.0,:vs:,b,1.0
+*N,ORR,\sqrt,1.0,:vs:,=,1.0
+*N,ORRR,ABSENT,1.0,:vs:,\sqrt,1.0
+*N,ORRRInside,ABSENT,1.0,:vs:,a,1.0
+*E,ORR,ORRInside,Inside,1.0,:vs:,_,1.0
+*E,ORR,ORRInsideR,Inside,1.0,:vs:,_,1.0
+*E,ORRInside,ORRInsideR,Right,1.0,:vs:,_,1.0
+*E,ORR,ORRR,_,1.0,:vs:,Right,1.0
+*E,OR,ORInside,_,1.0,:vs:,Inside,1.0
+*E,ORRR,ORRRInside,_,1.0,:vs:,Inside,1.0
+*E,ORRR,ORRRInsideR,_,1.0,:vs:,Inside,1.0
+*E,ORRRInside,ORRRInsideR,_,1.0,:vs:,Right,1.0

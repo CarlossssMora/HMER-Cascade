@@ -1,0 +1,25 @@
+# IUD, 26_em_77
+# Objects(11):
+O, \sum_10, \sum, 1.0, ORRR
+O, x_13, x, 1.0, ORRRR
+O, i_4, i, 1.0, OSup
+O, i_7, i, 1.0, ORSub
+O, i_14, i, 1.0, ORRRRSup
+O, e_6, e, 1.0, OR
+O, =_8, =, 1.0, ORR
+O, x_3, x, 1.0, O
+O, i_11, i, 1.0, ORRRBelow
+O, i_17, i, 1.0, ORRRRRSub
+O, e_16, e, 1.0, ORRRRR
+
+# Relations from SRT:
+R, =_8, \sum_10, Right, 1.0
+R, \sum_10, i_11, Below, 1.0
+R, \sum_10, x_13, Right, 1.0
+R, e_16, i_17, Sub, 1.0
+R, e_6, =_8, Right, 1.0
+R, e_6, i_7, Sub, 1.0
+R, x_13, e_16, Right, 1.0
+R, x_13, i_14, Sup, 1.0
+R, x_3, e_6, Right, 1.0
+R, x_3, i_4, Sup, 1.0

@@ -1,0 +1,57 @@
+# IUD, RIT_2014_223
+# Objects(27):
+O, )_35, ), 1.0, ORRRRRRRRRRRRRRRRRRRRRRRR
+O, (_12, (, 1.0, ORRRRRRRR
+O, 3_17, 3, 1.0, ORRRRRRRRRRRSup
+O, )_30, ), 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, x_29, x, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, =_8, =, 1.0, ORRRRR
+O, (_19, (, 1.0, ORRRRRRRRRRRR
+O, \cos_16, \cos, 1.0, ORRRRRRRRRRR
+O, (_33, (, 1.0, ORRRRRRRRRRRRRRRRRRRRRR
+O, -_22, -, 1.0, ORRRRRRRRRRRRRRR
+O, 4_23, 4, 1.0, ORRRRRRRRRRRRRRRR
+O, (_28, (, 1.0, ORRRRRRRRRRRRRRRRRR
+O, \sin_10, \sin, 1.0, ORRRRRRR
+O, x_20, x, 1.0, ORRRRRRRRRRRRR
+O, )_7, ), 1.0, ORRRR
+O, x_13, x, 1.0, ORRRRRRRRR
+O, 4_5, 4, 1.0, ORR
+O, x_34, x, 1.0, ORRRRRRRRRRRRRRRRRRRRRRR
+O, \cos_31, \cos, 1.0, ORRRRRRRRRRRRRRRRRRRRR
+O, 3_26, 3, 1.0, ORRRRRRRRRRRRRRRRRSup
+O, (_4, (, 1.0, OR
+O, \sin_2, \sin, 1.0, O
+O, )_14, ), 1.0, ORRRRRRRRRR
+O, 4_9, 4, 1.0, ORRRRRR
+O, \sin_25, \sin, 1.0, ORRRRRRRRRRRRRRRRR
+O, )_21, ), 1.0, ORRRRRRRRRRRRRR
+O, x_6, x, 1.0, ORRR
+
+# Relations from SRT:
+R, (_12, x_13, Right, 1.0
+R, (_19, x_20, Right, 1.0
+R, (_28, x_29, Right, 1.0
+R, (_33, x_34, Right, 1.0
+R, (_4, 4_5, Right, 1.0
+R, )_14, \cos_16, Right, 1.0
+R, )_21, -_22, Right, 1.0
+R, )_30, \cos_31, Right, 1.0
+R, )_7, =_8, Right, 1.0
+R, -_22, 4_23, Right, 1.0
+R, 4_23, \sin_25, Right, 1.0
+R, 4_5, x_6, Right, 1.0
+R, 4_9, \sin_10, Right, 1.0
+R, =_8, 4_9, Right, 1.0
+R, \cos_16, (_19, Right, 1.0
+R, \cos_16, 3_17, Sup, 1.0
+R, \cos_31, (_33, Right, 1.0
+R, \sin_10, (_12, Right, 1.0
+R, \sin_25, (_28, Right, 1.0
+R, \sin_25, 3_26, Sup, 1.0
+R, \sin_2, (_4, Right, 1.0
+R, x_13, )_14, Right, 1.0
+R, x_20, )_21, Right, 1.0
+R, x_29, )_30, Right, 1.0
+R, x_34, )_35, Right, 1.0
+R, x_6, )_7, Right, 1.0

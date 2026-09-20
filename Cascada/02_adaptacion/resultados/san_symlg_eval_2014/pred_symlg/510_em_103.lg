@@ -1,0 +1,15 @@
+# IUD, 510_em_103
+# Objects(6):
+O, x_7, x, 1.0, ORRRRR
+O, \sin_4, \sin, 1.0, ORR
+O, x_5, x, 1.0, ORRR
+O, \int_2, \int, 1.0, O
+O, d_6, d, 1.0, ORRRR
+O, x_3, x, 1.0, OR
+
+# Relations from SRT:
+R, \int_2, x_3, Right, 1.0
+R, \sin_4, x_5, Right, 1.0
+R, d_6, x_7, Right, 1.0
+R, x_3, \sin_4, Right, 1.0
+R, x_5, d_6, Right, 1.0

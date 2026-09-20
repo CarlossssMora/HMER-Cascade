@@ -1,0 +1,15 @@
+# IUD, RIT_2014_252
+# Objects(6):
+O, \sin_6, \sin, 1.0, ORRRR
+O, +_4, +, 1.0, ORR
+O, \alpha_7, \alpha, 1.0, ORRRRR
+O, \cos_2, \cos, 1.0, O
+O, i_5, i, 1.0, ORRR
+O, \alpha_3, \alpha, 1.0, OR
+
+# Relations from SRT:
+R, +_4, i_5, Right, 1.0
+R, \alpha_3, +_4, Right, 1.0
+R, \cos_2, \alpha_3, Right, 1.0
+R, \sin_6, \alpha_7, Right, 1.0
+R, i_5, \sin_6, Right, 1.0

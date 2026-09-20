@@ -1,0 +1,4 @@
+*N,OInsideRRR,t,1.0,:vs:,ABSENT,1.0
+*N,OR,ABSENT,1.0,:vs:,t,1.0
+*E,OInsideRR,OInsideRRR,Right,1.0,:vs:,_,1.0
+*E,O,OR,_,1.0,:vs:,Right,1.0

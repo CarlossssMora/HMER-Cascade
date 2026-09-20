@@ -1,0 +1,17 @@
+*N,ORRRRRSub,2,1.0,:vs:,ABSENT,1.0
+*N,ORRR,+,1.0,:vs:,C,1.0
+*N,ORR,y,1.0,:vs:,+,1.0
+*N,ORRRSub,ABSENT,1.0,:vs:,2,1.0
+*N,ORSub,ABSENT,1.0,:vs:,1,1.0
+*N,OSub,ABSENT,1.0,:vs:,1,1.0
+*N,ORRRRR,y,1.0,:vs:,ABSENT,1.0
+*N,O,c,1.0,:vs:,C,1.0
+*N,ORRRR,c,1.0,:vs:,y,1.0
+*N,OR,COMMA,1.0,:vs:,y,1.0
+*N,ORRSub,1,1.0,:vs:,ABSENT,1.0
+*E,ORRRR,ORRRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRRR,ORRRRRSub,Sub,1.0,:vs:,_,1.0
+*E,ORR,ORRSub,Sub,1.0,:vs:,_,1.0
+*E,O,OSub,_,1.0,:vs:,Sub,1.0
+*E,ORRR,ORRRSub,_,1.0,:vs:,Sub,1.0
+*E,OR,ORSub,_,1.0,:vs:,Sub,1.0

@@ -1,0 +1,15 @@
+# IUD, 37_em_0
+# Objects(6):
+O, \theta_3, \theta, 1.0, OR
+O, g_2, g, 1.0, O
+O, \theta_7, \theta, 1.0, ORRRRR
+O, \sin_6, \sin, 1.0, ORRRR
+O, =_4, =, 1.0, ORR
+O, g_5, g, 1.0, ORRR
+
+# Relations from SRT:
+R, =_4, g_5, Right, 1.0
+R, \sin_6, \theta_7, Right, 1.0
+R, \theta_3, =_4, Right, 1.0
+R, g_2, \theta_3, Right, 1.0
+R, g_5, \sin_6, Right, 1.0

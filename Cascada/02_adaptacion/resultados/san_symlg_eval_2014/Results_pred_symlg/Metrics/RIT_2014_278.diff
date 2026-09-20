@@ -1,0 +1,4 @@
+*N,ORAboveRRRR,|,1.0,:vs:,ABSENT,1.0
+*N,ORAboveRRR,x,1.0,:vs:,|,1.0
+*N,ORAboveRR,+,1.0,:vs:,x,1.0
+*E,ORAboveRRR,ORAboveRRRR,Right,1.0,:vs:,_,1.0

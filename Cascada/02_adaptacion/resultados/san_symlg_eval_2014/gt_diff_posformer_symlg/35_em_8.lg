@@ -1,0 +1,25 @@
+# IUD, 35_em_8
+# Objects(11):
+O, z_5, z, 1.0, OBelow
+O, =_15, =, 1.0, ORRRRR
+O, (_12, (, 1.0, ORR
+O, \lim_3, \lim, 1.0, O
+O, f_10, f, 1.0, OR
+O, z_8, z, 1.0, OBelowRR
+O, k_16, k, 1.0, ORRRRRR
+O, 0_9, 0, 1.0, OBelowRRSub
+O, \rightarrow_6, \rightarrow, 1.0, OBelowR
+O, z_13, z, 1.0, ORRR
+O, )_14, ), 1.0, ORRRR
+
+# Relations from SRT:
+R, (_12, z_13, Right, 1.0
+R, )_14, =_15, Right, 1.0
+R, =_15, k_16, Right, 1.0
+R, \lim_3, f_10, Right, 1.0
+R, \lim_3, z_5, Below, 1.0
+R, \rightarrow_6, z_8, Right, 1.0
+R, f_10, (_12, Right, 1.0
+R, z_13, )_14, Right, 1.0
+R, z_5, \rightarrow_6, Right, 1.0
+R, z_8, 0_9, Sub, 1.0

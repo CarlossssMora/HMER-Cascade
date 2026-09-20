@@ -1,0 +1,21 @@
+# IUD, 503_em_28
+# Objects(9):
+O, b_6, b, 1.0, OSupBelow
+O, \leq_7, \leq, 1.0, OR
+O, _4, -, 1.0, OSup
+O, x_9, x, 1.0, ORR
+O, 1_11, 1, 1.0, ORRSupAbove
+O, _10, -, 1.0, ORRSup
+O, 3_12, 3, 1.0, ORRSupBelow
+O, y_3, y, 1.0, O
+O, 1_5, 1, 1.0, OSupAbove
+
+# Relations from SRT:
+R, \leq_7, x_9, Right, 1.0
+R, _10, 1_11, Above, 1.0
+R, _10, 3_12, Below, 1.0
+R, _4, 1_5, Above, 1.0
+R, _4, b_6, Below, 1.0
+R, x_9, _10, Sup, 1.0
+R, y_3, \leq_7, Right, 1.0
+R, y_3, _4, Sup, 1.0

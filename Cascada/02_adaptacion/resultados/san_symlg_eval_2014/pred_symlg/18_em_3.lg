@@ -1,0 +1,23 @@
+# IUD, 18_em_3
+# Objects(10):
+O, q_7, q, 1.0, ORR
+O, COMMA_9, COMMA, 1.0, ORRR
+O, 2_8, 2, 1.0, ORRSub
+O, COMMA_5, COMMA, 1.0, OR
+O, COMMA_11, COMMA, 1.0, ORRRRR
+O, q_13, q, 1.0, ORRRRRR
+O, \ldots_10, \ldots, 1.0, ORRRR
+O, q_3, q, 1.0, O
+O, 1_4, 1, 1.0, OSub
+O, m_14, m, 1.0, ORRRRRRSub
+
+# Relations from SRT:
+R, COMMA_11, q_13, Right, 1.0
+R, COMMA_5, q_7, Right, 1.0
+R, COMMA_9, \ldots_10, Right, 1.0
+R, \ldots_10, COMMA_11, Right, 1.0
+R, q_13, m_14, Sub, 1.0
+R, q_3, 1_4, Sub, 1.0
+R, q_3, COMMA_5, Right, 1.0
+R, q_7, 2_8, Sub, 1.0
+R, q_7, COMMA_9, Right, 1.0

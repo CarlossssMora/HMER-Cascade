@@ -1,0 +1,17 @@
+# IUD, 26_em_91
+# Objects(7):
+O, +_9, +, 1.0, ORRRSup
+O, [_5, [, 1.0, ORR
+O, f_2, f, 1.0, O
+O, ]_11, ], 1.0, ORRRR
+O, a_7, a, 1.0, ORRR
+O, [_3, [, 1.0, OR
+O, ]_10, ], 1.0, ORRRSupR
+
+# Relations from SRT:
+R, +_9, ]_10, Right, 1.0
+R, [_3, [_5, Right, 1.0
+R, [_5, a_7, Right, 1.0
+R, a_7, +_9, Sup, 1.0
+R, a_7, ]_11, Right, 1.0
+R, f_2, [_3, Right, 1.0

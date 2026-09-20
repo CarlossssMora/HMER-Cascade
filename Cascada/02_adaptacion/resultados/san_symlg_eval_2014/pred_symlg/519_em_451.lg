@@ -1,0 +1,25 @@
+# IUD, 519_em_451
+# Objects(11):
+O, =_3, =, 1.0, OR
+O, \times_11, \times, 1.0, ORRRRRRRRR
+O, 3_6, 3, 1.0, ORRRR
+O, 5_8, 5, 1.0, ORRRRRR
+O, 2_4, 2, 1.0, ORR
+O, \times_7, \times, 1.0, ORRRRR
+O, \times_5, \times, 1.0, ORRR
+O, n_12, n, 1.0, ORRRRRRRRRR
+O, x_2, x, 1.0, O
+O, \times_9, \times, 1.0, ORRRRRRR
+O, \ldots_10, \ldots, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+R, 2_4, \times_5, Right, 1.0
+R, 3_6, \times_7, Right, 1.0
+R, 5_8, \times_9, Right, 1.0
+R, =_3, 2_4, Right, 1.0
+R, \ldots_10, \times_11, Right, 1.0
+R, \times_11, n_12, Right, 1.0
+R, \times_5, 3_6, Right, 1.0
+R, \times_7, 5_8, Right, 1.0
+R, \times_9, \ldots_10, Right, 1.0
+R, x_2, =_3, Right, 1.0

@@ -1,0 +1,9 @@
+*N,ORRInsideRRRRRRRRRR,0,1.0,:vs:,5,1.0
+*N,ORRInsideRRRRRRRR,3,1.0,:vs:,6,1.0
+*N,ORRInsideRRRRRR,5,1.0,:vs:,+,1.0
+*N,ORRInsideR,(,1.0,:vs:,1,1.0
+*N,ORRInsideRRRRRRR,(,1.0,:vs:,5,1.0
+*N,ORRInsideRRRRR,+,1.0,:vs:,0,1.0
+*N,ORRInsideRRRRRRRRRRRR,ABSENT,1.0,:vs:,0,1.0
+*N,ORRInsideRRRRRRRRR,5,1.0,:vs:,2,1.0
+*E,ORRInsideRRRRRRRRRRR,ORRInsideRRRRRRRRRRRR,_,1.0,:vs:,Right,1.0

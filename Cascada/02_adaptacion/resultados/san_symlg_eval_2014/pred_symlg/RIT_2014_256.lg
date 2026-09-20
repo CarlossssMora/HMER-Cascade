@@ -1,0 +1,43 @@
+# IUD, RIT_2014_256
+# Objects(20):
+O, 1_29, 1, 1.0, ORRRRRRRRSubRR
+O, COMMA_16, COMMA, 1.0, ORRRRRRSubR
+O, COMMA_23, COMMA, 1.0, ORRRRRRR
+O, +_28, +, 1.0, ORRRRRRRRSubR
+O, c_13, c, 1.0, ORRRRRR
+O, n_15, n, 1.0, ORRRRRRSub
+O, COMMA_5, COMMA, 1.0, OR
+O, c_7, c, 1.0, ORR
+O, c_3, c, 1.0, O
+O, c_18, c, 1.0, ORRRRRRSubRR
+O, n_20, n, 1.0, ORRRRRRSubRRSub
+O, COMMA_9, COMMA, 1.0, ORRR
+O, c_25, c, 1.0, ORRRRRRRR
+O, \ldots_10, \ldots, 1.0, ORRRR
+O, n_27, n, 1.0, ORRRRRRRRSub
+O, 2_8, 2, 1.0, ORRSub
+O, 1_4, 1, 1.0, OSub
+O, 1_22, 1, 1.0, ORRRRRRSubRRSubRR
+O, +_21, +, 1.0, ORRRRRRSubRRSubR
+O, COMMA_11, COMMA, 1.0, ORRRRR
+
+# Relations from SRT:
+R, +_21, 1_22, Right, 1.0
+R, +_28, 1_29, Right, 1.0
+R, COMMA_11, c_13, Right, 1.0
+R, COMMA_16, c_18, Right, 1.0
+R, COMMA_23, c_25, Right, 1.0
+R, COMMA_5, c_7, Right, 1.0
+R, COMMA_9, \ldots_10, Right, 1.0
+R, \ldots_10, COMMA_11, Right, 1.0
+R, c_13, COMMA_23, Right, 1.0
+R, c_13, n_15, Sub, 1.0
+R, c_18, n_20, Sub, 1.0
+R, c_25, n_27, Sub, 1.0
+R, c_3, 1_4, Sub, 1.0
+R, c_3, COMMA_5, Right, 1.0
+R, c_7, 2_8, Sub, 1.0
+R, c_7, COMMA_9, Right, 1.0
+R, n_15, COMMA_16, Right, 1.0
+R, n_20, +_21, Right, 1.0
+R, n_27, +_28, Right, 1.0

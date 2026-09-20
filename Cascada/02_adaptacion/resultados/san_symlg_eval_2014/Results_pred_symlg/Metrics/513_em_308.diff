@@ -1,0 +1,12 @@
+*N,ORRRRRRR,a,1.0,:vs:,[,1.0
+*N,ORRRRRRRRR,],1.0,:vs:,b,1.0
+*N,ORRRInside,b,1.0,:vs:,ABSENT,1.0
+*N,ORRRR,],1.0,:vs:,b,1.0
+*N,OR,[,1.0,:vs:,a,1.0
+*N,ORRRRRRRR,b,1.0,:vs:,a,1.0
+*N,ORRR,\sqrt,1.0,:vs:,[,1.0
+*N,ORRRRRRRRRR,ABSENT,1.0,:vs:,],1.0
+*N,ORRRRR,=,1.0,:vs:,],1.0
+*N,ORRRRRR,[,1.0,:vs:,=,1.0
+*E,ORRR,ORRRInside,Inside,1.0,:vs:,_,1.0
+*E,ORRRRRRRRR,ORRRRRRRRRR,_,1.0,:vs:,Right,1.0

@@ -1,0 +1,3 @@
+*N,OBelowInside,ABSENT,1.0,:vs:,b,1.0
+*N,OBelow,b,1.0,:vs:,\sqrt,1.0
+*E,OBelow,OBelowInside,_,1.0,:vs:,Inside,1.0

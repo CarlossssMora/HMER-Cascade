@@ -1,0 +1,15 @@
+*N,OR,ABSENT,1.0,:vs:,=,1.0
+*N,OAboveAboveInside,ABSENT,1.0,:vs:,3,1.0
+*N,OAboveInside,3,1.0,:vs:,ABSENT,1.0
+*N,ORRInside,ABSENT,1.0,:vs:,3,1.0
+*N,OAboveAbove,ABSENT,1.0,:vs:,\sqrt,1.0
+*N,OAbove,\sqrt,1.0,:vs:,-,1.0
+*N,OAboveBelow,ABSENT,1.0,:vs:,2,1.0
+*N,ORR,ABSENT,1.0,:vs:,\sqrt,1.0
+*E,OAbove,OAboveInside,Inside,1.0,:vs:,_,1.0
+*E,OAboveAbove,OAboveAboveInside,_,1.0,:vs:,Inside,1.0
+*E,ORR,ORRInside,_,1.0,:vs:,Inside,1.0
+*E,OAbove,OAboveAbove,_,1.0,:vs:,Above,1.0
+*E,OAbove,OAboveBelow,_,1.0,:vs:,Below,1.0
+*E,O,OR,_,1.0,:vs:,Right,1.0
+*E,OR,ORR,_,1.0,:vs:,Right,1.0

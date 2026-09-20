@@ -1,0 +1,43 @@
+# IUD, 20_em_33
+# Objects(20):
+O, COMMA_9, COMMA, 1.0, ORRAboveR
+O, +_20, +, 1.0, ORRAboveRRRRRR
+O, R_15, R, 1.0, ORRAboveRRRR
+O, 2_16, 2, 1.0, ORRAboveRRRRSub
+O, h_25, h, 1.0, ORRAboveRRRRRRRR
+O, R_11, R, 1.0, ORRAboveRR
+O, _6, -, 1.0, ORR
+O, 2_12, 2, 1.0, ORRAboveRRSub
+O, k_22, k, 1.0, ORRAboveRRRRRRR
+O, 1_26, 1, 1.0, ORRAboveRRRRRRRRSub
+O, +_13, +, 1.0, ORRAboveRRR
+O, 3_23, 3, 1.0, ORRAboveRRRRRRRSub
+O, R_18, R, 1.0, ORRAboveRRRRR
+O, 2_29, 2, 1.0, ORRBelowSub
+O, r_28, r, 1.0, ORRBelow
+O, a_4, a, 1.0, OSub
+O, =_5, =, 1.0, OR
+O, R_8, R, 1.0, ORRAbove
+O, R_3, R, 1.0, O
+O, 3_19, 3, 1.0, ORRAboveRRRRRSub
+
+# Relations from SRT:
+R, +_13, R_15, Right, 1.0
+R, +_20, k_22, Right, 1.0
+R, =_5, _6, Right, 1.0
+R, COMMA_9, R_11, Right, 1.0
+R, R_11, +_13, Right, 1.0
+R, R_11, 2_12, Sub, 1.0
+R, R_15, 2_16, Sub, 1.0
+R, R_15, R_18, Right, 1.0
+R, R_18, +_20, Right, 1.0
+R, R_18, 3_19, Sub, 1.0
+R, R_3, =_5, Right, 1.0
+R, R_3, a_4, Sub, 1.0
+R, R_8, COMMA_9, Right, 1.0
+R, _6, R_8, Above, 1.0
+R, _6, r_28, Below, 1.0
+R, h_25, 1_26, Sub, 1.0
+R, k_22, 3_23, Sub, 1.0
+R, k_22, h_25, Right, 1.0
+R, r_28, 2_29, Sub, 1.0

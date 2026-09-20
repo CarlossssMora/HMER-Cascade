@@ -1,0 +1,7 @@
+*N,ORRRRRRRR,r,1.0,:vs:,z,1.0
+*N,ORR,v,1.0,:vs:,z,1.0
+*N,ORRRRRSub,y,1.0,:vs:,z,1.0
+*N,ORRRRRSubRRSub,ABSENT,1.0,:vs:,0,1.0
+*N,ORRRRR,f,1.0,:vs:,\lim,1.0
+*N,ORRRRRSubR,+,1.0,:vs:,\rightarrow,1.0
+*E,ORRRRRSubRR,ORRRRRSubRRSub,_,1.0,:vs:,Sub,1.0

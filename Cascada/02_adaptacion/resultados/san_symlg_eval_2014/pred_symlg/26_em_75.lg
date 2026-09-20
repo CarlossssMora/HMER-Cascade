@@ -1,0 +1,45 @@
+# IUD, 26_em_75
+# Objects(21):
+O, -_3, -, 1.0, OR
+O, a_10, a, 1.0, ORRRRRRRR
+O, 2_9, 2, 1.0, ORRRRRRR
+O, +_17, +, 1.0, ORRRRRRRRRRRRRRR
+O, -_8, -, 1.0, ORRRRRR
+O, -_19, -, 1.0, ORRRRRRRRRRRRRRRRR
+O, 2_15, 2, 1.0, ORRRRRRRRRRRRR
+O, 2_4, 2, 1.0, ORR
+O, +_6, +, 1.0, ORRRR
+O, b_11, b, 1.0, ORRRRRRRRR
+O, =_12, =, 1.0, ORRRRRRRRRR
+O, -_14, -, 1.0, ORRRRRRRRRRRR
+O, a_21, a, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, a_18, a, 1.0, ORRRRRRRRRRRRRRRR
+O, a_5, a, 1.0, ORRR
+O, 2_20, 2, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 6_22, 6, 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, 1_2, 1, 1.0, O
+O, 1_13, 1, 1.0, ORRRRRRRRRRR
+O, b_16, b, 1.0, ORRRRRRRRRRRRRR
+O, b_7, b, 1.0, ORRRRR
+
+# Relations from SRT:
+R, +_17, a_18, Right, 1.0
+R, +_6, b_7, Right, 1.0
+R, -_14, 2_15, Right, 1.0
+R, -_19, 2_20, Right, 1.0
+R, -_3, 2_4, Right, 1.0
+R, -_8, 2_9, Right, 1.0
+R, 1_13, -_14, Right, 1.0
+R, 1_2, -_3, Right, 1.0
+R, 2_15, b_16, Right, 1.0
+R, 2_20, a_21, Right, 1.0
+R, 2_4, a_5, Right, 1.0
+R, 2_9, a_10, Right, 1.0
+R, =_12, 1_13, Right, 1.0
+R, a_10, b_11, Right, 1.0
+R, a_18, -_19, Right, 1.0
+R, a_21, 6_22, Right, 1.0
+R, a_5, +_6, Right, 1.0
+R, b_11, =_12, Right, 1.0
+R, b_16, +_17, Right, 1.0
+R, b_7, -_8, Right, 1.0

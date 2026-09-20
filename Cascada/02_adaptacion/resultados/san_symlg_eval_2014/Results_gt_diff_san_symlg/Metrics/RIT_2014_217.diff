@@ -1,0 +1,6 @@
+*N,OSubRRRRR,\pm,1.0,:vs:,COMMA,1.0
+*N,OSubRRRRRRR,ABSENT,1.0,:vs:,3,1.0
+*N,OSubRRRRSub,COMMA,1.0,:vs:,ABSENT,1.0
+*N,OSubRRRRRR,3,1.0,:vs:,\pm,1.0
+*E,OSubRRRR,OSubRRRRSub,Sub,1.0,:vs:,_,1.0
+*E,OSubRRRRRR,OSubRRRRRRR,_,1.0,:vs:,Right,1.0

@@ -1,0 +1,9 @@
+# IUD, RIT_2014_140
+# Objects(3):
+O, \sum_2, \sum, 1.0, O
+O, a_4, a, 1.0, OR
+O, n_5, n, 1.0, ORSub
+
+# Relations from SRT:
+R, \sum_2, a_4, Right, 1.0
+R, a_4, n_5, Sub, 1.0

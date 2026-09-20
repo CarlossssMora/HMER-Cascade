@@ -1,0 +1,7 @@
+# IUD, 513_em_313
+# Objects(2):
+O, 1_3, 1, 1.0, OSub
+O, P_2, P, 1.0, O
+
+# Relations from SRT:
+R, P_2, 1_3, Sub, 1.0

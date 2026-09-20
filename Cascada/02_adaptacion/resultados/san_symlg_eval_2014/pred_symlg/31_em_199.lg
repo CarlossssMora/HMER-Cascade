@@ -1,0 +1,21 @@
+# IUD, 31_em_199
+# Objects(9):
+O, b_10, b, 1.0, ORRRRRRRR
+O, a_3, a, 1.0, OR
+O, \log_8, \log, 1.0, ORRRRRR
+O, =_7, =, 1.0, ORRRRR
+O, +_4, +, 1.0, ORR
+O, a_9, a, 1.0, ORRRRRRR
+O, \log_5, \log, 1.0, ORRR
+O, \log_2, \log, 1.0, O
+O, b_6, b, 1.0, ORRRR
+
+# Relations from SRT:
+R, +_4, \log_5, Right, 1.0
+R, =_7, \log_8, Right, 1.0
+R, \log_2, a_3, Right, 1.0
+R, \log_5, b_6, Right, 1.0
+R, \log_8, a_9, Right, 1.0
+R, a_3, +_4, Right, 1.0
+R, a_9, b_10, Right, 1.0
+R, b_6, =_7, Right, 1.0

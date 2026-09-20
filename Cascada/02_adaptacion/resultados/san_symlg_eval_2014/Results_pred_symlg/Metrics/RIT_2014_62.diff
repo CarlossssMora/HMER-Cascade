@@ -1,0 +1,5 @@
+*N,ORRRRAboveRRR,),1.0,:vs:,ABSENT,1.0
+*N,ORR,\tan,1.0,:vs:,\cos,1.0
+*N,OBelow,\cos,1.0,:vs:,\sin,1.0
+*N,OAboveRRR,\sin,1.0,:vs:,\tan,1.0
+*E,ORRRRAboveRR,ORRRRAboveRRR,Right,1.0,:vs:,_,1.0

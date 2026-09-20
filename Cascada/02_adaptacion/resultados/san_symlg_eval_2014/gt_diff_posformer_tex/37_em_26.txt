@@ -1,0 +1,2 @@
+%37_em_26
+$\int \limits _ { a } ^ { b } f ( x ) d x = \int \limits _ { a } ^ { b } g ( x ) d x$

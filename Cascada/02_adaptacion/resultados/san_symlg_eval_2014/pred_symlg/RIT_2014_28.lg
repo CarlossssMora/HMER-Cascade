@@ -1,0 +1,48 @@
+# IUD, RIT_2014_28
+# Objects(22):
+O, =_16, =, 1.0, OR
+O, 5_19, 5, 1.0, ORRAboveInside
+O, 4_8, 4, 1.0, OInsideRInside
+O, 4_12, 4, 1.0, OInsideRRRBelow
+O, =_22, =, 1.0, ORRR
+O, _7, \sqrt, 1.0, OInsideR
+O, _17, -, 1.0, ORR
+O, _20, \sqrt, 1.0, ORRBelow
+O, 5_5, 5, 1.0, OInsideAbove
+O, _2, \sqrt, 1.0, O
+O, _23, \sqrt, 1.0, ORRRR
+O, _4, -, 1.0, OInside
+O, 5_15, 5, 1.0, OInsideRRRRRInside
+O, 4_21, 4, 1.0, ORRBelowInside
+O, =_13, =, 1.0, OInsideRRRR
+O, _14, \sqrt, 1.0, OInsideRRRRR
+O, _10, -, 1.0, OInsideRRR
+O, 4_6, 4, 1.0, OInsideBelow
+O, 5_24, 5, 1.0, ORRRRInside
+O, =_9, =, 1.0, OInsideRR
+O, _18, \sqrt, 1.0, ORRAbove
+O, 5_11, 5, 1.0, OInsideRRRAbove
+
+# Relations from SRT:
+R, =_13, _14, Right, 1.0
+R, =_16, _17, Right, 1.0
+R, =_22, _23, Right, 1.0
+R, =_9, _10, Right, 1.0
+R, _10, 4_12, Below, 1.0
+R, _10, 5_11, Above, 1.0
+R, _10, =_13, Right, 1.0
+R, _14, 5_15, Inside, 1.0
+R, _17, =_22, Right, 1.0
+R, _17, _18, Above, 1.0
+R, _17, _20, Below, 1.0
+R, _18, 5_19, Inside, 1.0
+R, _20, 4_21, Inside, 1.0
+R, _23, 5_24, Inside, 1.0
+R, _2, =_16, Right, 1.0
+R, _2, _4, Inside, 1.0
+R, _2, _7, Inside, 1.0
+R, _4, 4_6, Below, 1.0
+R, _4, 5_5, Above, 1.0
+R, _4, _7, Right, 1.0
+R, _7, 4_8, Inside, 1.0
+R, _7, =_9, Right, 1.0

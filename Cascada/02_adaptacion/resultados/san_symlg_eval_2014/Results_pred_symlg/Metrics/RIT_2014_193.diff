@@ -1,0 +1,6 @@
+*N,OSubRR,k,1.0,:vs:,t,1.0
+*N,ORRBelow,ABSENT,1.0,:vs:,n,1.0
+*N,ORRSub,n,1.0,:vs:,ABSENT,1.0
+*N,OSubR,k,1.0,:vs:,o,1.0
+*E,ORR,ORRSub,Sub,1.0,:vs:,_,1.0
+*E,ORR,ORRBelow,_,1.0,:vs:,B,1.0

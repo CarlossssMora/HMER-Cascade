@@ -1,0 +1,21 @@
+# IUD, 29_em_163
+# Objects(9):
+O, c_8, c, 1.0, ORRRR
+O, t_4, t, 1.0, OSub
+O, +_7, +, 1.0, ORRR
+O, c_3, c, 1.0, O
+O, =_5, =, 1.0, OR
+O, c_11, c, 1.0, ORRRRRRR
+O, =_9, =, 1.0, ORRRRR
+O, 2_10, 2, 1.0, ORRRRRR
+O, c_6, c, 1.0, ORR
+
+# Relations from SRT:
+R, +_7, c_8, Right, 1.0
+R, 2_10, c_11, Right, 1.0
+R, =_5, c_6, Right, 1.0
+R, =_9, 2_10, Right, 1.0
+R, c_3, =_5, Right, 1.0
+R, c_3, t_4, Sub, 1.0
+R, c_6, +_7, Right, 1.0
+R, c_8, =_9, Right, 1.0

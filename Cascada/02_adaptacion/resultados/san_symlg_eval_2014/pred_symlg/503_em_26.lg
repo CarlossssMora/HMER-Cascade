@@ -1,0 +1,21 @@
+# IUD, 503_em_26
+# Objects(9):
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, z_5, z, 1.0, OSub
+O, \lim_3, \lim, 1.0, O
+O, z_8, z, 1.0, OSubRR
+O, )_14, ), 1.0, ORRRR
+O, (_12, (, 1.0, ORR
+O, 0_9, 0, 1.0, OSubRRSub
+O, f_10, f, 1.0, OR
+O, z_13, z, 1.0, ORRR
+
+# Relations from SRT:
+R, (_12, z_13, Right, 1.0
+R, \lim_3, f_10, Right, 1.0
+R, \lim_3, z_5, Sub, 1.0
+R, \rightarrow_6, z_8, Right, 1.0
+R, f_10, (_12, Right, 1.0
+R, z_13, )_14, Right, 1.0
+R, z_5, \rightarrow_6, Right, 1.0
+R, z_8, 0_9, Sub, 1.0

@@ -1,0 +1,66 @@
+LgEval Evaluation Summary
+Wed Sep 16 17:51:41 2026
+
+Output File Directory:  pred_symlg
+Ground Truth Directory: gt_symlg
+
+****  PRIMITIVES   **************************************************************
+
+  Directed   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     74.80     10734      8029      2705
+     Edges     99.18    206136    204451      1685         0         0      1685
+
+     Total     97.98    216870    212480      4390
+
+
+Undirected   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     74.80     10734      8029      2705
+Node Pairs     98.37 103068.00 101383.00      1685         0         0      1685
+
+     Total     96.14 113802.00    109412      4390
+
+     SegErr: merge/split   ClErr: valid merge class error   RelErr: relation error
+
+
+****  OBJECTS   **************************************************************************
+
+           Recall(%)   Prec(%) 2RP/(R+P)   Targets   Correct  FalseNeg *Detected *FalsePos
+------------------------------------------------------------------------------------------
+   Objects     91.62     91.59     91.60      9901      9071       830      9904       833
+ + Classes     81.09     81.07     81.08      9901      8029      1872      9904      1875
+ Class/Det     88.51                          9071      8029
+
+ Relations     90.68     90.57     90.62      8978      8141       837      8989       848
+ + Classes     90.68     90.57     90.62      8978      8141       837      8989       848
+ Class/Det    100.00                          8141      8141
+
+     2RP/(R+P): harmonic mean (f-measure) for (R)ecall and (P)recision
+     Class/Det: (correct detection and classification) / correct detection
+
+
+****  FILES  ***************************************
+
+             Rate(%)     Total   Correct    Errors
+---------------------------------------------------
+   Objects     74.31       985       732       253
+ + Classes     55.43       985       546       439
+ Class/Det     74.59       732       546          
+
+ Relations     74.31       985       732       253
+ + Classes     74.31       985       732       253
+ Class/Det    100.00       732       732          
+
+ Structure     74.31       985       732       253
+ + Classes     55.43       985       546       439    *Final
+ Class/Det     74.59       732       546          
+
+
+****  LABEL ERROR HISTOGRAM (Dir. Edges, D_B)  ****
+
+                   0         1         2         3         4         5        >5
+----------------------------------------------------------------------------------
+Num. Files       546       136        42        31        31        11       188
+Cum. Files       546       682       724       755       786       797       985
+

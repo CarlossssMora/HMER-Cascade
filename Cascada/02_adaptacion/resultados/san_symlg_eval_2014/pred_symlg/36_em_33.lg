@@ -1,0 +1,49 @@
+# IUD, 36_em_33
+# Objects(23):
+O, )_24, ), 1.0, ORRRRRRRRRRRRR
+O, (_22, (, 1.0, ORRRRRRRRRRR
+O, )_32, ), 1.0, ORRRRRRRRRRRRRRRRRR
+O, \beta_3, \beta, 1.0, O
+O, 2_20, 2, 1.0, ORRRRRRRRRRSub
+O, (_14, (, 1.0, ORRRRRR
+O, \beta_11, \beta, 1.0, ORRRRR
+O, )_16, ), 1.0, ORRRRRRRR
+O, +_25, +, 1.0, ORRRRRRRRRRRRRR
+O, 1_12, 1, 1.0, ORRRRRSub
+O, s_23, s, 1.0, ORRRRRRRRRRRR
+O, +_9, +, 1.0, ORRRR
+O, 0_4, 0, 1.0, OSub
+O, (_6, (, 1.0, OR
+O, 1_7, 1, 1.0, ORR
+O, 3_28, 3, 1.0, ORRRRRRRRRRRRRRRSub
+O, (_30, (, 1.0, ORRRRRRRRRRRRRRRR
+O, i_15, i, 1.0, ORRRRRRR
+O, x_31, x, 1.0, ORRRRRRRRRRRRRRRRR
+O, +_17, +, 1.0, ORRRRRRRRR
+O, )_8, ), 1.0, ORRR
+O, \beta_27, \beta, 1.0, ORRRRRRRRRRRRRRR
+O, \beta_19, \beta, 1.0, ORRRRRRRRRR
+
+# Relations from SRT:
+R, (_14, i_15, Right, 1.0
+R, (_22, s_23, Right, 1.0
+R, (_30, x_31, Right, 1.0
+R, (_6, 1_7, Right, 1.0
+R, )_16, +_17, Right, 1.0
+R, )_24, +_25, Right, 1.0
+R, )_8, +_9, Right, 1.0
+R, +_17, \beta_19, Right, 1.0
+R, +_25, \beta_27, Right, 1.0
+R, +_9, \beta_11, Right, 1.0
+R, 1_7, )_8, Right, 1.0
+R, \beta_11, (_14, Right, 1.0
+R, \beta_11, 1_12, Sub, 1.0
+R, \beta_19, (_22, Right, 1.0
+R, \beta_19, 2_20, Sub, 1.0
+R, \beta_27, (_30, Right, 1.0
+R, \beta_27, 3_28, Sub, 1.0
+R, \beta_3, (_6, Right, 1.0
+R, \beta_3, 0_4, Sub, 1.0
+R, i_15, )_16, Right, 1.0
+R, s_23, )_24, Right, 1.0
+R, x_31, )_32, Right, 1.0

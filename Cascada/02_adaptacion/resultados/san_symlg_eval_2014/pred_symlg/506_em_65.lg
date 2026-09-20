@@ -1,0 +1,25 @@
+# IUD, 506_em_65
+# Objects(11):
+O, +_6, +, 1.0, ORRRR
+O, =_10, =, 1.0, ORRRRRRRR
+O, y_5, y, 1.0, ORRR
+O, +_3, +, 1.0, OR
+O, \pi_8, \pi, 1.0, ORRRRRR
+O, x_2, x, 1.0, O
+O, \pi_12, \pi, 1.0, ORRRRRRRRRR
+O, 6_7, 6, 1.0, ORRRRR
+O, z_9, z, 1.0, ORRRRRRR
+O, \pi_4, \pi, 1.0, ORR
+O, 3_11, 3, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, +_3, \pi_4, Right, 1.0
+R, +_6, 6_7, Right, 1.0
+R, 3_11, \pi_12, Right, 1.0
+R, 6_7, \pi_8, Right, 1.0
+R, =_10, 3_11, Right, 1.0
+R, \pi_4, y_5, Right, 1.0
+R, \pi_8, z_9, Right, 1.0
+R, x_2, +_3, Right, 1.0
+R, y_5, +_6, Right, 1.0
+R, z_9, =_10, Right, 1.0

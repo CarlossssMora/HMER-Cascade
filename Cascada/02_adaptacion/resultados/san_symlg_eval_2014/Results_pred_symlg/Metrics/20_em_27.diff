@@ -1,0 +1,15 @@
+*N,ORRAboveRRR,e,1.0,:vs:,r,1.0
+*N,ORRAboveRRRRRRRRRRBelow,0,1.0,:vs:,\beta,1.0
+*N,ORRAboveRRRRRR,p,1.0,:vs:,\beta,1.0
+*N,OSub,0,1.0,:vs:,o,1.0
+*N,ORRAboveRRRRRRRRRRRR,ABSENT,1.0,:vs:,r,1.0
+*N,ORRAboveRRRSub,ABSENT,1.0,:vs:,e,1.0
+*N,ORRBelowRRBelow,r,1.0,:vs:,\beta,1.0
+*N,ORRAboveRRRRRRRRRRRRSub,ABSENT,1.0,:vs:,o,1.0
+*N,O,b,1.0,:vs:,R,1.0
+*N,ORRAboveRRRRRRRRRRR,ABSENT,1.0,:vs:,),1.0
+*N,ORRAboveRBelow,P,1.0,:vs:,\beta,1.0
+*E,ORRAboveRRRRRRRRRRR,ORRAboveRRRRRRRRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRAboveRRRRRRRRRR,ORRAboveRRRRRRRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRAboveRRR,ORRAboveRRRSub,_,1.0,:vs:,Sub,1.0
+*E,ORRAboveRRRRRRRRRRRR,ORRAboveRRRRRRRRRRRRSub,_,1.0,:vs:,Sub,1.0

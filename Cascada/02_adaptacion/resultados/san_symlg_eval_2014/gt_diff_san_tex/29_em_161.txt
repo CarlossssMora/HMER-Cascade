@@ -1,0 +1,2 @@
+%29_em_161
+$f ( z _ { 0 } ) = \lim _ { z \rightarrow z _ { 0 } } f ( z )$

@@ -1,0 +1,2 @@
+%35_em_8
+$\lim \limits _ { z \rightarrow z _ { 0 } } f ( z ) = k$

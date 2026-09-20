@@ -1,0 +1,13 @@
+# IUD, 516_em_378
+# Objects(5):
+O, j_6, j, 1.0, ORRRR
+O, 5_2, 5, 1.0, O
+O, j_3, j, 1.0, OR
+O, 3_5, 3, 1.0, ORRR
+O, +_4, +, 1.0, ORR
+
+# Relations from SRT:
+R, +_4, 3_5, Right, 1.0
+R, 3_5, j_6, Right, 1.0
+R, 5_2, j_3, Right, 1.0
+R, j_3, +_4, Right, 1.0

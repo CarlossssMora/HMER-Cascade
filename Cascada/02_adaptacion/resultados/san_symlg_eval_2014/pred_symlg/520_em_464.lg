@@ -1,0 +1,31 @@
+# IUD, 520_em_464
+# Objects(14):
+O, 0_9, 0, 1.0, ORRRRSub
+O, \lambda_8, \lambda, 1.0, ORRRR
+O, \lambda_11, \lambda, 1.0, ORRRRRR
+O, ]_13, ], 1.0, ORRRRRRRR
+O, \infty_12, \infty, 1.0, ORRRRRRR
+O, 7_15, 7, 1.0, ORRRRRRRRRR
+O, V_2, V, 1.0, O
+O, [_6, [, 1.0, ORRR
+O, COMMA_10, COMMA, 1.0, ORRRRR
+O, \in_4, \in, 1.0, ORR
+O, \lambda_17, \lambda, 1.0, ORRRRRRRRRRR
+O, i_18, i, 1.0, ORRRRRRRRRRRSub
+O, \lambda_3, \lambda, 1.0, OR
+O, COMMA_14, COMMA, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, 7_15, \lambda_17, Right, 1.0
+R, COMMA_10, \lambda_11, Right, 1.0
+R, COMMA_14, 7_15, Right, 1.0
+R, V_2, \lambda_3, Right, 1.0
+R, [_6, \lambda_8, Right, 1.0
+R, \in_4, [_6, Right, 1.0
+R, \infty_12, ]_13, Right, 1.0
+R, \lambda_11, \infty_12, Right, 1.0
+R, \lambda_17, i_18, Sub, 1.0
+R, \lambda_3, \in_4, Right, 1.0
+R, \lambda_8, 0_9, Sub, 1.0
+R, \lambda_8, COMMA_10, Right, 1.0
+R, ]_13, COMMA_14, Right, 1.0

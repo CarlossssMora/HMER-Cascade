@@ -1,0 +1,30 @@
+# IUD, 32_em_210
+# Objects(13):
+O, )_16, ), 1.0, OBelowInsideRRRRRR
+O, -_14, -, 1.0, OBelowInsideRRRR
+O, _7, \sqrt, 1.0, OBelow
+O, -_4, -, 1.0, OAboveR
+O, n_9, n, 1.0, OBelowInside
+O, _1, -, 1.0, O
+O, 1_3, 1, 1.0, OAbove
+O, p_10, p, 1.0, OBelowInsideR
+O, p_6, p, 1.0, OAboveRRR
+O, 1_13, 1, 1.0, OBelowInsideRRR
+O, 2_5, 2, 1.0, OAboveRR
+O, p_15, p, 1.0, OBelowInsideRRRRR
+O, (_12, (, 1.0, OBelowInsideRR
+
+# Relations from SRT:
+R, (_12, 1_13, Right, 1.0
+R, -_14, p_15, Right, 1.0
+R, -_4, 2_5, Right, 1.0
+R, 1_13, -_14, Right, 1.0
+R, 1_3, -_4, Right, 1.0
+R, 2_5, p_6, Right, 1.0
+R, _1, 1_3, Above, 1.0
+R, _1, _7, Below, 1.0
+R, _7, n_9, Inside, 1.0
+R, _7, p_10, Inside, 1.0
+R, n_9, p_10, Right, 1.0
+R, p_10, (_12, Right, 1.0
+R, p_15, )_16, Right, 1.0

@@ -1,0 +1,49 @@
+# IUD, RIT_2014_174
+# Objects(23):
+O, 7_3, 7, 1.0, OAbove
+O, )_31, ), 1.0, ORRRRRRRRRRRR
+O, n_26, n, 1.0, ORRRRRRRRRSub
+O, 1_16, 1, 1.0, ORRRRSubRR
+O, y_24, y, 1.0, ORRRRRRRRR
+O, _2, -, 1.0, O
+O, y_6, y, 1.0, OR
+O, 6_4, 6, 1.0, OBelow
+O, n_7, n, 1.0, ORSub
+O, -_29, -, 1.0, ORRRRRRRRRR
+O, 2_18, 2, 1.0, ORRRRRR
+O, +_17, +, 1.0, ORRRRR
+O, -_10, -, 1.0, ORRR
+O, y_20, y, 1.0, ORRRRRRR
+O, 1_21, 1, 1.0, ORRRRRRRSub
+O, n_14, n, 1.0, ORRRRSub
+O, -_22, -, 1.0, ORRRRRRRR
+O, -_27, -, 1.0, ORRRRRRRRRSubR
+O, (_9, (, 1.0, ORR
+O, y_12, y, 1.0, ORRRR
+O, +_15, +, 1.0, ORRRRSubR
+O, 1_28, 1, 1.0, ORRRRRRRRRSubRR
+O, 1_30, 1, 1.0, ORRRRRRRRRRR
+
+# Relations from SRT:
+R, (_9, -_10, Right, 1.0
+R, +_15, 1_16, Right, 1.0
+R, +_17, 2_18, Right, 1.0
+R, -_10, y_12, Right, 1.0
+R, -_22, y_24, Right, 1.0
+R, -_27, 1_28, Right, 1.0
+R, -_29, 1_30, Right, 1.0
+R, 1_30, )_31, Right, 1.0
+R, 2_18, y_20, Right, 1.0
+R, _2, 6_4, Below, 1.0
+R, _2, 7_3, Above, 1.0
+R, _2, y_6, Right, 1.0
+R, n_14, +_15, Right, 1.0
+R, n_26, -_27, Right, 1.0
+R, y_12, +_17, Right, 1.0
+R, y_12, n_14, Sub, 1.0
+R, y_20, -_22, Right, 1.0
+R, y_20, 1_21, Sub, 1.0
+R, y_24, -_29, Right, 1.0
+R, y_24, n_26, Sub, 1.0
+R, y_6, (_9, Right, 1.0
+R, y_6, n_7, Sub, 1.0

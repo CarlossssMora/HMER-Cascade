@@ -1,0 +1,49 @@
+# IUD, 511_em_259
+# Objects(23):
+O, =_7, =, 1.0, ORRRRR
+O, (_11, (, 1.0, ORRRRRRRR
+O, )_18, ), 1.0, ORRRRRRRRRR
+O, x_24, x, 1.0, ORRRRRRRRRRRRRAbove
+O, +_4, +, 1.0, ORR
+O, _12, -, 1.0, ORRRRRRRRR
+O, \sin_9, \sin, 1.0, ORRRRRRR
+O, 2_8, 2, 1.0, ORRRRRR
+O, \cos_19, \cos, 1.0, ORRRRRRRRRRR
+O, x_14, x, 1.0, ORRRRRRRRRAbove
+O, )_28, ), 1.0, ORRRRRRRRRRRRRR
+O, (_21, (, 1.0, ORRRRRRRRRRRR
+O, 2_27, 2, 1.0, ORRRRRRRRRRRRRBelow
+O, +_15, +, 1.0, ORRRRRRRRRAboveR
+O, x_3, x, 1.0, OR
+O, y_16, y, 1.0, ORRRRRRRRRAboveRR
+O, \sin_2, \sin, 1.0, O
+O, \sin_5, \sin, 1.0, ORRR
+O, y_6, y, 1.0, ORRRR
+O, y_26, y, 1.0, ORRRRRRRRRRRRRAboveRR
+O, _22, -, 1.0, ORRRRRRRRRRRRR
+O, -_25, -, 1.0, ORRRRRRRRRRRRRAboveR
+O, 2_17, 2, 1.0, ORRRRRRRRRBelow
+
+# Relations from SRT:
+R, (_11, _12, Right, 1.0
+R, (_21, _22, Right, 1.0
+R, )_18, \cos_19, Right, 1.0
+R, +_15, y_16, Right, 1.0
+R, +_4, \sin_5, Right, 1.0
+R, -_25, y_26, Right, 1.0
+R, 2_8, \sin_9, Right, 1.0
+R, =_7, 2_8, Right, 1.0
+R, \cos_19, (_21, Right, 1.0
+R, \sin_2, x_3, Right, 1.0
+R, \sin_5, y_6, Right, 1.0
+R, \sin_9, (_11, Right, 1.0
+R, _12, )_18, Right, 1.0
+R, _12, 2_17, Below, 1.0
+R, _12, x_14, Above, 1.0
+R, _22, )_28, Right, 1.0
+R, _22, 2_27, Below, 1.0
+R, _22, x_24, Above, 1.0
+R, x_14, +_15, Right, 1.0
+R, x_24, -_25, Right, 1.0
+R, x_3, +_4, Right, 1.0
+R, y_6, =_7, Right, 1.0

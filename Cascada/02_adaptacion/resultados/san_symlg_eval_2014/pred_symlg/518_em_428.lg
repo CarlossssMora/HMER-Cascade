@@ -1,0 +1,21 @@
+# IUD, 518_em_428
+# Objects(9):
+O, 1_8, 1, 1.0, ORRRRRR
+O, 0_7, 0, 1.0, ORRRRR
+O, 2_10, 2, 1.0, ORRRRRRRR
+O, 0_6, 0, 1.0, ORRRR
+O, 1_4, 1, 1.0, ORR
+O, 1_9, 1, 1.0, ORRRRRRR
+O, 1_2, 1, 1.0, O
+O, 0_5, 0, 1.0, ORRR
+O, 1_3, 1, 1.0, OR
+
+# Relations from SRT:
+R, 0_5, 0_6, Right, 1.0
+R, 0_6, 0_7, Right, 1.0
+R, 0_7, 1_8, Right, 1.0
+R, 1_2, 1_3, Right, 1.0
+R, 1_3, 1_4, Right, 1.0
+R, 1_4, 0_5, Right, 1.0
+R, 1_8, 1_9, Right, 1.0
+R, 1_9, 2_10, Right, 1.0

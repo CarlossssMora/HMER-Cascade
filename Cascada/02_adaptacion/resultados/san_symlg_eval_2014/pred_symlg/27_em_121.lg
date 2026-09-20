@@ -1,0 +1,37 @@
+# IUD, 27_em_121
+# Objects(17):
+O, -_9, -, 1.0, ORRRRR
+O, -_3, -, 1.0, OR
+O, +_13, +, 1.0, ORRRRRRR
+O, 4_16, 4, 1.0, ORRRRRRRRSup
+O, +_5, +, 1.0, ORRR
+O, z_19, z, 1.0, ORRRRRRRRRR
+O, z_7, z, 1.0, ORRRR
+O, 2_8, 2, 1.0, ORRRRSup
+O, 3_12, 3, 1.0, ORRRRRRSup
+O, z_11, z, 1.0, ORRRRRR
+O, 5_20, 5, 1.0, ORRRRRRRRRRSup
+O, \ldots_22, \ldots, 1.0, ORRRRRRRRRRRR
+O, +_21, +, 1.0, ORRRRRRRRRRR
+O, 1_2, 1, 1.0, O
+O, z_15, z, 1.0, ORRRRRRRR
+O, z_4, z, 1.0, ORR
+O, -_17, -, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, +_13, z_15, Right, 1.0
+R, +_21, \ldots_22, Right, 1.0
+R, +_5, z_7, Right, 1.0
+R, -_17, z_19, Right, 1.0
+R, -_3, z_4, Right, 1.0
+R, -_9, z_11, Right, 1.0
+R, 1_2, -_3, Right, 1.0
+R, z_11, +_13, Right, 1.0
+R, z_11, 3_12, Sup, 1.0
+R, z_15, -_17, Right, 1.0
+R, z_15, 4_16, Sup, 1.0
+R, z_19, +_21, Right, 1.0
+R, z_19, 5_20, Sup, 1.0
+R, z_4, +_5, Right, 1.0
+R, z_7, -_9, Right, 1.0
+R, z_7, 2_8, Sup, 1.0

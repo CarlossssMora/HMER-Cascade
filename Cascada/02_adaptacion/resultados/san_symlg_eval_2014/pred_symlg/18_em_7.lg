@@ -1,0 +1,9 @@
+# IUD, 18_em_7
+# Objects(3):
+O, 2_4, 2, 1.0, OSup
+O, \theta_5, \theta, 1.0, OR
+O, \sin_3, \sin, 1.0, O
+
+# Relations from SRT:
+R, \sin_3, 2_4, Sup, 1.0
+R, \sin_3, \theta_5, Right, 1.0

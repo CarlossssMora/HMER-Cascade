@@ -1,0 +1,2 @@
+%RIT_2014_295
+$\lim \limits _ { y \rightarrow x } f ( x )$

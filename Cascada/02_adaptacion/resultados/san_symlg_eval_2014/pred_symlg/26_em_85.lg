@@ -1,0 +1,9 @@
+# IUD, 26_em_85
+# Objects(3):
+O, u_4, u, 1.0, OSub
+O, \log_3, \log, 1.0, O
+O, 9_5, 9, 1.0, OR
+
+# Relations from SRT:
+R, \log_3, 9_5, Right, 1.0
+R, \log_3, u_4, Sub, 1.0

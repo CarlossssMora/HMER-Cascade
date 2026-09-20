@@ -1,0 +1,15 @@
+# IUD, 32_em_207
+# Objects(6):
+O, \cos_4, \cos, 1.0, ORR
+O, \phi_7, \phi, 1.0, ORRRRR
+O, -_3, -, 1.0, OR
+O, d_6, d, 1.0, ORRRR
+O, \int_2, \int, 1.0, O
+O, \phi_5, \phi, 1.0, ORRR
+
+# Relations from SRT:
+R, -_3, \cos_4, Right, 1.0
+R, \cos_4, \phi_5, Right, 1.0
+R, \int_2, -_3, Right, 1.0
+R, \phi_5, d_6, Right, 1.0
+R, d_6, \phi_7, Right, 1.0

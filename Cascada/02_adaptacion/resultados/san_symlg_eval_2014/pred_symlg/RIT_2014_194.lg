@@ -1,0 +1,51 @@
+# IUD, RIT_2014_194
+# Objects(24):
+O, 1_9, 1, 1.0, ORRRR
+O, x_3, x, 1.0, O
+O, x_7, x, 1.0, ORR
+O, (_23, (, 1.0, ORRRRRRRRRRRRRR
+O, +_18, +, 1.0, ORRRRRRRRRR
+O, +_29, +, 1.0, ORRRRRRRRRRRRRRRRRR
+O, 1_30, 1, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, (_12, (, 1.0, ORRRRRR
+O, 2_15, 2, 1.0, ORRRRRRRSup
+O, +_16, +, 1.0, ORRRRRRRR
+O, x_17, x, 1.0, ORRRRRRRRR
+O, (_6, (, 1.0, OR
+O, 2_26, 2, 1.0, ORRRRRRRRRRRRRRRSup
+O, -_8, -, 1.0, ORRR
+O, 2_4, 2, 1.0, OSup
+O, x_25, x, 1.0, ORRRRRRRRRRRRRRR
+O, x_14, x, 1.0, ORRRRRRR
+O, +_27, +, 1.0, ORRRRRRRRRRRRRRRR
+O, )_31, ), 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, 1_19, 1, 1.0, ORRRRRRRRRRR
+O, +_21, +, 1.0, ORRRRRRRRRRRRR
+O, )_10, ), 1.0, ORRRRR
+O, x_28, x, 1.0, ORRRRRRRRRRRRRRRRR
+O, )_20, ), 1.0, ORRRRRRRRRRRR
+
+# Relations from SRT:
+R, (_12, x_14, Right, 1.0
+R, (_23, x_25, Right, 1.0
+R, (_6, x_7, Right, 1.0
+R, )_10, (_12, Right, 1.0
+R, )_20, +_21, Right, 1.0
+R, +_16, x_17, Right, 1.0
+R, +_18, 1_19, Right, 1.0
+R, +_21, (_23, Right, 1.0
+R, +_27, x_28, Right, 1.0
+R, +_29, 1_30, Right, 1.0
+R, -_8, 1_9, Right, 1.0
+R, 1_19, )_20, Right, 1.0
+R, 1_30, )_31, Right, 1.0
+R, 1_9, )_10, Right, 1.0
+R, x_14, +_16, Right, 1.0
+R, x_14, 2_15, Sup, 1.0
+R, x_17, +_18, Right, 1.0
+R, x_25, +_27, Right, 1.0
+R, x_25, 2_26, Sup, 1.0
+R, x_28, +_29, Right, 1.0
+R, x_3, (_6, Right, 1.0
+R, x_3, 2_4, Sup, 1.0
+R, x_7, -_8, Right, 1.0

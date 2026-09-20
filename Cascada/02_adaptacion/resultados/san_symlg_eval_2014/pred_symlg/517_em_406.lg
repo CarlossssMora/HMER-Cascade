@@ -1,0 +1,9 @@
+# IUD, 517_em_406
+# Objects(3):
+O, \sum_2, \sum, 1.0, O
+O, b_4, b, 1.0, OR
+O, n_5, n, 1.0, ORSub
+
+# Relations from SRT:
+R, \sum_2, b_4, Right, 1.0
+R, b_4, n_5, Sub, 1.0

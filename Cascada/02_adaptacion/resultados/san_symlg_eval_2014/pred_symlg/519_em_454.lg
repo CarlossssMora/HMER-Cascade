@@ -1,0 +1,57 @@
+# IUD, 519_em_454
+# Objects(27):
+O, )_22, ), 1.0, ORRRRRRRRRRRRRRRRR
+O, (_5, (, 1.0, ORR
+O, -_25, -, 1.0, ORRRRRRRRRRRRRRRRRRRR
+O, (_20, (, 1.0, ORRRRRRRRRRRRRRR
+O, g_9, g, 1.0, ORRRRRR
+O, )_7, ), 1.0, ORRRR
+O, \int_26, \int, 1.0, ORRRRRRRRRRRRRRRRRRRRR
+O, x_12, x, 1.0, ORRRRRRRR
+O, \int_2, \int, 1.0, O
+O, x_29, x, 1.0, ORRRRRRRRRRRRRRRRRRRRRRR
+O, x_24, x, 1.0, ORRRRRRRRRRRRRRRRRRR
+O, )_30, ), 1.0, ORRRRRRRRRRRRRRRRRRRRRRRR
+O, \int_17, \int, 1.0, ORRRRRRRRRRRRR
+O, f_18, f, 1.0, ORRRRRRRRRRRRRR
+O, (_28, (, 1.0, ORRRRRRRRRRRRRRRRRRRRRR
+O, f_3, f, 1.0, OR
+O, d_14, d, 1.0, ORRRRRRRRRR
+O, x_21, x, 1.0, ORRRRRRRRRRRRRRRR
+O, (_11, (, 1.0, ORRRRRRR
+O, x_15, x, 1.0, ORRRRRRRRRRR
+O, -_8, -, 1.0, ORRRRR
+O, =_16, =, 1.0, ORRRRRRRRRRRR
+O, )_13, ), 1.0, ORRRRRRRRR
+O, x_6, x, 1.0, ORRR
+O, d_31, d, 1.0, ORRRRRRRRRRRRRRRRRRRRRRRRR
+O, x_32, x, 1.0, ORRRRRRRRRRRRRRRRRRRRRRRRRR
+O, d_23, d, 1.0, ORRRRRRRRRRRRRRRRRR
+
+# Relations from SRT:
+R, (_11, x_12, Right, 1.0
+R, (_20, x_21, Right, 1.0
+R, (_28, x_29, Right, 1.0
+R, (_5, x_6, Right, 1.0
+R, )_13, d_14, Right, 1.0
+R, )_22, d_23, Right, 1.0
+R, )_30, d_31, Right, 1.0
+R, )_7, -_8, Right, 1.0
+R, -_25, \int_26, Right, 1.0
+R, -_8, g_9, Right, 1.0
+R, =_16, \int_17, Right, 1.0
+R, \int_17, f_18, Right, 1.0
+R, \int_26, (_28, Right, 1.0
+R, \int_2, f_3, Right, 1.0
+R, d_14, x_15, Right, 1.0
+R, d_23, x_24, Right, 1.0
+R, d_31, x_32, Right, 1.0
+R, f_18, (_20, Right, 1.0
+R, f_3, (_5, Right, 1.0
+R, g_9, (_11, Right, 1.0
+R, x_12, )_13, Right, 1.0
+R, x_15, =_16, Right, 1.0
+R, x_21, )_22, Right, 1.0
+R, x_24, -_25, Right, 1.0
+R, x_29, )_30, Right, 1.0
+R, x_6, )_7, Right, 1.0

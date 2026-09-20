@@ -1,0 +1,21 @@
+# IUD, 31_em_185
+# Objects(9):
+O, v_11, v, 1.0, ORRRRR
+O, 2_8, 2, 1.0, ORRRSub
+O, -_9, -, 1.0, ORRRR
+O, -_2, -, 1.0, O
+O, P_3, P, 1.0, OR
+O, v_7, v, 1.0, ORRR
+O, 1_12, 1, 1.0, ORRRRRSub
+O, )_13, ), 1.0, ORRRRRR
+O, (_5, (, 1.0, ORR
+
+# Relations from SRT:
+R, (_5, v_7, Right, 1.0
+R, -_2, P_3, Right, 1.0
+R, -_9, v_11, Right, 1.0
+R, P_3, (_5, Right, 1.0
+R, v_11, )_13, Right, 1.0
+R, v_11, 1_12, Sub, 1.0
+R, v_7, -_9, Right, 1.0
+R, v_7, 2_8, Sub, 1.0

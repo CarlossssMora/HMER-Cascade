@@ -1,0 +1,35 @@
+# IUD, 520_em_466
+# Objects(16):
+O, t_5, t, 1.0, ORR
+O, )_6, ), 1.0, ORRR
+O, e_16, e, 1.0, ORRRRRRRRR
+O, )_22, ), 1.0, ORRRRRRRRRR
+O, 1_13, 1, 1.0, ORRRRRRR
+O, h_9, h, 1.0, ORRRRR
+O, =_7, =, 1.0, ORRRR
+O, 0_10, 0, 1.0, ORRRRRSub
+O, (_12, (, 1.0, ORRRRRR
+O, x_21, x, 1.0, ORRRRRRRRRSupRBelow
+O, (_4, (, 1.0, OR
+O, -_18, -, 1.0, ORRRRRRRRRSup
+O, t_20, t, 1.0, ORRRRRRRRRSupRAbove
+O, h_2, h, 1.0, O
+O, -_14, -, 1.0, ORRRRRRRR
+O, _19, -, 1.0, ORRRRRRRRRSupR
+
+# Relations from SRT:
+R, (_12, 1_13, Right, 1.0
+R, (_4, t_5, Right, 1.0
+R, )_6, =_7, Right, 1.0
+R, -_14, e_16, Right, 1.0
+R, -_18, _19, Right, 1.0
+R, 1_13, -_14, Right, 1.0
+R, =_7, h_9, Right, 1.0
+R, _19, t_20, Above, 1.0
+R, _19, x_21, Below, 1.0
+R, e_16, )_22, Right, 1.0
+R, e_16, -_18, Sup, 1.0
+R, h_2, (_4, Right, 1.0
+R, h_9, (_12, Right, 1.0
+R, h_9, 0_10, Sub, 1.0
+R, t_5, )_6, Right, 1.0

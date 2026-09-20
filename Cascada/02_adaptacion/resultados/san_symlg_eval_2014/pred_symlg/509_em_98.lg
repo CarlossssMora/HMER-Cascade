@@ -1,0 +1,15 @@
+# IUD, 509_em_98
+# Objects(6):
+O, _6, \sqrt, 1.0, ORR
+O, =_5, =, 1.0, OR
+O, 2_9, 2, 1.0, ORRInsideSup
+O, \sigma_3, \sigma, 1.0, O
+O, \sigma_8, \sigma, 1.0, ORRInside
+O, p_4, p, 1.0, OSub
+
+# Relations from SRT:
+R, =_5, _6, Right, 1.0
+R, \sigma_3, =_5, Right, 1.0
+R, \sigma_3, p_4, Sub, 1.0
+R, \sigma_8, 2_9, Sup, 1.0
+R, _6, \sigma_8, Inside, 1.0

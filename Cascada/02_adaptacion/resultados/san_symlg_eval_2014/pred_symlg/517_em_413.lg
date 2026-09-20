@@ -1,0 +1,24 @@
+# IUD, 517_em_413
+# Objects(10):
+O, _6, \sqrt, 1.0, OAboveRRR
+O, 6_8, 6, 1.0, OAboveRRRInside
+O, 9_3, 9, 1.0, OAbove
+O, 5_12, 5, 1.0, OBelowR
+O, -_11, -, 1.0, OBelow
+O, +_4, +, 1.0, OAboveR
+O, 5_9, 5, 1.0, OAboveRRRInsideR
+O, 6_13, 6, 1.0, OBelowRR
+O, _1, -, 1.0, O
+O, 3_5, 3, 1.0, OAboveRR
+
+# Relations from SRT:
+R, +_4, 3_5, Right, 1.0
+R, -_11, 5_12, Right, 1.0
+R, 3_5, _6, Right, 1.0
+R, 5_12, 6_13, Right, 1.0
+R, 6_8, 5_9, Right, 1.0
+R, 9_3, +_4, Right, 1.0
+R, _1, -_11, Below, 1.0
+R, _1, 9_3, Above, 1.0
+R, _6, 5_9, Inside, 1.0
+R, _6, 6_8, Inside, 1.0

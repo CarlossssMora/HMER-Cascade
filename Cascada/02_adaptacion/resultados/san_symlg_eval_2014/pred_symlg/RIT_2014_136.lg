@@ -1,0 +1,17 @@
+# IUD, RIT_2014_136
+# Objects(7):
+O, \ldots_6, \ldots, 1.0, ORR
+O, 1_4, 1, 1.0, OSub
+O, k_10, k, 1.0, ORRRRSub
+O, COMMA_5, COMMA, 1.0, OR
+O, F_9, F, 1.0, ORRRR
+O, COMMA_7, COMMA, 1.0, ORRR
+O, F_3, F, 1.0, O
+
+# Relations from SRT:
+R, COMMA_5, \ldots_6, Right, 1.0
+R, COMMA_7, F_9, Right, 1.0
+R, F_3, 1_4, Sub, 1.0
+R, F_3, COMMA_5, Right, 1.0
+R, F_9, k_10, Sub, 1.0
+R, \ldots_6, COMMA_7, Right, 1.0

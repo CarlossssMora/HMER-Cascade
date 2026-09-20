@@ -1,0 +1,11 @@
+*N,ORRRRRSupAbove,ABSENT,1.0,:vs:,1,1.0
+*N,ORRRRRSup,ABSENT,1.0,:vs:,-,1.0
+*N,ORRRRRR,ABSENT,1.0,:vs:,),1.0
+*N,ORSupBelow,2,1.0,:vs:,b,1.0
+*N,ORRRRRRSup,ABSENT,1.0,:vs:,b,1.0
+*N,ORRRRRSupBelow,ABSENT,1.0,:vs:,b,1.0
+*E,ORRRRR,ORRRRRSup,_,1.0,:vs:,Sup,1.0
+*E,ORRRRR,ORRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRSup,ORRRRRSupAbove,_,1.0,:vs:,Above,1.0
+*E,ORRRRRSup,ORRRRRSupBelow,_,1.0,:vs:,Below,1.0
+*E,ORRRRRR,ORRRRRRSup,_,1.0,:vs:,Sup,1.0

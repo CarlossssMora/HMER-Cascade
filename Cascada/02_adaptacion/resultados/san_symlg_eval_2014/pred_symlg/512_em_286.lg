@@ -1,0 +1,23 @@
+# IUD, 512_em_286
+# Objects(10):
+O, a_5, a, 1.0, OAboveSup
+O, e_11, e, 1.0, ORR
+O, a_13, a, 1.0, ORRSup
+O, b_15, b, 1.0, ORRSupRR
+O, =_9, =, 1.0, OR
+O, -_14, -, 1.0, ORRSupR
+O, b_8, b, 1.0, OBelowSup
+O, e_4, e, 1.0, OAbove
+O, _2, -, 1.0, O
+O, e_7, e, 1.0, OBelow
+
+# Relations from SRT:
+R, -_14, b_15, Right, 1.0
+R, =_9, e_11, Right, 1.0
+R, _2, =_9, Right, 1.0
+R, _2, e_4, Above, 1.0
+R, _2, e_7, Below, 1.0
+R, a_13, -_14, Right, 1.0
+R, e_11, a_13, Sup, 1.0
+R, e_4, a_5, Sup, 1.0
+R, e_7, b_8, Sup, 1.0

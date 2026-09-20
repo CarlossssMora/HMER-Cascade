@@ -1,0 +1,28 @@
+# IUD, RIT_2014_264
+# Objects(12):
+O, -_10, -, 1.0, OAboveRRInsideRR
+O, 8_5, 8, 1.0, OAboveR
+O, 3_4, 3, 1.0, OAbove
+O, C_15, C, 1.0, ORR
+O, x_9, x, 1.0, OAboveRRInsideR
+O, +_14, +, 1.0, OR
+O, _6, \sqrt, 1.0, OAboveRR
+O, 3_11, 3, 1.0, OAboveRRInsideRRR
+O, 8_12, 8, 1.0, OAboveRRInsideRRRR
+O, 9_8, 9, 1.0, OAboveRRInside
+O, _2, -, 1.0, O
+O, 9_13, 9, 1.0, OBelow
+
+# Relations from SRT:
+R, +_14, C_15, Right, 1.0
+R, -_10, 3_11, Right, 1.0
+R, 3_11, 8_12, Right, 1.0
+R, 3_4, 8_5, Right, 1.0
+R, 8_5, _6, Right, 1.0
+R, 9_8, x_9, Right, 1.0
+R, _2, +_14, Right, 1.0
+R, _2, 3_4, Above, 1.0
+R, _2, 9_13, Below, 1.0
+R, _6, 9_8, Inside, 1.0
+R, _6, x_9, Inside, 1.0
+R, x_9, -_10, Right, 1.0

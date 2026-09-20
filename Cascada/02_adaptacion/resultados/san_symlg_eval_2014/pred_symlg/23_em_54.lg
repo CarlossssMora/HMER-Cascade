@@ -1,0 +1,17 @@
+# IUD, 23_em_54
+# Objects(7):
+O, 0_9, 0, 1.0, ORRRRR
+O, 0_4, 0, 1.0, OSub
+O, 1_6, 1, 1.0, ORR
+O, \beta_3, \beta, 1.0, O
+O, 0_7, 0, 1.0, ORRR
+O, 0_8, 0, 1.0, ORRRR
+O, =_5, =, 1.0, OR
+
+# Relations from SRT:
+R, 0_7, 0_8, Right, 1.0
+R, 0_8, 0_9, Right, 1.0
+R, 1_6, 0_7, Right, 1.0
+R, =_5, 1_6, Right, 1.0
+R, \beta_3, 0_4, Sub, 1.0
+R, \beta_3, =_5, Right, 1.0

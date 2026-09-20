@@ -1,0 +1,29 @@
+# IUD, 516_em_385
+# Objects(13):
+O, )_18, ), 1.0, ORRRRRRRRRRR
+O, )_10, ), 1.0, ORRRRR
+O, (_8, (, 1.0, ORRR
+O, \int_2, \int, 1.0, O
+O, [_5, [, 1.0, OR
+O, x_17, x, 1.0, ORRRRRRRRRR
+O, (_16, (, 1.0, ORRRRRRRRR
+O, n_12, n, 1.0, ORRRRRRSup
+O, ]_11, ], 1.0, ORRRRRR
+O, g_14, g, 1.0, ORRRRRRRR
+O, x_9, x, 1.0, ORRRR
+O, \{_13, \{, 1.0, ORRRRRRR
+O, g_6, g, 1.0, ORR
+
+# Relations from SRT:
+R, (_16, x_17, Right, 1.0
+R, (_8, x_9, Right, 1.0
+R, )_10, ]_11, Right, 1.0
+R, [_5, g_6, Right, 1.0
+R, \int_2, [_5, Right, 1.0
+R, \{_13, g_14, Right, 1.0
+R, ]_11, \{_13, Right, 1.0
+R, ]_11, n_12, Sup, 1.0
+R, g_14, (_16, Right, 1.0
+R, g_6, (_8, Right, 1.0
+R, x_17, )_18, Right, 1.0
+R, x_9, )_10, Right, 1.0

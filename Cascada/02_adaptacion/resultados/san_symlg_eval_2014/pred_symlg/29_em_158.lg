@@ -1,0 +1,25 @@
+# IUD, 29_em_158
+# Objects(11):
+O, +_5, +, 1.0, OR
+O, 6_8, 6, 1.0, ORRSup
+O, \alpha_15, \alpha, 1.0, ORRRRRR
+O, 9_16, 9, 1.0, ORRRRRRSup
+O, +_9, +, 1.0, ORRR
+O, \alpha_7, \alpha, 1.0, ORR
+O, 4_4, 4, 1.0, OSup
+O, +_13, +, 1.0, ORRRRR
+O, \alpha_11, \alpha, 1.0, ORRRR
+O, 7_12, 7, 1.0, ORRRRSup
+O, a_3, a, 1.0, O
+
+# Relations from SRT:
+R, +_13, \alpha_15, Right, 1.0
+R, +_5, \alpha_7, Right, 1.0
+R, +_9, \alpha_11, Right, 1.0
+R, \alpha_11, +_13, Right, 1.0
+R, \alpha_11, 7_12, Sup, 1.0
+R, \alpha_15, 9_16, Sup, 1.0
+R, \alpha_7, +_9, Right, 1.0
+R, \alpha_7, 6_8, Sup, 1.0
+R, a_3, +_5, Right, 1.0
+R, a_3, 4_4, Sup, 1.0

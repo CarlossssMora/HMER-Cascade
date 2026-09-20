@@ -1,0 +1,29 @@
+# IUD, 31_em_181
+# Objects(13):
+O, -_11, -, 1.0, OBelowR
+O, 1_17, 1, 1.0, OBelowRRRSupR
+O, 2_20, 2, 1.0, OBelowRRRRSup
+O, -_7, -, 1.0, OAboveRSup
+O, z_5, z, 1.0, OAboveR
+O, a_12, a, 1.0, OBelowRR
+O, -_16, -, 1.0, OBelowRRRSup
+O, a_3, a, 1.0, OAbove
+O, 1_8, 1, 1.0, OAboveRSupR
+O, z_14, z, 1.0, OBelowRRR
+O, )_19, ), 1.0, OBelowRRRR
+O, _1, -, 1.0, O
+O, C_10, C, 1.0, OBelow
+
+# Relations from SRT:
+R, )_19, 2_20, Sup, 1.0
+R, -_11, a_12, Right, 1.0
+R, -_16, 1_17, Right, 1.0
+R, -_7, 1_8, Right, 1.0
+R, C_10, -_11, Right, 1.0
+R, _1, C_10, Below, 1.0
+R, _1, a_3, Above, 1.0
+R, a_12, z_14, Right, 1.0
+R, a_3, z_5, Right, 1.0
+R, z_14, )_19, Right, 1.0
+R, z_14, -_16, Sup, 1.0
+R, z_5, -_7, Sup, 1.0

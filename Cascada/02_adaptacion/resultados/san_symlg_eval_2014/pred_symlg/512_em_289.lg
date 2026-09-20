@@ -1,0 +1,9 @@
+# IUD, 512_em_289
+# Objects(3):
+O, _1, -, 1.0, O
+O, \gamma_3, \gamma, 1.0, OBelow
+O, 1_2, 1, 1.0, OAbove
+
+# Relations from SRT:
+R, _1, 1_2, Above, 1.0
+R, _1, \gamma_3, Below, 1.0

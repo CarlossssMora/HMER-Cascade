@@ -1,0 +1,17 @@
+# IUD, 34_em_228
+# Objects(7):
+O, 5_5, 5, 1.0, ORRR
+O, )_9, ), 1.0, ORRRRRR
+O, 1_8, 1, 1.0, ORRRRR
+O, -_2, -, 1.0, O
+O, y_3, y, 1.0, OR
+O, -_4, -, 1.0, ORR
+O, (_7, (, 1.0, ORRRR
+
+# Relations from SRT:
+R, (_7, 1_8, Right, 1.0
+R, -_2, y_3, Right, 1.0
+R, -_4, 5_5, Right, 1.0
+R, 1_8, )_9, Right, 1.0
+R, 5_5, (_7, Right, 1.0
+R, y_3, -_4, Right, 1.0

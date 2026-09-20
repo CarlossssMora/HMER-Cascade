@@ -1,0 +1,12 @@
+*N,OBelowInsideRRRRInside,2,1.0,:vs:,ABSENT,1.0
+*N,OBelowRR,ABSENT,1.0,:vs:,\sqrt,1.0
+*N,OBelowInsideRRR,\times,1.0,:vs:,ABSENT,1.0
+*N,OBelowR,ABSENT,1.0,:vs:,\times,1.0
+*N,OBelowInsideRRRR,\sqrt,1.0,:vs:,ABSENT,1.0
+*N,OBelowRRInside,ABSENT,1.0,:vs:,2,1.0
+*E,OBelowInsideRR,OBelowInsideRRR,Right,1.0,:vs:,_,1.0
+*E,OBelowInsideRRR,OBelowInsideRRRR,Right,1.0,:vs:,_,1.0
+*E,OBelowInsideRRRR,OBelowInsideRRRRInside,Inside,1.0,:vs:,_,1.0
+*E,OBelow,OBelowR,_,1.0,:vs:,Right,1.0
+*E,OBelowRR,OBelowRRInside,_,1.0,:vs:,Inside,1.0
+*E,OBelowR,OBelowRR,_,1.0,:vs:,Right,1.0

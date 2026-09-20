@@ -1,0 +1,9 @@
+# IUD, 501_em_23
+# Objects(3):
+O, \gt_3, \gt, 1.0, OR
+O, 0_4, 0, 1.0, ORR
+O, \phi_2, \phi, 1.0, O
+
+# Relations from SRT:
+R, \gt_3, 0_4, Right, 1.0
+R, \phi_2, \gt_3, Right, 1.0

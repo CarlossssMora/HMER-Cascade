@@ -1,0 +1,31 @@
+# IUD, 23_em_51
+# Objects(14):
+O, f_5, f, 1.0, ORR
+O, 1_6, 1, 1.0, ORRSub
+O, \ldots_14, \ldots, 1.0, ORRRR
+O, e_19, e, 1.0, ORRRRRSup
+O, f_11, f, 1.0, ORRR
+O, n_2, n, 1.0, O
+O, 2_12, 2, 1.0, ORRRSub
+O, l_9, l, 1.0, ORRSupSup
+O, f_16, f, 1.0, ORRRRR
+O, m_17, m, 1.0, ORRRRRSub
+O, e_13, e, 1.0, ORRRSup
+O, =_3, =, 1.0, OR
+O, e_8, e, 1.0, ORRSup
+O, m_20, m, 1.0, ORRRRRSupSub
+
+# Relations from SRT:
+R, =_3, f_5, Right, 1.0
+R, \ldots_14, f_16, Right, 1.0
+R, e_19, m_20, Sub, 1.0
+R, e_8, l_9, Sup, 1.0
+R, f_11, 2_12, Sub, 1.0
+R, f_11, \ldots_14, Right, 1.0
+R, f_11, e_13, Sup, 1.0
+R, f_16, e_19, Sup, 1.0
+R, f_16, m_17, Sub, 1.0
+R, f_5, 1_6, Sub, 1.0
+R, f_5, e_8, Sup, 1.0
+R, f_5, f_11, Right, 1.0
+R, n_2, =_3, Right, 1.0

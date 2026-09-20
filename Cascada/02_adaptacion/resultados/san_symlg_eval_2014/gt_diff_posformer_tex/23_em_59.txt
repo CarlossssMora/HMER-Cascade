@@ -1,0 +1,2 @@
+%23_em_59
+$\sum \limits _ { r = 1 } ^ { n } a r ^ { b } = a \sum \limits _ { r = 1 } ^ { n } r ^ { b }$

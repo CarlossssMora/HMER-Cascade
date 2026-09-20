@@ -1,0 +1,38 @@
+# IUD, RIT_2014_167
+# Objects(17):
+O, 0_20, 0, 1.0, ORRInsideRRRRRRRRRRR
+O, 0_11, 0, 1.0, ORRInsideRR
+O, =_6, =, 1.0, OR
+O, (_10, (, 1.0, ORRInsideR
+O, 5_15, 5, 1.0, ORRInsideRRRRRR
+O, 8_9, 8, 1.0, ORRInside
+O, 3_17, 3, 1.0, ORRInsideRRRRRRRR
+O, c_4, c, 1.0, OInside
+O, 5_18, 5, 1.0, ORRInsideRRRRRRRRR
+O, 0_19, 0, 1.0, ORRInsideRRRRRRRRRR
+O, 2_5, 2, 1.0, OInsideSup
+O, _7, \sqrt, 1.0, ORR
+O, +_14, +, 1.0, ORRInsideRRRRR
+O, _2, \sqrt, 1.0, O
+O, 0_13, 0, 1.0, ORRInsideRRRR
+O, 0_12, 0, 1.0, ORRInsideRRR
+O, (_16, (, 1.0, ORRInsideRRRRRRR
+
+# Relations from SRT:
+R, (_10, 0_11, Right, 1.0
+R, (_16, 3_17, Right, 1.0
+R, +_14, 5_15, Right, 1.0
+R, 0_11, 0_12, Right, 1.0
+R, 0_12, 0_13, Right, 1.0
+R, 0_13, +_14, Right, 1.0
+R, 0_19, 0_20, Right, 1.0
+R, 3_17, 5_18, Right, 1.0
+R, 5_15, (_16, Right, 1.0
+R, 5_18, 0_19, Right, 1.0
+R, 8_9, (_10, Right, 1.0
+R, =_6, _7, Right, 1.0
+R, _2, =_6, Right, 1.0
+R, _2, c_4, Inside, 1.0
+R, _7, (_10, Inside, 1.0
+R, _7, 8_9, Inside, 1.0
+R, c_4, 2_5, Sup, 1.0

@@ -1,0 +1,15 @@
+# IUD, RIT_2014_203
+# Objects(6):
+O, \pi_5, \pi, 1.0, OAboveR
+O, _1, -, 1.0, O
+O, 2_8, 2, 1.0, OBelow
+O, \pi_3, \pi, 1.0, OAbove
+O, \pi_9, \pi, 1.0, OBelowR
+O, 2_6, 2, 1.0, OAboveRSup
+
+# Relations from SRT:
+R, 2_8, \pi_9, Right, 1.0
+R, \pi_3, \pi_5, Right, 1.0
+R, \pi_5, 2_6, Sup, 1.0
+R, _1, 2_8, Below, 1.0
+R, _1, \pi_3, Above, 1.0

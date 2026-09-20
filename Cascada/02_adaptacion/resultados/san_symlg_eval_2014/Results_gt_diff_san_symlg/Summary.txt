@@ -1,0 +1,66 @@
+LgEval Evaluation Summary
+Wed Sep 16 17:54:39 2026
+
+Output File Directory:  gt_diff_san_symlg
+Ground Truth Directory: gt_diff_posformer_symlg
+
+****  PRIMITIVES   **************************************************************
+
+  Directed   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     49.24      1570       773       797
+     Edges     97.63     33046     32262       784         0         0       784
+
+     Total     95.43     34616     33035      1581
+
+
+Undirected   Rate(%)     Total   Correct    Errors    SegErr     ClErr    RelErr
+---------------------------------------------------------------------------------
+     Nodes     49.24      1570       773       797
+Node Pairs     95.26  16523.00  15739.00       784         0         0       784
+
+     Total     91.26  18093.00     16512      1581
+
+     SegErr: merge/split   ClErr: valid merge class error   RelErr: relation error
+
+
+****  OBJECTS   **************************************************************************
+
+           Recall(%)   Prec(%) 2RP/(R+P)   Targets   Correct  FalseNeg *Detected *FalsePos
+------------------------------------------------------------------------------------------
+   Objects     66.72     66.72     66.72      1178       786       392      1178       392
+ + Classes     65.62     65.62     65.62      1178       773       405      1178       405
+ Class/Det     98.35                           786       773
+
+ Relations     64.14     64.14     64.14      1093       701       392      1093       392
+ + Classes     64.14     64.14     64.14      1093       701       392      1093       392
+ Class/Det    100.00                           701       701
+
+     2RP/(R+P): harmonic mean (f-measure) for (R)ecall and (P)recision
+     Class/Det: (correct detection and classification) / correct detection
+
+
+****  FILES  ***************************************
+
+             Rate(%)     Total   Correct    Errors
+---------------------------------------------------
+   Objects      1.18        85         1        84
+ + Classes      0.00        85         0        85
+ Class/Det      0.00         1         0          
+
+ Relations      1.18        85         1        84
+ + Classes      1.18        85         1        84
+ Class/Det    100.00         1         1          
+
+ Structure      1.18        85         1        84
+ + Classes      0.00        85         0        85    *Final
+ Class/Det      0.00         1         0          
+
+
+****  LABEL ERROR HISTOGRAM (Dir. Edges, D_B)  ****
+
+                   0         1         2         3         4         5        >5
+----------------------------------------------------------------------------------
+Num. Files         0         1         0         0         6         0        78
+Cum. Files         0         1         1         1         7         7        85
+

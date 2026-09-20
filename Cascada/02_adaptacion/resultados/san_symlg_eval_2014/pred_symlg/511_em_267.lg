@@ -1,0 +1,21 @@
+# IUD, 511_em_267
+# Objects(9):
+O, _2, -, 1.0, O
+O, =_6, =, 1.0, OR
+O, _7, \sqrt, 1.0, ORR
+O, b_5, b, 1.0, OBelow
+O, a_9, a, 1.0, ORRInsideAbove
+O, a_4, a, 1.0, OAboveInside
+O, _3, \sqrt, 1.0, OAbove
+O, _8, -, 1.0, ORRInside
+O, b_10, b, 1.0, ORRInsideBelow
+
+# Relations from SRT:
+R, =_6, _7, Right, 1.0
+R, _2, =_6, Right, 1.0
+R, _2, _3, Above, 1.0
+R, _2, b_5, Below, 1.0
+R, _3, a_4, Inside, 1.0
+R, _7, _8, Inside, 1.0
+R, _8, a_9, Above, 1.0
+R, _8, b_10, Below, 1.0

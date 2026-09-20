@@ -1,0 +1,37 @@
+# IUD, 512_em_293
+# Objects(17):
+O, _8, -, 1.0, OR
+O, 1_18, 1, 1.0, ORAboveRRRRRR
+O, +_17, +, 1.0, ORAboveRRRRR
+O, 2_13, 2, 1.0, ORAboveRSup
+O, 2_23, 2, 1.0, ORRRSup
+O, 2_10, 2, 1.0, ORAbove
+O, =_20, =, 1.0, ORR
+O, +_14, +, 1.0, ORAboveRR
+O, \lim_3, \lim, 1.0, O
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, x_5, x, 1.0, OSub
+O, n_22, n, 1.0, ORRR
+O, \infty_7, \infty, 1.0, OSubRR
+O, n_12, n, 1.0, ORAboveR
+O, 3_19, 3, 1.0, ORBelow
+O, 3_15, 3, 1.0, ORAboveRRR
+O, n_16, n, 1.0, ORAboveRRRR
+
+# Relations from SRT:
+R, +_14, 3_15, Right, 1.0
+R, +_17, 1_18, Right, 1.0
+R, 2_10, n_12, Right, 1.0
+R, 3_15, n_16, Right, 1.0
+R, =_20, n_22, Right, 1.0
+R, \lim_3, _8, Right, 1.0
+R, \lim_3, x_5, Sub, 1.0
+R, \rightarrow_6, \infty_7, Right, 1.0
+R, _8, 2_10, Above, 1.0
+R, _8, 3_19, Below, 1.0
+R, _8, =_20, Right, 1.0
+R, n_12, +_14, Right, 1.0
+R, n_12, 2_13, Sup, 1.0
+R, n_16, +_17, Right, 1.0
+R, n_22, 2_23, Sup, 1.0
+R, x_5, \rightarrow_6, Right, 1.0

@@ -1,0 +1,9 @@
+# IUD, 501_em_17
+# Objects(3):
+O, \mu_2, \mu, 1.0, O
+O, \pm_3, \pm, 1.0, OR
+O, \sigma_4, \sigma, 1.0, ORR
+
+# Relations from SRT:
+R, \mu_2, \pm_3, Right, 1.0
+R, \pm_3, \sigma_4, Right, 1.0

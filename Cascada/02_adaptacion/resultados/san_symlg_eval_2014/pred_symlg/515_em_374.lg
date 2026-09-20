@@ -1,0 +1,23 @@
+# IUD, 515_em_374
+# Objects(10):
+O, \theta_5, \theta, 1.0, ORR
+O, \theta_12, \theta, 1.0, ORRRRRRRR
+O, +_7, +, 1.0, ORRRR
+O, (_4, (, 1.0, OR
+O, i_8, i, 1.0, ORRRRR
+O, (_11, (, 1.0, ORRRRRRR
+O, \sin_2, \sin, 1.0, O
+O, )_13, ), 1.0, ORRRRRRRRR
+O, )_6, ), 1.0, ORRR
+O, \cos_9, \cos, 1.0, ORRRRRR
+
+# Relations from SRT:
+R, (_11, \theta_12, Right, 1.0
+R, (_4, \theta_5, Right, 1.0
+R, )_6, +_7, Right, 1.0
+R, +_7, i_8, Right, 1.0
+R, \cos_9, (_11, Right, 1.0
+R, \sin_2, (_4, Right, 1.0
+R, \theta_12, )_13, Right, 1.0
+R, \theta_5, )_6, Right, 1.0
+R, i_8, \cos_9, Right, 1.0

@@ -1,0 +1,27 @@
+# IUD, 29_em_171
+# Objects(12):
+O, c_7, c, 1.0, OBelowRR
+O, a_17, a, 1.0, ORRRRRR
+O, =_15, =, 1.0, ORRRRR
+O, \lim_3, \lim, 1.0, O
+O, 1_18, 1, 1.0, ORRRRRRSub
+O, t_5, t, 1.0, OBelow
+O, 1_10, 1, 1.0, ORSub
+O, )_14, ), 1.0, ORRRR
+O, a_9, a, 1.0, OR
+O, \rightarrow_6, \rightarrow, 1.0, OBelowR
+O, t_13, t, 1.0, ORRR
+O, (_12, (, 1.0, ORR
+
+# Relations from SRT:
+R, (_12, t_13, Right, 1.0
+R, )_14, =_15, Right, 1.0
+R, =_15, a_17, Right, 1.0
+R, \lim_3, a_9, Right, 1.0
+R, \lim_3, t_5, Below, 1.0
+R, \rightarrow_6, c_7, Right, 1.0
+R, a_17, 1_18, Sub, 1.0
+R, a_9, (_12, Right, 1.0
+R, a_9, 1_10, Sub, 1.0
+R, t_13, )_14, Right, 1.0
+R, t_5, \rightarrow_6, Right, 1.0

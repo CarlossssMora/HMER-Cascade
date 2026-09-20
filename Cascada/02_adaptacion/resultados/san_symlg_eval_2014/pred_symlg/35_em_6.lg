@@ -1,0 +1,15 @@
+# IUD, 35_em_6
+# Objects(6):
+O, 1_2, 1, 1.0, O
+O, =_6, =, 1.0, ORRRR
+O, 3_7, 3, 1.0, ORRRRR
+O, \div_4, \div, 1.0, ORR
+O, 5_3, 5, 1.0, OR
+O, 5_5, 5, 1.0, ORRR
+
+# Relations from SRT:
+R, 1_2, 5_3, Right, 1.0
+R, 5_3, \div_4, Right, 1.0
+R, 5_5, =_6, Right, 1.0
+R, =_6, 3_7, Right, 1.0
+R, \div_4, 5_5, Right, 1.0

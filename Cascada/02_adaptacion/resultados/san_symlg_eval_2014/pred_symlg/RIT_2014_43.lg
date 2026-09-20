@@ -1,0 +1,15 @@
+# IUD, RIT_2014_43
+# Objects(6):
+O, =_7, =, 1.0, ORRR
+O, z_6, z, 1.0, ORR
+O, z_8, z, 1.0, ORRRR
+O, d_4, d, 1.0, OSup
+O, +_5, +, 1.0, OR
+O, z_3, z, 1.0, O
+
+# Relations from SRT:
+R, +_5, z_6, Right, 1.0
+R, =_7, z_8, Right, 1.0
+R, z_3, +_5, Right, 1.0
+R, z_3, d_4, Sup, 1.0
+R, z_6, =_7, Right, 1.0

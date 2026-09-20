@@ -1,0 +1,2 @@
+%31_em_198
+$\lim \limits _ { x \rightarrow - \infty } p _ { 2 } ( x ) > 0$

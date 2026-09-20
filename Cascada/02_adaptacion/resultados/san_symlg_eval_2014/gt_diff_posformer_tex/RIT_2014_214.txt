@@ -1,0 +1,2 @@
+%RIT_2014_214
+$\sum \limits _ { i = 1 } ^ { n + 1 } i = \sum \limits _ { i = 1 } ^ { n } i + ( n + 1 ) = \frac { n ( n + 1 ) } { 2 } + n + 1$

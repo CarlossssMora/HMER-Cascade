@@ -1,0 +1,2 @@
+%37_em_14
+$\lim \limits _ { x \rightarrow 0 } f ( x ) = 0$

@@ -1,0 +1,25 @@
+# IUD, 520_em_467
+# Objects(11):
+O, 2_15, 2, 1.0, ORRRRRRRSup
+O, h_6, h, 1.0, ORRR
+O, b_14, b, 1.0, ORRRRRRR
+O, 2_11, 2, 1.0, ORRRRRSup
+O, =_8, =, 1.0, ORRRR
+O, 7_2, 7, 1.0, O
+O, a_10, a, 1.0, ORRRRR
+O, +_12, +, 1.0, ORRRRRR
+O, COMMA_4, COMMA, 1.0, ORR
+O, h_3, h, 1.0, OR
+O, 2_7, 2, 1.0, ORRRSup
+
+# Relations from SRT:
+R, +_12, b_14, Right, 1.0
+R, 7_2, h_3, Right, 1.0
+R, =_8, a_10, Right, 1.0
+R, COMMA_4, h_6, Right, 1.0
+R, a_10, +_12, Right, 1.0
+R, a_10, 2_11, Sup, 1.0
+R, b_14, 2_15, Sup, 1.0
+R, h_3, COMMA_4, Right, 1.0
+R, h_6, 2_7, Sup, 1.0
+R, h_6, =_8, Right, 1.0

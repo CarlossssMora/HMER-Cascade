@@ -1,0 +1,15 @@
+# IUD, 35_em_22
+# Objects(6):
+O, \pi_4, \pi, 1.0, ORR
+O, x_2, x, 1.0, O
+O, -_3, -, 1.0, OR
+O, )_8, ), 1.0, ORRRRR
+O, (_6, (, 1.0, ORRR
+O, x_7, x, 1.0, ORRRR
+
+# Relations from SRT:
+R, (_6, x_7, Right, 1.0
+R, -_3, \pi_4, Right, 1.0
+R, \pi_4, (_6, Right, 1.0
+R, x_2, -_3, Right, 1.0
+R, x_7, )_8, Right, 1.0

@@ -1,0 +1,25 @@
+# IUD, 18_em_8
+# Objects(11):
+O, L_16, L, 1.0, ORRSub
+O, x_10, x, 1.0, OSubRRRR
+O, L_17, L, 1.0, ORRSubR
+O, L_5, L, 1.0, OSub
+O, \leq_8, \leq, 1.0, OSubRRR
+O, L_6, L, 1.0, OSubR
+O, x_14, x, 1.0, ORR
+O, L_11, L, 1.0, OSubRRRRSub
+O, \leq_12, \leq, 1.0, OR
+O, L_7, L, 1.0, OSubRR
+O, x_3, x, 1.0, O
+
+# Relations from SRT:
+R, L_16, L_17, Right, 1.0
+R, L_5, L_6, Right, 1.0
+R, L_6, L_7, Right, 1.0
+R, L_7, \leq_8, Right, 1.0
+R, \leq_12, x_14, Right, 1.0
+R, \leq_8, x_10, Right, 1.0
+R, x_10, L_11, Sub, 1.0
+R, x_14, L_16, Sub, 1.0
+R, x_3, L_5, Sub, 1.0
+R, x_3, \leq_12, Right, 1.0

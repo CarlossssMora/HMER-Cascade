@@ -1,0 +1,2 @@
+%27_em_102
+$\lim _ { a \rightarrow \infty } f ( a )$

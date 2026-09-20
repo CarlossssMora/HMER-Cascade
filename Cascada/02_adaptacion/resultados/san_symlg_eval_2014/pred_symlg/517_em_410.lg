@@ -1,0 +1,7 @@
+# IUD, 517_em_410
+# Objects(2):
+O, \beta_3, \beta, 1.0, OSup
+O, C_2, C, 1.0, O
+
+# Relations from SRT:
+R, C_2, \beta_3, Sup, 1.0

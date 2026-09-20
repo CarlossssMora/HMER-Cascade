@@ -1,0 +1,2 @@
+%36_em_32
+$\lim _ { x \rightarrow 0 } f ( x )$

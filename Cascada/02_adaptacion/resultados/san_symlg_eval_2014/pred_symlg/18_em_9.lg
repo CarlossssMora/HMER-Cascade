@@ -1,0 +1,15 @@
+# IUD, 18_em_9
+# Objects(6):
+O, b_4, b, 1.0, OBelow
+O, c_7, c, 1.0, OBelowRRInside
+O, _1, -, 1.0, O
+O, a_2, a, 1.0, OAbove
+O, +_5, +, 1.0, OBelowR
+O, _6, \sqrt, 1.0, OBelowRR
+
+# Relations from SRT:
+R, +_5, _6, Right, 1.0
+R, _1, a_2, Above, 1.0
+R, _1, b_4, Below, 1.0
+R, _6, c_7, Inside, 1.0
+R, b_4, +_5, Right, 1.0

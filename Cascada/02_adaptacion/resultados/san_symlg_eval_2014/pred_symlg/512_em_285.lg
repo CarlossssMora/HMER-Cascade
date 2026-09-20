@@ -1,0 +1,9 @@
+# IUD, 512_em_285
+# Objects(3):
+O, X_2, X, 1.0, O
+O, n_3, n, 1.0, OSub
+O, 2_4, 2, 1.0, OSup
+
+# Relations from SRT:
+R, X_2, 2_4, Sup, 1.0
+R, X_2, n_3, Sub, 1.0

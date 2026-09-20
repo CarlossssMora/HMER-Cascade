@@ -1,0 +1,31 @@
+# IUD, RIT_2014_3
+# Objects(14):
+O, \tan_16, \tan, 1.0, ORRBelowRRR
+O, =_3, =, 1.0, OR
+O, d_2, d, 1.0, O
+O, \tan_13, \tan, 1.0, ORRBelow
+O, r_7, r, 1.0, ORRAboveR
+O, _4, -, 1.0, ORR
+O, 2_6, 2, 1.0, ORRAbove
+O, b_17, b, 1.0, ORRBelowRRRR
+O, \tan_10, \tan, 1.0, ORRAboveRRRR
+O, \tan_8, \tan, 1.0, ORRAboveRR
+O, b_11, b, 1.0, ORRAboveRRRRR
+O, +_15, +, 1.0, ORRBelowRR
+O, a_9, a, 1.0, ORRAboveRRR
+O, a_14, a, 1.0, ORRBelowR
+
+# Relations from SRT:
+R, +_15, \tan_16, Right, 1.0
+R, 2_6, r_7, Right, 1.0
+R, =_3, _4, Right, 1.0
+R, \tan_10, b_11, Right, 1.0
+R, \tan_13, a_14, Right, 1.0
+R, \tan_16, b_17, Right, 1.0
+R, \tan_8, a_9, Right, 1.0
+R, _4, 2_6, Above, 1.0
+R, _4, \tan_13, Below, 1.0
+R, a_14, +_15, Right, 1.0
+R, a_9, \tan_10, Right, 1.0
+R, d_2, =_3, Right, 1.0
+R, r_7, \tan_8, Right, 1.0

@@ -1,0 +1,27 @@
+# IUD, 510_em_101
+# Objects(12):
+O, 1_8, 1, 1.0, OBelow
+O, 6_4, 6, 1.0, OAbove
+O, _2, -, 1.0, O
+O, 0_9, 0, 1.0, OBelowR
+O, _13, -, 1.0, ORR
+O, 3_14, 3, 1.0, ORRAbove
+O, 2_11, 2, 1.0, OBelowRRR
+O, 5_15, 5, 1.0, ORRBelow
+O, =_12, =, 1.0, OR
+O, \div_5, \div, 1.0, OAboveR
+O, 2_6, 2, 1.0, OAboveRR
+O, \div_10, \div, 1.0, OBelowRR
+
+# Relations from SRT:
+R, 0_9, \div_10, Right, 1.0
+R, 1_8, 0_9, Right, 1.0
+R, 6_4, \div_5, Right, 1.0
+R, =_12, _13, Right, 1.0
+R, \div_10, 2_11, Right, 1.0
+R, \div_5, 2_6, Right, 1.0
+R, _13, 3_14, Above, 1.0
+R, _13, 5_15, Below, 1.0
+R, _2, 1_8, Below, 1.0
+R, _2, 6_4, Above, 1.0
+R, _2, =_12, Right, 1.0

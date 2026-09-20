@@ -1,0 +1,14 @@
+*N,ORRSub,ABSENT,1.0,:vs:,k,1.0
+*N,ORRRRSub,k,1.0,:vs:,ABSENT,1.0
+*N,OR,COMMA,1.0,:vs:,\ldots,1.0
+*N,ORRR,COMMA,1.0,:vs:,ABSENT,1.0
+*N,ORR,\ldots,1.0,:vs:,F,1.0
+*N,ORSub,ABSENT,1.0,:vs:,COMMA,1.0
+*N,ORRRR,F,1.0,:vs:,ABSENT,1.0
+*N,OSubR,ABSENT,1.0,:vs:,COMMA,1.0
+*E,ORRR,ORRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRR,ORRRRSub,Sub,1.0,:vs:,_,1.0
+*E,ORR,ORRR,Right,1.0,:vs:,_,1.0
+*E,OSub,OSubR,_,1.0,:vs:,Right,1.0
+*E,OR,ORSub,_,1.0,:vs:,Sub,1.0
+*E,ORR,ORRSub,_,1.0,:vs:,Sub,1.0

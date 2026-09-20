@@ -1,0 +1,9 @@
+# IUD, 29_em_157
+# Objects(3):
+O, y_4, y, 1.0, ORR
+O, =_3, =, 1.0, OR
+O, y_2, y, 1.0, O
+
+# Relations from SRT:
+R, =_3, y_4, Right, 1.0
+R, y_2, =_3, Right, 1.0

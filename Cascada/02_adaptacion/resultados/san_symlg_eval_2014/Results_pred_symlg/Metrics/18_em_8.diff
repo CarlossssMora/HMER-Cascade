@@ -1,0 +1,6 @@
+*N,OSubRRR,\leq,1.0,:vs:,ABSENT,1.0
+*N,OSubRRRR,x,1.0,:vs:,ABSENT,1.0
+*N,OSubRRRRSub,L,1.0,:vs:,ABSENT,1.0
+*E,OSubRR,OSubRRR,Right,1.0,:vs:,_,1.0
+*E,OSubRRR,OSubRRRR,Right,1.0,:vs:,_,1.0
+*E,OSubRRRR,OSubRRRRSub,Sub,1.0,:vs:,_,1.0

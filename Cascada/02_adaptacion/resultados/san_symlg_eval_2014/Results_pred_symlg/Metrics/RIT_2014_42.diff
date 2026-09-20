@@ -1,0 +1,10 @@
+*N,ORRRRR,+,1.0,:vs:,\beta,1.0
+*N,ORRRRRR,d,1.0,:vs:,+,1.0
+*N,ORRRRRRRRR,M,1.0,:vs:,+,1.0
+*N,ORRRRRRRRRRR,ABSENT,1.0,:vs:,\gamma,1.0
+*N,ORRRRRRR,d,1.0,:vs:,\alpha,1.0
+*N,OR,\{,1.0,:vs:,\alpha,1.0
+*N,ORRRRRRRR,T,1.0,:vs:,\gamma,1.0
+*N,ORRRR,8,1.0,:vs:,\alpha,1.0
+*N,ORRRRRRRRRR,Y,1.0,:vs:,\beta,1.0
+*E,ORRRRRRRRRR,ORRRRRRRRRRR,_,1.0,:vs:,Right,1.0

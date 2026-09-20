@@ -1,0 +1,2 @@
+%28_em_126
+$\frac { \sum \limits _ { k = 1 } ^ { N } k ^ { 2 } } { a }$

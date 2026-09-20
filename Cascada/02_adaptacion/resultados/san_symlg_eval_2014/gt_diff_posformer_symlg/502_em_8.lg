@@ -1,0 +1,29 @@
+# IUD, 502_em_8
+# Objects(13):
+O, d_15, d, 1.0, ORR
+O, 2_14, 2, 1.0, ORSupRSup
+O, e_9, e, 1.0, OR
+O, -_5, -, 1.0, OBelow
+O, _18, \sqrt, 1.0, ORRRRR
+O, w_13, w, 1.0, ORSupR
+O, \infty_6, \infty, 1.0, OBelowR
+O, =_17, =, 1.0, ORRRR
+O, -_11, -, 1.0, ORSup
+O, \int_3, \int, 1.0, O
+O, \pi_19, \pi, 1.0, ORRRRRInside
+O, \infty_7, \infty, 1.0, OAbove
+O, w_16, w, 1.0, ORRR
+
+# Relations from SRT:
+R, -_11, w_13, Right, 1.0
+R, -_5, \infty_6, Right, 1.0
+R, =_17, _18, Right, 1.0
+R, \int_3, -_5, Below, 1.0
+R, \int_3, \infty_7, Above, 1.0
+R, \int_3, e_9, Right, 1.0
+R, _18, \pi_19, Inside, 1.0
+R, d_15, w_16, Right, 1.0
+R, e_9, -_11, Sup, 1.0
+R, e_9, d_15, Right, 1.0
+R, w_13, 2_14, Sup, 1.0
+R, w_16, =_17, Right, 1.0

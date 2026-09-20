@@ -1,0 +1,13 @@
+# IUD, 28_em_146
+# Objects(5):
+O, 9_5, 9, 1.0, OAboveRR
+O, _1, -, 1.0, O
+O, 9_4, 9, 1.0, OAboveR
+O, 1_3, 1, 1.0, OAbove
+O, 1_6, 1, 1.0, OBelow
+
+# Relations from SRT:
+R, 1_3, 9_4, Right, 1.0
+R, 9_4, 9_5, Right, 1.0
+R, _1, 1_3, Above, 1.0
+R, _1, 1_6, Below, 1.0

@@ -1,0 +1,2 @@
+%RIT_2014_66
+$\sum \limits _ { k = 1 } ^ { n } a _ { k } = \sum \limits _ { i = 1 } ^ { n } a = \sum \limits _ { j = 1 } ^ { n } a _ { j }$

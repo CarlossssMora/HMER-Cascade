@@ -1,0 +1,35 @@
+# IUD, RIT_2014_213
+# Objects(16):
+O, \cos_18, \cos, 1.0, ORRRRRRBelow
+O, (_12, (, 1.0, ORRRRRRAboveR
+O, )_16, ), 1.0, ORRRRRRAboveRRRRR
+O, x_13, x, 1.0, ORRRRRRAboveRR
+O, y_6, y, 1.0, ORRRR
+O, x_3, x, 1.0, OR
+O, \sin_10, \sin, 1.0, ORRRRRRAbove
+O, \tan_5, \tan, 1.0, ORRR
+O, \cos_19, \cos, 1.0, ORRRRRRBelowR
+O, -_4, -, 1.0, ORR
+O, y_15, y, 1.0, ORRRRRRAboveRRRR
+O, _8, -, 1.0, ORRRRRR
+O, =_7, =, 1.0, ORRRRR
+O, -_14, -, 1.0, ORRRRRRAboveRRR
+O, y_20, y, 1.0, ORRRRRRBelowRR
+O, \tan_2, \tan, 1.0, O
+
+# Relations from SRT:
+R, (_12, x_13, Right, 1.0
+R, -_14, y_15, Right, 1.0
+R, -_4, \tan_5, Right, 1.0
+R, =_7, _8, Right, 1.0
+R, \cos_18, \cos_19, Right, 1.0
+R, \cos_19, y_20, Right, 1.0
+R, \sin_10, (_12, Right, 1.0
+R, \tan_2, x_3, Right, 1.0
+R, \tan_5, y_6, Right, 1.0
+R, _8, \cos_18, Below, 1.0
+R, _8, \sin_10, Above, 1.0
+R, x_13, -_14, Right, 1.0
+R, x_3, -_4, Right, 1.0
+R, y_15, )_16, Right, 1.0
+R, y_6, =_7, Right, 1.0

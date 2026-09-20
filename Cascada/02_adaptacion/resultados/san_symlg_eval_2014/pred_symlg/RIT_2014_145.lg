@@ -1,0 +1,39 @@
+# IUD, RIT_2014_145
+# Objects(18):
+O, (_15, (, 1.0, ORRRRRR
+O, x_11, x, 1.0, ORRR
+O, x_17, x, 1.0, ORRRRRRR
+O, d_10, d, 1.0, ORR
+O, 7_20, 7, 1.0, ORRRRRRRRR
+O, +_19, +, 1.0, ORRRRRRRR
+O, _3, -, 1.0, OR
+O, =_12, =, 1.0, ORRRR
+O, \int_2, \int, 1.0, O
+O, )_21, ), 1.0, ORRRRRRRRRR
+O, 2_18, 2, 1.0, ORRRRRRRSup
+O, \int_13, \int, 1.0, ORRRRR
+O, x_9, x, 1.0, ORBelowR
+O, d_22, d, 1.0, ORRRRRRRRRRR
+O, d_5, d, 1.0, ORAbove
+O, y_6, y, 1.0, ORAboveR
+O, x_23, x, 1.0, ORRRRRRRRRRRR
+O, d_8, d, 1.0, ORBelow
+
+# Relations from SRT:
+R, (_15, x_17, Right, 1.0
+R, )_21, d_22, Right, 1.0
+R, +_19, 7_20, Right, 1.0
+R, 7_20, )_21, Right, 1.0
+R, =_12, \int_13, Right, 1.0
+R, \int_13, (_15, Right, 1.0
+R, \int_2, _3, Right, 1.0
+R, _3, d_10, Right, 1.0
+R, _3, d_5, Above, 1.0
+R, _3, d_8, Below, 1.0
+R, d_10, x_11, Right, 1.0
+R, d_22, x_23, Right, 1.0
+R, d_5, y_6, Right, 1.0
+R, d_8, x_9, Right, 1.0
+R, x_11, =_12, Right, 1.0
+R, x_17, +_19, Right, 1.0
+R, x_17, 2_18, Sup, 1.0

@@ -1,0 +1,15 @@
+# IUD, RIT_2014_105
+# Objects(6):
+O, \theta_8, \theta, 1.0, ORRR
+O, \sin_6, \sin, 1.0, ORR
+O, 2_9, 2, 1.0, ORRRSub
+O, \sin_2, \sin, 1.0, O
+O, \theta_4, \theta, 1.0, OR
+O, 1_5, 1, 1.0, ORSub
+
+# Relations from SRT:
+R, \sin_2, \theta_4, Right, 1.0
+R, \sin_6, \theta_8, Right, 1.0
+R, \theta_4, 1_5, Sub, 1.0
+R, \theta_4, \sin_6, Right, 1.0
+R, \theta_8, 2_9, Sub, 1.0

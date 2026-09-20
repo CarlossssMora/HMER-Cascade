@@ -1,0 +1,35 @@
+# IUD, 28_em_148
+# Objects(16):
+O, x_17, x, 1.0, ORRRRRRRRRR
+O, (_20, (, 1.0, ORRRRRRRRRRR
+O, x_2, x, 1.0, O
+O, 1_10, 1, 1.0, ORRRRRSub
+O, )_14, ), 1.0, ORRRRRRRR
+O, 2_18, 2, 1.0, ORRRRRRRRRRSub
+O, +_15, +, 1.0, ORRRRRRRRR
+O, )_22, ), 1.0, ORRRRRRRRRRRRR
+O, )_6, ), 1.0, ORRR
+O, t_5, t, 1.0, ORR
+O, (_4, (, 1.0, OR
+O, x_9, x, 1.0, ORRRRR
+O, t_21, t, 1.0, ORRRRRRRRRRRR
+O, (_12, (, 1.0, ORRRRRR
+O, t_13, t, 1.0, ORRRRRRR
+O, =_7, =, 1.0, ORRRR
+
+# Relations from SRT:
+R, (_12, t_13, Right, 1.0
+R, (_20, t_21, Right, 1.0
+R, (_4, t_5, Right, 1.0
+R, )_14, +_15, Right, 1.0
+R, )_6, =_7, Right, 1.0
+R, +_15, x_17, Right, 1.0
+R, =_7, x_9, Right, 1.0
+R, t_13, )_14, Right, 1.0
+R, t_21, )_22, Right, 1.0
+R, t_5, )_6, Right, 1.0
+R, x_17, (_20, Right, 1.0
+R, x_17, 2_18, Sub, 1.0
+R, x_2, (_4, Right, 1.0
+R, x_9, (_12, Right, 1.0
+R, x_9, 1_10, Sub, 1.0

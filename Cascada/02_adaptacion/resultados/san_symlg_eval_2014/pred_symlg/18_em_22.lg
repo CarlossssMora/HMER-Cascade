@@ -1,0 +1,29 @@
+# IUD, 18_em_22
+# Objects(13):
+O, n_17, n, 1.0, ORRRSub
+O, p_16, p, 1.0, ORRR
+O, p_3, p, 1.0, O
+O, \gamma_12, \gamma, 1.0, ORSup
+O, 2_13, 2, 1.0, ORSupSub
+O, 2_10, 2, 1.0, ORSub
+O, 1_7, 1, 1.0, OSupSub
+O, 1_4, 1, 1.0, OSub
+O, \gamma_19, \gamma, 1.0, ORRRSup
+O, p_9, p, 1.0, OR
+O, \gamma_6, \gamma, 1.0, OSup
+O, \ldots_14, \ldots, 1.0, ORR
+O, n_20, n, 1.0, ORRRSupSub
+
+# Relations from SRT:
+R, \gamma_12, 2_13, Sub, 1.0
+R, \gamma_19, n_20, Sub, 1.0
+R, \gamma_6, 1_7, Sub, 1.0
+R, \ldots_14, p_16, Right, 1.0
+R, p_16, \gamma_19, Sup, 1.0
+R, p_16, n_17, Sub, 1.0
+R, p_3, 1_4, Sub, 1.0
+R, p_3, \gamma_6, Sup, 1.0
+R, p_3, p_9, Right, 1.0
+R, p_9, 2_10, Sub, 1.0
+R, p_9, \gamma_12, Sup, 1.0
+R, p_9, \ldots_14, Right, 1.0

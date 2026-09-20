@@ -1,0 +1,17 @@
+# IUD, 513_em_318
+# Objects(7):
+O, w_4, w, 1.0, ORR
+O, z_8, z, 1.0, ORRRRRR
+O, \neq_5, \neq, 1.0, ORRR
+O, -_7, -, 1.0, ORRRRR
+O, z_2, z, 1.0, O
+O, -_3, -, 1.0, OR
+O, w_6, w, 1.0, ORRRR
+
+# Relations from SRT:
+R, -_3, w_4, Right, 1.0
+R, -_7, z_8, Right, 1.0
+R, \neq_5, w_6, Right, 1.0
+R, w_4, \neq_5, Right, 1.0
+R, w_6, -_7, Right, 1.0
+R, z_2, -_3, Right, 1.0

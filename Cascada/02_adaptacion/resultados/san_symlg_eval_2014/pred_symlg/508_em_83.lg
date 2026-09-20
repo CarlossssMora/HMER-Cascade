@@ -1,0 +1,25 @@
+# IUD, 508_em_83
+# Objects(11):
+O, -_8, -, 1.0, ORRRR
+O, (_2, (, 1.0, O
+O, b_6, b, 1.0, ORRR
+O, 1_14, 1, 1.0, ORRRRRRSub
+O, 3_7, 3, 1.0, ORRRSub
+O, )_15, ), 1.0, ORRRRRRR
+O, COMMA_4, COMMA, 1.0, ORR
+O, b_13, b, 1.0, ORRRRRR
+O, a_10, a, 1.0, ORRRRR
+O, a_3, a, 1.0, OR
+O, 3_11, 3, 1.0, ORRRRRSub
+
+# Relations from SRT:
+R, (_2, a_3, Right, 1.0
+R, -_8, a_10, Right, 1.0
+R, COMMA_4, b_6, Right, 1.0
+R, a_10, 3_11, Sub, 1.0
+R, a_10, b_13, Right, 1.0
+R, a_3, COMMA_4, Right, 1.0
+R, b_13, )_15, Right, 1.0
+R, b_13, 1_14, Sub, 1.0
+R, b_6, -_8, Right, 1.0
+R, b_6, 3_7, Sub, 1.0

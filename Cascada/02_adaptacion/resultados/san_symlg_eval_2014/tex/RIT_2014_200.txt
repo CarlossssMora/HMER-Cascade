@@ -1,0 +1,2 @@
+%RIT_2014_200
+$\lim _ { n \rightarrow \infty } y _ { n } = 0$

@@ -1,0 +1,33 @@
+# IUD, 31_em_184
+# Objects(14):
+O, _16, \sqrt, 1.0, OBelowInsideRRRR
+O, 0_14, 0, 1.0, OBelowInsideRR
+O, 2_17, 2, 1.0, OBelowInsideRRRRInside
+O, 1_12, 1, 1.0, OBelowInside
+O, 2_9, 2, 1.0, OAboveRRInside
+O, _3, \sqrt, 1.0, OAbove
+O, 0_13, 0, 1.0, OBelowInsideR
+O, _10, \sqrt, 1.0, OBelow
+O, \times_15, \times, 1.0, OBelowInsideRRR
+O, 1_6, 1, 1.0, OAboveInsideR
+O, 8_5, 8, 1.0, OAboveInside
+O, _8, \sqrt, 1.0, OAboveRR
+O, \times_7, \times, 1.0, OAboveR
+O, _1, -, 1.0, O
+
+# Relations from SRT:
+R, 0_13, 0_14, Right, 1.0
+R, 0_14, \times_15, Right, 1.0
+R, 1_12, 0_13, Right, 1.0
+R, 8_5, 1_6, Right, 1.0
+R, \times_15, _16, Right, 1.0
+R, \times_7, _8, Right, 1.0
+R, _10, 0_13, Inside, 1.0
+R, _10, 1_12, Inside, 1.0
+R, _16, 2_17, Inside, 1.0
+R, _1, _10, Below, 1.0
+R, _1, _3, Above, 1.0
+R, _3, 1_6, Inside, 1.0
+R, _3, 8_5, Inside, 1.0
+R, _3, \times_7, Right, 1.0
+R, _8, 2_9, Inside, 1.0

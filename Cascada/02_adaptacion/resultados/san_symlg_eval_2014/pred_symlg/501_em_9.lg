@@ -1,0 +1,51 @@
+# IUD, 501_em_9
+# Objects(24):
+O, =_7, =, 1.0, ORSubR
+O, _20, -, 1.0, ORRRRRRRR
+O, \infty_9, \infty, 1.0, ORSup
+O, j_30, j, 1.0, ORRRRRRRRAboveRSup
+O, z_17, z, 1.0, ORRRRR
+O, \int_2, \int, 1.0, O
+O, j_34, j, 1.0, ORRRRRRRRRSup
+O, j_12, j, 1.0, ORRSub
+O, j_15, j, 1.0, ORRRSup
+O, a_23, a, 1.0, ORRRRRRRRAbove
+O, a_11, a, 1.0, ORR
+O, 1_27, 1, 1.0, ORRRRRRRRAboveSubRR
+O, =_18, =, 1.0, ORRRRRR
+O, 2_19, 2, 1.0, ORRRRRRR
+O, z_14, z, 1.0, ORRR
+O, j_6, j, 1.0, ORSub
+O, -_26, -, 1.0, ORRRRRRRRAboveSubR
+O, \sum_4, \sum, 1.0, OR
+O, x_29, x, 1.0, ORRRRRRRRAboveR
+O, j_31, j, 1.0, ORRRRRRRRBelow
+O, j_25, j, 1.0, ORRRRRRRRAboveSub
+O, 0_8, 0, 1.0, ORSubRR
+O, x_33, x, 1.0, ORRRRRRRRR
+O, d_16, d, 1.0, ORRRR
+
+# Relations from SRT:
+R, -_26, 1_27, Right, 1.0
+R, 2_19, _20, Right, 1.0
+R, =_18, 2_19, Right, 1.0
+R, =_7, 0_8, Right, 1.0
+R, \int_2, \sum_4, Right, 1.0
+R, \sum_4, \infty_9, Sup, 1.0
+R, \sum_4, a_11, Right, 1.0
+R, \sum_4, j_6, Sub, 1.0
+R, _20, a_23, Above, 1.0
+R, _20, j_31, Below, 1.0
+R, _20, x_33, Right, 1.0
+R, a_11, j_12, Sub, 1.0
+R, a_11, z_14, Right, 1.0
+R, a_23, j_25, Sub, 1.0
+R, a_23, x_29, Right, 1.0
+R, d_16, z_17, Right, 1.0
+R, j_25, -_26, Right, 1.0
+R, j_6, =_7, Right, 1.0
+R, x_29, j_30, Sup, 1.0
+R, x_33, j_34, Sup, 1.0
+R, z_14, d_16, Right, 1.0
+R, z_14, j_15, Sup, 1.0
+R, z_17, =_18, Right, 1.0

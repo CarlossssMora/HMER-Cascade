@@ -1,0 +1,25 @@
+# IUD, 36_em_26
+# Objects(11):
+O, 1_14, 1, 1.0, ORRRRR
+O, +_13, +, 1.0, ORRRR
+O, 5_8, 5, 1.0, OSup
+O, \sum_3, \sum, 1.0, O
+O, n_5, n, 1.0, OSub
+O, =_6, =, 1.0, OSubR
+O, n_12, n, 1.0, ORRR
+O, 1_7, 1, 1.0, OSubRR
+O, (_10, (, 1.0, OR
+O, 2_11, 2, 1.0, ORR
+O, )_15, ), 1.0, ORRRRRR
+
+# Relations from SRT:
+R, (_10, 2_11, Right, 1.0
+R, +_13, 1_14, Right, 1.0
+R, 1_14, )_15, Right, 1.0
+R, 2_11, n_12, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \sum_3, (_10, Right, 1.0
+R, \sum_3, 5_8, Sup, 1.0
+R, \sum_3, n_5, Sub, 1.0
+R, n_12, +_13, Right, 1.0
+R, n_5, =_6, Right, 1.0

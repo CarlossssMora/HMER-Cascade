@@ -1,0 +1,35 @@
+# IUD, RIT_2014_180
+# Objects(15):
+O, _9, \sqrt, 1.0, ORRRR
+O, \int_2, \int, 1.0, O
+O, a_7, a, 1.0, ORRInsideR
+O, 2_14, 2, 1.0, ORRRRInsideRSup
+O, _4, \sqrt, 1.0, ORR
+O, _17, \sqrt, 1.0, ORRRRRRR
+O, 2_20, 2, 1.0, ORRRRRRRInsideSup
+O, a_13, a, 1.0, ORRRRInsideR
+O, a_19, a, 1.0, ORRRRRRRInside
+O, -_11, -, 1.0, ORRRRInside
+O, -_6, -, 1.0, ORRInside
+O, j_16, j, 1.0, ORRRRRR
+O, a_3, a, 1.0, OR
+O, =_15, =, 1.0, ORRRRR
+O, =_8, =, 1.0, ORRR
+
+# Relations from SRT:
+R, -_11, a_13, Right, 1.0
+R, -_6, a_7, Right, 1.0
+R, =_15, j_16, Right, 1.0
+R, =_8, _9, Right, 1.0
+R, \int_2, a_3, Right, 1.0
+R, _17, a_19, Inside, 1.0
+R, _4, -_6, Inside, 1.0
+R, _4, =_8, Right, 1.0
+R, _4, a_7, Inside, 1.0
+R, _9, -_11, Inside, 1.0
+R, _9, =_15, Right, 1.0
+R, _9, a_13, Inside, 1.0
+R, a_13, 2_14, Sup, 1.0
+R, a_19, 2_20, Sup, 1.0
+R, a_3, _4, Right, 1.0
+R, j_16, _17, Right, 1.0

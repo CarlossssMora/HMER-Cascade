@@ -1,0 +1,9 @@
+# IUD, 518_em_424
+# Objects(3):
+O, x_4, x, 1.0, ORR
+O, 2_2, 2, 1.0, O
+O, \tan_3, \tan, 1.0, OR
+
+# Relations from SRT:
+R, 2_2, \tan_3, Right, 1.0
+R, \tan_3, x_4, Right, 1.0

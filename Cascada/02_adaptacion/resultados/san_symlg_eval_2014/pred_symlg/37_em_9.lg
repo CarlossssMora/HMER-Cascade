@@ -1,0 +1,9 @@
+# IUD, 37_em_9
+# Objects(3):
+O, b_4, b, 1.0, ORR
+O, y_2, y, 1.0, O
+O, \lt_3, \lt, 1.0, OR
+
+# Relations from SRT:
+R, \lt_3, b_4, Right, 1.0
+R, y_2, \lt_3, Right, 1.0

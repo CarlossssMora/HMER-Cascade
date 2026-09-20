@@ -1,0 +1,9 @@
+*N,ORRSupSub,ABSENT,1.0,:vs:,1,1.0
+*N,ORRRRR,f,1.0,:vs:,p,1.0
+*N,ORR,f,1.0,:vs:,p,1.0
+*N,ORRRSupSub,ABSENT,1.0,:vs:,2,1.0
+*N,ORRR,f,1.0,:vs:,p,1.0
+*N,ORRSupSup,l,1.0,:vs:,ABSENT,1.0
+*E,ORRSup,ORRSupSup,Sup,1.0,:vs:,_,1.0
+*E,ORRSup,ORRSupSub,_,1.0,:vs:,Sub,1.0
+*E,ORRRSup,ORRRSupSub,_,1.0,:vs:,Sub,1.0

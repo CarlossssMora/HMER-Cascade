@@ -1,0 +1,33 @@
+# IUD, 502_em_7
+# Objects(15):
+O, k_16, k, 1.0, ORRRBelow
+O, +_12, +, 1.0, ORR
+O, k_11, k, 1.0, ORSub
+O, =_17, =, 1.0, ORRRBelowR
+O, n_8, n, 1.0, OAbove
+O, \sum_3, \sum, 1.0, O
+O, 1_7, 1, 1.0, OBelowRR
+O, k_22, k, 1.0, ORRRRSub
+O, k_5, k, 1.0, OBelow
+O, a_10, a, 1.0, OR
+O, 1_18, 1, 1.0, ORRRBelowRR
+O, =_6, =, 1.0, OBelowR
+O, \sum_14, \sum, 1.0, ORRR
+O, b_21, b, 1.0, ORRRR
+O, n_19, n, 1.0, ORRRAbove
+
+# Relations from SRT:
+R, +_12, \sum_14, Right, 1.0
+R, =_17, 1_18, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \sum_14, b_21, Right, 1.0
+R, \sum_14, k_16, Below, 1.0
+R, \sum_14, n_19, Above, 1.0
+R, \sum_3, a_10, Right, 1.0
+R, \sum_3, k_5, Below, 1.0
+R, \sum_3, n_8, Above, 1.0
+R, a_10, +_12, Right, 1.0
+R, a_10, k_11, Sub, 1.0
+R, b_21, k_22, Sub, 1.0
+R, k_16, =_17, Right, 1.0
+R, k_5, =_6, Right, 1.0

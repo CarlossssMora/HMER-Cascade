@@ -1,0 +1,10 @@
+*N,ORBelowSubRR,2,1.0,:vs:,ABSENT,1.0
+*N,ORBelowSubR,+,1.0,:vs:,ABSENT,1.0
+*N,OBelowSub,ABSENT,1.0,:vs:,1,1.0
+*N,ORBelowR,ABSENT,1.0,:vs:,+,1.0
+*N,ORBelowRR,ABSENT,1.0,:vs:,2,1.0
+*E,ORBelowSubR,ORBelowSubRR,Right,1.0,:vs:,_,1.0
+*E,ORBelowSub,ORBelowSubR,Right,1.0,:vs:,_,1.0
+*E,ORBelowR,ORBelowRR,_,1.0,:vs:,Right,1.0
+*E,OBelow,OBelowSub,_,1.0,:vs:,Sub,1.0
+*E,ORBelow,ORBelowR,_,1.0,:vs:,Right,1.0

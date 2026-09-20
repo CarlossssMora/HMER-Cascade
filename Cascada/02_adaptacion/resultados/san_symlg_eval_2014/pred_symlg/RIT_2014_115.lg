@@ -1,0 +1,9 @@
+# IUD, RIT_2014_115
+# Objects(3):
+O, G_2, G, 1.0, O
+O, e_4, e, 1.0, OSub
+O, q_5, q, 1.0, OSubR
+
+# Relations from SRT:
+R, G_2, e_4, Sub, 1.0
+R, e_4, q_5, Right, 1.0

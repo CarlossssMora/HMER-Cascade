@@ -1,0 +1,13 @@
+*N,ORRRRR,ABSENT,1.0,:vs:,S,1.0
+*N,OR,E,1.0,:vs:,u,1.0
+*N,ORRRRRR,ABSENT,1.0,:vs:,u,1.0
+*N,ORR,\leq,1.0,:vs:,p,1.0
+*N,O,\sin,1.0,:vs:,S,1.0
+*N,ORRRR,F,1.0,:vs:,\leq,1.0
+*N,ORRRRRRRR,ABSENT,1.0,:vs:,F,1.0
+*N,ORRRRRRR,ABSENT,1.0,:vs:,p,1.0
+*N,ORRR,\sin,1.0,:vs:,E,1.0
+*E,ORRRRR,ORRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRR,ORRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRRR,ORRRRRRRR,_,1.0,:vs:,Right,1.0
+*E,ORRRRRR,ORRRRRRR,_,1.0,:vs:,Right,1.0

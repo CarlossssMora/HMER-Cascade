@@ -1,0 +1,13 @@
+# IUD, 513_em_324
+# Objects(5):
+O, a_3, a, 1.0, OInside
+O, b_6, b, 1.0, ORRInside
+O, +_4, +, 1.0, OR
+O, _5, \sqrt, 1.0, ORR
+O, _2, \sqrt, 1.0, O
+
+# Relations from SRT:
+R, +_4, _5, Right, 1.0
+R, _2, +_4, Right, 1.0
+R, _2, a_3, Inside, 1.0
+R, _5, b_6, Inside, 1.0

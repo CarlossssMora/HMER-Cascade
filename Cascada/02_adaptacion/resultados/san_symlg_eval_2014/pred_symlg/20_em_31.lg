@@ -1,0 +1,23 @@
+# IUD, 20_em_31
+# Objects(10):
+O, 1_5, 1, 1.0, ORSup
+O, =_6, =, 1.0, ORR
+O, x_12, x, 1.0, ORRRR
+O, x_4, x, 1.0, OR
+O, I_14, I, 1.0, ORRRRRR
+O, =_13, =, 1.0, ORRRRR
+O, -_10, -, 1.0, ORRRSup
+O, x_8, x, 1.0, ORRR
+O, x_2, x, 1.0, O
+O, 1_11, 1, 1.0, ORRRSupR
+
+# Relations from SRT:
+R, -_10, 1_11, Right, 1.0
+R, =_13, I_14, Right, 1.0
+R, =_6, x_8, Right, 1.0
+R, x_12, =_13, Right, 1.0
+R, x_2, x_4, Right, 1.0
+R, x_4, 1_5, Sup, 1.0
+R, x_4, =_6, Right, 1.0
+R, x_8, -_10, Sup, 1.0
+R, x_8, x_12, Right, 1.0

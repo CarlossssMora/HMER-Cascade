@@ -1,0 +1,18 @@
+# IUD, 518_em_438
+# Objects(7):
+O, _3, \sqrt, 1.0, OBelow
+O, _7, \sqrt, 1.0, OBelowInsideRR
+O, 2_5, 2, 1.0, OBelowInside
+O, -_6, -, 1.0, OBelowInsideR
+O, _1, -, 1.0, O
+O, 2_8, 2, 1.0, OBelowInsideRRInside
+O, 2_2, 2, 1.0, OAbove
+
+# Relations from SRT:
+R, -_6, _7, Right, 1.0
+R, 2_5, -_6, Right, 1.0
+R, _1, 2_2, Above, 1.0
+R, _1, _3, Below, 1.0
+R, _3, -_6, Inside, 1.0
+R, _3, 2_5, Inside, 1.0
+R, _7, 2_8, Inside, 1.0

@@ -1,0 +1,35 @@
+# IUD, RIT_2014_278
+# Objects(16):
+O, n_9, n, 1.0, ORAboveRSub
+O, 1_11, 1, 1.0, ORAboveRSubRR
+O, _3, -, 1.0, OR
+O, \lim_2, \lim, 1.0, O
+O, a_18, a, 1.0, ORBelowR
+O, |_16, |, 1.0, ORBelow
+O, n_19, n, 1.0, ORBelowRSub
+O, 1_22, 1, 1.0, ORRR
+O, |_20, |, 1.0, ORBelowRR
+O, x_13, x, 1.0, ORAboveRRR
+O, |_5, |, 1.0, ORAbove
+O, a_7, a, 1.0, ORAboveR
+O, |_14, |, 1.0, ORAboveRRRR
+O, \gt_21, \gt, 1.0, ORR
+O, +_12, +, 1.0, ORAboveRR
+O, +_10, +, 1.0, ORAboveRSubR
+
+# Relations from SRT:
+R, +_10, 1_11, Right, 1.0
+R, +_12, x_13, Right, 1.0
+R, \gt_21, 1_22, Right, 1.0
+R, \lim_2, _3, Right, 1.0
+R, _3, \gt_21, Right, 1.0
+R, _3, |_16, Below, 1.0
+R, _3, |_5, Above, 1.0
+R, a_18, n_19, Sub, 1.0
+R, a_18, |_20, Right, 1.0
+R, a_7, +_12, Right, 1.0
+R, a_7, n_9, Sub, 1.0
+R, n_9, +_10, Right, 1.0
+R, x_13, |_14, Right, 1.0
+R, |_16, a_18, Right, 1.0
+R, |_5, a_7, Right, 1.0

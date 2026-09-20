@@ -1,0 +1,5 @@
+*N,ORRAboveSubR,+,1.0,:vs:,ABSENT,1.0
+*N,ORRAboveSubRR,a,1.0,:vs:,ABSENT,1.0
+*N,ORRAbove,g,1.0,:vs:,q,1.0
+*E,ORRAboveSubR,ORRAboveSubRR,Right,1.0,:vs:,_,1.0
+*E,ORRAboveSub,ORRAboveSubR,Right,1.0,:vs:,_,1.0

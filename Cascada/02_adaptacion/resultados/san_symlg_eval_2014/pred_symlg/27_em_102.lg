@@ -1,0 +1,19 @@
+# IUD, 27_em_102
+# Objects(8):
+O, \rightarrow_6, \rightarrow, 1.0, OSubR
+O, a_11, a, 1.0, ORRR
+O, (_10, (, 1.0, ORR
+O, b_8, b, 1.0, OR
+O, )_12, ), 1.0, ORRRR
+O, \infty_7, \infty, 1.0, OSubRR
+O, \lim_3, \lim, 1.0, O
+O, a_5, a, 1.0, OSub
+
+# Relations from SRT:
+R, (_10, a_11, Right, 1.0
+R, \lim_3, a_5, Sub, 1.0
+R, \lim_3, b_8, Right, 1.0
+R, \rightarrow_6, \infty_7, Right, 1.0
+R, a_11, )_12, Right, 1.0
+R, a_5, \rightarrow_6, Right, 1.0
+R, b_8, (_10, Right, 1.0

@@ -1,0 +1,11 @@
+# IUD, 501_em_22
+# Objects(4):
+O, \in_4, \in, 1.0, ORR
+O, \gamma_3, \gamma, 1.0, OR
+O, \forall_2, \forall, 1.0, O
+O, X_5, X, 1.0, ORRR
+
+# Relations from SRT:
+R, \forall_2, \gamma_3, Right, 1.0
+R, \gamma_3, \in_4, Right, 1.0
+R, \in_4, X_5, Right, 1.0

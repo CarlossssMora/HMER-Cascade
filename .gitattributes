@@ -1,1 +1,5 @@
 *.ckpt filter=lfs diff=lfs merge=lfs -text
+CoMER/convert2symLG/tex2symlg text eol=lf
+CoMER/convert2symLG/mml2symlg text eol=lf
+CoMER/convert2symLG/batch_mml2lg text eol=lf
+CoMER/lgeval/bin/evaluate text eol=lf

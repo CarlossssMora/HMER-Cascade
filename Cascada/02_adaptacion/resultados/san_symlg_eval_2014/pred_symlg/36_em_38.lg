@@ -1,0 +1,9 @@
+# IUD, 36_em_38
+# Objects(3):
+O, 4_3, 4, 1.0, OR
+O, 2_2, 2, 1.0, O
+O, \pi_4, \pi, 1.0, ORR
+
+# Relations from SRT:
+R, 2_2, 4_3, Right, 1.0
+R, 4_3, \pi_4, Right, 1.0

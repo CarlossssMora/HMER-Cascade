@@ -1,0 +1,9 @@
+# IUD, RIT_2014_50
+# Objects(3):
+O, _1, \sqrt, 1.0, O
+O, x_3, x, 1.0, OInside
+O, 5_4, 5, 1.0, OInsideSup
+
+# Relations from SRT:
+R, _1, x_3, Inside, 1.0
+R, x_3, 5_4, Sup, 1.0

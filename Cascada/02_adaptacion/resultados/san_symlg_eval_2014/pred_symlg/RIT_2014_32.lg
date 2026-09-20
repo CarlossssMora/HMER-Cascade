@@ -1,0 +1,13 @@
+# IUD, RIT_2014_32
+# Objects(5):
+O, s_4, s, 1.0, ORR
+O, \int_2, \int, 1.0, O
+O, x_6, x, 1.0, ORRRR
+O, d_5, d, 1.0, ORRR
+O, \sin_3, \sin, 1.0, OR
+
+# Relations from SRT:
+R, \int_2, \sin_3, Right, 1.0
+R, \sin_3, s_4, Right, 1.0
+R, d_5, x_6, Right, 1.0
+R, s_4, d_5, Right, 1.0

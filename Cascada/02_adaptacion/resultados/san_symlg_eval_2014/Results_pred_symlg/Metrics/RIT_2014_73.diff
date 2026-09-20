@@ -1,0 +1,11 @@
+*N,ORRRRR,=,1.0,:vs:,\{,1.0
+*N,ORRRRRR,\sum,1.0,:vs:,7,1.0
+*N,ORSub,ABSENT,1.0,:vs:,COMMA,1.0
+*N,ORRRR,\},1.0,:vs:,=,1.0
+*N,ORR,.,1.0,:vs:,7,1.0
+*N,ORRRRRRRR,3,1.0,:vs:,ABSENT,1.0
+*N,O,\sum,1.0,:vs:,\{,1.0
+*N,ORRRRRRR,7,1.0,:vs:,\},1.0
+*N,ORRR,7,1.0,:vs:,\},1.0
+*E,ORRRRRRR,ORRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OR,ORSub,_,1.0,:vs:,Sub,1.0

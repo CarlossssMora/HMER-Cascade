@@ -1,0 +1,15 @@
+# IUD, 513_em_304
+# Objects(6):
+O, \pi_6, \pi, 1.0, ORRRR
+O, \pi_2, \pi, 1.0, O
+O, r_7, r, 1.0, ORRRRR
+O, 2_5, 2, 1.0, ORRR
+O, d_3, d, 1.0, OR
+O, =_4, =, 1.0, ORR
+
+# Relations from SRT:
+R, 2_5, \pi_6, Right, 1.0
+R, =_4, 2_5, Right, 1.0
+R, \pi_2, d_3, Right, 1.0
+R, \pi_6, r_7, Right, 1.0
+R, d_3, =_4, Right, 1.0

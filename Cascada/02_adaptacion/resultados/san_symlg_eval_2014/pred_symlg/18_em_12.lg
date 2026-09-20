@@ -1,0 +1,29 @@
+# IUD, 18_em_12
+# Objects(13):
+O, 1_8, 1, 1.0, OBelow
+O, p_3, p, 1.0, OAbove
+O, (_11, (, 1.0, OBelowRR
+O, -_13, -, 1.0, OBelowRRRR
+O, e_17, e, 1.0, OBelowRRRRRRR
+O, t_18, t, 1.0, OBelowRRRRRRRSup
+O, )_15, ), 1.0, OBelowRRRRRR
+O, -_9, -, 1.0, OBelowR
+O, t_6, t, 1.0, OAboveRSup
+O, p_14, p, 1.0, OBelowRRRRR
+O, 1_12, 1, 1.0, OBelowRRR
+O, _1, -, 1.0, O
+O, l_5, l, 1.0, OAboveR
+
+# Relations from SRT:
+R, (_11, 1_12, Right, 1.0
+R, )_15, e_17, Right, 1.0
+R, -_13, p_14, Right, 1.0
+R, -_9, (_11, Right, 1.0
+R, 1_12, -_13, Right, 1.0
+R, 1_8, -_9, Right, 1.0
+R, _1, 1_8, Below, 1.0
+R, _1, p_3, Above, 1.0
+R, e_17, t_18, Sup, 1.0
+R, l_5, t_6, Sup, 1.0
+R, p_14, )_15, Right, 1.0
+R, p_3, l_5, Right, 1.0

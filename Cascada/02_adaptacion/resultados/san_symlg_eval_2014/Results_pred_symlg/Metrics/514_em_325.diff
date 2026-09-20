@@ -1,0 +1,17 @@
+*N,OAboveRRRRRRRRRRR,\times,1.0,:vs:,ABSENT,1.0
+*N,OAboveRRRRRRRRRRRR,x,1.0,:vs:,ABSENT,1.0
+*N,OAboveRRRRRRRRR,\times,1.0,:vs:,ABSENT,1.0
+*N,OAboveR,x,1.0,:vs:,\times,1.0
+*N,OBelowRRR,ABSENT,1.0,:vs:,\times,1.0
+*N,OBelowRRRR,ABSENT,1.0,:vs:,x,1.0
+*N,OAboveRRRRRRRRRR,x,1.0,:vs:,ABSENT,1.0
+*N,OAboveRRRRRRRRRRRRR,\times,1.0,:vs:,ABSENT,1.0
+*N,OAboveRRRRRRRRRRRRRR,x,1.0,:vs:,ABSENT,1.0
+*E,OAboveRRRRRRRRR,OAboveRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OAboveRRRRRRRRRRR,OAboveRRRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OAboveRRRRRRRRRRRRR,OAboveRRRRRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OAboveRRRRRRRR,OAboveRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OAboveRRRRRRRRRR,OAboveRRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OAboveRRRRRRRRRRRR,OAboveRRRRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,OBelowRRR,OBelowRRRR,_,1.0,:vs:,Right,1.0
+*E,OBelowRR,OBelowRRR,_,1.0,:vs:,Right,1.0

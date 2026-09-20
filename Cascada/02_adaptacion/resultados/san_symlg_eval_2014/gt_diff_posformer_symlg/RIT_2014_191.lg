@@ -1,0 +1,39 @@
+# IUD, RIT_2014_191
+# Objects(18):
+O, z_11, z, 1.0, ORRRRRBelow
+O, ]_6, ], 1.0, ORRR
+O, )_24, ), 1.0, ORRRRRRRRRRRRRR
+O, z_23, z, 1.0, ORRRRRRRRRRRRR
+O, [_4, [, 1.0, OR
+O, 1_13, 1, 1.0, ORRRRRBelowRR
+O, (_22, (, 1.0, ORRRRRRRRRRRR
+O, x_2, x, 1.0, O
+O, \rightarrow_12, \rightarrow, 1.0, ORRRRRBelowR
+O, =_7, =, 1.0, ORRRR
+O, x_20, x, 1.0, ORRRRRRRRRRR
+O, (_15, (, 1.0, ORRRRRR
+O, \infty_5, \infty, 1.0, ORR
+O, z_16, z, 1.0, ORRRRRRR
+O, )_19, ), 1.0, ORRRRRRRRRR
+O, \lim_9, \lim, 1.0, ORRRRR
+O, -_17, -, 1.0, ORRRRRRRR
+O, 1_18, 1, 1.0, ORRRRRRRRR
+
+# Relations from SRT:
+R, (_15, z_16, Right, 1.0
+R, (_22, z_23, Right, 1.0
+R, )_19, x_20, Right, 1.0
+R, -_17, 1_18, Right, 1.0
+R, 1_18, )_19, Right, 1.0
+R, =_7, \lim_9, Right, 1.0
+R, [_4, \infty_5, Right, 1.0
+R, \infty_5, ]_6, Right, 1.0
+R, \lim_9, (_15, Right, 1.0
+R, \lim_9, z_11, Below, 1.0
+R, \rightarrow_12, 1_13, Right, 1.0
+R, ]_6, =_7, Right, 1.0
+R, x_20, (_22, Right, 1.0
+R, x_2, [_4, Right, 1.0
+R, z_11, \rightarrow_12, Right, 1.0
+R, z_16, -_17, Right, 1.0
+R, z_23, )_24, Right, 1.0

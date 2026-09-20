@@ -1,0 +1,37 @@
+# IUD, 23_em_59
+# Objects(17):
+O, r_5, r, 1.0, OSub
+O, b_24, b, 1.0, ORRRRRRSup
+O, a_9, a, 1.0, OR
+O, =_19, =, 1.0, ORRRRRSubR
+O, b_12, b, 1.0, ORRSup
+O, 1_7, 1, 1.0, OSubRR
+O, 1_20, 1, 1.0, ORRRRRSubRR
+O, n_21, n, 1.0, ORRRRRSup
+O, a_14, a, 1.0, ORRRR
+O, =_13, =, 1.0, ORRR
+O, n_8, n, 1.0, OSup
+O, r_18, r, 1.0, ORRRRRSub
+O, r_23, r, 1.0, ORRRRRR
+O, \sum_3, \sum, 1.0, O
+O, =_6, =, 1.0, OSubR
+O, \sum_16, \sum, 1.0, ORRRRR
+O, r_11, r, 1.0, ORR
+
+# Relations from SRT:
+R, =_13, a_14, Right, 1.0
+R, =_19, 1_20, Right, 1.0
+R, =_6, 1_7, Right, 1.0
+R, \sum_16, n_21, Sup, 1.0
+R, \sum_16, r_18, Sub, 1.0
+R, \sum_16, r_23, Right, 1.0
+R, \sum_3, a_9, Right, 1.0
+R, \sum_3, n_8, Sup, 1.0
+R, \sum_3, r_5, Sub, 1.0
+R, a_14, \sum_16, Right, 1.0
+R, a_9, r_11, Right, 1.0
+R, r_11, =_13, Right, 1.0
+R, r_11, b_12, Sup, 1.0
+R, r_18, =_19, Right, 1.0
+R, r_23, b_24, Sup, 1.0
+R, r_5, =_6, Right, 1.0

@@ -1,0 +1,17 @@
+# IUD, 511_em_274
+# Objects(7):
+O, +_9, +, 1.0, ORRR
+O, +_5, +, 1.0, OR
+O, 1_10, 1, 1.0, ORRRR
+O, 4_8, 4, 1.0, ORRSup
+O, \gamma_4, \gamma, 1.0, OSup
+O, x_3, x, 1.0, O
+O, x_7, x, 1.0, ORR
+
+# Relations from SRT:
+R, +_5, x_7, Right, 1.0
+R, +_9, 1_10, Right, 1.0
+R, x_3, +_5, Right, 1.0
+R, x_3, \gamma_4, Sup, 1.0
+R, x_7, +_9, Right, 1.0
+R, x_7, 4_8, Sup, 1.0

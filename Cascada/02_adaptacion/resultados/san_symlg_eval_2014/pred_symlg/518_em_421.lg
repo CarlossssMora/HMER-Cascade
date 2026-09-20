@@ -1,0 +1,9 @@
+# IUD, 518_em_421
+# Objects(3):
+O, F_3, F, 1.0, OR
+O, y_4, y, 1.0, ORR
+O, \sum_2, \sum, 1.0, O
+
+# Relations from SRT:
+R, F_3, y_4, Right, 1.0
+R, \sum_2, F_3, Right, 1.0

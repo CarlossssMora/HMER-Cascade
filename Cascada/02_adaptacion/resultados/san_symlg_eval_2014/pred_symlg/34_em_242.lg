@@ -1,0 +1,25 @@
+# IUD, 34_em_242
+# Objects(11):
+O, +_10, +, 1.0, ORAboveR
+O, x_13, x, 1.0, ORBelow
+O, 1_11, 1, 1.0, ORAboveRR
+O, +_14, +, 1.0, ORBelowR
+O, 2_15, 2, 1.0, ORBelowRR
+O, x_9, x, 1.0, ORAbove
+O, x_4, x, 1.0, OAbove
+O, x_6, x, 1.0, OBelow
+O, v_5, v, 1.0, OAboveSup
+O, _7, -, 1.0, OR
+O, _2, -, 1.0, O
+
+# Relations from SRT:
+R, +_10, 1_11, Right, 1.0
+R, +_14, 2_15, Right, 1.0
+R, _2, _7, Right, 1.0
+R, _2, x_4, Above, 1.0
+R, _2, x_6, Below, 1.0
+R, _7, x_13, Below, 1.0
+R, _7, x_9, Above, 1.0
+R, x_13, +_14, Right, 1.0
+R, x_4, v_5, Sup, 1.0
+R, x_9, +_10, Right, 1.0

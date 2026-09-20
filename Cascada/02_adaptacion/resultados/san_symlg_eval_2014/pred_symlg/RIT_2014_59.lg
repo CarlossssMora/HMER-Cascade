@@ -1,0 +1,7 @@
+# IUD, RIT_2014_59
+# Objects(2):
+O, 3_3, 3, 1.0, OSup
+O, F_2, F, 1.0, O
+
+# Relations from SRT:
+R, F_2, 3_3, Sup, 1.0

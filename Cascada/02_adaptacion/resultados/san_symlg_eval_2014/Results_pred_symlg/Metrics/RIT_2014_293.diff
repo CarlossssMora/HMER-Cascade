@@ -1,0 +1,10 @@
+*N,ORRR,+,1.0,:vs:,x,1.0
+*N,O,m,1.0,:vs:,\tan,1.0
+*N,ORRRRRRAboveRR,\tan,1.0,:vs:,(,1.0
+*N,ORRRRRRAboveRRRRR,),1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRAboveRRR,(,1.0,:vs:,x,1.0
+*N,ORRRRRRAboveRRRR,x,1.0,:vs:,),1.0
+*N,ORRRRRRAboveR,+,1.0,:vs:,\tan,1.0
+*N,ORRRRRRBelowRRRR,t,1.0,:vs:,x,1.0
+*N,ORR,z,1.0,:vs:,2,1.0
+*E,ORRRRRRAboveRRRR,ORRRRRRAboveRRRRR,Right,1.0,:vs:,_,1.0

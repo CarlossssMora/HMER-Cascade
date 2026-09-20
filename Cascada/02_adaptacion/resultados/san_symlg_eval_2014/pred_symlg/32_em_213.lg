@@ -1,0 +1,22 @@
+# IUD, 32_em_213
+# Objects(9):
+O, a_3, a, 1.0, OInside
+O, _2, \sqrt, 1.0, O
+O, =_7, =, 1.0, ORRR
+O, a_10, a, 1.0, ORRRRInside
+O, _5, \sqrt, 1.0, ORR
+O, b_6, b, 1.0, ORRInside
+O, \times_4, \times, 1.0, OR
+O, b_11, b, 1.0, ORRRRInsideR
+O, _8, \sqrt, 1.0, ORRRR
+
+# Relations from SRT:
+R, =_7, _8, Right, 1.0
+R, \times_4, _5, Right, 1.0
+R, _2, \times_4, Right, 1.0
+R, _2, a_3, Inside, 1.0
+R, _5, =_7, Right, 1.0
+R, _5, b_6, Inside, 1.0
+R, _8, a_10, Inside, 1.0
+R, _8, b_11, Inside, 1.0
+R, a_10, b_11, Right, 1.0

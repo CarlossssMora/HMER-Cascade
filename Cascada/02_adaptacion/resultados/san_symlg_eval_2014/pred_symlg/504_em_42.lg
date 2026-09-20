@@ -1,0 +1,41 @@
+# IUD, 504_em_42
+# Objects(19):
+O, +_12, +, 1.0, ORRRRR
+O, +_16, +, 1.0, ORRRRRRR
+O, x_20, x, 1.0, ORRRRRRRRRR
+O, 1_9, 1, 1.0, ORR
+O, 1_3, 1, 1.0, OAbove
+O, -_6, -, 1.0, OBelowR
+O, x_14, x, 1.0, ORRRRRR
+O, +_10, +, 1.0, ORRR
+O, +_18, +, 1.0, ORRRRRRRRR
+O, 1_5, 1, 1.0, OBelow
+O, _2, -, 1.0, O
+O, =_8, =, 1.0, OR
+O, +_22, +, 1.0, ORRRRRRRRRRR
+O, n_21, n, 1.0, ORRRRRRRRRRSup
+O, z_7, z, 1.0, OBelowRR
+O, 2_15, 2, 1.0, ORRRRRRSup
+O, \ldots_17, \ldots, 1.0, ORRRRRRRR
+O, \ldots_23, \ldots, 1.0, ORRRRRRRRRRRR
+O, x_11, x, 1.0, ORRRR
+
+# Relations from SRT:
+R, +_10, x_11, Right, 1.0
+R, +_12, x_14, Right, 1.0
+R, +_16, \ldots_17, Right, 1.0
+R, +_18, x_20, Right, 1.0
+R, +_22, \ldots_23, Right, 1.0
+R, -_6, z_7, Right, 1.0
+R, 1_5, -_6, Right, 1.0
+R, 1_9, +_10, Right, 1.0
+R, =_8, 1_9, Right, 1.0
+R, \ldots_17, +_18, Right, 1.0
+R, _2, 1_3, Above, 1.0
+R, _2, 1_5, Below, 1.0
+R, _2, =_8, Right, 1.0
+R, x_11, +_12, Right, 1.0
+R, x_14, +_16, Right, 1.0
+R, x_14, 2_15, Sup, 1.0
+R, x_20, +_22, Right, 1.0
+R, x_20, n_21, Sup, 1.0

@@ -1,0 +1,2 @@
+%511_em_262
+$\lim _ { n \rightarrow \infty } \frac { x ^ { 3 } } { n ^ { 3 } } \frac { 2 n ^ { 3 } + 3 n ^ { 2 } + n } { 6 }$

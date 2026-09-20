@@ -1,0 +1,21 @@
+# IUD, RIT_2014_217
+# Objects(9):
+O, \pm_11, \pm, 1.0, OSubRRRRR
+O, 1_5, 1, 1.0, OSubR
+O, v_2, v, 1.0, O
+O, COMMA_10, COMMA, 1.0, OSubRRRRSub
+O, \pm_4, \pm, 1.0, OSub
+O, 2_9, 2, 1.0, OSubRRRR
+O, COMMA_6, COMMA, 1.0, OSubRR
+O, \pm_7, \pm, 1.0, OSubRRR
+O, 3_12, 3, 1.0, OSubRRRRRR
+
+# Relations from SRT:
+R, 1_5, COMMA_6, Right, 1.0
+R, 2_9, COMMA_10, Sub, 1.0
+R, 2_9, \pm_11, Right, 1.0
+R, COMMA_6, \pm_7, Right, 1.0
+R, \pm_11, 3_12, Right, 1.0
+R, \pm_4, 1_5, Right, 1.0
+R, \pm_7, 2_9, Right, 1.0
+R, v_2, \pm_4, Sub, 1.0

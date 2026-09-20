@@ -1,0 +1,13 @@
+*N,O,V,1.0,:vs:,\forall,1.0
+*N,ORRRRRRRRRR,7,1.0,:vs:,\lambda,1.0
+*N,ORRRRRRR,\infty,1.0,:vs:,],1.0
+*N,ORRRRRRRRRRR,\lambda,1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRRRRRRSub,i,1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRRRR,COMMA,1.0,:vs:,\exists,1.0
+*N,ORRRRRRRR,],1.0,:vs:,COMMA,1.0
+*N,ORRRRRRSub,ABSENT,1.0,:vs:,\infty,1.0
+*N,ORRRRRRRRRRSub,ABSENT,1.0,:vs:,i,1.0
+*E,ORRRRRRRRRR,ORRRRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRRRRRRRRR,ORRRRRRRRRRRSub,Sub,1.0,:vs:,_,1.0
+*E,ORRRRRR,ORRRRRRSub,_,1.0,:vs:,Sub,1.0
+*E,ORRRRRRRRRR,ORRRRRRRRRRSub,_,1.0,:vs:,Sub,1.0

@@ -1,0 +1,20 @@
+# IUD, 506_em_63
+# Objects(8):
+O, y_5, y, 1.0, ORInside
+O, _2, \sqrt, 1.0, O
+O, =_6, =, 1.0, ORR
+O, _7, \sqrt, 1.0, ORRR
+O, x_3, x, 1.0, OInside
+O, _4, \sqrt, 1.0, OR
+O, y_10, y, 1.0, ORRRInsideR
+O, x_9, x, 1.0, ORRRInside
+
+# Relations from SRT:
+R, =_6, _7, Right, 1.0
+R, _2, _4, Right, 1.0
+R, _2, x_3, Inside, 1.0
+R, _4, =_6, Right, 1.0
+R, _4, y_5, Inside, 1.0
+R, _7, x_9, Inside, 1.0
+R, _7, y_10, Inside, 1.0
+R, x_9, y_10, Right, 1.0

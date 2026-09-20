@@ -1,0 +1,29 @@
+# IUD, 515_em_353
+# Objects(13):
+O, a_13, a, 1.0, ORRRRRRRRRR
+O, a_10, a, 1.0, ORRRRRRR
+O, b_5, b, 1.0, ORR
+O, |_14, |, 1.0, ORRRRRRRRRRR
+O, +_6, +, 1.0, ORRR
+O, b_11, b, 1.0, ORRRRRRRR
+O, (_4, (, 1.0, OR
+O, k_7, k, 1.0, ORRRR
+O, )_8, ), 1.0, ORRRRR
+O, k_15, k, 1.0, ORRRRRRRRRRRR
+O, +_12, +, 1.0, ORRRRRRRRR
+O, =_9, =, 1.0, ORRRRRR
+O, a_2, a, 1.0, O
+
+# Relations from SRT:
+R, (_4, b_5, Right, 1.0
+R, )_8, =_9, Right, 1.0
+R, +_12, a_13, Right, 1.0
+R, +_6, k_7, Right, 1.0
+R, =_9, a_10, Right, 1.0
+R, a_10, b_11, Right, 1.0
+R, a_13, |_14, Right, 1.0
+R, a_2, (_4, Right, 1.0
+R, b_11, +_12, Right, 1.0
+R, b_5, +_6, Right, 1.0
+R, k_7, )_8, Right, 1.0
+R, |_14, k_15, Right, 1.0

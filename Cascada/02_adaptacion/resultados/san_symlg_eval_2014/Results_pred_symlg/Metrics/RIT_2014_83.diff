@@ -1,0 +1,14 @@
+*N,ORRBelowSub,i,1.0,:vs:,1,1.0
+*N,O,c,1.0,:vs:,C,1.0
+*N,ORRBelowR,ABSENT,1.0,:vs:,q,1.0
+*N,ORRBelowSupRSub,2,1.0,:vs:,ABSENT,1.0
+*N,ORRBelowSup,-,1.0,:vs:,ABSENT,1.0
+*N,ORRBelowRSub,ABSENT,1.0,:vs:,2,1.0
+*N,ORRBelowSupR,q,1.0,:vs:,ABSENT,1.0
+*N,ORRBelowSubSup,ABSENT,1.0,:vs:,-,1.0
+*E,ORRBelowSup,ORRBelowSupR,Right,1.0,:vs:,_,1.0
+*E,ORRBelowSupR,ORRBelowSupRSub,Sub,1.0,:vs:,_,1.0
+*E,ORRBelow,ORRBelowSup,Sup,1.0,:vs:,_,1.0
+*E,ORRBelow,ORRBelowR,_,1.0,:vs:,Right,1.0
+*E,ORRBelowSub,ORRBelowSubSup,_,1.0,:vs:,Sup,1.0
+*E,ORRBelowR,ORRBelowRSub,_,1.0,:vs:,Sub,1.0

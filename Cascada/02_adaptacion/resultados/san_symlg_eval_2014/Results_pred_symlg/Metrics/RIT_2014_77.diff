@@ -1,0 +1,11 @@
+*N,ORRBelowInside,q,1.0,:vs:,ABSENT,1.0
+*N,ORRAbove,\sqrt,1.0,:vs:,V,1.0
+*N,OBelow,v,1.0,:vs:,V,1.0
+*N,ORRBelowSub,ABSENT,1.0,:vs:,4,1.0
+*N,ORRAboveInside,3,1.0,:vs:,ABSENT,1.0
+*N,ORRBelow,\sqrt,1.0,:vs:,V,1.0
+*N,ORRAboveSub,ABSENT,1.0,:vs:,3,1.0
+*E,ORRAbove,ORRAboveInside,Inside,1.0,:vs:,_,1.0
+*E,ORRBelow,ORRBelowInside,Inside,1.0,:vs:,_,1.0
+*E,ORRAbove,ORRAboveSub,_,1.0,:vs:,Sub,1.0
+*E,ORRBelow,ORRBelowSub,_,1.0,:vs:,Sub,1.0

@@ -1,0 +1,6 @@
+*N,ORRR,f,1.0,:vs:,r,1.0
+*N,O,\gamma,1.0,:vs:,r,1.0
+*N,ORRRRRRRRR,i,1.0,:vs:,ABSENT,1.0
+*N,ORRRRRRRRSub,ABSENT,1.0,:vs:,i,1.0
+*E,ORRRRRRRR,ORRRRRRRRR,Right,1.0,:vs:,_,1.0
+*E,ORRRRRRRR,ORRRRRRRRSub,_,1.0,:vs:,Sub,1.0

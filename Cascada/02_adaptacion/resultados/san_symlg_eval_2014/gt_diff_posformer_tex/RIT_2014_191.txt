@@ -1,0 +1,2 @@
+%RIT_2014_191
+$x [ \infty ] = \lim \limits _ { z \rightarrow 1 } ( z - 1 ) x ( z )$

@@ -1,0 +1,10 @@
+*N,OBelowRRRSupR,ABSENT,1.0,:vs:,1,1.0
+*N,OAboveRRRRSup,ABSENT,1.0,:vs:,-,1.0
+*N,OAboveSupR,ABSENT,1.0,:vs:,1,1.0
+*N,OAboveSup,1,1.0,:vs:,-,1.0
+*N,OAboveRRRRSupR,ABSENT,1.0,:vs:,1,1.0
+*N,OAbove,2,1.0,:vs:,z,1.0
+*E,OBelowRRRSup,OBelowRRRSupR,_,1.0,:vs:,Right,1.0
+*E,OAboveSup,OAboveSupR,_,1.0,:vs:,Right,1.0
+*E,OAboveRRRR,OAboveRRRRSup,_,1.0,:vs:,Sup,1.0
+*E,OAboveRRRRSup,OAboveRRRRSupR,_,1.0,:vs:,Right,1.0

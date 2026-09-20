@@ -1,0 +1,10 @@
+*N,OAboveSup,\prime,1.0,:vs:,ABSENT,1.0
+*N,OBelowRRR,n,1.0,:vs:,x,1.0
+*N,OAboveR,(,1.0,:vs:,\prime,1.0
+*N,OAboveRR,x,1.0,:vs:,(,1.0
+*N,OAboveRRR,),1.0,:vs:,x,1.0
+*N,OAboveRRRR,ABSENT,1.0,:vs:,),1.0
+*N,OBelow,q,1.0,:vs:,g,1.0
+*N,OBelowR,⋅,1.0,:vs:,\prime,1.0
+*E,OAbove,OAboveSup,Sup,1.0,:vs:,_,1.0
+*E,OAboveRRR,OAboveRRRR,_,1.0,:vs:,Right,1.0

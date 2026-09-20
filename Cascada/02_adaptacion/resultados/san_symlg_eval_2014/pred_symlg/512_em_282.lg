@@ -1,0 +1,9 @@
+# IUD, 512_em_282
+# Objects(3):
+O, 2_4, 2, 1.0, OInsideSup
+O, _1, \sqrt, 1.0, O
+O, x_3, x, 1.0, OInside
+
+# Relations from SRT:
+R, _1, x_3, Inside, 1.0
+R, x_3, 2_4, Sup, 1.0

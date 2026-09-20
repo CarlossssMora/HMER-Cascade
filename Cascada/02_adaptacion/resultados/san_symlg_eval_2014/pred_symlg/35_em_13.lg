@@ -1,0 +1,29 @@
+# IUD, 35_em_13
+# Objects(13):
+O, )_16, ), 1.0, ORRRRRRRRRRRR
+O, \times_14, \times, 1.0, ORRRRRRRRRR
+O, \times_7, \times, 1.0, ORRRR
+O, x_8, x, 1.0, ORRRRR
+O, )_9, ), 1.0, ORRRRRR
+O, x_15, x, 1.0, ORRRRRRRRRRR
+O, \times_10, \times, 1.0, ORRRRRRR
+O, \times_5, \times, 1.0, ORR
+O, x_6, x, 1.0, ORRR
+O, (_3, (, 1.0, O
+O, x_13, x, 1.0, ORRRRRRRRR
+O, x_4, x, 1.0, OR
+O, (_12, (, 1.0, ORRRRRRRR
+
+# Relations from SRT:
+R, (_12, x_13, Right, 1.0
+R, (_3, x_4, Right, 1.0
+R, )_9, \times_10, Right, 1.0
+R, \times_10, (_12, Right, 1.0
+R, \times_14, x_15, Right, 1.0
+R, \times_5, x_6, Right, 1.0
+R, \times_7, x_8, Right, 1.0
+R, x_13, \times_14, Right, 1.0
+R, x_15, )_16, Right, 1.0
+R, x_4, \times_5, Right, 1.0
+R, x_6, \times_7, Right, 1.0
+R, x_8, )_9, Right, 1.0

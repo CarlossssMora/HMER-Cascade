@@ -1,0 +1,2 @@
+%RIT_2014_184
+$\lim _ { b \rightarrow \infty } f ( b ) = 0$

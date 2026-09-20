@@ -1,0 +1,35 @@
+# IUD, 519_em_441
+# Objects(16):
+O, (_21, (, 1.0, ORRBelowR
+O, m_19, m, 1.0, ORRBelow
+O, \theta_22, \theta, 1.0, ORRBelowRR
+O, (_15, (, 1.0, ORRAboveR
+O, \theta_16, \theta, 1.0, ORRAboveRR
+O, _2, -, 1.0, O
+O, =_10, =, 1.0, OR
+O, )_9, ), 1.0, OBelowRRR
+O, 1_3, 1, 1.0, OAbove
+O, \theta_8, \theta, 1.0, OBelowRR
+O, )_23, ), 1.0, ORRBelowRRR
+O, (_7, (, 1.0, OBelowR
+O, _11, -, 1.0, ORR
+O, \cos_13, \cos, 1.0, ORRAbove
+O, )_17, ), 1.0, ORRAboveRRR
+O, \tan_5, \tan, 1.0, OBelow
+
+# Relations from SRT:
+R, (_15, \theta_16, Right, 1.0
+R, (_21, \theta_22, Right, 1.0
+R, (_7, \theta_8, Right, 1.0
+R, =_10, _11, Right, 1.0
+R, \cos_13, (_15, Right, 1.0
+R, \tan_5, (_7, Right, 1.0
+R, \theta_16, )_17, Right, 1.0
+R, \theta_22, )_23, Right, 1.0
+R, \theta_8, )_9, Right, 1.0
+R, _11, \cos_13, Above, 1.0
+R, _11, m_19, Below, 1.0
+R, _2, 1_3, Above, 1.0
+R, _2, =_10, Right, 1.0
+R, _2, \tan_5, Below, 1.0
+R, m_19, (_21, Right, 1.0

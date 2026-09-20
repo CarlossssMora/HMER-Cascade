@@ -1,0 +1,16 @@
+*N,OAboveSup,N,1.0,:vs:,ABSENT,1.0
+*N,OAboveBelow,ABSENT,1.0,:vs:,k,1.0
+*N,OAboveAbove,ABSENT,1.0,:vs:,N,1.0
+*N,OAboveBelowR,ABSENT,1.0,:vs:,=,1.0
+*N,OAboveBelowRR,ABSENT,1.0,:vs:,1,1.0
+*N,OAboveSubR,=,1.0,:vs:,ABSENT,1.0
+*N,OAboveSubRR,1,1.0,:vs:,ABSENT,1.0
+*N,OAboveSub,k,1.0,:vs:,ABSENT,1.0
+*E,OAboveSubR,OAboveSubRR,Right,1.0,:vs:,_,1.0
+*E,OAbove,OAboveSup,Sup,1.0,:vs:,_,1.0
+*E,OAbove,OAboveSub,Sub,1.0,:vs:,_,1.0
+*E,OAboveSub,OAboveSubR,Right,1.0,:vs:,_,1.0
+*E,OAboveBelowR,OAboveBelowRR,_,1.0,:vs:,Right,1.0
+*E,OAbove,OAboveAbove,_,1.0,:vs:,Above,1.0
+*E,OAbove,OAboveBelow,_,1.0,:vs:,Below,1.0
+*E,OAboveBelow,OAboveBelowR,_,1.0,:vs:,Right,1.0

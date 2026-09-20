@@ -1,0 +1,13 @@
+# IUD, 27_em_103
+# Objects(5):
+O, 7_2, 7, 1.0, O
+O, \times_5, \times, 1.0, ORRR
+O, y_3, y, 1.0, OR
+O, F_6, F, 1.0, ORRRR
+O, 7_4, 7, 1.0, ORR
+
+# Relations from SRT:
+R, 7_2, y_3, Right, 1.0
+R, 7_4, \times_5, Right, 1.0
+R, \times_5, F_6, Right, 1.0
+R, y_3, 7_4, Right, 1.0

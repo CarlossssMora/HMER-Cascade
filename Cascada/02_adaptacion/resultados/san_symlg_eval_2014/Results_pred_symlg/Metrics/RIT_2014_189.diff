@@ -1,0 +1,6 @@
+*N,OAbove,ABSENT,1.0,:vs:,4,1.0
+*N,OInsideRR,g,1.0,:vs:,8,1.0
+*N,OInsideRRRR,b,1.0,:vs:,6,1.0
+*N,OInside,b,1.0,:vs:,6,1.0
+*E,O,OAbove,_,1.0,:vs:,Above,1.0
+*E,O,OInsideR,Inside,1.0,:vs:,_,1.0

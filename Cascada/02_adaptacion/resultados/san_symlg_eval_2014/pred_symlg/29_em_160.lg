@@ -1,0 +1,13 @@
+# IUD, 29_em_160
+# Objects(5):
+O, j_8, j, 1.0, ORRSub
+O, \sum_2, \sum, 1.0, O
+O, a_4, a, 1.0, OR
+O, x_7, x, 1.0, ORR
+O, j_5, j, 1.0, ORSub
+
+# Relations from SRT:
+R, \sum_2, a_4, Right, 1.0
+R, a_4, j_5, Sub, 1.0
+R, a_4, x_7, Right, 1.0
+R, x_7, j_8, Sub, 1.0

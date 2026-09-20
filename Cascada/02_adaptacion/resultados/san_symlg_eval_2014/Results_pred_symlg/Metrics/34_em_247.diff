@@ -1,0 +1,6 @@
+*N,ORRRRRRSupAbove,ABSENT,1.0,:vs:,1,1.0
+*N,ORRRRRRSupBelow,ABSENT,1.0,:vs:,2,1.0
+*N,ORRRRRRSup,k,1.0,:vs:,-,1.0
+*N,ORRRRRSub,n,1.0,:vs:,k,1.0
+*E,ORRRRRRSup,ORRRRRRSupAbove,_,1.0,:vs:,Above,1.0
+*E,ORRRRRRSup,ORRRRRRSupBelow,_,1.0,:vs:,Below,1.0

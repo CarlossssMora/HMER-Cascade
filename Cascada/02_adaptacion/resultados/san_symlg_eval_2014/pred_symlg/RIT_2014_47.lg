@@ -1,0 +1,29 @@
+# IUD, RIT_2014_47
+# Objects(13):
+O, b_15, b, 1.0, OBelow
+O, f_3, f, 1.0, OAbove
+O, -_16, -, 1.0, OBelowR
+O, a_12, a, 1.0, OAboveRRRRRRR
+O, (_5, (, 1.0, OAboveR
+O, (_11, (, 1.0, OAboveRRRRRR
+O, )_13, ), 1.0, OAboveRRRRRRRR
+O, a_17, a, 1.0, OBelowRR
+O, f_9, f, 1.0, OAboveRRRRR
+O, _1, -, 1.0, O
+O, b_6, b, 1.0, OAboveRR
+O, -_8, -, 1.0, OAboveRRRR
+O, )_7, ), 1.0, OAboveRRR
+
+# Relations from SRT:
+R, (_11, a_12, Right, 1.0
+R, (_5, b_6, Right, 1.0
+R, )_7, -_8, Right, 1.0
+R, -_16, a_17, Right, 1.0
+R, -_8, f_9, Right, 1.0
+R, _1, b_15, Below, 1.0
+R, _1, f_3, Above, 1.0
+R, a_12, )_13, Right, 1.0
+R, b_15, -_16, Right, 1.0
+R, b_6, )_7, Right, 1.0
+R, f_3, (_5, Right, 1.0
+R, f_9, (_11, Right, 1.0

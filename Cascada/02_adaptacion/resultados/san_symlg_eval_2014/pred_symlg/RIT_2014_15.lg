@@ -1,0 +1,17 @@
+# IUD, RIT_2014_15
+# Objects(7):
+O, n_11, n, 1.0, ORSub
+O, 1_7, 1, 1.0, OSubRR
+O, \infty_8, \infty, 1.0, OSup
+O, n_5, n, 1.0, OSub
+O, =_6, =, 1.0, OSubR
+O, x_10, x, 1.0, OR
+O, \sum_3, \sum, 1.0, O
+
+# Relations from SRT:
+R, =_6, 1_7, Right, 1.0
+R, \sum_3, \infty_8, Sup, 1.0
+R, \sum_3, n_5, Sub, 1.0
+R, \sum_3, x_10, Right, 1.0
+R, n_5, =_6, Right, 1.0
+R, x_10, n_11, Sub, 1.0

@@ -1,0 +1,9 @@
+# IUD, 516_em_386
+# Objects(3):
+O, \}_4, \}, 1.0, ORR
+O, a_3, a, 1.0, OR
+O, \{_2, \{, 1.0, O
+
+# Relations from SRT:
+R, \{_2, a_3, Right, 1.0
+R, a_3, \}_4, Right, 1.0

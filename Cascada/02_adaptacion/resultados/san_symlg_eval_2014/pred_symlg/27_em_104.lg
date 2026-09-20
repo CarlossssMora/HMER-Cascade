@@ -1,0 +1,17 @@
+# IUD, 27_em_104
+# Objects(7):
+O, H_6, H, 1.0, ORRSub
+O, e_10, e, 1.0, ORRRRSub
+O, -_7, -, 1.0, ORRR
+O, w_2, w, 1.0, O
+O, q_5, q, 1.0, ORR
+O, q_9, q, 1.0, ORRRR
+O, =_3, =, 1.0, OR
+
+# Relations from SRT:
+R, -_7, q_9, Right, 1.0
+R, =_3, q_5, Right, 1.0
+R, q_5, -_7, Right, 1.0
+R, q_5, H_6, Sub, 1.0
+R, q_9, e_10, Sub, 1.0
+R, w_2, =_3, Right, 1.0

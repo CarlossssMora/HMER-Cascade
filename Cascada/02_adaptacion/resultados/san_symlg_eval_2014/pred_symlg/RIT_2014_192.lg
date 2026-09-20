@@ -1,0 +1,17 @@
+# IUD, RIT_2014_192
+# Objects(7):
+O, _1, -, 1.0, O
+O, \log_9, \log, 1.0, OBelow
+O, x_6, x, 1.0, OAboveR
+O, a_11, a, 1.0, OBelowR
+O, \log_4, \log, 1.0, OAbove
+O, b_10, b, 1.0, OBelowSub
+O, b_5, b, 1.0, OAboveSub
+
+# Relations from SRT:
+R, \log_4, b_5, Sub, 1.0
+R, \log_4, x_6, Right, 1.0
+R, \log_9, a_11, Right, 1.0
+R, \log_9, b_10, Sub, 1.0
+R, _1, \log_4, Above, 1.0
+R, _1, \log_9, Below, 1.0

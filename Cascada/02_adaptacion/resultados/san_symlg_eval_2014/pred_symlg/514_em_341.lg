@@ -1,0 +1,9 @@
+# IUD, 514_em_341
+# Objects(3):
+O, \alpha_4, \alpha, 1.0, OR
+O, \tan_2, \tan, 1.0, O
+O, i_5, i, 1.0, ORSub
+
+# Relations from SRT:
+R, \alpha_4, i_5, Sub, 1.0
+R, \tan_2, \alpha_4, Right, 1.0

@@ -1,0 +1,13 @@
+*N,ORAboveRRR,+,1.0,:vs:,|,1.0
+*N,ORAboveRSubR,ABSENT,1.0,:vs:,+,1.0
+*N,ORAboveRSubRR,ABSENT,1.0,:vs:,1,1.0
+*N,ORAboveRSub,ABSENT,1.0,:vs:,n,1.0
+*N,ORAboveRRRR,x,1.0,:vs:,ABSENT,1.0
+*N,ORBelowRSub,ABSENT,1.0,:vs:,n,1.0
+*N,ORAboveRRRRR,|,1.0,:vs:,ABSENT,1.0
+*E,ORAboveRRR,ORAboveRRRR,Right,1.0,:vs:,_,1.0
+*E,ORAboveRRRR,ORAboveRRRRR,Right,1.0,:vs:,_,1.0
+*E,ORAboveRSubR,ORAboveRSubRR,_,1.0,:vs:,Right,1.0
+*E,ORAboveR,ORAboveRSub,_,1.0,:vs:,Sub,1.0
+*E,ORBelowR,ORBelowRSub,_,1.0,:vs:,Sub,1.0
+*E,ORAboveRSub,ORAboveRSubR,_,1.0,:vs:,Right,1.0

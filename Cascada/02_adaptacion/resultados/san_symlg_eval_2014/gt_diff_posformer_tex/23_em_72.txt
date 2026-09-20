@@ -1,0 +1,2 @@
+%23_em_72
+$\sum \limits _ { i = 1 } ^ { n } x _ { n } = \sum \limits _ { i = 1 } ^ { n } y _ { n }$

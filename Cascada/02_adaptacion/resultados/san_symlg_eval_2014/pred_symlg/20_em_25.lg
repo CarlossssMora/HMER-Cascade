@@ -1,0 +1,35 @@
+# IUD, 20_em_25
+# Objects(16):
+O, =_9, =, 1.0, ORRRRRR
+O, y_18, y, 1.0, ORRRRRRRRRRRRRRR
+O, x_16, x, 1.0, ORRRRRRRRRRRRR
+O, (_4, (, 1.0, OR
+O, \cos_12, \cos, 1.0, ORRRRRRRRR
+O, x_5, x, 1.0, ORR
+O, x_11, x, 1.0, ORRRRRRRR
+O, +_14, +, 1.0, ORRRRRRRRRRR
+O, \sin_17, \sin, 1.0, ORRRRRRRRRRRRRR
+O, +_6, +, 1.0, ORRR
+O, y_13, y, 1.0, ORRRRRRRRRR
+O, )_8, ), 1.0, ORRRRR
+O, \sin_2, \sin, 1.0, O
+O, y_7, y, 1.0, ORRRR
+O, \cos_15, \cos, 1.0, ORRRRRRRRRRRR
+O, \sin_10, \sin, 1.0, ORRRRRRR
+
+# Relations from SRT:
+R, (_4, x_5, Right, 1.0
+R, )_8, =_9, Right, 1.0
+R, +_14, \cos_15, Right, 1.0
+R, +_6, y_7, Right, 1.0
+R, =_9, \sin_10, Right, 1.0
+R, \cos_12, y_13, Right, 1.0
+R, \cos_15, x_16, Right, 1.0
+R, \sin_10, x_11, Right, 1.0
+R, \sin_17, y_18, Right, 1.0
+R, \sin_2, (_4, Right, 1.0
+R, x_11, \cos_12, Right, 1.0
+R, x_16, \sin_17, Right, 1.0
+R, x_5, +_6, Right, 1.0
+R, y_13, +_14, Right, 1.0
+R, y_7, )_8, Right, 1.0

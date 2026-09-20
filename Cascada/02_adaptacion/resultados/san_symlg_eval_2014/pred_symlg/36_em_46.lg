@@ -1,0 +1,9 @@
+# IUD, 36_em_46
+# Objects(3):
+O, 4_4, 4, 1.0, ORR
+O, x_2, x, 1.0, O
+O, \neq_3, \neq, 1.0, OR
+
+# Relations from SRT:
+R, \neq_3, 4_4, Right, 1.0
+R, x_2, \neq_3, Right, 1.0

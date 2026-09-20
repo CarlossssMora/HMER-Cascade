@@ -1,0 +1,35 @@
+# IUD, 32_em_220b
+# Objects(16):
+O, c_17, c, 1.0, ORRRRRRRRRR
+O, 5_12, 5, 1.0, ORRRRRRSup
+O, z_4, z, 1.0, OR
+O, 4_8, 4, 1.0, ORRRR
+O, a_15, a, 1.0, ORRRRRRRRR
+O, 2_18, 2, 1.0, ORRRRRRRRRRSup
+O, z_11, z, 1.0, ORRRRRR
+O, 2_14, 2, 1.0, ORRRRRRRR
+O, c_9, c, 1.0, ORRRRR
+O, z_20, z, 1.0, ORRRRRRRRRRR
+O, 7_5, 7, 1.0, ORSup
+O, 2_7, 2, 1.0, ORRR
+O, g_2, g, 1.0, O
+O, +_6, +, 1.0, ORR
+O, +_13, +, 1.0, ORRRRRRR
+O, 3_21, 3, 1.0, ORRRRRRRRRRRSup
+
+# Relations from SRT:
+R, +_13, 2_14, Right, 1.0
+R, +_6, 2_7, Right, 1.0
+R, 2_14, a_15, Right, 1.0
+R, 2_7, 4_8, Right, 1.0
+R, 4_8, c_9, Right, 1.0
+R, a_15, c_17, Right, 1.0
+R, c_17, 2_18, Sup, 1.0
+R, c_17, z_20, Right, 1.0
+R, c_9, z_11, Right, 1.0
+R, g_2, z_4, Right, 1.0
+R, z_11, +_13, Right, 1.0
+R, z_11, 5_12, Sup, 1.0
+R, z_20, 3_21, Sup, 1.0
+R, z_4, +_6, Right, 1.0
+R, z_4, 7_5, Sup, 1.0

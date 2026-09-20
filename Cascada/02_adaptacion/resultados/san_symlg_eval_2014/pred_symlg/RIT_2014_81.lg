@@ -1,0 +1,15 @@
+# IUD, RIT_2014_81
+# Objects(6):
+O, o_2, o, 1.0, O
+O, x_4, x, 1.0, ORR
+O, 2_7, 2, 1.0, ORRRRInside
+O, \lt_5, \lt, 1.0, ORRR
+O, _6, \sqrt, 1.0, ORRRR
+O, \lt_3, \lt, 1.0, OR
+
+# Relations from SRT:
+R, \lt_3, x_4, Right, 1.0
+R, \lt_5, _6, Right, 1.0
+R, _6, 2_7, Inside, 1.0
+R, o_2, \lt_3, Right, 1.0
+R, x_4, \lt_5, Right, 1.0

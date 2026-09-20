@@ -1,0 +1,41 @@
+# IUD, RIT_2014_211
+# Objects(19):
+O, 2_23, 2, 1.0, ORRRRAbove
+O, \rightarrow_6, \rightarrow, 1.0, OBelowR
+O, \infty_7, \infty, 1.0, OBelowRR
+O, i_14, i, 1.0, ORRBelow
+O, (_20, (, 1.0, ORRR
+O, 2_27, 2, 1.0, ORRRRRSup
+O, _21, -, 1.0, ORRRR
+O, _8, -, 1.0, OR
+O, \lim_3, \lim, 1.0, O
+O, n_10, n, 1.0, ORBelow
+O, n_5, n, 1.0, OBelow
+O, =_15, =, 1.0, ORRBelowR
+O, i_24, i, 1.0, ORRRRAboveR
+O, 2_9, 2, 1.0, ORAbove
+O, 1_16, 1, 1.0, ORRBelowRR
+O, \sum_12, \sum, 1.0, ORR
+O, )_26, ), 1.0, ORRRRR
+O, n_17, n, 1.0, ORRAbove
+O, n_25, n, 1.0, ORRRRBelow
+
+# Relations from SRT:
+R, (_20, _21, Right, 1.0
+R, )_26, 2_27, Sup, 1.0
+R, 2_23, i_24, Right, 1.0
+R, =_15, 1_16, Right, 1.0
+R, \lim_3, _8, Right, 1.0
+R, \lim_3, n_5, Below, 1.0
+R, \rightarrow_6, \infty_7, Right, 1.0
+R, \sum_12, (_20, Right, 1.0
+R, \sum_12, i_14, Below, 1.0
+R, \sum_12, n_17, Above, 1.0
+R, _21, )_26, Right, 1.0
+R, _21, 2_23, Above, 1.0
+R, _21, n_25, Below, 1.0
+R, _8, 2_9, Above, 1.0
+R, _8, \sum_12, Right, 1.0
+R, _8, n_10, Below, 1.0
+R, i_14, =_15, Right, 1.0
+R, n_5, \rightarrow_6, Right, 1.0
