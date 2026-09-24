@@ -5,6 +5,7 @@ import glob
 import csv
 import time
 import statistics
+import argparse
 from pathlib import Path
 
 import cv2
@@ -20,16 +21,26 @@ ROOT = Path(__file__).resolve().parents[2]
 SAN_DIR = ROOT / "SAN"
 POSFORMER_DIR = ROOT / "PosFormer"
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--year", choices=["2014", "2016", "2019"], default="2014")
+parser.add_argument("--max-samples", type=int, default=None)
+parser.add_argument("--output", type=Path, default=None)
+args = parser.parse_args()
+YEAR = args.year
+
 DEVICE = torch.device("cuda")
 MB = 1024 ** 2
 
-OUTPUT_CSV = Path(__file__).resolve().parent / "resultados" / "benchmark_crohme_2014.csv"
+OUTPUT_CSV = args.output or (
+    Path(__file__).resolve().parent / "resultados" / "benchmark_crohme_2014.csv"
+    if YEAR == "2014" else
+    ROOT / "Cascada" / "04_evaluacion" / "resultados" / "benchmark_crohme_{}_common_images.csv".format(YEAR)
+)
+OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
 WARMUP_RUNS = 3
 PROGRESS_EVERY = 25
 
-# None = todo el conjunto.
-# Para una prueba corta puede cambiarse temporalmente a 10.
-MAX_SAMPLES = None
+MAX_SAMPLES = args.max_samples
 
 
 # ============================================================
@@ -306,7 +317,7 @@ if not torch.cuda.is_available():
     raise RuntimeError("CUDA no esta disponible.")
 
 print("=" * 70)
-print("BENCHMARK CROHME 2014: SAN vs PosFormer")
+print("BENCHMARK CROHME {}: SAN vs PosFormer".format(YEAR))
 print("=" * 70)
 print("Python  : {}".format(sys.version.split()[0]))
 print("PyTorch : {}".format(torch.__version__))
@@ -431,11 +442,17 @@ pos_transform = tvt.Compose(
 
 
 # ============================================================
-# Leer lista CROHME 2014 desde SAN
+# Leer las muestras y usar una imagen común por ID.
 # ============================================================
 
-label_file = SAN_DIR / "data" / "test_caption.txt"
-image_dir = SAN_DIR / "data" / "14_test_images"
+if YEAR == "2014":
+    label_file = SAN_DIR / "data" / "test_caption.txt"
+    image_dir = SAN_DIR / "data" / "14_test_images"
+    image_pattern = "{}_0.bmp"
+else:
+    label_file = ROOT / "data" / "Modelo2" / YEAR / "caption.txt"
+    image_dir = ROOT / "data" / "Modelo2" / YEAR / "img"
+    image_pattern = "{}.bmp"
 
 with open(label_file, "r", encoding="utf-8") as handle:
     label_lines = [
@@ -460,7 +477,7 @@ print("Muestras a evaluar: {}".format(len(label_lines)))
 
 first_parsed = parse_label_line(label_lines[0])
 first_name = first_parsed[0]
-first_path = image_dir / "{}_0.bmp".format(first_name)
+first_path = image_dir / image_pattern.format(first_name)
 first_img = load_grayscale(first_path)
 
 print()
@@ -579,7 +596,7 @@ with open(
             continue
 
         name, ground_truth = parsed
-        image_path = image_dir / "{}_0.bmp".format(name)
+        image_path = image_dir / image_pattern.format(name)
 
         row = {
             "index": index,

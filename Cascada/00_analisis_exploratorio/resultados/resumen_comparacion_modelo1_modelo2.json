@@ -1,0 +1,36 @@
+{
+  "dataset": "CROHME 2014 test",
+  "modelos": [
+    "Modelo1",
+    "Modelo2"
+  ],
+  "inventario": {
+    "ids_union": 986,
+    "ids_comunes_cuatro_fuentes": 986,
+    "ids_misma_posicion": 0
+  },
+  "imagenes": {
+    "pares_comparados": 986,
+    "archivos_sha256_iguales": 986,
+    "pares_pixeles_iguales": 986,
+    "pares_visualmente_diferentes": 0
+  },
+  "anotaciones": {
+    "pares_comparados": 986,
+    "texto_exacto_igual": 901,
+    "tokens_iguales": 901,
+    "tokens_diferentes": 85,
+    "diferencias_solo_limits": 79,
+    "otros_cambios_tokens": 6,
+    "distancia_edicion_total": 125,
+    "distancia_edicion_maxima": 6
+  },
+  "vocabulario": {
+    "tokens_totales_modelo1": 15897,
+    "tokens_totales_modelo2": 15987,
+    "tipos_modelo1": 108,
+    "tipos_modelo2": 110,
+    "variacion_total": 0.006630387189591565,
+    "jensen_shannon_bits": 0.0033238304677818496
+  }
+}

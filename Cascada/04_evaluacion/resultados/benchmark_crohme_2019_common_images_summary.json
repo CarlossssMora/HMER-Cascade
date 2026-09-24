@@ -1,0 +1,31 @@
+{
+  "input": "C:\\Users\\novac\\Documents\\Unidad\\Documentos\\IPN\\Trabajo_terminal\\Programas\\Cascada\\04_evaluacion\\resultados\\benchmark_crohme_2019_common_images.csv",
+  "requested": 1199,
+  "valid": 1199,
+  "errors": [],
+  "posformer_resized": 12,
+  "raw": {
+    "both_correct": 572,
+    "san_only": 45,
+    "posformer_only": 207,
+    "both_wrong": 375,
+    "san_correct": 617,
+    "posformer_correct": 779,
+    "oracle_correct": 824
+  },
+  "normalized": {
+    "both_correct": 604,
+    "san_only": 47,
+    "posformer_only": 175,
+    "both_wrong": 373,
+    "san_correct": 651,
+    "posformer_correct": 779,
+    "oracle_correct": 826
+  },
+  "changes": {
+    "san_gained": 34,
+    "san_lost": 0,
+    "posformer_gained": 0,
+    "posformer_lost": 0
+  }
+}

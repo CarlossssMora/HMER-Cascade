@@ -1,0 +1,136 @@
+{
+  "dataset": "CROHME 2014 test",
+  "ruta_dataset": "data\\Modelo2\\2014",
+  "n_captions": 986,
+  "n_imagenes_bmp": 986,
+  "n_pares_validos": 986,
+  "n_imagenes_con_error": 0,
+  "n_captions_sin_imagen": 0,
+  "n_imagenes_sin_caption": 0,
+  "total_tokens": 15987,
+  "tamano_vocabulario": 110,
+  "tokens_hapax": 2,
+  "tokens_frecuencia_hasta_5": 7,
+  "tokens_por_ecuacion": {
+    "media": 16.213995943204868,
+    "mediana": 13.0,
+    "p95": 41.0,
+    "maximo": 204
+  },
+  "imagen": {
+    "ancho_mediana": 256.0,
+    "ancho_p95": 715.0,
+    "alto_mediana": 94.0,
+    "alto_p95": 179.75,
+    "relacion_aspecto_mediana": 2.4861253196930946,
+    "fraccion_tinta_mediana": 0.9199537297641013
+  },
+  "estructura": {
+    "ecuaciones_llaves_no_balanceadas": 0,
+    "profundidad_maxima_llaves": 4,
+    "ecuaciones_con_tokens_raros": 11,
+    "expresiones_distintas_repetidas": 13
+  },
+  "top_20_tokens": [
+    {
+      "token": "{",
+      "frecuencia": 2292,
+      "proporcion": 0.14336648526928128
+    },
+    {
+      "token": "}",
+      "frecuencia": 2292,
+      "proporcion": 0.14336648526928128
+    },
+    {
+      "token": "1",
+      "frecuencia": 727,
+      "proporcion": 0.04547444798899106
+    },
+    {
+      "token": "2",
+      "frecuencia": 717,
+      "proporcion": 0.04484893976355789
+    },
+    {
+      "token": "+",
+      "frecuencia": 626,
+      "proporcion": 0.039156814912116096
+    },
+    {
+      "token": "_",
+      "frecuencia": 625,
+      "proporcion": 0.039094264089572776
+    },
+    {
+      "token": "^",
+      "frecuencia": 607,
+      "proporcion": 0.037968349283793085
+    },
+    {
+      "token": "x",
+      "frecuencia": 593,
+      "proporcion": 0.03709263776818665
+    },
+    {
+      "token": "-",
+      "frecuencia": 488,
+      "proporcion": 0.030524801401138425
+    },
+    {
+      "token": "(",
+      "frecuencia": 458,
+      "proporcion": 0.028648276724838932
+    },
+    {
+      "token": ")",
+      "frecuencia": 458,
+      "proporcion": 0.028648276724838932
+    },
+    {
+      "token": "=",
+      "frecuencia": 437,
+      "proporcion": 0.027334709451429285
+    },
+    {
+      "token": "\\frac",
+      "frecuencia": 423,
+      "proporcion": 0.026458997935822855
+    },
+    {
+      "token": "3",
+      "frecuencia": 289,
+      "proporcion": 0.018077187715018452
+    },
+    {
+      "token": "a",
+      "frecuencia": 278,
+      "proporcion": 0.01738912866704197
+    },
+    {
+      "token": "n",
+      "frecuencia": 267,
+      "proporcion": 0.016701069619065492
+    },
+    {
+      "token": "y",
+      "frecuencia": 225,
+      "proporcion": 0.0140739350722462
+    },
+    {
+      "token": "0",
+      "frecuencia": 214,
+      "proporcion": 0.01338587602426972
+    },
+    {
+      "token": "\\sqrt",
+      "frecuencia": 214,
+      "proporcion": 0.01338587602426972
+    },
+    {
+      "token": "b",
+      "frecuencia": 185,
+      "proporcion": 0.011571902170513543
+    }
+  ]
+}

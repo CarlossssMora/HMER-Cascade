@@ -1,6 +1,9 @@
 # Entorno virtual
 .venv-hmer-gpu/
 
+# Dataset
+data/
+
 # Caché de Python
 __pycache__/
 *.py[cod]

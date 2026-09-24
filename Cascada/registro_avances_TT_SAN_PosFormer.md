@@ -1230,4 +1230,65 @@ Archivos generados: `02_adaptacion/resultados/ground_truth_symlg_comparison_2014
 
 El trabajo de la cascada se agrupa en cuatro etapas: `01_seleccion` para pruebas de modelos candidatos, `02_adaptacion` para comparar y normalizar anotaciones y métricas, `03_analisis` para estudiar la confianza de SAN y elegir el criterio de enrutamiento, y `04_evaluacion` para medir la cascada final. Cada etapa contiene una carpeta `resultados` para sus salidas.
 
+---
+
+## 31. Comparación del conjunto BTTR con SAN y PosFormer (2026-09-20)
+
+Se descargó el `data.zip` del repositorio oficial de BTTR y se extrajo en `data/BTTR`. La comparación por ID y anotación de `data/Modelo1` (SAN), `data/Modelo2` (PosFormer) y BTTR mostró que **BTTR 2014 coincide exactamente con SAN 2014**: 986/986 anotaciones y 986/986 archivos BMP. Por eso, BTTR reproduce las 85 diferencias de anotación frente a PosFormer observadas en 2014.
+
+En 2016, BTTR y PosFormer comparten 1147 IDs e imágenes BMP idénticas; 76 anotaciones difieren solo por `\limits` y otras 50 siguen siendo distintas tras retirarlo. En 2019, comparten 1199 IDs; 96 difieren solo por `\limits` y 59 siguen siendo distintas. En 2019, **ninguno de los BMP de BTTR es idéntico al BMP correspondiente de PosFormer** y solo tres pares conservan las mismas dimensiones. La evaluación deberá usar imágenes y ground truth comunes.
+
+El informe completo, los CSV por muestra y el script reproducible están en `02_adaptacion/resultados/comparacion_BTTR_SAN_PosFormer.md` y `02_adaptacion/compare_bttr_datasets.js`. Las etiquetas de BTTR 2019 pueden servir para estudiar la convención que coincide con SAN en 2014, sin atribuirle a SAN una publicación de etiquetas de 2019.
+
+---
+
+## 32. Comparación del conjunto TAMER (2026-09-20)
+
+Se comparó el conjunto local `data/TAMER` con SAN, BTTR y PosFormer. **TAMER y PosFormer tienen `caption.txt` idénticos byte por byte y los mismos píxeles en todas las imágenes** del entrenamiento (8834) y de CROHME 2014 (986), 2016 (1147) y 2019 (1199). TAMER guarda las imágenes en `images.pkl`; PosFormer las guarda como BMP. No faltan IDs ni imágenes.
+
+Frente a SAN 2014, TAMER presenta las mismas 85 diferencias de anotación que PosFormer: 79 debidas solo a `\limits` y 6 residuales, aunque las 986 imágenes son iguales. Frente a BTTR hay 85 diferencias de anotación en 2014, 126 en 2016 y 155 en 2019. En este último año ninguna imagen TAMER–BTTR tiene los mismos píxeles. En entrenamiento, BTTR tiene una muestra adicional (`MfrDB0104`); sobre las 8834 comunes hay 755 diferencias solo por `\limits` y 71 residuales, con píxeles idénticos.
+
+El informe y los conteos reproducibles están en `02_adaptacion/resultados/comparacion_TAMER.md`, `02_adaptacion/resultados/tamer_datasets_summary.json` y `02_adaptacion/compare_tamer_datasets.js`. La coincidencia de datos permite una comparación TAMER–PosFormer con los mismos insumos, pero aún no mide complementariedad ni costo de los modelos.
+
+---
+
+## 33. Comparación del conjunto ABM (2026-09-20)
+
+Se comparó `data/ABM` con SAN, BTTR y PosFormer. **ABM y BTTR tienen anotaciones idénticas byte por byte e imágenes con los mismos píxeles** en entrenamiento (8835 muestras) y en CROHME 2014 (986), 2016 (1147) y 2019 (1199). ABM utiliza archivos pickle con arreglos de imagen `1 × alto × ancho`; BTTR utiliza BMP. `offline-test.pkl` de ABM es copia exacta de `offline-2014-test.pkl`.
+
+ABM coincide con SAN 2014 en las 986 anotaciones e imágenes. Frente a PosFormer/TAMER, reproduce las diferencias de BTTR: 85 anotaciones distintas en 2014, 126 en 2016 y 155 en 2019. En 2019, ningún par de imágenes ABM–PosFormer comparte píxeles idénticos. En entrenamiento, ABM/BTTR incluyen una muestra adicional, `MfrDB0104`, y en las 8834 muestras comunes con PosFormer/TAMER hay 755 diferencias solo por `\limits` y 71 residuales.
+
+El informe, los CSV por muestra, los conteos y el script están en `02_adaptacion/resultados/comparacion_ABM.md`, `02_adaptacion/resultados/ABM-*-*.csv`, `02_adaptacion/resultados/abm_datasets_summary.json` y `02_adaptacion/compare_abm_datasets.js`.
+
+---
+
+## 34. Evaluación SAN y PosFormer sobre las mismas imágenes CROHME 2019 (2026-09-20)
+
+Se ejecutaron los dos checkpoints congelados sobre los **1199 BMP de `data/Modelo2/2019/img`**, con el ground truth de `data/Modelo2/2019/caption.txt` y el preprocesamiento de inferencia propio de cada modelo. Se procesaron los 1199 IDs sin errores. PosFormer redimensionó internamente 12 imágenes; SAN procesó directamente todas las imágenes originales.
+
+| Criterio | SAN | PosFormer | Oráculo |
+|---|---:|---:|---:|
+| Exact Match directo | 617/1199 (51.46 %) | 779/1199 (64.97 %) | 824/1199 (68.72 %) |
+| Exact Match sin `\limits` | 651/1199 (54.30 %) | 779/1199 (64.97 %) | 826/1199 (68.89 %) |
+
+Con la normalización uniforme de `\limits`, ambos acertaron 604 expresiones, solo SAN acertó 47, solo PosFormer 175 y ambos fallaron 373. La normalización recuperó 34 aciertos de SAN. El oráculo es un límite superior y no equivale a una cascada implementada. La latencia media de inferencia fue 104.336 ms para SAN y 311.136 ms para PosFormer, sin lectura ni preprocesamiento CPU.
+
+Los resultados están en `04_evaluacion/resultados/evaluacion_crohme_2019_imagenes_comunes.md` y en los CSV/JSON de `04_evaluacion/resultados/benchmark_crohme_2019_common_images*`. El benchmark de `01_seleccion/benchmark_crohme.py` ahora admite `--year 2019`. Esta prueba demuestra el rendimiento de SAN sobre la rasterización de PosFormer 2019, pero no cuantifica la diferencia respecto de ejecutar SAN sobre la rasterización BTTR 2019 ni selecciona el umbral de la cascada.
+
+---
+
+## 35. SAN en los tres test de BTTR (2026-09-20)
+
+Se ejecutó el checkpoint congelado de SAN sobre todos los BMP de BTTR 2014, 2016 y 2019, evaluando contra las anotaciones de BTTR. Hubo **0 errores de inferencia**.
+
+| Test | Exact Match BTTR | Sin `\limits` |
+|---|---:|---:|
+| 2014 | 558/986 = 56.59 % | 558/986 = 56.59 % |
+| 2016 | 594/1147 = 51.79 % | 594/1147 = 51.79 % |
+| 2019 | 640/1199 = 53.38 % | 642/1199 = 53.54 % |
+
+Las 986 predicciones de 2014 reproducen exactamente el benchmark anterior. Al evaluar las mismas predicciones con las anotaciones de PosFormer y quitar `\limits`, SAN obtiene 560/986 (56.80 %) en 2014, 615/1147 (53.62 %) en 2016 y 669/1199 (55.80 %) en 2019. Esto refleja el cambio de ground truth, no una nueva inferencia.
+
+La comparación pareada de SAN en 2019 con BMP de BTTR y con BMP de PosFormer usa los mismos 1199 IDs, checkpoint y GT PosFormer normalizado: ambas imágenes producen un acierto en 536 casos, solo BTTR en 133, solo PosFormer en 115 y ninguna en 415. Así, SAN obtiene 669/1199 con las imágenes BTTR frente a 651/1199 con las imágenes PosFormer, **18 aciertos más** con BTTR. El análisis y las predicciones por muestra están en `04_evaluacion/resultados/evaluacion_SAN_BTTR_2014_2016_2019.md`, `04_evaluacion/resultados/san_bttr_*.csv` y `04_evaluacion/resultados/san_bttr_summary.json`.
+
 Los scripts y resultados existentes se trasladaron a selección y adaptación según su función. Análisis y evaluación están preparados para los experimentos pendientes. Las rutas de entrada y salida de los scripts trasladados se actualizaron para esta estructura. Los directorios de SAN, PosFormer y CoMER siguen en la raíz del proyecto.
