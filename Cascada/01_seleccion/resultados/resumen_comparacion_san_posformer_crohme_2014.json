@@ -1,0 +1,22 @@
+{
+  "dataset": "CROHME 2014",
+  "samples_requested": 986,
+  "samples_valid": 986,
+  "errors": 0,
+  "canonical_reference": "Modelo2",
+  "common_normalization": "Espacios normalizados y eliminación del token \\limits",
+  "native_san_correct": 558,
+  "native_posformer_correct": 618,
+  "common_san_correct": 560,
+  "common_posformer_correct": 618,
+  "both_correct": 511,
+  "san_only": 49,
+  "posformer_only": 107,
+  "both_wrong": 319,
+  "oracle_correct": 667,
+  "oracle_exact_match_percent": 67.6470588235294,
+  "annotation_differences_m1_m2": 85,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "python": "3.8.10",
+  "pytorch": "2.0.1+cu118"
+}
