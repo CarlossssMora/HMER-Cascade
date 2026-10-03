@@ -1,0 +1,38 @@
+{
+  "dataset": "CROHME 2014",
+  "model": "SANv2",
+  "samples_requested": 986,
+  "samples_valid": 986,
+  "errors": 0,
+  "correct_common_normalized": 560,
+  "exact_match_common_normalized_percent": 56.79513184584179,
+  "canonical_reference": "Modelo2",
+  "normalization": "Espacios normalizados y eliminación exclusiva del token \\limits",
+  "confidence_policy": {
+    "include_eos": false,
+    "include_struct": true,
+    "epsilon": 1e-12,
+    "relation_probabilities_in_scores": false
+  },
+  "metrics": {
+    "chow_sum": "sum(log(p_i))",
+    "chow_average": "mean(log(p_i))",
+    "chow_quantile_0": "min(log(p_i))"
+  },
+  "auroc_descriptive": {
+    "chow_sum": 0.8447350771294433,
+    "chow_quantile_0": 0.8322476525821596,
+    "chow_average": 0.8250083836351442
+  },
+  "length_spearman_correlation": {
+    "chow_sum": -0.38995710059719696,
+    "chow_average": -0.12655874915429782,
+    "chow_quantile_0": -0.3489277865433634
+  },
+  "length_q99": 40.14999999999998,
+  "maximum_token_count": 200,
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "python": "3.8.10",
+  "pytorch": "2.0.1+cu118"
+}
