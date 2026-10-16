@@ -4,7 +4,7 @@
 
 Este documento sintetiza los resultados de los tres notebooks de la etapa exploratoria:
 
-1. [`eda_crohme_2014.ipynb`](eda_crohme_2014.ipynb): test ubicado en `data/Modelo2/2014`.
+1. [`eda_crohme_2014_modelo2.ipynb`](eda_crohme_2014_modelo2.ipynb): test ubicado en `data/Modelo2/2014`.
 2. [`eda_crohme_2014_modelo1.ipynb`](eda_crohme_2014_modelo1.ipynb): test ubicado en `data/Modelo1/2014`.
 3. [`comparacion_crohme_2014_modelo1_vs_modelo2.ipynb`](comparacion_crohme_2014_modelo1_vs_modelo2.ipynb): comparación pareada de ambos tests.
 
@@ -58,15 +58,19 @@ Las propiedades geométricas son exactamente las mismas en ambos tests porque su
 
 El conjunto presenta una variación considerable de ancho y relación de aspecto. Esto favorece el uso de redimensionamiento que conserve proporciones, *padding* dinámico y agrupación de muestras por tamaño. Un límite basado únicamente en la mediana descartaría expresiones válidas; para establecer límites de entrada conviene estudiar al menos P95 y P99.
 
-### Advertencia sobre la métrica de tinta
+### Métricas de tinta y caja delimitadora
 
-Los BMP tienen **fondo negro y trazos blancos**. En los notebooks, `fraccion_tinta` se calculó como la proporción de píxeles con intensidad menor que 250. Su mediana fue 0.91995, pero este valor representa principalmente el fondo oscuro, no la tinta blanca. Por la misma razón, la caja delimitadora calculada con esa máscara ocupa el 100 % del lienzo en todas las imágenes.
+Los BMP tienen **fondo negro y trazos blancos**. Los notebooks corregidos consideran como trazo los píxeles claros cuya intensidad es mayor que 20 en la escala de grises de 0 a 255. `tinta_media` se calcula como el promedio de `gris/255`, mientras que `fraccion_tinta` representa la proporción de píxeles que supera ese umbral.
 
-Por tanto:
+Como las imágenes son idénticas en ambos tests, Modelo1 y Modelo2 producen exactamente las mismas métricas visuales:
 
-- las dimensiones, relaciones de aspecto, tamaños de archivo, hashes y comparaciones visuales son válidos;
-- `fraccion_tinta`, `tinta_media` y `ocupacion_bbox` no deben interpretarse como ocupación real de los trazos en su formulación actual;
-- para medir los trazos debe invertirse la polaridad, por ejemplo usando una máscara de píxeles claros sobre fondo negro.
+| Métrica | Media | Mediana | P95 | Mínimo | Máximo |
+|---|---:|---:|---:|---:|---:|
+| Intensidad media de los trazos (`tinta_media`) | 0.08154 | 0.08005 | 0.12463 | 0.02429 | 0.16748 |
+| Fracción del lienzo ocupada por píxeles de trazo (`fraccion_tinta`) | 8.15 % | 8.00 % | 12.46 % | 2.43 % | 16.75 % |
+| Área relativa de la caja delimitadora (`ocupacion_bbox`) | 67.00 % | 69.06 % | 82.56 % | 32.49 % | 90.86 % |
+
+La expresión típica ocupa aproximadamente el **8 % de los píxeles del lienzo**. No obstante, el rectángulo mínimo que contiene todos sus trazos ocupa cerca del **69 % del área total**, porque incluye los espacios internos existentes entre símbolos. La caja delimitadora mediana mide 233 × 71 píxeles; esto confirma que las imágenes conservan márgenes apreciables y que un recorte basado en los trazos podría reducir el área procesada sin eliminar contenido manuscrito.
 
 ## 2. Resultados de las anotaciones de Modelo1
 
@@ -153,7 +157,7 @@ La distancia de variación total entre las distribuciones de tokens es 0.00663 y
 4. **Las seis excepciones requieren una decisión explícita.** Cinco parecen correcciones de estructura o puntuación; `\pi` frente a `\Pi` podría alterar el símbolo matemático y debe contrastarse con la imagen.
 5. **Conviene conservar dos niveles de evaluación:** coincidencia exacta de tokens y coincidencia después de una normalización documentada de comandos de presentación.
 6. **Los límites de tamaño deben basarse en percentiles.** El ancho máximo de 1,734 px y la longitud máxima de 204 tokens están muy por encima de las medianas.
-7. **Las métricas de ocupación visual deben corregirse antes de usarlas.** La polaridad negro–blanco invalida la interpretación actual de tinta y caja delimitadora.
+7. **Las métricas de ocupación visual ya consideran la polaridad correcta.** Los trazos ocupan una mediana del 8.00 % de los píxeles y su caja delimitadora una mediana del 69.06 % del lienzo; estos valores pueden orientar el recorte y el *padding* del preprocesamiento.
 
 ## Conclusión
 
