@@ -1,0 +1,4 @@
+métrica,columna,auroc_descriptiva
+Chow-Sum final,final_chow_sum,0.836187961099933
+Chow-Quantile-0 final,final_chow_quantile_0,0.8267689470154259
+Chow-Average final,final_chow_average,0.820862676056338
