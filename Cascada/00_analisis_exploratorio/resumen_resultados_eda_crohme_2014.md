@@ -1,16 +1,26 @@
-# Resumen de resultados: análisis exploratorio de CROHME 2014
+# Resumen de resultados: análisis exploratorio de CROHME y auditoría de datos
 
 ## Alcance
 
-Este documento sintetiza los resultados de los tres notebooks de la etapa exploratoria:
+Este documento sintetiza los resultados disponibles y el estado de los cuatro notebooks de la etapa exploratoria:
 
 1. [`eda_crohme_2014_modelo2.ipynb`](eda_crohme_2014_modelo2.ipynb): test ubicado en `data/Modelo2/2014`.
 2. [`eda_crohme_2014_modelo1.ipynb`](eda_crohme_2014_modelo1.ipynb): test ubicado en `data/Modelo1/2014`.
 3. [`comparacion_crohme_2014_modelo1_vs_modelo2.ipynb`](comparacion_crohme_2014_modelo1_vs_modelo2.ipynb): comparación pareada de ambos tests.
+4. [`auditoria_entrenamiento_posformer.ipynb`](auditoria_entrenamiento_posformer.ipynb): auditoría del conjunto de entrenamiento ubicado en `data/Modelo2/train`.
 
-Los tres notebooks fueron ejecutados completamente. Las tablas y resúmenes derivados se encuentran en [`resultados/`](resultados/).
+Los cuatro notebooks fueron ejecutados completamente y sin errores. Las tablas y resúmenes derivados se encuentran en [`resultados/`](resultados/).
+
+| Notebook | Conjunto | Estado |
+|---|---|---|
+| `eda_crohme_2014_modelo2.ipynb` | `data/Modelo2/2014` | Ejecutado |
+| `eda_crohme_2014_modelo1.ipynb` | `data/Modelo1/2014` | Ejecutado |
+| `comparacion_crohme_2014_modelo1_vs_modelo2.ipynb` | Ambos tests de 2014 | Ejecutado |
+| `auditoria_entrenamiento_posformer.ipynb` | `data/Modelo2/train` | Ejecutado |
 
 ## Resumen ejecutivo
+
+Los resultados cuantitativos de esta sección corresponden exclusivamente a los tres notebooks ejecutados sobre CROHME 2014.
 
 Los dos directorios contienen las mismas **986 expresiones manuscritas**. Existe una correspondencia completa entre imágenes y anotaciones, sin archivos corruptos ni muestras faltantes. Las 986 imágenes son idénticas byte a byte y píxel a píxel; las diferencias entre los tests se concentran en el nombre de los archivos, el orden de las muestras y las anotaciones LaTeX.
 
@@ -159,8 +169,78 @@ La distancia de variación total entre las distribuciones de tokens es 0.00663 y
 6. **Los límites de tamaño deben basarse en percentiles.** El ancho máximo de 1,734 px y la longitud máxima de 204 tokens están muy por encima de las medianas.
 7. **Las métricas de ocupación visual ya consideran la polaridad correcta.** Los trazos ocupan una mediana del 8.00 % de los píxeles y su caja delimitadora una mediana del 69.06 % del lienzo; estos valores pueden orientar el recorte y el *padding* del preprocesamiento.
 
+## 6. Auditoría del entrenamiento de PosFormer
+
+### Integridad e inventario
+
+La auditoría encontró **8,834 registros válidos**, 8,834 imágenes `.bmp` y 8,834 archivos `.lg`. Los identificadores son únicos y existe correspondencia completa entre las tres fuentes: no hay anotaciones sin imagen, imágenes sin anotación, anotaciones sin archivo `.lg` ni archivos `.lg` sin anotación. Tampoco se encontraron líneas mal formadas, referencias vacías o llaves desbalanceadas.
+
+| Indicador | Resultado |
+|---|---:|
+| Registros válidos | 8,834 |
+| IDs únicos | 8,834 |
+| Imágenes BMP | 8,834 |
+| Archivos LG | 8,834 |
+| Líneas con error | 0 |
+| IDs duplicados | 0 |
+| Referencias vacías | 0 |
+| Expresiones con llaves desbalanceadas | 0 |
+
+La distribución de entrenamiento contiene dos muestras menos que las 8,836 expresiones citadas como referencia ilustrativa en la metodología para la distribución de CoMER. Esto no demuestra por sí mismo una pérdida de datos, porque se está auditando la distribución preparada para PosFormer, pero la diferencia debe quedar documentada al describir los datos utilizados.
+
+### Propiedades de las imágenes
+
+| Propiedad | Media | Mediana | P95 | Mínimo | Máximo |
+|---|---:|---:|---:|---:|---:|
+| Ancho (px) | 314.36 | 268 | 731.70 | 26 | 2,116 |
+| Alto (px) | 103.77 | 93 | 177 | 54 | 481 |
+| Relación de aspecto | 3.075 | 2.505 | 7.571 | 0.248 | 18.798 |
+| Proporción estimada de trazo | 7.70 % | 7.53 % | 11.65 % | 1.47 % | 17.97 % |
+| Ocupación de la caja delimitadora | 65.95 % | 69.02 % | 82.43 % | 6.62 % | 90.84 % |
+
+La variación de tamaño es mayor que en el test de 2014: el entrenamiento alcanza 2,116 px de ancho y una relación de aspecto de 18.798. Estos extremos refuerzan la necesidad de conservar proporciones y utilizar criterios de redimensionamiento o agrupación basados en percentiles. La proporción de trazo mantiene la misma interpretación usada en los EDA del test: es una aproximación digital de los píxeles que difieren del fondo, no una medición física de tinta.
+
+### Anotaciones y tokens
+
+El entrenamiento contiene **137,733 tokens**, 109 tipos y 4,832 referencias LaTeX únicas. La longitud media es 15.591 tokens, la mediana es 13, P95 es 38, P99 es 56 y el máximo es 97. El vocabulario es compacto: el único token con frecuencia menor o igual que cinco es `\exists`, con cuatro apariciones.
+
+Los tokens más frecuentes son `{` y `}`, con 19,976 apariciones cada uno, seguidos de `1`, `2`, `^`, `+`, `x`, `_`, `-`, los paréntesis, `\frac` y `=`. Esta distribución es consistente con la presencia abundante de superíndices, subíndices, fracciones y agrupaciones estructurales.
+
+### Uso de `\limits`
+
+`\limits` aparece **1,046 veces en 907 expresiones**, equivalentes al **10.27 %** del entrenamiento. Todas sus apariciones tienen inmediatamente antes uno de tres operadores:
+
+| Contexto | Apariciones de `\limits` |
+|---|---:|
+| Después de `\sum` | 391 |
+| Después de `\int` | 368 |
+| Después de `\lim` | 287 |
+| **Total** | **1,046** |
+
+En el test de Modelo2, `\limits` aparece 105 veces y está presente en 81 de las 986 expresiones, es decir, 8.22 %. Por tanto, la convención también existe en entrenamiento y es ligeramente más frecuente por expresión que en el test.
+
+No se encontraron dentro del entrenamiento dos referencias originales distintas que se volvieran iguales al retirar exclusivamente `\limits`. Esto indica que el archivo de entrenamiento no contiene simultáneamente ambas variantes de una misma secuencia, pero **no valida por sí solo la eliminación del token**. La decisión debe seguir siendo conservadora y limitarse a la comparación, después de revisar que no cambie el significado ni las relaciones estructurales.
+
+### Referencias repetidas e imágenes duplicadas
+
+Se identificaron **447 referencias LaTeX repetidas**, que agrupan 4,449 muestras, equivalentes al **50.36 %** del entrenamiento. Las 4,385 muestras restantes tienen una referencia que aparece una sola vez. El grupo más grande contiene 58 imágenes con el mismo *ground truth*.
+
+La repetición de la referencia no implica que las entradas sean copias. De los 447 grupos repetidos, **441 presentan más de una dimensión de imagen**, lo que confirma que, en la gran mayoría de los casos, corresponden a realizaciones visuales diferentes de la misma expresión. Por ello, no procede eliminarlas únicamente porque compartan la anotación.
+
+La comparación SHA-256 encontró 8,792 imágenes únicas y **42 grupos de duplicados exactos**, cada uno formado por dos archivos. En total hay 84 archivos implicados y 42 copias adicionales. Todos los pares idénticos comparten también la misma referencia LaTeX; no se detectó una misma imagen exacta asociada con anotaciones distintas. Estos duplicados exactos deben documentarse y podrían analizarse por separado si se estudia su efecto, pero su eliminación cambiaría la distribución empleada por el modelo preentrenado y no debe hacerse de manera unilateral.
+
+### Separación respecto de CROHME 2014
+
+No se encontraron identificadores compartidos entre entrenamiento y el test 2014 de PosFormer. Tampoco se encontraron imágenes idénticas byte a byte mediante SHA-256, incluso permitiendo nombres diferentes. Esta evidencia descarta solapamientos exactos de archivo entre ambas particiones, aunque no pretende detectar imágenes visualmente similares sometidas a transformaciones o recodificación.
+
+La auditoría se mantiene separada del entrenamiento del modelo: no ajustó pesos, no modificó anotaciones y no convirtió automáticamente los hallazgos en reglas de normalización.
+
 ## Conclusión
 
 Modelo1 y Modelo2 representan esencialmente el mismo test visual de CROHME 2014. La diferencia sustantiva está en la convención de las anotaciones: Modelo2 añade `\limits` de forma sistemática y corrige algunos casos puntuales de estructura, puntuación o símbolo. Para comparaciones justas entre modelos se recomienda usar una única versión canónica de las etiquetas, documentar cualquier normalización y conservar los IDs como clave de correspondencia.
 
 La evidencia no respalda considerar los dos directorios como conjuntos de prueba visualmente distintos. Sí respalda tratarlos como **dos variantes de anotación sobre las mismas 986 imágenes**.
+
+La auditoría del entrenamiento confirma que la convención `\limits` observada en Modelo2 también está presente en los datos de entrenamiento y siempre sigue a `\sum`, `\int` o `\lim`. Esto aporta evidencia a favor de tratarla como una diferencia de representación al comparar las salidas de los modelos, pero todavía no demuestra que retirarla sea una normalización suficiente para todos los casos.
+
+También confirma que el ground truth repetido es una característica importante del entrenamiento de PosFormer: afecta a poco más de la mitad de las muestras, pero en casi todos los grupos las imágenes tienen dimensiones diferentes y representan realizaciones visuales distintas. En consecuencia, estas muestras deben conservarse en el análisis descriptivo y no considerarse duplicados únicamente por compartir la referencia. Los 42 pares idénticos detectados constituyen un fenómeno separado que debe documentarse sin alterar retroactivamente el conjunto usado por el modelo preentrenado.

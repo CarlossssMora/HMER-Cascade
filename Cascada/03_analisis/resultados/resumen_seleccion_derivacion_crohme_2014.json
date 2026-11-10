@@ -126,12 +126,219 @@
     "posformer_average_time_ms": 364.2378904665318
   },
   "kneedle": {
-    "method": "Máximo de y_normalized - x_normalized sobre la frontera creciente",
-    "average_time_ms": 299.36755399088156,
-    "exprate_percent": 62.47464503042597,
-    "difference": 0.20936414653487712,
+    "method": "Kneedle offline: smoothing spline, normalización min-max, máximos locales, umbral adaptativo y confirmación/reinicio",
+    "smoothing": {
+      "method": "scipy.interpolate.UnivariateSpline",
+      "tested_s_values": [
+        0.0,
+        1e-06,
+        1e-05,
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "reference_s": 0.0001
+    },
+    "tested_sensitivity_values": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "reference_sensitivity": 1.0,
+    "primary_knee_rule": "Entre los knees confirmados para cada combinación (s, S), seleccionar el de mayor diferencia normalizada",
+    "grid_size": 36,
+    "confirmed_knees_by_combination": [
+      {
+        "spline_s": 0.0,
+        "sensitivity": 0.0,
+        "confirmed_knees": 4
+      },
+      {
+        "spline_s": 0.0,
+        "sensitivity": 0.5,
+        "confirmed_knees": 3
+      },
+      {
+        "spline_s": 0.0,
+        "sensitivity": 1.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0,
+        "sensitivity": 2.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0,
+        "sensitivity": 3.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0,
+        "sensitivity": 5.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 0.0,
+        "confirmed_knees": 5
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 0.5,
+        "confirmed_knees": 3
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 1.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 2.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 3.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-06,
+        "sensitivity": 5.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 0.0,
+        "confirmed_knees": 4
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 0.5,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 1.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 2.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 3.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 1e-05,
+        "sensitivity": 5.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 0.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 0.5,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 1.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 2.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 3.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.0001,
+        "sensitivity": 5.0,
+        "confirmed_knees": 2
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 0.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 0.5,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 1.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 2.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 3.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.001,
+        "sensitivity": 5.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 0.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 0.5,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 1.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 2.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 3.0,
+        "confirmed_knees": 1
+      },
+      {
+        "spline_s": 0.01,
+        "sensitivity": 5.0,
+        "confirmed_knees": 1
+      }
+    ],
+    "average_time_ms": 321.89005175964445,
+    "exprate_percent": 62.67748478701826,
+    "difference": 0.20837990727500122,
+    "adaptive_threshold": 0.1813528802479742,
+    "curve_index": 35,
     "configuration_ids": [
-      "c142"
+      "c149"
     ]
   },
   "timing_note": "Estimación por muestra: tiempo SANv2 más tiempo PosFormer únicamente al derivar; los tiempos proceden de ejecuciones registradas previamente."

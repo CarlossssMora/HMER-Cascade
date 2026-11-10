@@ -1,0 +1,22 @@
+{
+  "train": {
+    "registros_validos": 8834,
+    "imagenes_bmp": 8834,
+    "archivos_lg": 8834,
+    "referencias_unicas": 4832,
+    "tokens_totales": 137733,
+    "vocabulario": 109,
+    "grupos_referencia_repetida": 447,
+    "expresiones_con_limits": 907
+  },
+  "comparacion_2014": {
+    "ids_compartidos": 0,
+    "pares_imagen_exacta": 0,
+    "imagenes_train_implicadas": 0,
+    "imagenes_2014_implicadas": 0
+  },
+  "parametros": {
+    "semilla": 42,
+    "umbral_diferencia_fondo": 20
+  }
+}

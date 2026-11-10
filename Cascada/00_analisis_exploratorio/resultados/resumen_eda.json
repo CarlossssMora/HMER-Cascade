@@ -1,6 +1,6 @@
 {
   "dataset": "CROHME 2014 test",
-  "ruta_dataset": "data\\Modelo2\\2014",
+  "ruta_dataset": "data/Modelo2/2014",
   "n_captions": 986,
   "n_imagenes_bmp": 986,
   "n_pares_validos": 986,
