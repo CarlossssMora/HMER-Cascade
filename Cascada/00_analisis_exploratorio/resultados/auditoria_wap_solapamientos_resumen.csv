@@ -1,0 +1,4 @@
+comparacion,muestras_test,ids_compartidos,pares_archivo_exacto,pares_pixeles_exactos,candidatos_perceptuales
+wap_train vs. wap_2016,1147,0,0,0,
+wap_train vs. modelo2_2016,1147,0,0,0,0
+wap_train vs. modelo2_2019,1199,0,0,0,2

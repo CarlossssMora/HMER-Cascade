@@ -1,0 +1,31 @@
+{
+  "objetivo": "auditar solapamientos entre train de PosFormer y tests 2016/2019",
+  "parametros_diagnosticos": {
+    "umbral_hamming_dhash": 4,
+    "max_candidatos_por_imagen_test": 3,
+    "semilla": 42
+  },
+  "resultados": {
+    "2016": {
+      "muestras_test": 1147,
+      "ids_compartidos_con_train": 0,
+      "pares_archivo_exacto": 0,
+      "imagenes_test_en_archivo_exacto": 0,
+      "pares_pixeles_exactos": 0,
+      "imagenes_test_en_pixeles_exactos": 0,
+      "candidatos_perceptuales": 0,
+      "candidatos_pendientes_revision": 0
+    },
+    "2019": {
+      "muestras_test": 1199,
+      "ids_compartidos_con_train": 0,
+      "pares_archivo_exacto": 0,
+      "imagenes_test_en_archivo_exacto": 0,
+      "pares_pixeles_exactos": 0,
+      "imagenes_test_en_pixeles_exactos": 0,
+      "candidatos_perceptuales": 2,
+      "candidatos_pendientes_revision": 2
+    }
+  },
+  "interpretacion": "Los hashes exactos constituyen evidencia de identidad. Los candidatos perceptuales requieren revisión visual."
+}

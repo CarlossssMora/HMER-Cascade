@@ -1,0 +1,4 @@
+particion,anotaciones,ids_unicos,imagenes_bmp,archivos_lg,lineas_con_error,caption_sin_imagen,imagen_sin_caption,caption_sin_lg,lg_sin_caption
+train,8834,8834,8834,8834,0,0,0,0,0
+2016,1147,1147,1147,1147,0,0,0,0,0
+2019,1199,1199,1199,1199,0,0,0,0,0

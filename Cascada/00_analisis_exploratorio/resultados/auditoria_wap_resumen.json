@@ -1,0 +1,18 @@
+{
+  "fuente": "data/WAP",
+  "parametros_diagnosticos": {
+    "umbral_hamming_dhash": 4,
+    "max_candidatos_por_imagen_test": 3,
+    "semilla": 42
+  },
+  "duplicados_internos_train": {
+    "archivos_train": 8835,
+    "contenidos_de_pixeles_unicos": 8793,
+    "grupos_duplicados": 42,
+    "archivos_en_grupos_duplicados": 84,
+    "copias_adicionales": 42,
+    "grupos_con_ground_truth_distinto": 0,
+    "grupos_recodificados": 0
+  },
+  "interpretacion": "Los hashes exactos constituyen evidencia de identidad. Los candidatos perceptuales requieren revisión visual."
+}

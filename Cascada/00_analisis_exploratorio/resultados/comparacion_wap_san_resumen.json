@@ -1,0 +1,14 @@
+{
+  "comparaciones": [
+    "wap_train vs. san_2014",
+    "wap_2014 vs. san_2014",
+    "wap_train vs. wap_2016"
+  ],
+  "wap_2016_ground_truth_disponible": false,
+  "parametros_diagnosticos": {
+    "umbral_hamming_dhash": 4,
+    "max_candidatos_por_imagen": 3,
+    "semilla": 42
+  },
+  "interpretacion": "Los hashes exactos demuestran identidad. dHash solo genera candidatos para revisión."
+}

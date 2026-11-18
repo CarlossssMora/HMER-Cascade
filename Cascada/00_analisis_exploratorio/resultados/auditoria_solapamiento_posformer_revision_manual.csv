@@ -1,0 +1,3 @@
+anio_test,id_train,id_test,distancia_hamming,archivo_exacto,pixeles_exactos,mismo_ground_truth,decision_visual,observaciones
+2019,200923-1556-179,UN19wb_1110_em_1025,4,False,False,False,pendiente,
+2019,126_leo,UN19wb_1121_em_1198,4,False,False,False,pendiente,

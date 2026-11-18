@@ -1,0 +1,2 @@
+test,id_train,id_test,distancia_hamming,archivo_exacto,pixeles_exactos,latex_train,latex_test,decision_visual,observaciones
+san_2014,200923-1251-196,507_em_75,3,False,False,[ o ],[ b ],pendiente,
